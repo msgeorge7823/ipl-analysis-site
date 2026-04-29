@@ -1,0 +1,25 @@
+{
+  "id": "4f629497",
+  "name": "SE Bond",
+  "shortName": "SE Bond",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-16",
+  "lastMatch": "2010-04-19",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    }
+  ]
+}

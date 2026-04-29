@@ -1,0 +1,175 @@
+{
+  "season": "2008",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "a45a5e8d",
+      "name": "AM Nayar",
+      "shortName": "AM Nayar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "35205dfc",
+      "name": "Dwayne Romel Smith",
+      "shortName": "DR Smith",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5f4e9e8f",
+      "name": "RR Raje",
+      "shortName": "RR Raje",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "88fccd6c",
+      "name": "SM Pollock",
+      "shortName": "SM Pollock",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f233bbb4",
+      "name": "ST Jayasuriya",
+      "shortName": "ST Jayasuriya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2503e881",
+      "name": "A Nel",
+      "shortName": "A Nel",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7d3937ed",
+      "name": "DJ Thornely",
+      "shortName": "DJ Thornely",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0fa5042b",
+      "name": "L Ronchi",
+      "shortName": "L Ronchi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0d232ffd",
+      "name": "MA Khote",
+      "shortName": "MA Khote",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c9d33ef5",
+      "name": "RV Pawar",
+      "shortName": "RV Pawar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "facb9086",
+      "name": "SD Chitnis",
+      "shortName": "SD Chitnis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2c2b2d5",
+      "name": "Sachin Ramesh Tendulkar",
+      "shortName": "SR Tendulkar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "709b0bac",
+      "name": "Saurabh Shyam Tiwary",
+      "shortName": "SS Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "38f2c66c",
+      "name": "VS Yeligati",
+      "shortName": "VS Yeligati",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "96fd40ae",
+      "name": "Ashish Nehra",
+      "shortName": "A Nehra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "342d8ade",
+      "name": "CRD Fernando",
+      "shortName": "CRD Fernando",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d2a989fc",
+      "name": "Dhawal Sunil Kulkarni",
+      "shortName": "DS Kulkarni",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0aadc906",
+      "name": "PR Shah",
+      "shortName": "PR Shah",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "4e04666c",
+      "name": "YV Takawale",
+      "shortName": "YV Takawale",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

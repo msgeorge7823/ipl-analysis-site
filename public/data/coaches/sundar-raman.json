@@ -1,0 +1,93 @@
+{
+  "id": "sundar-raman",
+  "name": "Sundar Raman",
+  "fullName": "Sundar Raman",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former IPL Chief Operating Officer (2008-2015). One of the architects of the IPL.",
+  "bio": "Chennai Super Kings' consultant / strategic advisor in 2023 — a title-winning year.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "team-manager",
+      "fromSeason": "2023",
+      "toSeason": "2023",
+      "seasons": [
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 5,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ],
+      "notes": "Role is Consultant. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 5,
+      "noResults": 1,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

@@ -1,0 +1,147 @@
+{
+  "season": "2024",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "8e514b4c",
+      "name": "Abdul Samad",
+      "shortName": "Abdul Samad",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "81c36ee9",
+      "name": "M Jansen",
+      "shortName": "M Jansen",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "aad0c365",
+      "name": "Nithish Kumar Reddy",
+      "shortName": "Nithish Kumar Reddy",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f9e6e7ef",
+      "name": "Shahbaz Ahmed",
+      "shortName": "Shahbaz Ahmed",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "6a26221c",
+      "name": "AK Markram",
+      "shortName": "AK Markram",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1399b39c",
+      "name": "Anmolpreet Singh",
+      "shortName": "Anmolpreet Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0f2baf4",
+      "name": "Sanvir Singh",
+      "shortName": "Sanvir Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "12b610c2",
+      "name": "Travis Michael Head",
+      "shortName": "TM Head",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "03a83c50",
+      "name": "V Viyaskanth",
+      "shortName": "V Viyaskanth",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ded9240e",
+      "name": "PJ Cummins",
+      "shortName": "PJ Cummins",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce794613",
+      "name": "Thangarasu Natarajan",
+      "shortName": "T Natarajan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "81c08fa3",
+      "name": "Umran Malik",
+      "shortName": "Umran Malik",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "235c2bb6",
+      "name": "H Klaasen",
+      "shortName": "H Klaasen",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

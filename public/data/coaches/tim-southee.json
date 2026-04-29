@@ -1,0 +1,95 @@
+{
+  "id": "tim-southee",
+  "name": "Tim Southee",
+  "fullName": "Timothy Grant Southee",
+  "nationality": "New Zealander",
+  "specialty": [
+    "fast-bowling",
+    "swing-bowling"
+  ],
+  "playingCareerSummary": "Former New Zealand captain and right-arm fast-medium bowler: 107 Tests (391 wickets), 162 ODIs (221 wickets), 125 T20Is. Played for Chennai Super Kings, Mumbai Indians, Rajasthan Royals and Kolkata Knight Riders in the IPL.",
+  "bio": "KKR's bowling coach for IPL 2026 under Abhishek Nayar, replacing Bharat Arun and Carl Crowe. First IPL coaching role.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "bowling-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "First season as head coach. Stats will update as matches complete. Taking over after Chandrakant Pandit's three-year contract ended."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 0,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1988-12-11",
+  "playingCareerPlayerId": "13c35c9e"
+}

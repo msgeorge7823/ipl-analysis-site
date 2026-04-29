@@ -1,0 +1,33 @@
+{
+  "id": "c2dd89ea",
+  "name": "BR Sharath",
+  "shortName": "BR Sharath",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-07",
+  "lastMatch": "2024-04-07",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2024",
+      "team": "Gujarat Titans",
+      "replacing": "Robin Minz",
+      "reason": "Bike accident injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    }
+  ]
+}

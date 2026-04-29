@@ -1,0 +1,42 @@
+{
+  "id": "fb693839",
+  "name": "S Ladda",
+  "shortName": "S Ladda",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Delhi Capitals",
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2010",
+    "2011",
+    "2013",
+    "2016"
+  ],
+  "firstMatch": "2010-03-15",
+  "lastMatch": "2016-04-11",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2011"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    }
+  ]
+}

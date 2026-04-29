@@ -1,0 +1,33 @@
+{
+  "id": "f18ba07f",
+  "name": "Ankit Soni",
+  "shortName": "Ankit Soni",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-27",
+  "lastMatch": "2017-05-13",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2017",
+      "team": "Gujarat Lions",
+      "replacing": "Shivil Kaushik",
+      "reason": "Injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

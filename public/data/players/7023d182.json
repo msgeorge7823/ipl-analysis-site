@@ -1,0 +1,25 @@
+{
+  "id": "7023d182",
+  "name": "AN Ghosh",
+  "shortName": "AN Ghosh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-27",
+  "lastMatch": "2009-05-12",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    }
+  ]
+}

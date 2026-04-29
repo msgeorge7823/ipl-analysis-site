@@ -1,0 +1,42 @@
+{
+  "id": "327b58d3",
+  "name": "PVD Chameera",
+  "shortName": "PVD Chameera",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Lucknow Super Giants",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-03-28",
+  "lastMatch": "2026-04-27",
+  "matchCount": 21,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

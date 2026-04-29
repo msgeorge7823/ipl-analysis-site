@@ -1,0 +1,13 @@
+This project is to create a visually striking and attractive website that has the entire data related to the IPL that has happened since its starting season to till date.
+This project has team wise scheduled data and also player wise scheduled data.
+All the stats that one note in a cricket match will be available in this website.
+For a player there need to be two catergories for his profile - 1. His overall profile and 2. He must have played for different teams since he started playing, so, his profile performance in each of that team should be given.
+For a team, I need all its sponsorors, management, coaches (head coach, bowling coach, batting coach, fielding coach, and everything including the supprot staff). And I want to see the coaches profile as well.
+And also, from the beginning of IPL there are many auctions that have taken place and I need all those details of the auction, A-Z. Where it took place, when it took place, what and all have happened, who is auctioneer and any highlights of auction needs to be mentioned.
+For a player, I need all his bio data, his strengths and weaknesses, and every possible criteria and analysis that one player can go through needs to be there.
+For any coach, the analysis is different. I want all that type of analysis as well.
+I want a section where it explains how to calculate all the statistics in Cricket. Average of batting and bowling, Strike-rate of batting and bowling, and everything, including the calculation of the scores using DLS method.
+I also need a section that tells about the sponsorors of the IPL each season and their achievements, their profits and loss and everything.
+I also want the analysis of the grounds and pitches the matches have taken place and what do they favour at that time and what is the result.
+I also want a section where it gives the data about the most important game changing innings played by any player, Orange and Purple cap holders, most thriller matches in the history of IPL, highest and lowest scores of all time and also in the particular season.
+I also want the analysis of each and every match to be avilable along with the data and day the game is played.

@@ -1,0 +1,91 @@
+{
+  "id": "jade-roberts",
+  "name": "Jade Roberts",
+  "fullName": "Jade Roberts",
+  "nationality": "Australian",
+  "specialty": [
+    "strength-and-conditioning"
+  ],
+  "playingCareerSummary": "Specialist strength and conditioning coach.",
+  "bio": "Sunrisers Hyderabad's physical trainer in 2019.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "strength-conditioning",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true
+}

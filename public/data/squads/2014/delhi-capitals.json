@@ -1,0 +1,147 @@
+{
+  "season": "2014",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "9219eff0",
+      "name": "JDS Neesham",
+      "shortName": "JDS Neesham",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2e8994e7",
+      "name": "Jean-Paul Duminy",
+      "shortName": "JP Duminy",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39f01cdb",
+      "name": "KP Pietersen",
+      "shortName": "KP Pietersen",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b61a3e1a",
+      "name": "LRPL Taylor",
+      "shortName": "LRPL Taylor",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4b57e452",
+      "name": "M Vijay",
+      "shortName": "M Vijay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b1451597",
+      "name": "LR Shukla",
+      "shortName": "LR Shukla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "acee4cc4",
+      "name": "Mohammad Imran Tahir",
+      "shortName": "Imran Tahir",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8cf9814c",
+      "name": "Mohammed Shami Ahmed",
+      "shortName": "Mohammed Shami",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "56ab442f",
+      "name": "NM Coulter-Nile",
+      "shortName": "NM Coulter-Nile",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d9a1a73",
+      "name": "R Sharma",
+      "shortName": "R Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "de4b0555",
+      "name": "R Shukla",
+      "shortName": "R Shukla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dcf81436",
+      "name": "S Kaul",
+      "shortName": "S Kaul",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3a60e0b5",
+      "name": "WD Parnell",
+      "shortName": "WD Parnell",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99d63244",
+      "name": "Kedar Mahadev Jadhav",
+      "shortName": "KM Jadhav",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "372455c4",
+      "name": "Quinton de Kock",
+      "shortName": "Q de Kock",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

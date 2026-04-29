@@ -1,0 +1,42 @@
+{
+  "id": "e342e5fb",
+  "name": "CR Brathwaite",
+  "shortName": "CR Brathwaite",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Delhi Capitals",
+    "Sunrisers Hyderabad",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2016-04-10",
+  "lastMatch": "2019-04-25",
+  "matchCount": 16,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    }
+  ]
+}

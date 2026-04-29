@@ -1,0 +1,36 @@
+{
+  "id": "d4eef961",
+  "name": "M de Lange",
+  "shortName": "M de Lange",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2012",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2012-04-05",
+  "lastMatch": "2015-05-08",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2012"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    }
+  ]
+}

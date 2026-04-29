@@ -1,0 +1,30 @@
+{
+  "id": "13fc5c6d",
+  "name": "DS Rathi",
+  "shortName": "DS Rathi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-03-24",
+  "lastMatch": "2026-04-26",
+  "matchCount": 19,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "year": "2016",
+  "winner": "Sunrisers Hyderabad",
+  "runnerUp": "Royal Challengers Bengaluru",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Delhi Capitals",
+    "Gujarat Lions",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rising Pune Supergiant",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Virat Kohli",
+    "shortName": "V Kohli",
+    "runs": 973
+  },
+  "purpleCap": {
+    "player": "Bhuvneshwar Kumar",
+    "shortName": "B Kumar",
+    "wickets": 23
+  }
+}

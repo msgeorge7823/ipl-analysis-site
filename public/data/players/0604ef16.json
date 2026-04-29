@@ -1,0 +1,31 @@
+{
+  "id": "0604ef16",
+  "name": "SB Bangar",
+  "shortName": "SB Bangar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-04-20",
+  "lastMatch": "2009-04-23",
+  "matchCount": 12,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "8dc152d1",
+  "name": "D Jansen",
+  "shortName": "D Jansen",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-16",
+  "lastMatch": "2023-04-16",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    }
+  ]
+}

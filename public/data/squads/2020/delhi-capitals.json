@@ -1,0 +1,147 @@
+{
+  "season": "2020",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d9273ee7",
+      "name": "Marcus Peter Stoinis",
+      "shortName": "MP Stoinis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "69d03465",
+      "name": "AT Carey",
+      "shortName": "AT Carey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ed5a5510",
+      "name": "P Dubey",
+      "shortName": "P Dubey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8b3e9c7c",
+      "name": "PP Shaw",
+      "shortName": "PP Shaw",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a476045",
+      "name": "Shikhar Dhawan",
+      "shortName": "S Dhawan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48a1d7b7",
+      "name": "Shimron Odilon Hetmyer",
+      "shortName": "SO Hetmyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85ec8e33",
+      "name": "Shreyas Santosh Iyer",
+      "shortName": "SS Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "acdc62f5",
+      "name": "A Nortje",
+      "shortName": "A Nortje",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6b19d823",
+      "name": "Amit Mishra",
+      "shortName": "A Mishra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "eef2536f",
+      "name": "Avesh Khan",
+      "shortName": "Avesh Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "caf69bf7",
+      "name": "DR Sams",
+      "shortName": "DR Sams",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb1a1c4",
+      "name": "Ishant Sharma",
+      "shortName": "I Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e62dd25d",
+      "name": "Kagiso Rabada",
+      "shortName": "K Rabada",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "46a9bea1",
+      "name": "TU Deshpande",
+      "shortName": "TU Deshpande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "919a3be2",
+      "name": "Rishabh Rajendra Pant",
+      "shortName": "RR Pant",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "9f77963a",
+  "name": "Gulbadin Naib",
+  "shortName": "Gulbadin Naib",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-05-07",
+  "lastMatch": "2024-05-14",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    }
+  ]
+}

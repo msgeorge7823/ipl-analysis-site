@@ -1,0 +1,31 @@
+{
+  "id": "287686fd",
+  "name": "S Narwal",
+  "shortName": "S Narwal",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010",
+    "2013"
+  ],
+  "firstMatch": "2010-03-18",
+  "lastMatch": "2013-05-03",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    }
+  ]
+}

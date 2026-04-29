@@ -1,0 +1,41 @@
+{
+  "id": "be24ead0",
+  "name": "Ramandeep Singh",
+  "shortName": "Ramandeep Singh",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-04-09",
+  "lastMatch": "2026-04-26",
+  "matchCount": 38,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

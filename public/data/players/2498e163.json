@@ -1,0 +1,31 @@
+{
+  "id": "2498e163",
+  "name": "JR Hopes",
+  "shortName": "JR Hopes",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2008",
+    "2011"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2011-05-21",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "50758325",
+  "name": "B Geeves",
+  "shortName": "B Geeves",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2008-05-24",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "a1f1829d",
+  "name": "K Goel",
+  "shortName": "K Goel",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2010-04-18",
+  "matchCount": 22,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    }
+  ]
+}

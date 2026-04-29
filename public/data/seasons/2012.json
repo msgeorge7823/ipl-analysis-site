@@ -1,0 +1,29 @@
+{
+  "year": "2012",
+  "winner": "Kolkata Knight Riders",
+  "runnerUp": "Chennai Super Kings",
+  "isOngoing": false,
+  "matchCount": 76,
+  "matchesWithData": 74,
+  "teams": [
+    "Chennai Super Kings",
+    "Deccan Chargers",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Pune Warriors",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "orangeCap": {
+    "player": "Christopher Henry Gayle",
+    "shortName": "CH Gayle",
+    "runs": 733
+  },
+  "purpleCap": {
+    "player": "Morne Morkel",
+    "shortName": "M Morkel",
+    "wickets": 25
+  }
+}

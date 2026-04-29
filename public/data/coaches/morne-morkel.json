@@ -1,0 +1,123 @@
+{
+  "id": "morne-morkel",
+  "name": "Morne Morkel",
+  "fullName": "Morne Morkel",
+  "nationality": "South African",
+  "specialty": [
+    "fast-bowling",
+    "height-bowling"
+  ],
+  "playingCareerSummary": "Former South Africa right-arm fast bowler: 86 Tests (309 wickets), 117 ODIs (188 wickets). Played for Kolkata Knight Riders, Delhi Daredevils and Royal Challengers Bangalore in the IPL.",
+  "bio": "Lucknow Super Giants' bowling coach for 2023 and 2024. Subsequently became Pakistan's bowling coach.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "bowling-coach",
+      "fromSeason": "2023",
+      "toSeason": "2024",
+      "seasons": [
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in league (17 pts, NRR 0.284). Lost Eliminator to Mumbai Indians. Flower left after this season to join Royal Challengers Bengaluru for 2024."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season replacing Andy Flower. Finished 7th with 14 points (NRR -0.667). Franchise's first season missing the playoffs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 15,
+          "losses": 12,
+          "noResults": 1,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants",
+        "https://en.wikipedia.org/wiki/2023_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2024_Lucknow_Super_Giants_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 15,
+      "losses": 12,
+      "noResults": 1,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true,
+  "dob": "1984-10-06",
+  "playingCareerPlayerId": "5bb5a915",
+  "otherCoachingRoles": [
+    {
+      "team": "Pakistan (National)",
+      "role": "Bowling Coach",
+      "period": "2024-present"
+    }
+  ]
+}

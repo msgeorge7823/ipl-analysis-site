@@ -1,0 +1,154 @@
+{
+  "season": "2010",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "ef5da05c",
+      "name": "AG Murtaza",
+      "shortName": "AG Murtaza",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a45a5e8d",
+      "name": "AM Nayar",
+      "shortName": "AM Nayar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2e8994e7",
+      "name": "Jean-Paul Duminy",
+      "shortName": "JP Duminy",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f233bbb4",
+      "name": "ST Jayasuriya",
+      "shortName": "ST Jayasuriya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bd17b45f",
+      "name": "Stuart Terrance Roger Binny",
+      "shortName": "STR Binny",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "70d205c9",
+      "name": "Ambati Thirupathi Rayudu",
+      "shortName": "AT Rayudu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2eeb4370",
+      "name": "C Madan",
+      "shortName": "C Madan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "626c5379",
+      "name": "R Sathish",
+      "shortName": "R Sathish",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2c2b2d5",
+      "name": "Sachin Ramesh Tendulkar",
+      "shortName": "SR Tendulkar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "709b0bac",
+      "name": "Saurabh Shyam Tiwary",
+      "shortName": "SS Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a476045",
+      "name": "Shikhar Dhawan",
+      "shortName": "S Dhawan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2af1b6d2",
+      "name": "AN Ahmed",
+      "shortName": "AN Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "342d8ade",
+      "name": "CRD Fernando",
+      "shortName": "CRD Fernando",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d2a989fc",
+      "name": "Dhawal Sunil Kulkarni",
+      "shortName": "DS Kulkarni",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c654af19",
+      "name": "R McLaren",
+      "shortName": "R McLaren",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a12e1d51",
+      "name": "Separamadu Lasith Malinga",
+      "shortName": "SL Malinga",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "91a4a398",
+      "name": "Zaheer Khan",
+      "shortName": "Z Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "855a210c",
+      "name": "AP Tare",
+      "shortName": "AP Tare",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

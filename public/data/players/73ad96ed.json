@@ -1,0 +1,81 @@
+{
+  "id": "73ad96ed",
+  "name": "Deepak Jagbir Hooda",
+  "shortName": "DJ Hooda",
+  "nicknames": [
+    "Deepak Hooda"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2015-04-10",
+  "lastMatch": "2025-05-25",
+  "matchCount": 125,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

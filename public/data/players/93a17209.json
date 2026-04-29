@@ -1,0 +1,41 @@
+{
+  "id": "93a17209",
+  "name": "VY Mahesh",
+  "shortName": "VY Mahesh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2012"
+  ],
+  "firstMatch": "2008-04-22",
+  "lastMatch": "2012-05-17",
+  "matchCount": 17,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "69d03465",
+  "name": "AT Carey",
+  "shortName": "AT Carey",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-10-11",
+  "lastMatch": "2020-10-17",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    }
+  ]
+}

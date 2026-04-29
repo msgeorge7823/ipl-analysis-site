@@ -1,0 +1,101 @@
+{
+  "id": "geoff-lawson",
+  "name": "Geoff Lawson",
+  "fullName": "Geoffrey Francis Lawson",
+  "dob": "1957-12-07",
+  "nationality": "Australian",
+  "specialty": [
+    "fast-bowling",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former Australia right-arm fast bowler: 46 Tests (180 wickets at 30.56), 79 ODIs. Did not play in the IPL.",
+  "bio": "The inaugural and only head coach of Kochi Tuskers Kerala during their single IPL season in 2011. KTK finished 8th of 10 and the franchise was terminated by the BCCI in September 2011 amid ownership disputes.",
+  "tenures": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "role": "head-coach",
+      "fromSeason": "2011",
+      "toSeason": "2011",
+      "seasons": [
+        "2011"
+      ],
+      "perSeason": [
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Only IPL season. Finished 8th of 10 with 12 points. Franchise terminated in September 2011."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kochi_Tuskers_Kerala",
+        "https://en.wikipedia.org/wiki/2011_Kochi_Tuskers_Kerala_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Pakistan (National)",
+      "role": "Head Coach",
+      "period": "2007-2008"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Geoff_Lawson"
+  ],
+  "verified": true
+}

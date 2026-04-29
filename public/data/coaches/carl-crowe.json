@@ -1,0 +1,156 @@
+{
+  "id": "carl-crowe",
+  "name": "Carl Crowe",
+  "fullName": "Carl Daniel Crowe",
+  "dob": "1975-11-25",
+  "nationality": "English",
+  "specialty": [
+    "spin-bowling"
+  ],
+  "playingCareerSummary": "Former Leicestershire county cricketer and right-arm off-spinner. Did not play in the IPL.",
+  "bio": "KKR's spin bowling coach in 2019 under Jacques Kallis, then returned as a bowling coach in 2025 alongside Bharat Arun. Specialist spin coach across global franchise cricket.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "spin-bowling-coach",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 13 points. Did not qualify for playoffs. Kallis was replaced by Brendon McCullum after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 7,
+          "noResults": 1,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "bowling-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points. Eliminated when the RCB match was abandoned. Mentor: Dwayne Bravo. Pandit's three-year contract ended after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 7,
+          "noResults": 2,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ],
+      "notes": "Second stint — joined in March 2025 alongside Bharat Arun as bowling coach."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 11,
+      "losses": 14,
+      "noResults": 3,
+      "winPct": 39.29
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Lucknow Super Giants (IPL)",
+      "role": "Spin Bowling Coach",
+      "period": "2026",
+      "notes": "Joined LSG ahead of IPL 2026 alongside Justin Langer's setup."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true
+}

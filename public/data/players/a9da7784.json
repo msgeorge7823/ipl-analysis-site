@@ -1,0 +1,25 @@
+{
+  "id": "a9da7784",
+  "name": "KJ Abbott",
+  "shortName": "KJ Abbott",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2016"
+  ],
+  "firstMatch": "2016-04-17",
+  "lastMatch": "2016-05-21",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    }
+  ]
+}

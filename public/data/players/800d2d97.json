@@ -1,0 +1,46 @@
+{
+  "id": "800d2d97",
+  "name": "JM Sharma",
+  "shortName": "JM Sharma",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Punjab Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-04-03",
+  "lastMatch": "2026-04-27",
+  "matchCount": 63,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

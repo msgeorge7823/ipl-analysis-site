@@ -1,0 +1,25 @@
+{
+  "id": "0164b064",
+  "name": "MG Neser",
+  "shortName": "MG Neser",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-05-06",
+  "lastMatch": "2013-05-06",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "f842c2cf",
+  "name": "MJ Clarke",
+  "shortName": "MJ Clarke",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-05-01",
+  "lastMatch": "2012-05-19",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    }
+  ]
+}

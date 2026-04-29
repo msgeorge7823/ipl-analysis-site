@@ -1,0 +1,48 @@
+{
+  "id": "14f96089",
+  "name": "A Zampa",
+  "shortName": "A Zampa",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rising Pune Supergiant",
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2016",
+    "2017",
+    "2020",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2016-05-07",
+  "lastMatch": "2025-03-27",
+  "matchCount": 22,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    }
+  ]
+}

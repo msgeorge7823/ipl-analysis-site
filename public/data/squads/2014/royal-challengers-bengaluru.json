@@ -1,0 +1,147 @@
+{
+  "season": "2014",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c3d35165",
+      "name": "Johannes Albertus Morkel",
+      "shortName": "JA Morkel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1c914163",
+      "name": "Yuvraj Singh",
+      "shortName": "Yuvraj Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db584dad",
+      "name": "Christopher Henry Gayle",
+      "shortName": "CH Gayle",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "44afbf2d",
+      "name": "NJ Maddinson",
+      "shortName": "NJ Maddinson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cad00a4d",
+      "name": "RR Rossouw",
+      "shortName": "RR Rossouw",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "90edaaa9",
+      "name": "S Rana",
+      "shortName": "S Rana",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6dbcf855",
+      "name": "VH Zol",
+      "shortName": "VH Zol",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "66b30f71",
+      "name": "AB Dinda",
+      "shortName": "AB Dinda",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2af1b6d2",
+      "name": "AN Ahmed",
+      "shortName": "AN Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4ba44e19",
+      "name": "M Muralitharan",
+      "shortName": "M Muralitharan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3fb19989",
+      "name": "MA Starc",
+      "shortName": "MA Starc",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d68e7f48",
+      "name": "R Rampaul",
+      "shortName": "R Rampaul",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c8179c68",
+      "name": "SB Jakati",
+      "shortName": "SB Jakati",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a3d54b9",
+      "name": "VR Aaron",
+      "shortName": "VR Aaron",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b5da6c24",
+      "name": "Parthiv Ajay Patel",
+      "shortName": "PA Patel",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "4e04666c",
+      "name": "YV Takawale",
+      "shortName": "YV Takawale",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

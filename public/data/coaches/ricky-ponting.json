@@ -1,0 +1,436 @@
+{
+  "id": "ricky-ponting",
+  "name": "Ricky Ponting",
+  "fullName": "Ricky Thomas Ponting",
+  "dob": "1974-12-19",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "strategy",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "7d415ea5",
+  "playingCareerSummary": "Former Australia captain and one of the greatest Test batters of all time: 168 Tests (13,378 runs), 375 ODIs. 2-time ODI World Cup winning captain. Played for KKR in 2008 and MI in 2013 in the IPL.",
+  "bio": "The most-tenured overseas coach in the IPL. Started his head-coaching career at Mumbai Indians (2015-2016), winning the 2015 title in his first season. Moved to Delhi in 2018 (Delhi Daredevils) and continued through the franchise's 2019 rebrand to Delhi Capitals, serving seven seasons and transforming them from serial under-achievers into consistent contenders, reaching the 2020 final (lost to MI) and topping the league in 2021. Parted ways with DC ahead of the 2025 mega auction and was appointed Punjab Kings head coach in September 2024 — his fourth IPL franchise role. Delivered PBKS's second-ever IPL final in 2025 (lost to RCB by 6 runs) in his first season. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2015",
+      "toSeason": "2016",
+      "seasons": [
+        "2015",
+        "2016"
+      ],
+      "perSeason": [
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (16 pts). Beat CSK in Q1 by 25 runs; beat CSK in final by 41 runs. Franchise's second IPL title."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Did not qualify for playoffs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 15,
+          "losses": 13,
+          "noResults": 0,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2015_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2016_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    },
+    {
+      "team": "Delhi Daredevils",
+      "role": "head-coach",
+      "fromSeason": "2018",
+      "toSeason": "2018",
+      "seasons": [
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 10 points (NRR -0.222). Ponting's first IPL head-coaching season after leaving MI. Final DD season before the franchise rebranded to Delhi Capitals for 2019."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 9,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals",
+        "https://www.espncricinfo.com/story/ricky-ponting-named-delhi-daredevils-coach-1131632"
+      ],
+      "notes": "2018 was the final season under the 'Delhi Daredevils' name before the franchise rebranded to Delhi Capitals in 2019."
+    },
+    {
+      "team": "Delhi Capitals",
+      "role": "head-coach",
+      "fromSeason": "2019",
+      "toSeason": "2024",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Franchise reborn as Delhi Capitals. Finished 3rd (18 pts). Beat SRH in Eliminator by 2 wickets (first-ever franchise playoff win); lost Qualifier 2 to CSK by 6 wickets."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (16 pts). Lost Qualifier 1 to MI by 57 runs; beat SRH in Qualifier 2 by 17 runs; lost final to MI by 5 wickets. Franchise's first-ever IPL final, 12 years after their 2008 debut. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 1st in league (20 pts, NRR 0.481) — franchise-best. Lost Qualifier 1 to CSK by 4 wickets; lost Qualifier 2 to KKR by 3 wickets. Season split between India and UAE due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points (NRR -0.808). Lost first five matches of the season. Captain: David Warner."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Ponting's final season at DC; he and the franchise parted ways ahead of the 2025 mega auction."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 84,
+          "wins": 46,
+          "losses": 38,
+          "noResults": 0,
+          "winPct": 54.76
+        },
+        "playoffs": {
+          "matches": 7,
+          "wins": 2,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2020_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2021_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2023_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2024_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals",
+        "https://www.espncricinfo.com/story/ricky-ponting-and-delhi-capitals-part-ways-1443237"
+      ]
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "head-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (19 points, NRR 0.376) — franchise-best league finish since 2008. Lost Qualifier 1 to RCB; beat Mumbai Indians in Qualifier 2; lost final to RCB by 6 runs at Ahmedabad. Ponting's first season in charge; captain Shreyas Iyer. PBKS's second IPL final (first was 2014)."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — PBKS retained Ponting as head coach after the 2025 runner-up finish. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 4,
+          "noResults": 1,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/2026_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings",
+        "https://www.espncricinfo.com/story/ipl-2025-ricky-ponting-appointed-punjab-kings-head-coach-1449547",
+        "https://www.punjabkingsipl.in/news/ricky-ponting-ao-appointed-as-new-punjab-kings-head-coach"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 10,
+    "franchisesCoached": 4,
+    "league": {
+      "matches": 140,
+      "wins": 75,
+      "losses": 64,
+      "noResults": 1,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 12,
+      "wins": 5,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 41.67
+    },
+    "titles": 1,
+    "finalsReached": 3,
+    "playoffAppearances": 5
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Australia T20I (National)",
+      "role": "Assistant / Consultant",
+      "period": "2019-2021"
+    },
+    {
+      "team": "Washington Freedom (Major League Cricket, USA)",
+      "role": "Head Coach",
+      "period": "2023-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ricky_Ponting",
+    "https://en.wikipedia.org/wiki/2015_Mumbai_Indians_season",
+    "https://en.wikipedia.org/wiki/2016_Mumbai_Indians_season",
+    "https://en.wikipedia.org/wiki/2019_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2020_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2021_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2023_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2024_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2018_Delhi_Daredevils_season",
+    "https://www.espncricinfo.com/story/ricky-ponting-named-delhi-daredevils-coach-1131632",
+    "https://www.espncricinfo.com/story/ricky-ponting-and-delhi-capitals-part-ways-1443237",
+    "https://en.wikipedia.org/wiki/2025_Punjab_Kings_season",
+    "https://en.wikipedia.org/wiki/2026_Punjab_Kings_season",
+    "https://www.espncricinfo.com/story/ipl-2025-ricky-ponting-appointed-punjab-kings-head-coach-1449547"
+  ],
+  "verified": true
+}

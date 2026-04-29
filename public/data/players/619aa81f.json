@@ -1,0 +1,30 @@
+{
+  "id": "619aa81f",
+  "name": "W Jaffer",
+  "shortName": "W Jaffer",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2009-05-07",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    }
+  ]
+}

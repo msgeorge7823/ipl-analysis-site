@@ -1,0 +1,25 @@
+{
+  "id": "8ee36b18",
+  "name": "P Nissanka",
+  "shortName": "P Nissanka",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-01",
+  "lastMatch": "2026-04-25",
+  "matchCount": 7,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

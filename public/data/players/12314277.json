@@ -1,0 +1,42 @@
+{
+  "id": "12314277",
+  "name": "Arshad Khan",
+  "shortName": "Arshad Khan",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Gujarat Titans",
+    "Mumbai Indians",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2023-04-02",
+  "lastMatch": "2026-04-26",
+  "matchCount": 20,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

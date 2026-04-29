@@ -1,0 +1,25 @@
+{
+  "id": "d4d929b0",
+  "name": "V Kaverappa",
+  "shortName": "V Kaverappa",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-05-09",
+  "lastMatch": "2024-05-09",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    }
+  ]
+}

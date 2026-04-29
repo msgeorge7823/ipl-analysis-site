@@ -1,0 +1,76 @@
+{
+  "id": "e938e1bc",
+  "name": "Praveen Kumar",
+  "shortName": "P Kumar",
+  "nicknames": [
+    "Praveen"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Punjab Kings",
+    "Gujarat Lions",
+    "Mumbai Indians",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2017-05-13",
+  "matchCount": 119,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

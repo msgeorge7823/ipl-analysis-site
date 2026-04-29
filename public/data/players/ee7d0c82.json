@@ -1,0 +1,25 @@
+{
+  "id": "ee7d0c82",
+  "name": "GD McGrath",
+  "shortName": "GD McGrath",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2008-05-30",
+  "matchCount": 14,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "30a2649b",
+  "name": "CM Gautam",
+  "shortName": "CM Gautam",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2013-05-07",
+  "lastMatch": "2015-04-09",
+  "matchCount": 13,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    }
+  ]
+}

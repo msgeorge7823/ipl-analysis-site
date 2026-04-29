@@ -1,0 +1,25 @@
+{
+  "id": "a386e91b",
+  "name": "PD Collingwood",
+  "shortName": "PD Collingwood",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-29",
+  "lastMatch": "2010-04-18",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ac5ae4af",
+  "name": "I Udana",
+  "shortName": "I Udana",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-09-28",
+  "lastMatch": "2020-11-02",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    }
+  ]
+}

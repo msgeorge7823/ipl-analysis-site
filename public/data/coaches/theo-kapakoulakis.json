@@ -1,0 +1,111 @@
+{
+  "id": "theo-kapakoulakis",
+  "name": "Theo Kapakoulakis",
+  "fullName": "Theo Kapakoulakis",
+  "nationality": "Australian",
+  "specialty": [
+    "physiotherapy"
+  ],
+  "playingCareerSummary": "Specialist sports physiotherapist with extensive franchise cricket experience.",
+  "bio": "Sunrisers Hyderabad's team physio across multiple seasons, documented in 2019 and 2020.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "physio",
+      "fromSeason": "2019",
+      "toSeason": "2020",
+      "seasons": [
+        "2019",
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 13,
+      "losses": 15,
+      "noResults": 0,
+      "winPct": 46.43
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true
+}

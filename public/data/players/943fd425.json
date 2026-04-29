@@ -1,0 +1,25 @@
+{
+  "id": "943fd425",
+  "name": "I Malhotra",
+  "shortName": "I Malhotra",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-05",
+  "lastMatch": "2011-05-05",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    }
+  ]
+}

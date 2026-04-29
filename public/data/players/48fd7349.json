@@ -1,0 +1,59 @@
+{
+  "id": "48fd7349",
+  "name": "Michael Edward Killeen Hussey",
+  "shortName": "MEK Hussey",
+  "nicknames": [
+    "Mr. Cricket",
+    "Mike Hussey"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2015-05-24",
+  "matchCount": 59,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2015"
+    }
+  ]
+}

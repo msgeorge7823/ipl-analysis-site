@@ -1,0 +1,21 @@
+{
+  "_description": "Player ID → profile photo URL mapping. Use this file to attach jersey-accurate IPL photos.",
+  "_instructions": [
+    "Two ways to add a player photo:",
+    "1. Drop a JPG file at /public/photos/players/{playerId}.jpg (generic, not season-specific)",
+    "2. Drop a JPG file at /public/photos/players/{playerId}_{season}.jpg (season-specific, IPL-jersey-accurate)",
+    "3. OR add a URL to the `photos` map below keyed by {playerId} or {playerId}_{season}",
+    "",
+    "The Avatar component checks in this order:",
+    "  a. Season-specific local file (/photos/players/{id}_{season}.jpg)",
+    "  b. Generic local file (/photos/players/{id}.jpg)",
+    "  c. URL from this file via the `photos` map",
+    "  d. Fallback → colored-initials gradient",
+    "",
+    "Note: Wikipedia photos of players are generally in national-team jerseys, not IPL jerseys,",
+    "so they were intentionally removed from this file. Populate it with IPL-jersey photos",
+    "manually sourced from official franchise/IPL websites."
+  ],
+  "_updated": "2026-04-11",
+  "photos": {}
+}

@@ -1,0 +1,69 @@
+{
+  "id": "b4b99816",
+  "name": "Shubman Gill",
+  "shortName": "Shubman Gill",
+  "nicknames": [
+    "Gill",
+    "Prince of Fazilka"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2018-04-14",
+  "lastMatch": "2026-04-26",
+  "matchCount": 125,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

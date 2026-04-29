@@ -1,0 +1,25 @@
+{
+  "id": "b69e69ed",
+  "name": "AA Noffke",
+  "shortName": "AA Noffke",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2008-04-18",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    }
+  ]
+}

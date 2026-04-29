@@ -1,0 +1,25 @@
+{
+  "id": "8a668774",
+  "name": "Shoaib Ahmed",
+  "shortName": "Shoaib Ahmed",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-27",
+  "lastMatch": "2009-05-13",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    }
+  ]
+}

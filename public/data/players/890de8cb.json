@@ -1,0 +1,25 @@
+{
+  "id": "890de8cb",
+  "name": "Gagandeep Singh",
+  "shortName": "Gagandeep Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-01",
+  "lastMatch": "2008-05-23",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    }
+  ]
+}

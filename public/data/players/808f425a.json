@@ -1,0 +1,58 @@
+{
+  "id": "808f425a",
+  "name": "JP Faulkner",
+  "shortName": "JP Faulkner",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Rajasthan Royals",
+    "Gujarat Lions",
+    "Pune Warriors",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2011-05-21",
+  "lastMatch": "2017-05-13",
+  "matchCount": 60,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

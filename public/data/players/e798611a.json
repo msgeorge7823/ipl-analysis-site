@@ -1,0 +1,30 @@
+{
+  "id": "e798611a",
+  "name": "HM Amla",
+  "shortName": "HM Amla",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2016-05-07",
+  "lastMatch": "2017-05-07",
+  "matchCount": 16,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    }
+  ]
+}

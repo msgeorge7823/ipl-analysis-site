@@ -1,0 +1,25 @@
+{
+  "id": "67af6f81",
+  "name": "RW Price",
+  "shortName": "RW Price",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-22",
+  "lastMatch": "2011-05-22",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    }
+  ]
+}

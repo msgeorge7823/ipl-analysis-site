@@ -1,0 +1,154 @@
+{
+  "season": "2023",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d1c36f5c",
+      "name": "JJ Roy",
+      "shortName": "JJ Roy",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0404d43c",
+      "name": "Liton Das",
+      "shortName": "Liton Das",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c3a96caf",
+      "name": "Mandeep Singh",
+      "shortName": "Mandeep Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bd54eef5",
+      "name": "N Jagadeesan",
+      "shortName": "N Jagadeesan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a509d6b",
+      "name": "RK Singh",
+      "shortName": "RK Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0bacade8",
+      "name": "Rahmanullah Gurbaz",
+      "shortName": "Rahmanullah Gurbaz",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a24be938",
+      "name": "VR Iyer",
+      "shortName": "VR Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "e4cdf230",
+      "name": "AS Roy",
+      "shortName": "AS Roy",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5b7ab5a9",
+      "name": "Chakravarthy Varun",
+      "shortName": "CV Varun",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "aa8d28ae",
+      "name": "D Wiese",
+      "shortName": "D Wiese",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "77b1aa15",
+      "name": "Harshit Rana",
+      "shortName": "Harshit Rana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fa2f1dde",
+      "name": "K Khejroliya",
+      "shortName": "K Khejroliya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9440ef41",
+      "name": "Suyash Sharma",
+      "shortName": "Suyash Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "13c35c9e",
+      "name": "TG Southee",
+      "shortName": "TG Southee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c3b3b78",
+      "name": "VG Arora",
+      "shortName": "VG Arora",
+      "role": "Bowler",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "91b9300b",
+  "name": "UA Birla",
+  "shortName": "UA Birla",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-05-05",
+  "lastMatch": "2013-05-09",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    }
+  ]
+}

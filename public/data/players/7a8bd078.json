@@ -1,0 +1,67 @@
+{
+  "id": "7a8bd078",
+  "name": "S Gopal",
+  "shortName": "S Gopal",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2014",
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2024"
+  ],
+  "firstMatch": "2014-05-19",
+  "lastMatch": "2024-04-18",
+  "matchCount": 52,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    }
+  ]
+}

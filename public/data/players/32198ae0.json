@@ -1,0 +1,66 @@
+{
+  "id": "32198ae0",
+  "name": "Moises Constantino Henriques",
+  "shortName": "MC Henriques",
+  "nicknames": [
+    "Moises Henriques"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Kolkata Knight Riders",
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2009",
+    "2010",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2021"
+  ],
+  "firstMatch": "2009-04-19",
+  "lastMatch": "2021-10-07",
+  "matchCount": 62,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    }
+  ]
+}

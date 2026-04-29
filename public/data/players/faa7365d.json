@@ -1,0 +1,30 @@
+{
+  "id": "faa7365d",
+  "name": "DR Shorey",
+  "shortName": "DR Shorey",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2018-05-05",
+  "lastMatch": "2019-04-26",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bdadf7da",
+  "name": "JL Denly",
+  "shortName": "JL Denly",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2019"
+  ],
+  "firstMatch": "2019-04-12",
+  "lastMatch": "2019-04-12",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    }
+  ]
+}

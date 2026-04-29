@@ -1,0 +1,55 @@
+{
+  "id": "0f12f9df",
+  "name": "NLTC Perera",
+  "shortName": "NLTC Perera",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Kochi Tuskers Kerala",
+    "Mumbai Indians",
+    "Sunrisers Hyderabad",
+    "Punjab Kings",
+    "Rising Pune Supergiant"
+  ],
+  "lastTeam": "Rising Pune Supergiant",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2010-03-25",
+  "lastMatch": "2016-05-21",
+  "matchCount": 37,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2af1b6d2",
+  "name": "AN Ahmed",
+  "shortName": "AN Ahmed",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2010-04-06",
+  "lastMatch": "2015-04-19",
+  "matchCount": 17,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "season": "2017",
+  "teamId": "rising-pune-supergiant",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "e087956b",
+      "name": "BA Stokes",
+      "shortName": "BA Stokes",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2a2e6343",
+      "name": "DT Christian",
+      "shortName": "DT Christian",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "30a45b23",
+      "name": "Steven Peter Devereux Smith",
+      "shortName": "SPD Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "14f96089",
+      "name": "A Zampa",
+      "shortName": "A Zampa",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "66b30f71",
+      "name": "AB Dinda",
+      "shortName": "AB Dinda",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "24d94623",
+      "name": "Ankit Sharma",
+      "shortName": "Ankit Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "23eeb873",
+      "name": "Deepak Lokendrasingh Chahar",
+      "shortName": "DL Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "acee4cc4",
+      "name": "Mohammad Imran Tahir",
+      "shortName": "Imran Tahir",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2ed569a0",
+      "name": "RD Chahar",
+      "shortName": "RD Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "33a364a6",
+      "name": "Rajat Bhatia",
+      "shortName": "R Bhatia",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

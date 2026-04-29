@@ -1,0 +1,182 @@
+{
+  "season": "2010",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "6ef60d3a",
+      "name": "Kamran Khan",
+      "shortName": "Kamran Khan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4329fbb5",
+      "name": "Shane Robert Watson",
+      "shortName": "SR Watson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3c6ffae8",
+      "name": "Yusuf Khan Pathan",
+      "shortName": "YK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fdcb08c2",
+      "name": "A Uniyal",
+      "shortName": "A Uniyal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2815fe50",
+      "name": "AA Jhunjhunwala",
+      "shortName": "AA Jhunjhunwala",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "864c199e",
+      "name": "AC Voges",
+      "shortName": "AC Voges",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3a02626a",
+      "name": "AG Paunikar",
+      "shortName": "AG Paunikar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dbc50253",
+      "name": "AP Dole",
+      "shortName": "AP Dole",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c69a7b5c",
+      "name": "AS Raut",
+      "shortName": "AS Raut",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "69762509",
+      "name": "DR Martyn",
+      "shortName": "DR Martyn",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c15e2193",
+      "name": "FY Fazal",
+      "shortName": "FY Fazal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "72861603",
+      "name": "GC Smith",
+      "shortName": "GC Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "11df3dc8",
+      "name": "MJ Lumb",
+      "shortName": "MJ Lumb",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2728e7e9",
+      "name": "P Dogra",
+      "shortName": "P Dogra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ae091d39",
+      "name": "SA Asnodkar",
+      "shortName": "SA Asnodkar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3edb58fc",
+      "name": "AD Mascarenhas",
+      "shortName": "AD Mascarenhas",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f0f628c7",
+      "name": "MM Patel",
+      "shortName": "MM Patel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb5a915",
+      "name": "Morne Morkel",
+      "shortName": "M Morkel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "287686fd",
+      "name": "S Narwal",
+      "shortName": "S Narwal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dddca1d6",
+      "name": "SB Wagh",
+      "shortName": "SB Wagh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3d7e087f",
+      "name": "SK Trivedi",
+      "shortName": "SK Trivedi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "bb18be76",
+      "name": "SK Warne",
+      "shortName": "SK Warne",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "addfb70e",
+      "name": "SW Tait",
+      "shortName": "SW Tait",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "890946a0",
+      "name": "Naman Vinaykumar Ojha",
+      "shortName": "NV Ojha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "9ff100a6",
+  "name": "RS Gavaskar",
+  "shortName": "RS Gavaskar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-14",
+  "lastMatch": "2010-03-16",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    }
+  ]
+}

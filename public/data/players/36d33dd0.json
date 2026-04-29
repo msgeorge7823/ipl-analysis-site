@@ -1,0 +1,25 @@
+{
+  "id": "36d33dd0",
+  "name": "RR Sarwan",
+  "shortName": "RR Sarwan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-25",
+  "lastMatch": "2008-05-10",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    }
+  ]
+}

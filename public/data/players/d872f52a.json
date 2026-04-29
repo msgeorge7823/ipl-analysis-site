@@ -1,0 +1,25 @@
+{
+  "id": "d872f52a",
+  "name": "LA Carseldine",
+  "shortName": "LA Carseldine",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-05-02",
+  "lastMatch": "2009-05-11",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5724e517",
+  "name": "Tanush Kotian",
+  "shortName": "Tanush Kotian",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-13",
+  "lastMatch": "2024-04-13",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2024",
+      "team": "Rajasthan Royals",
+      "replacing": "Adam Zampa",
+      "reason": "Personal reasons"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    }
+  ]
+}

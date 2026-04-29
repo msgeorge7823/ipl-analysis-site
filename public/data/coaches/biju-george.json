@@ -1,0 +1,211 @@
+{
+  "id": "biju-george",
+  "name": "Biju George",
+  "fullName": "Biju George",
+  "nationality": "Indian",
+  "specialty": [
+    "fielding",
+    "man-management"
+  ],
+  "playingCareerSummary": "Indian domestic cricket coach. Long career as a specialist fielding coach including with the India women's team and in the IPL. Did not play in the IPL.",
+  "bio": "Delhi Capitals' fielding coach from 2022 to 2024 — three seasons under Ricky Ponting.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "fielding-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd (14 pts). Beat RCB in Eliminator; lost Qualifier 2 to Delhi Capitals by 17 runs. Replaced Tom Moody for IPL 2020."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 11,
+            "noResults": 0,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 6 points. Franchise-worst season at that time. Bayliss was replaced by Tom Moody for 2022."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 10,
+          "losses": 18,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2020_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2021_Sunrisers_Hyderabad_season"
+      ],
+      "notes": "SRH fielding coach for two seasons before moving to Delhi Capitals from 2022 to 2024."
+    },
+    {
+      "team": "Delhi Capitals",
+      "role": "fielding-coach",
+      "fromSeason": "2022",
+      "toSeason": "2024",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points (NRR -0.808). Lost first five matches of the season. Captain: David Warner."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Ponting's final season at DC; he and the franchise parted ways ahead of the 2025 mega auction."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 19,
+          "losses": 23,
+          "noResults": 0,
+          "winPct": 45.24
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2023_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2024_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 70,
+      "wins": 29,
+      "losses": 41,
+      "noResults": 0,
+      "winPct": 41.43
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true
+}

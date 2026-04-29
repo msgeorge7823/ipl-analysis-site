@@ -1,0 +1,324 @@
+{
+  "id": "robin-singh",
+  "name": "Robin Singh",
+  "fullName": "Robin Ramnarine Singh",
+  "dob": "1963-09-14",
+  "nationality": "Indian",
+  "specialty": [
+    "fielding",
+    "all-round",
+    "finishing"
+  ],
+  "playingCareerSummary": "Former India all-rounder (1 Test, 136 ODIs, 1989-2001) renowned as one of the finest fielders and finishers India has produced. Did not play in the IPL as his career ended in 2001.",
+  "bio": "Two-stint Mumbai Indians support staff member: head coach 2010-2012 (taking MI to their first IPL final in 2010) and batting coach 2019-2022 (part of the title-winning sides in 2019 and 2020). In between, served as India's fielding coach and coached multiple international sides.",
+  "tenures": [
+    {
+      "team": "Deccan Chargers",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2008",
+      "seasons": [
+        "2008"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 2,
+            "losses": 12,
+            "noResults": 0,
+            "winPct": 14.29
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished last of 8 with 4 points despite being one of the pre-tournament favourites."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 2,
+          "losses": 12,
+          "noResults": 0,
+          "winPct": 14.29
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Deccan_Chargers",
+        "https://en.wikipedia.org/wiki/2008_Deccan_Chargers_season"
+      ],
+      "notes": "Robin Singh's first IPL head coach role — took over Deccan Chargers for the inaugural 2008 season. Replaced by Darren Lehmann after a disastrous 8th-place finish."
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2010",
+      "toSeason": "2012",
+      "seasons": [
+        "2010",
+        "2011",
+        "2012"
+      ],
+      "perSeason": [
+        {
+          "season": "2010",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (20 pts, NRR 1.084). Beat RCB in semi-final by 35 runs; lost final to CSK by 22 runs."
+        },
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd in league (18 pts). Beat KKR in Eliminator by 4 wickets; lost Qualifier 2 to RCB by 43 runs."
+        },
+        {
+          "season": "2012",
+          "league": {
+            "matches": 16,
+            "wins": 10,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 62.5
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th in league (NRR -0.100). Lost Eliminator to CSK by 38 runs. Anil Kumble joined as chief mentor this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 44,
+          "wins": 29,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 65.91
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2010_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2011_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2012_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "batting-coach",
+      "fromSeason": "2019",
+      "toSeason": "2022",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts, NRR 0.421). Beat CSK in Q1 by 6 wickets; beat CSK in final by 1 run. Franchise's fourth IPL title."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts). Beat DC in Q1 by 57 runs; beat DC in final by 5 wickets. Fifth IPL title. Season played in UAE due to COVID-19. Became 2nd team after CSK to defend an IPL title."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Could not defend their title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points and NRR -0.506. Franchise-worst season to that point."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 29,
+          "losses": 27,
+          "noResults": 0,
+          "winPct": 51.79
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 4,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 2,
+        "finalsReached": 2,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2019_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2020_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2021_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2022_Mumbai_Indians_season"
+      ],
+      "notes": "Returned to Mumbai Indians as batting coach after previously being head coach 2010-2012. Part of the 2019 and 2020 title-winning support staff."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 8,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 114,
+      "wins": 60,
+      "losses": 54,
+      "noResults": 0,
+      "winPct": 52.63
+    },
+    "playoffs": {
+      "matches": 9,
+      "wins": 6,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 2,
+    "finalsReached": 3,
+    "playoffAppearances": 5
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Fielding Coach",
+      "period": "2007-2009",
+      "notes": "Fielding coach of the India senior men's team, including during the 2007 T20 World Cup winning campaign."
+    },
+    {
+      "team": "USA (National)",
+      "role": "Head Coach",
+      "period": "2017-2018"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Robin_Singh_(Indian_cricketer)",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

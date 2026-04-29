@@ -1,0 +1,30 @@
+{
+  "id": "b2b4f545",
+  "name": "A Mhatre",
+  "shortName": "A Mhatre",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-04-20",
+  "lastMatch": "2026-04-18",
+  "matchCount": 13,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

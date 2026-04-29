@@ -1,0 +1,126 @@
+{
+  "season": "2013",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "b2a79f17",
+      "name": "B Laughlin",
+      "shortName": "B Laughlin",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb66ce1f",
+      "name": "CH Morris",
+      "shortName": "CH Morris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0f721006",
+      "name": "JO Holder",
+      "shortName": "JO Holder",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c3d35165",
+      "name": "Johannes Albertus Morkel",
+      "shortName": "JA Morkel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4b57e452",
+      "name": "M Vijay",
+      "shortName": "M Vijay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48fd7349",
+      "name": "Michael Edward Killeen Hussey",
+      "shortName": "MEK Hussey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "95a2ea61",
+      "name": "S Anirudha",
+      "shortName": "S Anirudha",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3576e47e",
+      "name": "Subramaniam Badrinath",
+      "shortName": "S Badrinath",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db31895a",
+      "name": "AS Rajpoot",
+      "shortName": "AS Rajpoot",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c404f58a",
+      "name": "DP Nannes",
+      "shortName": "DP Nannes",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

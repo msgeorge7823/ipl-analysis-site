@@ -1,0 +1,36 @@
+{
+  "id": "d1c94b25",
+  "name": "CK Langeveldt",
+  "shortName": "CK Langeveldt",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2009-05-20",
+  "lastMatch": "2011-05-17",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "272d796e",
+  "name": "BR Dunk",
+  "shortName": "BR Dunk",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2014"
+  ],
+  "firstMatch": "2014-04-30",
+  "lastMatch": "2014-05-06",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    }
+  ]
+}

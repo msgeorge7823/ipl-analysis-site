@@ -1,0 +1,28 @@
+{
+  "year": "2026",
+  "isOngoing": true,
+  "matchCount": 39,
+  "matchesWithData": 39,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Abhishek Sharma",
+    "shortName": "Abhishek Sharma",
+    "runs": 380
+  },
+  "purpleCap": {
+    "player": "Bhuvneshwar Kumar",
+    "shortName": "B Kumar",
+    "wickets": 14
+  }
+}

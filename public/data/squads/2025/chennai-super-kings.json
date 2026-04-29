@@ -1,0 +1,161 @@
+{
+  "season": "2025",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "73ad96ed",
+      "name": "Deepak Jagbir Hooda",
+      "shortName": "DJ Hooda",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "59559bc2",
+      "name": "J Overton",
+      "shortName": "J Overton",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ba5e1069",
+      "name": "R Ravindra",
+      "shortName": "R Ravindra",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a4e37e47",
+      "name": "S Dube",
+      "shortName": "S Dube",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e94915e6",
+      "name": "SM Curran",
+      "shortName": "SM Curran",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b2b4f545",
+      "name": "A Mhatre",
+      "shortName": "A Mhatre",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "844e79d1",
+      "name": "D Brevis",
+      "shortName": "D Brevis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "df5a6881",
+      "name": "DP Conway",
+      "shortName": "DP Conway",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "45a43fe2",
+      "name": "Ruturaj Dhananjay Gaikwad",
+      "shortName": "RD Gaikwad",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cbf58a86",
+      "name": "SK Rasheed",
+      "shortName": "SK Rasheed",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cf59b3f0",
+      "name": "Urvil Patel",
+      "shortName": "Urvil Patel",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fcc21ace",
+      "name": "A Kamboj",
+      "shortName": "A Kamboj",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a2f46292",
+      "name": "KK Ahmed",
+      "shortName": "KK Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "64839cb3",
+      "name": "M Pathirana",
+      "shortName": "M Pathirana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "765a4731",
+      "name": "Mukesh Choudhary",
+      "shortName": "Mukesh Choudhary",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9eb1455b",
+      "name": "NT Ellis",
+      "shortName": "NT Ellis",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "efc04be7",
+      "name": "Noor Ahmad",
+      "shortName": "Noor Ahmad",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

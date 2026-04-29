@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Records & Milestones — IPL Analytics Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            surface: '#0a0a0f',
+            card: '#131320',
+            border: '#1e1e3a',
+            accent: '#6366f1',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background: #0a0a0f; font-family: 'Inter', sans-serif; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0a0a0f; }
+    ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+    .golden-row {
+      background: linear-gradient(90deg, rgba(255,165,0,0.15) 0%, rgba(255,200,50,0.08) 100%);
+      border-left: 3px solid #f59e0b;
+    }
+    .golden-card {
+      background: linear-gradient(135deg, #131320 0%, #1a1730 100%);
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      position: relative;
+    }
+    .golden-card::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: inherit;
+      background: linear-gradient(135deg, #f59e0b, #f97316, #eab308, #f59e0b);
+      z-index: -1;
+      border-radius: 12px;
+    }
+    .tab-active {
+      background: #6366f1;
+      color: #fff;
+    }
+    .slider-track {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 6px;
+      background: linear-gradient(90deg, #6366f1 87.8%, #1e1e3a 87.8%);
+      border-radius: 3px;
+      outline: none;
+    }
+    .slider-track::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #6366f1;
+      border: 2px solid #fff;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(99,102,241,0.5);
+    }
+  </style>
+</head>
+<body class="text-gray-200 min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-card/80 backdrop-blur-md border-b border-border sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <span class="text-lg font-bold text-white tracking-tight">IPL Analytics</span>
+      </div>
+      <div class="flex items-center gap-8 text-sm font-medium">
+        <a href="#" class="text-gray-400 hover:text-white transition">Dashboard</a>
+        <a href="#" class="text-gray-400 hover:text-white transition">Matches</a>
+        <a href="#" class="text-gray-400 hover:text-white transition">Players</a>
+        <a href="#" class="text-white border-b-2 border-accent pb-0.5 transition">Records</a>
+        <a href="#" class="text-gray-400 hover:text-white transition">Analytics</a>
+        <a href="#" class="text-gray-400 hover:text-white transition">Ratings</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="p-2 rounded-lg hover:bg-white/5 transition">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </button>
+        <div class="w-8 h-8 rounded-full bg-accent/20 border border-accent/40 flex items-center justify-center text-xs font-bold text-accent">S</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-6 py-8">
+
+    <!-- Page Title -->
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h1 class="text-3xl font-extrabold text-white tracking-tight">Records & Milestones</h1>
+        <p class="text-gray-500 text-sm mt-1">Season highlights, cap races, and historic performances</p>
+      </div>
+      <!-- Season Selector -->
+      <div class="relative">
+        <select class="bg-card border border-border rounded-lg px-4 py-2.5 text-sm font-semibold text-white appearance-none pr-10 focus:outline-none focus:border-accent cursor-pointer">
+          <option selected>IPL 2025</option>
+          <option>IPL 2024</option>
+          <option>IPL 2023</option>
+          <option>IPL 2022</option>
+          <option>IPL 2021</option>
+        </select>
+        <svg class="w-4 h-4 text-gray-400 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="flex gap-2 mb-8 bg-card/50 p-1.5 rounded-xl border border-border w-fit">
+      <button class="tab-active px-5 py-2 rounded-lg text-sm font-semibold transition">Orange Cap</button>
+      <button class="px-5 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">Purple Cap</button>
+      <button class="px-5 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">Game Changers</button>
+      <button class="px-5 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">Thrillers</button>
+      <button class="px-5 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">Highest Scores</button>
+      <button class="px-5 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">Lowest Scores</button>
+    </div>
+
+    <!-- CAP RACE LEADERBOARD -->
+    <section class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-1 h-6 bg-orange-500 rounded-full"></div>
+        <h2 class="text-lg font-bold text-white uppercase tracking-wide">Cap Race Leaderboard</h2>
+      </div>
+      <div class="bg-card rounded-xl border border-border overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-border text-gray-500 text-xs uppercase tracking-wider">
+              <th class="text-left px-6 py-3 font-semibold">Rank</th>
+              <th class="text-left px-6 py-3 font-semibold">Player</th>
+              <th class="text-left px-6 py-3 font-semibold">Team</th>
+              <th class="text-right px-6 py-3 font-semibold">Runs</th>
+              <th class="text-right px-6 py-3 font-semibold">Matches</th>
+              <th class="text-right px-6 py-3 font-semibold">SR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="golden-row">
+              <td class="px-6 py-4 font-bold text-orange-400">1 <span class="ml-1">🧢</span></td>
+              <td class="px-6 py-4 font-bold text-white">Virat Kohli</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center gap-1.5 bg-red-500/10 text-red-400 px-2.5 py-0.5 rounded-full text-xs font-semibold">RCB</span>
+              </td>
+              <td class="px-6 py-4 text-right font-bold text-orange-400 text-base">741</td>
+              <td class="px-6 py-4 text-right text-gray-300">15</td>
+              <td class="px-6 py-4 text-right text-gray-300">151.2</td>
+            </tr>
+            <tr class="border-t border-border/50 hover:bg-white/[0.02] transition">
+              <td class="px-6 py-4 font-semibold text-gray-400">2</td>
+              <td class="px-6 py-4 font-semibold text-white">Shubman Gill</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center gap-1.5 bg-blue-900/30 text-blue-300 px-2.5 py-0.5 rounded-full text-xs font-semibold">GT</span>
+              </td>
+              <td class="px-6 py-4 text-right font-bold text-white">698</td>
+              <td class="px-6 py-4 text-right text-gray-400">16</td>
+              <td class="px-6 py-4 text-right text-gray-400">142.8</td>
+            </tr>
+            <tr class="border-t border-border/50 hover:bg-white/[0.02] transition">
+              <td class="px-6 py-4 font-semibold text-gray-400">3</td>
+              <td class="px-6 py-4 font-semibold text-white">Faf du Plessis</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center gap-1.5 bg-red-500/10 text-red-400 px-2.5 py-0.5 rounded-full text-xs font-semibold">RCB</span>
+              </td>
+              <td class="px-6 py-4 text-right font-bold text-white">672</td>
+              <td class="px-6 py-4 text-right text-gray-400">16</td>
+              <td class="px-6 py-4 text-right text-gray-400">138.5</td>
+            </tr>
+            <tr class="border-t border-border/50 hover:bg-white/[0.02] transition">
+              <td class="px-6 py-4 font-semibold text-gray-400">4</td>
+              <td class="px-6 py-4 font-semibold text-white">Travis Head</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 px-2.5 py-0.5 rounded-full text-xs font-semibold">SRH</span>
+              </td>
+              <td class="px-6 py-4 text-right font-bold text-white">623</td>
+              <td class="px-6 py-4 text-right text-gray-400">14</td>
+              <td class="px-6 py-4 text-right text-gray-400">168.3</td>
+            </tr>
+            <tr class="border-t border-border/50 hover:bg-white/[0.02] transition">
+              <td class="px-6 py-4 font-semibold text-gray-400">5</td>
+              <td class="px-6 py-4 font-semibold text-white">Suryakumar Yadav</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-400 px-2.5 py-0.5 rounded-full text-xs font-semibold">MI</span>
+              </td>
+              <td class="px-6 py-4 text-right font-bold text-white">601</td>
+              <td class="px-6 py-4 text-right text-gray-400">16</td>
+              <td class="px-6 py-4 text-right text-gray-400">155.7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CAP RACE PROGRESSION CHART -->
+    <section class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-1 h-6 bg-accent rounded-full"></div>
+        <h2 class="text-lg font-bold text-white uppercase tracking-wide">Cap Race Progression</h2>
+      </div>
+      <div class="bg-card rounded-xl border border-border p-6">
+        <!-- Legend -->
+        <div class="flex gap-6 mb-4 text-xs font-medium">
+          <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-red-500 inline-block rounded"></span><span class="text-gray-300">V. Kohli</span></span>
+          <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-gray-500 inline-block rounded"></span><span class="text-gray-300">S. Gill</span></span>
+          <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-red-300 inline-block rounded"></span><span class="text-gray-300">F. du Plessis</span></span>
+          <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-orange-500 inline-block rounded"></span><span class="text-gray-300">T. Head</span></span>
+          <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-blue-500 inline-block rounded"></span><span class="text-gray-300">S. Yadav</span></span>
+        </div>
+        <!-- SVG Chart -->
+        <svg viewBox="0 0 900 380" class="w-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1e1e3a" stop-opacity="0.5"/>
+              <stop offset="100%" stop-color="#1e1e3a" stop-opacity="0.1"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Grid -->
+          <g stroke="#1e1e3a" stroke-width="0.5">
+            <!-- Horizontal lines at y=0,200,400,600,800 mapped to chart area -->
+            <!-- Chart area: x 60-870, y 20-320 => 300px height for 800 runs -->
+            <line x1="60" y1="320" x2="870" y2="320" stroke-opacity="0.6"/>
+            <line x1="60" y1="245" x2="870" y2="245" stroke-opacity="0.3"/>
+            <line x1="60" y1="170" x2="870" y2="170" stroke-opacity="0.3"/>
+            <line x1="60" y1="95" x2="870" y2="95" stroke-opacity="0.3"/>
+            <line x1="60" y1="20" x2="870" y2="20" stroke-opacity="0.3"/>
+          </g>
+
+          <!-- Y-axis labels -->
+          <g fill="#6b7280" font-size="11" font-family="Inter" text-anchor="end">
+            <text x="50" y="324">0</text>
+            <text x="50" y="249">200</text>
+            <text x="50" y="174">400</text>
+            <text x="50" y="99">600</text>
+            <text x="50" y="24">800</text>
+          </g>
+
+          <!-- X-axis labels -->
+          <g fill="#6b7280" font-size="10" font-family="Inter" text-anchor="middle">
+            <text x="60" y="345">1</text>
+            <text x="169" y="345">10</text>
+            <text x="279" y="345">20</text>
+            <text x="388" y="345">30</text>
+            <text x="497" y="345">40</text>
+            <text x="606" y="345">50</text>
+            <text x="716" y="345">60</text>
+            <text x="825" y="345">70</text>
+            <text x="870" y="345">74</text>
+          </g>
+          <text x="465" y="370" fill="#6b7280" font-size="11" font-family="Inter" text-anchor="middle">Match Number</text>
+
+          <!-- LINES (chart y: 320 is 0 runs, 20 is 800 runs; per run = 0.375px) -->
+          <!-- Helper: y = 320 - (runs * 300/800) = 320 - runs*0.375 -->
+
+          <!-- Gill (dark gray) — leads early, ends 698 -->
+          <polyline fill="none" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            points="
+              60,320
+              115,288
+              169,256
+              225,220
+              279,188
+              333,160
+              388,135
+              442,118
+              497,100
+              551,85
+              606,72
+              660,60
+              716,55
+              770,50
+              825,45
+              857,42
+              870,58
+            "/>
+
+          <!-- Kohli (red) — starts slow, overtakes at ~match 45, ends 741 -->
+          <polyline fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            points="
+              60,320
+              115,298
+              169,275
+              225,248
+              279,218
+              333,190
+              388,162
+              442,132
+              497,100
+              530,82
+              551,70
+              606,52
+              660,38
+              716,30
+              770,25
+              825,22
+              870,42
+            "/>
+
+          <!-- du Plessis (lighter red) — close behind, ends 672 -->
+          <polyline fill="none" stroke="#fca5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            points="
+              60,320
+              115,294
+              169,266
+              225,236
+              279,206
+              333,178
+              388,152
+              442,128
+              497,108
+              551,92
+              606,78
+              660,68
+              716,62
+              770,58
+              825,54
+              870,68
+            "/>
+
+          <!-- Head (orange) — steep curve, ends 623 -->
+          <polyline fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            points="
+              60,320
+              115,306
+              169,288
+              225,265
+              279,240
+              333,208
+              388,172
+              442,142
+              497,115
+              551,96
+              606,82
+              660,75
+              716,72
+              770,74
+              825,80
+              870,87
+            "/>
+
+          <!-- SKY (blue) — steady climb, ends 601 -->
+          <polyline fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            points="
+              60,320
+              115,300
+              169,280
+              225,258
+              279,236
+              333,214
+              388,192
+              442,170
+              497,148
+              551,130
+              606,115
+              660,105
+              716,98
+              770,95
+              825,93
+              870,95
+            "/>
+
+          <!-- End labels -->
+          <g font-size="10" font-family="Inter" font-weight="600">
+            <text x="876" y="39" fill="#ef4444">741</text>
+            <text x="876" y="55" fill="#6b7280">698</text>
+            <text x="876" y="72" fill="#fca5a5">672</text>
+            <text x="876" y="90" fill="#f97316">623</text>
+            <text x="876" y="99" fill="#3b82f6">601</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- MATCH SLIDER -->
+    <section class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-1 h-6 bg-accent rounded-full"></div>
+        <h2 class="text-lg font-bold text-white uppercase tracking-wide">Match Slider</h2>
+      </div>
+      <div class="bg-card rounded-xl border border-border p-6">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-sm text-gray-400">After Match:</span>
+          <span class="text-sm font-bold text-white bg-accent/20 px-3 py-1 rounded-full">65 <span class="text-gray-400 font-normal">of</span> 74</span>
+        </div>
+        <input type="range" min="1" max="74" value="65" class="slider-track w-full cursor-pointer">
+        <div class="flex justify-between text-xs text-gray-600 mt-2 px-0.5">
+          <span>Match 1</span>
+          <span>Match 20</span>
+          <span>Match 40</span>
+          <span>Match 60</span>
+          <span>Match 74</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAP HOLDER TIMELINE -->
+    <section class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-1 h-6 bg-orange-500 rounded-full"></div>
+        <h2 class="text-lg font-bold text-white uppercase tracking-wide">Cap Holder Timeline</h2>
+      </div>
+      <div class="bg-card rounded-xl border border-border p-6">
+        <div class="flex w-full h-10 rounded-lg overflow-hidden">
+          <!-- Gill: M1-22 = 22/74 ~ 29.7% -->
+          <div class="h-full bg-gray-500 relative group" style="width:29.7%">
+            <div class="absolute inset-0 flex items-center justify-center text-xs font-bold text-white opacity-80">Gill</div>
+          </div>
+          <!-- Head: M23-38 = 16/74 ~ 21.6% -->
+          <div class="h-full bg-orange-500 relative group" style="width:21.6%">
+            <div class="absolute inset-0 flex items-center justify-center text-xs font-bold text-white opacity-90">Head</div>
+          </div>
+          <!-- Kohli: M39-74 = 36/74 ~ 48.6% -->
+          <div class="h-full bg-red-500 relative group" style="width:48.7%">
+            <div class="absolute inset-0 flex items-center justify-center text-xs font-bold text-white opacity-90">Kohli</div>
+          </div>
+        </div>
+        <div class="flex w-full mt-3 text-xs">
+          <div class="text-gray-400 font-medium" style="width:29.7%">
+            <span class="text-gray-500">Gill</span> (M1–22)
+          </div>
+          <div class="text-gray-400 font-medium" style="width:21.6%">
+            <span class="text-orange-400">Head</span> (M23–38)
+          </div>
+          <div class="text-gray-400 font-medium" style="width:48.7%">
+            <span class="text-red-400">Kohli</span> (M39–74)
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL WINNER CARD -->
+    <section class="mb-16">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-1 h-6 bg-orange-500 rounded-full"></div>
+        <h2 class="text-lg font-bold text-white uppercase tracking-wide">Final Winner</h2>
+      </div>
+      <div class="golden-card rounded-xl p-8 flex items-center gap-8">
+        <!-- Photo circle -->
+        <div class="flex-shrink-0">
+          <div class="w-28 h-28 rounded-full bg-gradient-to-br from-orange-400 to-yellow-500 flex items-center justify-center shadow-lg shadow-orange-500/20">
+            <div class="w-24 h-24 rounded-full bg-card flex items-center justify-center">
+              <span class="text-3xl font-black text-orange-400">VK</span>
+            </div>
+          </div>
+        </div>
+        <!-- Info -->
+        <div class="flex-1">
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-2xl">🧢</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-orange-400 bg-orange-400/10 px-3 py-1 rounded-full">Orange Cap Winner — IPL 2025</span>
+          </div>
+          <h3 class="text-3xl font-extrabold text-white mt-2">Virat Kohli</h3>
+          <p class="text-gray-400 text-sm mt-1">Royal Challengers Bengaluru</p>
+        </div>
+        <!-- Stats -->
+        <div class="flex gap-8 flex-shrink-0">
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-orange-400">741</div>
+            <div class="text-xs text-gray-500 uppercase tracking-wider mt-1">Runs</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-white">151.2</div>
+            <div class="text-xs text-gray-500 uppercase tracking-wider mt-1">Strike Rate</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-white">15</div>
+            <div class="text-xs text-gray-500 uppercase tracking-wider mt-1">Matches</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card/50">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between text-xs text-gray-600">
+      <span>IPL Analytics Platform &copy; 2025. For official use only.</span>
+      <span>Data sourced from official IPL records. Presentation mockup.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

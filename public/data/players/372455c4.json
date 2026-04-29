@@ -1,0 +1,93 @@
+{
+  "id": "372455c4",
+  "name": "Quinton de Kock",
+  "shortName": "Q de Kock",
+  "nicknames": [
+    "QDK",
+    "Quinton"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Delhi Capitals",
+    "Lucknow Super Giants",
+    "Sunrisers Hyderabad",
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-04-17",
+  "lastMatch": "2026-04-23",
+  "matchCount": 118,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

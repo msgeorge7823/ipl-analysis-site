@@ -1,0 +1,31 @@
+{
+  "id": "44a89551",
+  "name": "KS Bharat",
+  "shortName": "KS Bharat",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2021-09-20",
+  "lastMatch": "2022-05-11",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    }
+  ]
+}

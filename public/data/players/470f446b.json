@@ -1,0 +1,30 @@
+{
+  "id": "470f446b",
+  "name": "V Suryavanshi",
+  "shortName": "V Suryavanshi",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-04-19",
+  "lastMatch": "2026-04-25",
+  "matchCount": 15,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2026"
+    }
+  ]
+}

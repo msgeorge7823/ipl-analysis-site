@@ -1,0 +1,25 @@
+{
+  "id": "8361e524",
+  "name": "SSB Magala",
+  "shortName": "SSB Magala",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-08",
+  "lastMatch": "2023-04-12",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2cdce1be",
+  "name": "C Sakariya",
+  "shortName": "C Sakariya",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Rajasthan Royals",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2021-04-12",
+  "lastMatch": "2025-04-26",
+  "matchCount": 20,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "f834dcfc",
+  "name": "L Ngidi",
+  "shortName": "L Ngidi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2018",
+    "2020",
+    "2021",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2018-04-30",
+  "lastMatch": "2026-04-25",
+  "matchCount": 23,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

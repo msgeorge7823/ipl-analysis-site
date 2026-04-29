@@ -1,0 +1,41 @@
+{
+  "id": "c8f5f961",
+  "name": "Anuj Rawat",
+  "shortName": "Anuj Rawat",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2021-05-02",
+  "lastMatch": "2024-04-15",
+  "matchCount": 24,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "rajinikanth-sivagnanam",
+  "name": "Rajinikanth Sivagnanam",
+  "fullName": "Rajinikanth Sivagnanam",
+  "nationality": "Indian",
+  "specialty": [
+    "strength-and-conditioning"
+  ],
+  "playingCareerSummary": "Specialist strength and conditioning coach.",
+  "bio": "Delhi Capitals' strength and conditioning coach during IPL 2020, their runner-up season.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "strength-conditioning",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 6,
+      "noResults": 0,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true
+}

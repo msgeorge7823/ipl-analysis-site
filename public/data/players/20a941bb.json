@@ -1,0 +1,25 @@
+{
+  "id": "20a941bb",
+  "name": "M Ntini",
+  "shortName": "M Ntini",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-02",
+  "lastMatch": "2008-06-01",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    }
+  ]
+}

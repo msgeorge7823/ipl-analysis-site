@@ -1,0 +1,133 @@
+{
+  "season": "2022",
+  "teamId": "gujarat-titans",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "cd8d2859",
+      "name": "DG Nalkande",
+      "shortName": "DG Nalkande",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dbe50b21",
+      "name": "Hardik Himanshu Pandya",
+      "shortName": "HH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c7a995d3",
+      "name": "R Sai Kishore",
+      "shortName": "R Sai Kishore",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39a2dfa8",
+      "name": "Rahul Tewatia",
+      "shortName": "R Tewatia",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0890552f",
+      "name": "A Manohar",
+      "shortName": "A Manohar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d5130a30",
+      "name": "Sai Sudharsan",
+      "shortName": "B Sai Sudharsan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4b99816",
+      "name": "Shubman Gill",
+      "shortName": "Shubman Gill",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0946605",
+      "name": "AS Joseph",
+      "shortName": "AS Joseph",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8cf9814c",
+      "name": "Mohammed Shami Ahmed",
+      "shortName": "Mohammed Shami",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9fc0ef64",
+      "name": "PJ Sangwan",
+      "shortName": "PJ Sangwan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5f547c8b",
+      "name": "Rashid Khan Arman",
+      "shortName": "Rashid Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a3d54b9",
+      "name": "VR Aaron",
+      "shortName": "VR Aaron",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7210d461",
+      "name": "Yash Dayal",
+      "shortName": "Yash Dayal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "afa7e784",
+      "name": "MS Wade",
+      "shortName": "MS Wade",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

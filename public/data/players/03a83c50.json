@@ -1,0 +1,25 @@
+{
+  "id": "03a83c50",
+  "name": "V Viyaskanth",
+  "shortName": "V Viyaskanth",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-05-08",
+  "lastMatch": "2024-05-21",
+  "matchCount": 3,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    }
+  ]
+}

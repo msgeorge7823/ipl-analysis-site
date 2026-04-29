@@ -1,0 +1,72 @@
+{
+  "id": "0a8fce53",
+  "name": "Mustafizur Rahman",
+  "shortName": "Mustafizur Rahman",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Sunrisers Hyderabad",
+    "Mumbai Indians",
+    "Rajasthan Royals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2016-04-12",
+  "lastMatch": "2025-05-24",
+  "matchCount": 60,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2025",
+      "team": "Delhi Capitals",
+      "replacing": "Jake Fraser-McGurk",
+      "reason": "Withdrawal"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    }
+  ]
+}

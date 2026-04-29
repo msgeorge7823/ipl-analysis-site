@@ -1,0 +1,25 @@
+{
+  "id": "989889ff",
+  "name": "JP Inglis",
+  "shortName": "JP Inglis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-04-15",
+  "lastMatch": "2025-06-03",
+  "matchCount": 12,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

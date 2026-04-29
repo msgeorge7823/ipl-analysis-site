@@ -1,0 +1,31 @@
+{
+  "id": "40caa465",
+  "name": "T Kohli",
+  "shortName": "T Kohli",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2009-04-21",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    }
+  ]
+}

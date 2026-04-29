@@ -1,0 +1,95 @@
+{
+  "id": "a4cc73aa",
+  "name": "Sanju Viswanath Samson",
+  "shortName": "SV Samson",
+  "nicknames": [
+    "Sanju Samson",
+    "Sanju"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Delhi Capitals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-04-14",
+  "lastMatch": "2026-04-26",
+  "matchCount": 184,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

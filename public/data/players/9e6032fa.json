@@ -1,0 +1,27 @@
+{
+  "id": "9e6032fa",
+  "name": "Danish Malewar",
+  "shortName": "DV Malewar",
+  "nicknames": [
+    "DV Malewar"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-20",
+  "lastMatch": "2026-04-23",
+  "matchCount": 2,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

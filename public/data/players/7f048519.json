@@ -1,0 +1,36 @@
+{
+  "id": "7f048519",
+  "name": "DJ Willey",
+  "shortName": "DJ Willey",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2018",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2018-05-05",
+  "lastMatch": "2023-04-26",
+  "matchCount": 11,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    }
+  ]
+}

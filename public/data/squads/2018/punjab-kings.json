@@ -1,0 +1,126 @@
+{
+  "season": "2018",
+  "teamId": "punjab-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d9273ee7",
+      "name": "Marcus Peter Stoinis",
+      "shortName": "MP Stoinis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1c914163",
+      "name": "Yuvraj Singh",
+      "shortName": "Yuvraj Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f10e94c4",
+      "name": "AD Nath",
+      "shortName": "AD Nath",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db584dad",
+      "name": "Christopher Henry Gayle",
+      "shortName": "CH Gayle",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "944533a5",
+      "name": "Karun Kaladharan Nair",
+      "shortName": "KK Nair",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db31895a",
+      "name": "AS Rajpoot",
+      "shortName": "AS Rajpoot",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c7d63a2",
+      "name": "Andrew James Tye",
+      "shortName": "AJ Tye",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d8b2f218",
+      "name": "BB Sran",
+      "shortName": "BB Sran",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7d92277a",
+      "name": "Mujeeb Ur Rahman",
+      "shortName": "Mujeeb Ur Rahman",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b17e2f24",
+      "name": "Kannur Lokesh Rahul",
+      "shortName": "KL Rahul",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

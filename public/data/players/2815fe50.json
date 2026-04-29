@@ -1,0 +1,37 @@
+{
+  "id": "2815fe50",
+  "name": "AA Jhunjhunwala",
+  "shortName": "AA Jhunjhunwala",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Pune Warriors",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2012-05-13",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    }
+  ]
+}

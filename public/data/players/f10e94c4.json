@@ -1,0 +1,42 @@
+{
+  "id": "f10e94c4",
+  "name": "AD Nath",
+  "shortName": "AD Nath",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions",
+    "Punjab Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2016-04-14",
+  "lastMatch": "2019-04-24",
+  "matchCount": 14,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    }
+  ]
+}

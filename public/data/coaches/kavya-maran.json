@@ -1,0 +1,173 @@
+{
+  "id": "kavya-maran",
+  "name": "Kavya Maran",
+  "fullName": "Kavya Maran",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration",
+    "ownership"
+  ],
+  "playingCareerSummary": "Sun Group executive and de-facto face of Sunrisers Hyderabad's ownership; daughter of Kalanithi Maran.",
+  "bio": "Sunrisers Hyderabad's CEO in recent years. Part of the Sun TV Network ownership family and the public face of SRH.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "team-manager",
+      "fromSeason": "2022",
+      "toSeason": "2026",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 24,
+          "losses": 30,
+          "noResults": 2,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ],
+      "notes": "Role is CEO. Modelled as 'team-manager'."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 24,
+      "losses": 30,
+      "noResults": 2,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "b274dbbd",
+  "name": "ER Dwivedi",
+  "shortName": "ER Dwivedi",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2016"
+  ],
+  "firstMatch": "2016-05-19",
+  "lastMatch": "2016-05-27",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    }
+  ]
+}

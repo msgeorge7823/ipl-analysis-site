@@ -1,0 +1,93 @@
+{
+  "id": "craig-mcmillan",
+  "name": "Craig McMillan",
+  "fullName": "Craig Douglas McMillan",
+  "nationality": "New Zealander",
+  "specialty": [
+    "batting"
+  ],
+  "playingCareerSummary": "Former New Zealand middle-order batter: 55 Tests, 197 ODIs. Did not play in the IPL.",
+  "bio": "Kings XI Punjab's fielding coach for IPL 2019 under Mike Hesson.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "fielding-coach",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points (NRR -0.251). Missed playoffs. Hesson later moved to RCB as Director of Cricket (2020-2023)."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Punjab_Kings"
+  ],
+  "verified": true,
+  "dob": "1976-09-13"
+}

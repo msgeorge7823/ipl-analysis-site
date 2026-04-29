@@ -1,0 +1,25 @@
+{
+  "id": "2d140b79",
+  "name": "AA Kulkarni",
+  "shortName": "AA Kulkarni",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-30",
+  "lastMatch": "2024-05-05",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

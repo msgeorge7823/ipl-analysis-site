@@ -1,0 +1,30 @@
+{
+  "id": "ebcfef83",
+  "name": "Himmat Singh",
+  "shortName": "Himmat Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-04-12",
+  "lastMatch": "2026-04-26",
+  "matchCount": 6,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "25f7b7d6",
+  "name": "T Banton",
+  "shortName": "T Banton",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-10-12",
+  "lastMatch": "2020-10-21",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    }
+  ]
+}

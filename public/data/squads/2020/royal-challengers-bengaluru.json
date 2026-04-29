@@ -1,0 +1,133 @@
+{
+  "season": "2020",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "fb66ce1f",
+      "name": "CH Morris",
+      "shortName": "CH Morris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ac5ae4af",
+      "name": "I Udana",
+      "shortName": "I Udana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bb351c23",
+      "name": "MM Ali",
+      "shortName": "MM Ali",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a4e37e47",
+      "name": "S Dube",
+      "shortName": "S Dube",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f9e6e7ef",
+      "name": "Shahbaz Ahmed",
+      "shortName": "Shahbaz Ahmed",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2c25d4f5",
+      "name": "D Padikkal",
+      "shortName": "D Padikkal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6eb146d2",
+      "name": "Gurkeerat Singh",
+      "shortName": "Gurkeerat Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "39086549",
+      "name": "JR Philippe",
+      "shortName": "JR Philippe",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "14f96089",
+      "name": "A Zampa",
+      "shortName": "A Zampa",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8fd1a8f5",
+      "name": "Dale Willem Steyn",
+      "shortName": "DW Steyn",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f49c897",
+      "name": "Mohammed Siraj",
+      "shortName": "Mohammed Siraj",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "21d4e29b",
+      "name": "Navdeep Saini",
+      "shortName": "Navdeep Saini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    }
+  ]
+}

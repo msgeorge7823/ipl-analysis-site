@@ -1,0 +1,62 @@
+{
+  "id": "bb351c23",
+  "name": "MM Ali",
+  "shortName": "MM Ali",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2018-05-07",
+  "lastMatch": "2025-05-07",
+  "matchCount": 73,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    }
+  ]
+}

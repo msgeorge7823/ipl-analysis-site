@@ -1,0 +1,13 @@
+{
+  "id": "kochi-tuskers-kerala",
+  "name": "Kochi Tuskers Kerala",
+  "shortName": "KTK",
+  "primaryColor": "#9B59E8",
+  "secondaryColor": "#FFD700",
+  "homeVenue": "Nehru Stadium",
+  "seasons": [
+    "2011"
+  ],
+  "isDefunct": true,
+  "aliases": []
+}

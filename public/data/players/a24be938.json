@@ -1,0 +1,51 @@
+{
+  "id": "a24be938",
+  "name": "VR Iyer",
+  "shortName": "VR Iyer",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2021-09-20",
+  "lastMatch": "2026-04-10",
+  "matchCount": 62,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

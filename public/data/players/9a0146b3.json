@@ -1,0 +1,25 @@
+{
+  "id": "9a0146b3",
+  "name": "P Sahu",
+  "shortName": "P Sahu",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2016"
+  ],
+  "firstMatch": "2016-04-11",
+  "lastMatch": "2016-04-25",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    }
+  ]
+}

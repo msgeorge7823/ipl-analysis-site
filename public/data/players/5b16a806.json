@@ -1,0 +1,25 @@
+{
+  "id": "5b16a806",
+  "name": "A Dananjaya",
+  "shortName": "A Dananjaya",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2018"
+  ],
+  "firstMatch": "2018-04-14",
+  "lastMatch": "2018-04-14",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    }
+  ]
+}

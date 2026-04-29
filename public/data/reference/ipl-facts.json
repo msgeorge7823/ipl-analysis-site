@@ -1,0 +1,144 @@
+{
+  "_description": "Static IPL reference content used on the Home page: origin story, evolution milestones, and did-you-know facts. Hand-curated — verified against Wikipedia, ESPNcricinfo and official IPL sources.",
+  "_updated": "2026-04-11",
+  "origin": {
+    "title": "Why the IPL began",
+    "body": [
+      "The Indian Premier League was launched by the Board of Control for Cricket in India (BCCI) in 2008 as a direct response to the rival Indian Cricket League (ICL) — a privately-run T20 competition founded in 2007 by Subhash Chandra's Essel Group. The ICL operated without BCCI sanction and threatened to pull top players away from official cricket, so the BCCI moved fast to create a league of its own.",
+      "The brainchild of Lalit Modi, the IPL combined city-based franchise ownership, a global player auction, English Premier League-style branding, and a made-for-TV 3-hour format. The inaugural season opened on 18 April 2008 in Bangalore with Brendon McCullum's incredible 158* off 73 balls for Kolkata Knight Riders against the Royal Challengers — a performance that instantly signalled the scale of what was about to unfold.",
+      "Within a few years the ICL collapsed, and the IPL became not just India's premier domestic T20 competition but the most commercially dominant cricket league in the world — reshaping the global cricketing calendar, player contracts, and broadcast economics in the process."
+    ]
+  },
+  "evolution": [
+    {
+      "year": "2007",
+      "event": "BCCI announces the IPL in response to the rival Indian Cricket League. Lalit Modi appointed as the founding commissioner."
+    },
+    {
+      "year": "2008",
+      "event": "Inaugural IPL auction (February) and first match (18 April, Bangalore). 8 franchises compete; Rajasthan Royals win the first title under captain-coach Shane Warne."
+    },
+    {
+      "year": "2009",
+      "event": "Entire tournament relocated to South Africa due to Indian general elections. Deccan Chargers win from last place the previous year."
+    },
+    {
+      "year": "2010",
+      "event": "IPL becomes the first sporting event to be broadcast live on YouTube. Chennai Super Kings win their first title."
+    },
+    {
+      "year": "2011",
+      "event": "Expansion to 10 teams — Kochi Tuskers Kerala and Pune Warriors India added. CSK defend their title. Kochi disbanded at season's end."
+    },
+    {
+      "year": "2013",
+      "event": "Spot-fixing scandal rocks the league; investigations against CSK and Rajasthan Royals begin. Pune Warriors withdraw. Mumbai Indians win their first title."
+    },
+    {
+      "year": "2014",
+      "event": "First leg played in UAE due to Indian general elections. KKR win their second title chasing 200 in the final."
+    },
+    {
+      "year": "2015",
+      "event": "Lodha Committee suspends CSK and RR for two years following the spot-fixing verdict."
+    },
+    {
+      "year": "2016",
+      "event": "Rising Pune Supergiant and Gujarat Lions replace CSK/RR as temporary teams. SRH win under Tom Moody."
+    },
+    {
+      "year": "2018",
+      "event": "CSK and RR return. CSK win their third title. Star India's ₹16,347-crore five-year media rights deal takes effect."
+    },
+    {
+      "year": "2020",
+      "event": "Entire season played in UAE due to COVID-19. Mumbai Indians become the first team to successfully defend the title."
+    },
+    {
+      "year": "2022",
+      "event": "League expanded to 10 teams with the addition of Gujarat Titans and Lucknow Super Giants. GT win the title in their debut season."
+    },
+    {
+      "year": "2023",
+      "event": "BCCI sells media rights for a record ₹48,390 crore ($6.2 billion) for 2023-2027 — making IPL one of the most valuable sports leagues in the world per match."
+    },
+    {
+      "year": "2024",
+      "event": "KKR win their third title under Chandrakant Pandit and mentor Gautam Gambhir — the lowest loss count in a full IPL season."
+    },
+    {
+      "year": "2025",
+      "event": "Royal Challengers Bengaluru win their first-ever IPL title after 18 years of near-misses, beating Punjab Kings in the final."
+    }
+  ],
+  "didYouKnow": [
+    {
+      "icon": "🏆",
+      "fact": "Chennai Super Kings and Mumbai Indians are the most successful franchises, with 5 IPL titles each, followed by Kolkata Knight Riders with 3."
+    },
+    {
+      "icon": "💰",
+      "fact": "IPL's media rights for 2023-2027 were sold for ₹48,390 crore (~$6.2 billion) — making it the second most valuable sports league in the world on a per-match basis, behind only the NFL."
+    },
+    {
+      "icon": "⚡",
+      "fact": "Brendon McCullum's 158* for KKR in the very first IPL match (18 April 2008) remains one of the most iconic innings in the competition's history — a single knock that instantly announced the scale of T20 cricket."
+    },
+    {
+      "icon": "🎯",
+      "fact": "Chris Gayle holds the record for the highest individual score in an IPL innings — an unbeaten 175 off 66 balls for RCB against Pune Warriors in 2013, featuring 17 sixes."
+    },
+    {
+      "icon": "🔥",
+      "fact": "Virat Kohli's 973 runs in the 2016 season (at 81.08 with 4 hundreds) is the most runs ever scored in a single IPL season — widely considered the greatest individual campaign in IPL history."
+    },
+    {
+      "icon": "🧤",
+      "fact": "MS Dhoni has played every IPL season since 2008 for Chennai Super Kings (except 2016-2017 when CSK were suspended, during which he captained Rising Pune Supergiant) — the longest one-franchise tenure in the league's history."
+    },
+    {
+      "icon": "🌍",
+      "fact": "Three IPL seasons have been played wholly or partly outside India: 2009 (entire season in South Africa), 2014 (first leg in UAE), and 2020 and 2021 (UAE due to COVID-19)."
+    },
+    {
+      "icon": "💎",
+      "fact": "Stephen Fleming is the longest-serving head coach in IPL history — he has coached Chennai Super Kings in every season since 2009 (except during CSK's 2016-17 suspension when he coached Rising Pune Supergiant)."
+    },
+    {
+      "icon": "⏱️",
+      "fact": "IPL matches are designed to fit a strict 3.5-hour television window, with two innings of 20 overs each plus a short break — a deliberate format choice that helped the league's broadcast appeal explode."
+    },
+    {
+      "icon": "🏟️",
+      "fact": "M Chinnaswamy Stadium in Bengaluru hosted the very first IPL match (KKR vs RCB, 18 April 2008) and was the first international cricket venue to become fully solar-powered."
+    },
+    {
+      "icon": "🎪",
+      "fact": "Rajat Patidar's 112* off 54 balls for RCB in the 2022 Eliminator is the highest individual score in an IPL playoff match, powering a chase of 208 against LSG."
+    },
+    {
+      "icon": "💣",
+      "fact": "Lasith Malinga is Mumbai Indians' all-time leading wicket-taker (170 wickets across 122 matches from 2009-2019) — he has now returned to MI as their bowling coach."
+    },
+    {
+      "icon": "🌟",
+      "fact": "Shane Warne's Rajasthan Royals in 2008 are the only team to have won the IPL in their inaugural season at odds against the bookmakers — they were 100-1 outsiders pre-tournament."
+    },
+    {
+      "icon": "🎁",
+      "fact": "Gujarat Titans joined the IPL in 2022 and became the second team after RR (2008) to win the title in their debut season under head coach Ashish Nehra."
+    },
+    {
+      "icon": "🧩",
+      "fact": "The IPL playoff format changed in 2011 from simple semi-finals to the current Qualifier 1 / Eliminator / Qualifier 2 / Final system — the top-two teams get a second chance if they lose Q1, making it much harder for the top seeds to get knocked out early."
+    },
+    {
+      "icon": "🛫",
+      "fact": "The 2009 IPL was moved to South Africa in a three-week window due to Indian general elections — arguably the fastest major sports relocation in history."
+    },
+    {
+      "icon": "📈",
+      "fact": "The IPL's brand value crossed $10.9 billion in 2024 according to D&P Advisory, more than doubling in just five years — making it one of the fastest-growing sports properties globally."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b410bd3d",
+  "name": "S Lamichhane",
+  "shortName": "S Lamichhane",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2018-05-12",
+  "lastMatch": "2019-04-28",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    }
+  ]
+}

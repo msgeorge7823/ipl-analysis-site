@@ -1,0 +1,43 @@
+{
+  "id": "0bacade8",
+  "name": "Rahmanullah Gurbaz",
+  "shortName": "Rahmanullah Gurbaz",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2023-04-01",
+  "lastMatch": "2025-05-07",
+  "matchCount": 18,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2022",
+      "team": "Gujarat Titans",
+      "replacing": "Jason Roy",
+      "reason": "Bubble fatigue withdrawal"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "65b6943c",
+  "name": "L Wood",
+  "shortName": "L Wood",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-03-24",
+  "lastMatch": "2024-04-27",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    }
+  ]
+}

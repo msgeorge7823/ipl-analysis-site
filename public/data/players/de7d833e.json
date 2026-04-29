@@ -1,0 +1,27 @@
+{
+  "id": "de7d833e",
+  "name": "Dilshan Madushanka",
+  "shortName": "D Madushanka",
+  "nicknames": [
+    "D Madushanka"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-21",
+  "lastMatch": "2026-04-21",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": true,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2026"
+    }
+  ]
+}

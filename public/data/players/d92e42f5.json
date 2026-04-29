@@ -1,0 +1,35 @@
+{
+  "id": "d92e42f5",
+  "name": "KP Appanna",
+  "shortName": "KP Appanna",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2009",
+    "2010",
+    "2012"
+  ],
+  "firstMatch": "2009-04-26",
+  "lastMatch": "2012-05-14",
+  "matchCount": 13,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    }
+  ]
+}

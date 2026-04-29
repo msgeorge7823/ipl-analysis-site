@@ -1,0 +1,334 @@
+{
+  "id": "abhishek-nayar",
+  "name": "Abhishek Nayar",
+  "fullName": "Abhishek Mohan Nayar",
+  "dob": "1983-10-08",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "mentoring",
+    "player-development"
+  ],
+  "playingCareerPlayerId": "a45a5e8d",
+  "playingCareerSummary": "Former India left-handed all-rounder: 3 ODIs (2009). Long domestic career with Mumbai. Played in the IPL for Mumbai Indians, Kings XI Punjab, Pune Warriors and Rajasthan Royals. Widely regarded as one of the best batting mentors in Indian cricket — credited as a key influence in Rohit Sharma's and KL Rahul's development.",
+  "bio": "Kolkata Knight Riders' longest-tenured support-staff member before becoming head coach in 2026. Joined KKR as mentor in 2019, progressed through assistant coach (2020-2023) and batting coach (2024 — the title-winning year under mentor Gautam Gambhir), took a season away as India's senior team assistant in 2025, and returned as KKR head coach in 2026. A central figure in KKR's 2024 title run.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "mentor",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 13 points. Did not qualify for playoffs. Kallis was replaced by Brendon McCullum after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 7,
+          "noResults": 1,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ],
+      "notes": "First KKR coaching role — team mentor under Jacques Kallis."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "assistant-coach",
+      "fromSeason": "2020",
+      "toSeason": "2023",
+      "seasons": [
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.214). Missed playoffs on net run rate. Season played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th with 14 points. Beat RCB in Eliminator by 4 wickets; beat DC in Qualifier 2 by 3 wickets; lost final to CSK by 27 runs. Season split across India and UAE legs due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. McCullum left after this season to become England's Test head coach."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. First season replacing Brendon McCullum."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 26,
+          "losses": 30,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ],
+      "notes": "Assistant coach across the Brendon McCullum (2020-2022) and Chandrakant Pandit (2023) eras."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "batting-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 3,
+            "noResults": 2,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st with 20 points. Lost just 3 matches all season (a joint record for fewest losses in a full IPL). Beat SRH in Qualifier 1 by 8 wickets; beat SRH in final by 8 wickets — the fastest IPL final chase (57 balls remaining). KKR's third IPL title. Mentor: Gautam Gambhir."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 3,
+          "noResults": 2,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ],
+      "notes": "Promoted to batting coach for the 2024 IPL title campaign under Pandit and mentor Gautam Gambhir."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "First season as head coach. Stats will update as matches complete. Taking over after Chandrakant Pandit's three-year contract ended."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season",
+        "https://www.m9.news/sports/abhishek-nayar-kkr-head-coach-ipl-2026/",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 6,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 84,
+      "wins": 41,
+      "losses": 40,
+      "noResults": 3,
+      "winPct": 48.81
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 4,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 80.0
+    },
+    "titles": 1,
+    "finalsReached": 2,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Assistant Coach",
+      "period": "2024-2025",
+      "notes": "Assistant coach under Gautam Gambhir on the senior India team."
+    }
+  ],
+  "sources": [
+    "https://www.m9.news/sports/abhishek-nayar-kkr-head-coach-ipl-2026/",
+    "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season"
+  ],
+  "verified": true
+}

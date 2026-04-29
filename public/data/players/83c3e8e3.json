@@ -1,0 +1,31 @@
+{
+  "id": "83c3e8e3",
+  "name": "SH Johnson",
+  "shortName": "SH Johnson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-03-24",
+  "lastMatch": "2025-04-08",
+  "matchCount": 9,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    }
+  ]
+}

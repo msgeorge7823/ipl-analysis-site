@@ -1,0 +1,228 @@
+{
+  "id": "mike-hesson",
+  "name": "Mike Hesson",
+  "fullName": "Michael John Hesson",
+  "dob": "1974-10-30",
+  "nationality": "New Zealander",
+  "specialty": [
+    "strategy",
+    "player-development",
+    "data-analysis"
+  ],
+  "playingCareerSummary": "Did not play first-class or international cricket. Rose through the coaching ranks in New Zealand and became one of the most respected strategists in the modern game.",
+  "bio": "New Zealand's former head coach (2012-2018) who led NZ to their first ever World Cup final in 2015. In the IPL: Kings XI Punjab head coach (2019, one season) and Royal Challengers Bangalore Director of Cricket Operations (2020-2023), also serving as interim head coach during the 2021 UAE leg after Simon Katich stepped down.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points (NRR -0.251). Missed playoffs. Hesson later moved to RCB as Director of Cricket (2020-2023)."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "director-of-cricket",
+      "fromSeason": "2020",
+      "toSeason": "2023",
+      "seasons": [
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points (NRR -0.172). Lost Eliminator to Sunrisers Hyderabad by 6 wickets. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd with 18 points. Katich stepped down mid-season citing personal reasons (August 21, 2021), after which Director of Cricket Mike Hesson took over as interim head coach for the UAE leg and the playoffs. Lost Eliminator to KKR by 4 wickets. Season split across India and UAE legs due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th. Beat LSG in Eliminator by 14 runs; lost Qualifier 2 to Rajasthan Royals by 7 wickets."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Did not qualify for playoffs. Replaced by Andy Flower ahead of IPL 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 31,
+          "losses": 25,
+          "noResults": 0,
+          "winPct": 55.36
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 1,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 25.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2022_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2023_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "Director of Cricket Operations 2020-2023. Also served as interim head coach during the 2021 UAE leg after Simon Katich stepped down in August 2021."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 70,
+      "wins": 37,
+      "losses": 33,
+      "noResults": 0,
+      "winPct": 52.86
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 25.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "New Zealand (National)",
+      "role": "Head Coach",
+      "period": "2012-2018",
+      "notes": "Led NZ to the 2015 ODI World Cup final — their first ever World Cup final."
+    },
+    {
+      "team": "Royal Challengers Bangalore (IPL)",
+      "role": "Director of Cricket / Interim Head Coach",
+      "period": "2020-2023",
+      "notes": "DoC throughout; interim head coach for the 2021 UAE leg after Simon Katich stepped down mid-season."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mike_Hesson",
+    "https://en.wikipedia.org/wiki/2019_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

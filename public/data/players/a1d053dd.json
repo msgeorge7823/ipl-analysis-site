@@ -1,0 +1,25 @@
+{
+  "id": "a1d053dd",
+  "name": "SS Cottrell",
+  "shortName": "SS Cottrell",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-09-20",
+  "lastMatch": "2020-10-08",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    }
+  ]
+}

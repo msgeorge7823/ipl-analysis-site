@@ -1,0 +1,52 @@
+{
+  "id": "5afd4539",
+  "name": "MS Bisla",
+  "shortName": "MS Bisla",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Punjab Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2015-04-22",
+  "matchCount": 39,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2011"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2012"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    }
+  ]
+}

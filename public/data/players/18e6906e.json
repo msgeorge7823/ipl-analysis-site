@@ -1,0 +1,27 @@
+{
+  "id": "18e6906e",
+  "name": "Aniket Choudhary",
+  "shortName": "A Choudhary",
+  "nicknames": [
+    "Aniket"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-05",
+  "lastMatch": "2017-05-07",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    }
+  ]
+}

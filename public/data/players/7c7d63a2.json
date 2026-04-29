@@ -1,0 +1,50 @@
+{
+  "id": "7c7d63a2",
+  "name": "Andrew James Tye",
+  "shortName": "AJ Tye",
+  "nicknames": [
+    "Andrew Tye"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Gujarat Lions",
+    "Rajasthan Royals",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2022"
+  ],
+  "firstMatch": "2017-04-14",
+  "lastMatch": "2022-04-07",
+  "matchCount": 30,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    }
+  ]
+}

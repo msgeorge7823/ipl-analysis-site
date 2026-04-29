@@ -1,0 +1,154 @@
+{
+  "season": "2017",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "6834d1f2",
+      "name": "B Stanlake",
+      "shortName": "B Stanlake",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4329fbb5",
+      "name": "Shane Robert Watson",
+      "shortName": "SR Watson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bd17b45f",
+      "name": "Stuart Terrance Roger Binny",
+      "shortName": "STR Binny",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "18e6906e",
+      "name": "Aniket Choudhary",
+      "shortName": "A Choudhary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db584dad",
+      "name": "Christopher Henry Gayle",
+      "shortName": "CH Gayle",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c3a96caf",
+      "name": "Mandeep Singh",
+      "shortName": "Mandeep Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dc9dd038",
+      "name": "Sachin Baby",
+      "shortName": "Sachin Baby",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "12b610c2",
+      "name": "Travis Michael Head",
+      "shortName": "TM Head",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0494fa6e",
+      "name": "Vishnu Vinod",
+      "shortName": "Vishnu Vinod",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "350bb1b1",
+      "name": "AF Milne",
+      "shortName": "AF Milne",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "eef2536f",
+      "name": "Avesh Khan",
+      "shortName": "Avesh Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85aae393",
+      "name": "Iqbal Abdulla",
+      "shortName": "Iqbal Abdulla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "76388dc8",
+      "name": "S Badree",
+      "shortName": "S Badree",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "957532de",
+      "name": "Sreenath Aravind",
+      "shortName": "S Aravind",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "245c97cb",
+      "name": "Tymal Solomon Mills",
+      "shortName": "TS Mills",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99d63244",
+      "name": "Kedar Mahadev Jadhav",
+      "shortName": "KM Jadhav",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

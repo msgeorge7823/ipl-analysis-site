@@ -1,0 +1,140 @@
+{
+  "season": "2017",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "896d78ad",
+      "name": "AD Mathews",
+      "shortName": "AD Mathews",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb66ce1f",
+      "name": "CH Morris",
+      "shortName": "CH Morris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "8abdf100",
+      "name": "CJ Anderson",
+      "shortName": "CJ Anderson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e342e5fb",
+      "name": "CR Brathwaite",
+      "shortName": "CR Brathwaite",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "81049310",
+      "name": "J Yadav",
+      "shortName": "J Yadav",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f846de6a",
+      "name": "MN Samuels",
+      "shortName": "MN Samuels",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "afe3355a",
+      "name": "AR Bawne",
+      "shortName": "AR Bawne",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "944533a5",
+      "name": "Karun Kaladharan Nair",
+      "shortName": "KK Nair",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c16d4035",
+      "name": "SW Billings",
+      "shortName": "SW Billings",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85ec8e33",
+      "name": "Shreyas Santosh Iyer",
+      "shortName": "SS Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6b19d823",
+      "name": "Amit Mishra",
+      "shortName": "A Mishra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e62dd25d",
+      "name": "Kagiso Rabada",
+      "shortName": "K Rabada",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8cf9814c",
+      "name": "Mohammed Shami Ahmed",
+      "shortName": "Mohammed Shami",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ded9240e",
+      "name": "PJ Cummins",
+      "shortName": "PJ Cummins",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "91a4a398",
+      "name": "Zaheer Khan",
+      "shortName": "Z Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "855a210c",
+      "name": "AP Tare",
+      "shortName": "AP Tare",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "919a3be2",
+      "name": "Rishabh Rajendra Pant",
+      "shortName": "RR Pant",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a1d95bd8",
+  "name": "LB Williams",
+  "shortName": "LB Williams",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-27",
+  "lastMatch": "2024-04-29",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    }
+  ]
+}

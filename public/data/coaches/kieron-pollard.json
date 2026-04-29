@@ -1,0 +1,160 @@
+{
+  "id": "kieron-pollard",
+  "name": "Kieron Pollard",
+  "fullName": "Kieron Adrian Pollard",
+  "dob": "1987-05-12",
+  "nationality": "Trinidadian (West Indian)",
+  "specialty": [
+    "batting",
+    "power-hitting",
+    "T20-cricket"
+  ],
+  "playingCareerPlayerId": "a757b0d8",
+  "playingCareerSummary": "One of the greatest T20 batters in the history of the format and former West Indies T20I captain: 123 T20Is. Played exclusively for Mumbai Indians in the IPL from 2010 to 2022 — five-time IPL champion as a player (2013, 2015, 2017, 2019, 2020).",
+  "bio": "Mumbai Indians' batting coach since IPL 2023 after retiring as a player at the end of IPL 2022. A living legend of the franchise, Pollard made an immediate transition into coaching and has remained through the Boucher and Jayawardene eras. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "batting-coach",
+      "fromSeason": "2023",
+      "toSeason": "2026",
+      "seasons": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league. Beat LSG in Eliminator; lost Q2 to GT."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points. First team eliminated from IPL 2024."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 20,
+          "losses": 22,
+          "noResults": 0,
+          "winPct": 47.62
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 2,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2023_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2024_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2026_Mumbai_Indians_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 20,
+      "losses": 22,
+      "noResults": 0,
+      "winPct": 47.62
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kieron_Pollard",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

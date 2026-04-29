@@ -1,0 +1,25 @@
+{
+  "id": "4b4d1957",
+  "name": "PM Sarvesh Kumar",
+  "shortName": "PM Sarvesh Kumar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-15",
+  "lastMatch": "2008-05-27",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

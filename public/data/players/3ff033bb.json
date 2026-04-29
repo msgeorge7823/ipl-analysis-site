@@ -1,0 +1,25 @@
+{
+  "id": "3ff033bb",
+  "name": "MD Shanaka",
+  "shortName": "MD Shanaka",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-05-15",
+  "lastMatch": "2023-05-23",
+  "matchCount": 3,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "b0946605",
+  "name": "AS Joseph",
+  "shortName": "AS Joseph",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Gujarat Titans",
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2019",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2019-04-06",
+  "lastMatch": "2024-03-29",
+  "matchCount": 22,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

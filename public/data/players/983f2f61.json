@@ -1,0 +1,42 @@
+{
+  "id": "983f2f61",
+  "name": "Swapnil Singh",
+  "shortName": "Swapnil Singh",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings",
+    "Lucknow Super Giants",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2016",
+    "2017",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2016-05-04",
+  "lastMatch": "2024-05-22",
+  "matchCount": 14,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

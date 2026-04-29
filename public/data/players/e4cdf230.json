@@ -1,0 +1,51 @@
+{
+  "id": "e4cdf230",
+  "name": "AS Roy",
+  "shortName": "AS Roy",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2019",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-04-26",
+  "lastMatch": "2026-04-26",
+  "matchCount": 19,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

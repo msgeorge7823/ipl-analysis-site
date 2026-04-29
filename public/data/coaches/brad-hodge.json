@@ -1,0 +1,185 @@
+{
+  "id": "brad-hodge",
+  "name": "Brad Hodge",
+  "fullName": "Bradley John Hodge",
+  "dob": "1974-12-29",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "T20-cricket",
+    "finishing"
+  ],
+  "playingCareerPlayerId": "b57f8a9a",
+  "playingCareerSummary": "Former Australia batter: 6 Tests, 25 ODIs, 15 T20Is. Extensive domestic and T20 franchise career. Played for KKR (2008-2010, 2014), Kochi Tuskers Kerala (2011) and Rajasthan Royals (2012-2015) in the IPL.",
+  "bio": "Kings XI Punjab head coach for IPL 2018. KXIP finished 7th, and Hodge was replaced after a single season. Previously coached in the Big Bash and was an assistant at Rajasthan Royals.",
+  "tenures": [
+    {
+      "team": "Gujarat Lions",
+      "role": "head-coach",
+      "fromSeason": "2016",
+      "toSeason": "2017",
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 2nd in league (18 pts) — inaugural-season playoff qualification. Lost Qualifier 1 to RCB by 4 wickets; lost Qualifier 2 to Sunrisers Hyderabad."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 8 with 8 points. Franchise's final season — disbanded after 2017."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Lions"
+      ],
+      "notes": "Head coach across both of Gujarat Lions' IPL seasons. Took them to Qualifier 2 in their inaugural 2016 campaign before a poor 2017. Franchise was disbanded after 2017."
+    },
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2018",
+      "toSeason": "2018",
+      "seasons": [
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Missed playoffs. Single-season tenure; Mike Hesson replaced him for 2019."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings",
+        "https://www.espncricinfo.com/story/brad-hodge-named-kings-xi-punjab-s-head-coach-1129407"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 42,
+      "wins": 19,
+      "losses": 23,
+      "noResults": 0,
+      "winPct": 45.24
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Adelaide Strikers (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2015-2017",
+      "notes": "Won the BBL|06 title (2016-17)."
+    },
+    {
+      "team": "Rajasthan Royals (IPL)",
+      "role": "Assistant Coach / Batting",
+      "period": "2019-2020"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brad_Hodge",
+    "https://www.espncricinfo.com/story/brad-hodge-named-kings-xi-punjab-s-head-coach-1129407"
+  ],
+  "verified": true
+}

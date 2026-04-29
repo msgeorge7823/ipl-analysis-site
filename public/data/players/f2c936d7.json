@@ -1,0 +1,25 @@
+{
+  "id": "f2c936d7",
+  "name": "MJ Owen",
+  "shortName": "MJ Owen",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-05-18",
+  "lastMatch": "2025-05-18",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

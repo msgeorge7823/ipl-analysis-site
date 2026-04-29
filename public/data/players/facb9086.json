@@ -1,0 +1,42 @@
+{
+  "id": "facb9086",
+  "name": "SD Chitnis",
+  "shortName": "SD Chitnis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Mumbai Indians",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2008-04-27",
+  "lastMatch": "2012-05-19",
+  "matchCount": 11,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    }
+  ]
+}

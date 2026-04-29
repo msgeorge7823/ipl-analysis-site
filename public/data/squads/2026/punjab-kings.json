@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "punjab-kings",
+  "teamName": "Punjab Kings",
+  "captain": "Shreyas Iyer",
+  "coach": "Ricky Ponting",
+  "players": [
+    {
+      "name": "Shreyas Iyer",
+      "role": "Batter",
+      "overseas": false,
+      "price": "26.75 Cr",
+      "retained": true
+    },
+    {
+      "name": "Nehal Wadhera",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Vishnu Vinod",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Harnoor Singh",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Pyla Avinash",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shashank Singh",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Marcus Stoinis",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Harpreet Brar",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Marco Jansen",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Azmatullah Omarzai",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Priyansh Arya",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Musheer Khan",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Suryansh Shedge",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mitchell Owen",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Cooper Connolly",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ben Dwarshuis",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Arshdeep Singh",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "18 Cr",
+      "retained": true
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Vijaykumar Vyshak",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Yash Thakur",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Xavier Bartlett",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Pravin Dubey",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Vishal Nishad",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Lockie Ferguson",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "7bf96684",
+  "name": "OA Shah",
+  "shortName": "OA Shah",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Kolkata Knight Riders",
+    "Kochi Tuskers Kerala"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2010-03-12",
+  "lastMatch": "2013-05-03",
+  "matchCount": 23,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    }
+  ]
+}

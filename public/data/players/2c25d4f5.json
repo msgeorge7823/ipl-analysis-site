@@ -1,0 +1,57 @@
+{
+  "id": "2c25d4f5",
+  "name": "D Padikkal",
+  "shortName": "D Padikkal",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2020-09-21",
+  "lastMatch": "2026-04-27",
+  "matchCount": 82,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

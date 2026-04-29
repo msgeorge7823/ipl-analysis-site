@@ -1,0 +1,19 @@
+{
+  "_description": "Manual whitelist of squad-name -> player-name mappings that the auto-audit's first-name heuristic flags as suspicious but are in fact correct (typically because the player's full name in players.json contains the squad's short name as a middle name or as part of a long initial form).",
+  "_format": "<squad name>: <player.name in players.json>",
+  "_updated": "2026-04-10",
+  "T. Natarajan": "Thangarasu Natarajan",
+  "Dushmantha Chameera": "PVD Chameera",
+  "Sai Kishore": "R Sai Kishore",
+  "Dasun Shanaka": "MD Shanaka",
+  "Manav Suthar": "MJ Suthar",
+  "Arshin Kulkarni": "AA Kulkarni",
+  "Tim Seifert": "TL Seifert",
+  "Adam Milne": "AF Milne",
+  "Akeal Hosein": "AJ Hosein",
+  "Tom Banton": "T Banton",
+  "Prashant Solanki": "PH Solanki",
+  "Luke Wood": "L Wood",
+  "Jason Holder": "JO Holder",
+  "Shreyas Gopal": "S Gopal"
+}

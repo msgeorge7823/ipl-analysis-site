@@ -1,0 +1,147 @@
+{
+  "season": "2021",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4c5d73db",
+      "name": "CR Woakes",
+      "shortName": "CR Woakes",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ad427b5c",
+      "name": "Lalit Yadav",
+      "shortName": "Lalit Yadav",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d9273ee7",
+      "name": "Marcus Peter Stoinis",
+      "shortName": "MP Stoinis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d3611425",
+      "name": "LI Meriwala",
+      "shortName": "LI Meriwala",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8b3e9c7c",
+      "name": "PP Shaw",
+      "shortName": "PP Shaw",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "60500956",
+      "name": "RV Patel",
+      "shortName": "RV Patel",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a476045",
+      "name": "Shikhar Dhawan",
+      "shortName": "S Dhawan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48a1d7b7",
+      "name": "Shimron Odilon Hetmyer",
+      "shortName": "SO Hetmyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85ec8e33",
+      "name": "Shreyas Santosh Iyer",
+      "shortName": "SS Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "30a45b23",
+      "name": "Steven Peter Devereux Smith",
+      "shortName": "SPD Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "acdc62f5",
+      "name": "A Nortje",
+      "shortName": "A Nortje",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6b19d823",
+      "name": "Amit Mishra",
+      "shortName": "A Mishra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "eef2536f",
+      "name": "Avesh Khan",
+      "shortName": "Avesh Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb1a1c4",
+      "name": "Ishant Sharma",
+      "shortName": "I Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e62dd25d",
+      "name": "Kagiso Rabada",
+      "shortName": "K Rabada",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e86754b2",
+      "name": "TK Curran",
+      "shortName": "TK Curran",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "919a3be2",
+      "name": "Rishabh Rajendra Pant",
+      "shortName": "RR Pant",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "season": "2020",
+  "players": [
+    {
+      "player": "Daniel Sams",
+      "team": "Delhi Capitals",
+      "replacing": "Jason Roy",
+      "reason": "Injury"
+    },
+    {
+      "player": "Anrich Nortje",
+      "team": "Delhi Capitals",
+      "replacing": "Chris Woakes",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "James Pattinson",
+      "team": "Mumbai Indians",
+      "replacing": "Lasith Malinga",
+      "reason": "Personal reasons (family)"
+    },
+    {
+      "player": "Adam Zampa",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Kane Richardson",
+      "reason": "Personal reasons (family)"
+    }
+  ]
+}

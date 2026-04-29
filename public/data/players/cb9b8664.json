@@ -1,0 +1,25 @@
+{
+  "id": "cb9b8664",
+  "name": "W O'Rourke",
+  "shortName": "W O'Rourke",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-05-19",
+  "lastMatch": "2025-05-27",
+  "matchCount": 3,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    }
+  ]
+}

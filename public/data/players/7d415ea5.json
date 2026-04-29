@@ -1,0 +1,31 @@
+{
+  "id": "7d415ea5",
+  "name": "RT Ponting",
+  "shortName": "RT Ponting",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2013"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2013-04-21",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    }
+  ]
+}

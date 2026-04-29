@@ -1,0 +1,186 @@
+{
+  "id": "greg-shipperd",
+  "name": "Greg Shipperd",
+  "fullName": "Gregory Alan Shipperd",
+  "dob": "1956-11-19",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "domestic-coaching",
+    "T20"
+  ],
+  "playingCareerSummary": "Former first-class batter for Western Australia and Tasmania. Did not play international or IPL cricket. One of Australia's most successful state/BBL coaches.",
+  "bio": "Delhi Daredevils' inaugural head coach, serving four seasons from 2008 to 2011. Took DD to the semi-finals in the first two IPL seasons, including a league topping finish in 2009. His tenure ended after a last-place 2011. Best known in Australian domestic cricket for coaching Tasmania and the Melbourne Stars, winning multiple Sheffield Shield and BBL titles.",
+  "tenures": [
+    {
+      "team": "Delhi Daredevils",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2011",
+      "seasons": [
+        "2008",
+        "2009",
+        "2010",
+        "2011"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Playoffs",
+          "notes": "Finished 4th in league (15 pts). Lost Semi-final 1 to Rajasthan Royals by 105 runs at Wankhede. Gautam Gambhir's 534 runs led the batting."
+        },
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Playoffs",
+          "notes": "Finished 1st in league (20 pts) — their best ever league finish. Lost semi-final to Deccan Chargers by 6 wickets. Season played in South Africa. Captain: Virender Sehwag."
+        },
+        {
+          "season": "2010",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR 0.021). Missed playoffs on net run rate in a four-way tie."
+        },
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 9,
+            "noResults": 1,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 9 points. Franchise-worst performance. Shipperd left after the season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 28,
+          "losses": 26,
+          "noResults": 2,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/2009_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/2010_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/2011_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals",
+        "https://www.espncricinfo.com/story/greg-shipperd-to-coach-delhi-daredevils-337862"
+      ],
+      "notes": "Franchise named 'Delhi Daredevils' for the entire Shipperd era. Rebranded to 'Delhi Capitals' only in 2019."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 28,
+      "losses": 26,
+      "noResults": 2,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Tasmania (Australia, Domestic)",
+      "role": "Head Coach",
+      "period": "1996-2005",
+      "notes": "Sheffield Shield and ING Cup titles."
+    },
+    {
+      "team": "Victoria (Australia, Domestic)",
+      "role": "Head Coach",
+      "period": "2005-2013",
+      "notes": "Multiple domestic titles including Sheffield Shield and Ryobi One-Day Cup."
+    },
+    {
+      "team": "Melbourne Stars (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2011-2018",
+      "notes": "Multiple BBL finals appearances."
+    },
+    {
+      "team": "Sydney Thunder (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2019-2023"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Greg_Shipperd",
+    "https://www.espncricinfo.com/story/greg-shipperd-to-coach-delhi-daredevils-337862"
+  ],
+  "verified": true
+}

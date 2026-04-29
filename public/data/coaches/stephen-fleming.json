@@ -1,0 +1,497 @@
+{
+  "id": "stephen-fleming",
+  "name": "Stephen Fleming",
+  "fullName": "Stephen Paul Fleming",
+  "dob": "1973-04-01",
+  "nationality": "New Zealander",
+  "specialty": [
+    "strategy",
+    "batting",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "eea6b7f1",
+  "playingCareerSummary": "Former New Zealand captain (1997-2006) and one of the most respected tactical minds of his generation: 111 Tests, 280 ODIs for NZ. Played for Chennai Super Kings in the inaugural 2008 IPL season before retiring and taking over as head coach in 2009.",
+  "bio": "The most successful head coach in IPL history by titles won (5). Took charge of Chennai Super Kings in 2009 and has led them through every season of the franchise's existence barring 2016 and 2017, when CSK was suspended — during that period he coached Rising Pune Supergiant, taking them to the 2017 final (lost to MI by 1 run). Has guided CSK to five IPL titles (2010, 2011, 2018, 2021, 2023). Known for a calm, methodical tactical style and a remarkable partnership with captain MS Dhoni.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "head-coach",
+      "fromSeason": "2009",
+      "toSeason": "2026",
+      "seasons": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 2nd in league stage (17 pts). Lost semi-final to RCB by 6 wickets. 2009 format had no Q1/Q2; SF loss is listed as 'Qualifier 2' equivalent (eliminated in second playoff round)."
+        },
+        {
+          "season": "2010",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Qualified for playoffs 3rd on NRR (14 pts, four-way tie). Beat Deccan Chargers in SF by 38 runs, beat Mumbai Indians in final by 22 runs. First CSK title."
+        },
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (18 pts). Beat RCB in Qualifier 1 by 6 wickets, beat RCB in final by 58 runs in Chennai. Second consecutive title."
+        },
+        {
+          "season": "2012",
+          "league": {
+            "matches": 16,
+            "wins": 10,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 62.5
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th in league (17 pts). Eliminator W vs MI, Qualifier 2 W vs DD, lost final to KKR by 5 wickets."
+        },
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 11,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 68.75
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished top 2 in league. Qualifier 1 W vs MI by 48 runs, lost final to MI by 23 runs."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd in league (20 pts). Eliminator W vs MI by 7 wickets, Qualifier 2 L vs Kings XI Punjab by 24 runs."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (18 pts). Qualifier 1 L vs MI by 25 runs, Qualifier 2 W vs RCB by 3 wickets, lost final to MI by 41 runs."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Return from 2016-17 suspension. Finished 2nd in league (18 pts). Qualifier 1 W vs SRH by 2 wickets, final W vs SRH by 8 wickets (Shane Watson 117* Player of the Match). Third IPL title."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (18 pts, tied with MI and DC on NRR). Qualifier 1 L vs MI by 6 wkts, Qualifier 2 W vs DC by 6 wkts, lost final to MI by 1 run."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "First season CSK failed to qualify for playoffs. Finished 7th (12 pts). Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (18 pts). Qualifier 1 W vs DC by 4 wickets, final W vs KKR by 27 runs in Dubai. Fourth IPL title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th of 10 (8 pts). Jadeja stepped down as captain mid-season; Dhoni resumed leadership."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd (17 pts). Qualifier 1 W vs GT by 15 runs, final W vs GT by 5 wickets (DLS) in rain-affected three-day final. Fifth IPL title, equalling MI."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Missed playoffs on NRR tie-breaker. Finished 5th (14 pts). Dhoni handed captaincy to Ruturaj Gaikwad before the season."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Franchise-worst: finished 10th (last) with 8 pts — the first time CSK ended at the bottom of the table."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 214,
+          "wins": 120,
+          "losses": 92,
+          "noResults": 2,
+          "winPct": 56.07
+        },
+        "playoffs": {
+          "matches": 24,
+          "wins": 16,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 5,
+        "finalsReached": 9,
+        "playoffAppearances": 11
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings",
+        "https://en.wikipedia.org/wiki/Stephen_Fleming",
+        "https://en.wikipedia.org/wiki/2009_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2010_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2011_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2012_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2013_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2014_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2015_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2018_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2019_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2020_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2021_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2022_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2023_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2024_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2025_Chennai_Super_Kings_season"
+      ],
+      "notes": "2016-2017 seasons excluded: CSK was suspended from the IPL following the 2013 spot-fixing/betting investigation. Fleming coached Rising Pune Supergiant in those years — that tenure will be added in Phase 4 (defunct franchises). 2026 perSeason row is a placeholder while the ongoing season plays out."
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "role": "head-coach",
+      "fromSeason": "2016",
+      "toSeason": "2017",
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 8 with 10 points. Franchise's inaugural season during CSK's suspension."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (20 pts). Beat MI in Qualifier 1 by 20 runs; lost final to MI by 1 run. Franchise's final season — disbanded when CSK returned in 2018. Captain: Steve Smith."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 14,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rising_Pune_Supergiant"
+      ],
+      "notes": "Coached Rising Pune Supergiant during CSK's 2016-2017 suspension. Took them from 7th in 2016 to the 2017 final (lost to MI by 1 run) — one of the narrowest margins in IPL final history."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 17,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 242,
+      "wins": 134,
+      "losses": 106,
+      "noResults": 2,
+      "winPct": 55.37
+    },
+    "playoffs": {
+      "matches": 26,
+      "wins": 17,
+      "losses": 9,
+      "noResults": 0,
+      "winPct": 65.38
+    },
+    "titles": 5,
+    "finalsReached": 10,
+    "playoffAppearances": 12
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Nottinghamshire (England, County)",
+      "role": "Head Coach",
+      "period": "2015-2020",
+      "notes": "Head coach of Nottinghamshire CCC; won the 2017 NatWest T20 Blast and One-Day Cup double."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings",
+    "https://en.wikipedia.org/wiki/Stephen_Fleming",
+    "https://www.espncricinfo.com/cricketers/stephen-fleming-37000",
+    "https://www.cricketnews.com/en/ipl/news/csk-coaching-staff-ipl-2026-support-staff-indian-premier-league/e9a1378fce1217642ce89ac2"
+  ],
+  "verified": true
+}

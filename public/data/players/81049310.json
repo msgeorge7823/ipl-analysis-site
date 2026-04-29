@@ -1,0 +1,57 @@
+{
+  "id": "81049310",
+  "name": "J Yadav",
+  "shortName": "J Yadav",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Delhi Capitals",
+    "Mumbai Indians",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2015",
+    "2016",
+    "2017",
+    "2019",
+    "2020",
+    "2021",
+    "2023"
+  ],
+  "firstMatch": "2015-05-09",
+  "lastMatch": "2023-04-22",
+  "matchCount": 20,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    }
+  ]
+}

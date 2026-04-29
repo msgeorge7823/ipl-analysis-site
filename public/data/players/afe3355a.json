@@ -1,0 +1,25 @@
+{
+  "id": "afe3355a",
+  "name": "AR Bawne",
+  "shortName": "AR Bawne",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-28",
+  "lastMatch": "2017-04-28",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    }
+  ]
+}

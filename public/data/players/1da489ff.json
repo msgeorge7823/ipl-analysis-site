@@ -1,0 +1,30 @@
+{
+  "id": "1da489ff",
+  "name": "S Kaushik",
+  "shortName": "S Kaushik",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2016-04-29",
+  "lastMatch": "2017-04-18",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

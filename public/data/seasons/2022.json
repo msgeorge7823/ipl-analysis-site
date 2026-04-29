@@ -1,0 +1,30 @@
+{
+  "year": "2022",
+  "winner": "Gujarat Titans",
+  "runnerUp": "Rajasthan Royals",
+  "isOngoing": false,
+  "matchCount": 74,
+  "matchesWithData": 74,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Joseph Charles Buttler",
+    "shortName": "JC Buttler",
+    "runs": 863
+  },
+  "purpleCap": {
+    "player": "Yuzvendra Singh Chahal",
+    "shortName": "YS Chahal",
+    "wickets": 27
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "60aa2db3",
+  "name": "Lhuan-Dre Pretorius",
+  "shortName": "LG Pretorius",
+  "nicknames": [
+    "LG Pretorius"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-13",
+  "lastMatch": "2026-04-13",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2026"
+    }
+  ]
+}

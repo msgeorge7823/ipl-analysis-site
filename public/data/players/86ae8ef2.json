@@ -1,0 +1,25 @@
+{
+  "id": "86ae8ef2",
+  "name": "MB Parmar",
+  "shortName": "MB Parmar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-04-01",
+  "lastMatch": "2010-04-01",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    }
+  ]
+}

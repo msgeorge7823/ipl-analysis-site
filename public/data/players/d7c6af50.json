@@ -1,0 +1,46 @@
+{
+  "id": "d7c6af50",
+  "name": "DL Vettori",
+  "shortName": "DL Vettori",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2012-05-02",
+  "matchCount": 34,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    }
+  ]
+}

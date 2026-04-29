@@ -1,0 +1,300 @@
+{
+  "id": "daniel-vettori",
+  "name": "Daniel Vettori",
+  "fullName": "Daniel Luca Vettori",
+  "dob": "1979-01-27",
+  "nationality": "New Zealander",
+  "specialty": [
+    "spin-bowling",
+    "all-round",
+    "strategy"
+  ],
+  "playingCareerPlayerId": "d7c6af50",
+  "playingCareerSummary": "Former New Zealand captain and left-arm spin great: 113 Tests (362 wickets), 295 ODIs (305 wickets). Played for Delhi Daredevils (2008-2011) and Royal Challengers Bangalore (2012-2014) in the IPL.",
+  "bio": "Former New Zealand captain and IPL player, turned successful franchise head coach. RCB head coach from 2014 to 2018, taking them to the 2016 IPL final (lost to SRH by 8 runs). Moved to Sunrisers Hyderabad in August 2023 to replace Brian Lara and took them back to the IPL final in his first season (2024), losing to KKR. Currently also assistant coach of the Australia senior men's cricket team under Andrew McDonald.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "head-coach",
+      "fromSeason": "2014",
+      "toSeason": "2018",
+      "seasons": [
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 10 points (NRR -0.428). First season under Vettori."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 5,
+            "noResults": 2,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd with 16 points. Beat RR in Eliminator by 71 runs; lost Qualifier 2 to CSK by 3 wickets."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd with 16 points. Beat Gujarat Lions in Qualifier 1 by 4 wickets; lost final to Sunrisers Hyderabad by 8 runs at Chinnaswamy. Kohli's orange-cap season (973 runs)."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 10,
+            "noResults": 1,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished last (8th) with 7 points (NRR -1.299). Franchise-worst season to that point."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Gary Kirsten was promoted to head coach in August 2018 (after the season), replacing Vettori for 2019."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 70,
+          "wins": 29,
+          "losses": 38,
+          "noResults": 3,
+          "winPct": 41.43
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 2,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2014_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2015_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2016_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2017_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2018_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "head-coach",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (17 pts). Qualifier 1 loss to KKR; Qualifier 2 W vs Rajasthan Royals; lost final to KKR by 8 wickets. SRH's second IPL final after 2018. Vettori's first season replacing Brian Lara."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 13 points. Third team eliminated from IPL 2025. Pat Cummins continued as captain."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Vettori retained; new spin bowling coach Muttiah Muralitharan added to the support staff alongside Hemang Badani as batting coach (his second IPL role alongside Delhi Capitals). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 12,
+          "noResults": 2,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2025_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2026_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://www.espncricinfo.com/story/daniel-vettori-named-new-sunrisers-hyderabad-head-coach-1391275"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 98,
+      "wins": 43,
+      "losses": 50,
+      "noResults": 5,
+      "winPct": 43.88
+    },
+    "playoffs": {
+      "matches": 7,
+      "wins": 3,
+      "losses": 4,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "titles": 0,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Brisbane Heat (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2017-2019"
+    },
+    {
+      "team": "Bangladesh (National)",
+      "role": "Spin Bowling Consultant",
+      "period": "2018-2019"
+    },
+    {
+      "team": "Australia (National)",
+      "role": "Assistant Coach",
+      "period": "2022-present",
+      "notes": "Assistant coach under Andrew McDonald in the Australia senior men's setup."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Daniel_Vettori",
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru",
+    "https://en.wikipedia.org/wiki/2024_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2025_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2026_Sunrisers_Hyderabad_season",
+    "https://www.espncricinfo.com/story/daniel-vettori-named-new-sunrisers-hyderabad-head-coach-1391275"
+  ],
+  "verified": true
+}

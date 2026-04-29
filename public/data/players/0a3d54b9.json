@@ -1,0 +1,69 @@
+{
+  "id": "0a3d54b9",
+  "name": "VR Aaron",
+  "shortName": "VR Aaron",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals",
+    "Rajasthan Royals",
+    "Punjab Kings",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2011",
+    "2012",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2019",
+    "2020",
+    "2022"
+  ],
+  "firstMatch": "2011-04-23",
+  "lastMatch": "2022-04-02",
+  "matchCount": 52,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    }
+  ]
+}

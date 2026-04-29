@@ -1,0 +1,172 @@
+{
+  "id": "arvinder-singh",
+  "name": "Arvinder Singh",
+  "fullName": "Arvinder Singh",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration"
+  ],
+  "playingCareerSummary": "Sports executive and long-serving Gujarat Titans front-office executive.",
+  "bio": "Gujarat Titans' CEO / COO — long-serving franchise executive across the 2022 inaugural title and 2023 runner-up seasons.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "team-manager",
+      "fromSeason": "2022",
+      "toSeason": "2026",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 34,
+          "losses": 20,
+          "noResults": 2,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 6,
+          "wins": 3,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 1,
+        "finalsReached": 2,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans"
+      ],
+      "notes": "Role is CEO/COO. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 34,
+      "losses": 20,
+      "noResults": 2,
+      "winPct": 60.71
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true
+}

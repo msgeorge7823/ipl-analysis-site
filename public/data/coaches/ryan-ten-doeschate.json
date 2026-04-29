@@ -1,0 +1,117 @@
+{
+  "id": "ryan-ten-doeschate",
+  "name": "Ryan ten Doeschate",
+  "fullName": "Ryan Neil ten Doeschate",
+  "nationality": "Dutch",
+  "specialty": [
+    "all-round",
+    "fielding",
+    "leadership"
+  ],
+  "playingCareerSummary": "Former Netherlands all-rounder: 33 ODIs, 24 T20Is. Played for Kolkata Knight Riders (2011-2017) and Chennai Super Kings (2019) in the IPL. Two-time IPL champion as a KKR player (2012, 2014).",
+  "bio": "Transitioned from KKR player to KKR fielding coach for IPL 2023 and 2024 — a two-year stint that included the 2024 IPL title. Replaced by Dishant Yagnik for IPL 2026 after a dedicated fielding coach wasn't listed in 2025.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "fielding-coach",
+      "fromSeason": "2023",
+      "toSeason": "2024",
+      "seasons": [
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. First season replacing Brendon McCullum."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 3,
+            "noResults": 2,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st with 20 points. Lost just 3 matches all season (a joint record for fewest losses in a full IPL). Beat SRH in Qualifier 1 by 8 wickets; beat SRH in final by 8 wickets — the fastest IPL final chase (57 balls remaining). KKR's third IPL title. Mentor: Gautam Gambhir."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 15,
+          "losses": 11,
+          "noResults": 2,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 15,
+      "losses": 11,
+      "noResults": 2,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1980-06-30",
+  "playingCareerPlayerId": "4ec07775"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "d7017798",
+  "name": "Angkrish Raghuvanshi",
+  "shortName": "A Raghuvanshi",
+  "nicknames": [
+    "Angkrish"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2024-03-29",
+  "lastMatch": "2026-04-26",
+  "matchCount": 30,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

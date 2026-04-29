@@ -1,0 +1,179 @@
+{
+  "id": "zubin-bharucha",
+  "name": "Zubin Bharucha",
+  "fullName": "Zubin Bharucha",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "high-performance",
+    "talent-id"
+  ],
+  "playingCareerSummary": "Former Mumbai first-class batter. Long association with Rajasthan Royals as their High Performance / Development Director — a structural role.",
+  "bio": "Rajasthan Royals' Head of Cricket / Development & Performance Director from 2018 to 2022 — five seasons overseeing the franchise's talent development pipeline alongside successive head coaches.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "director-of-cricket",
+      "fromSeason": "2018",
+      "toSeason": "2022",
+      "seasons": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Return from suspension. Finished 4th with 14 points (NRR -0.250). Lost Eliminator to Kolkata Knight Riders by 25 runs."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 11 points (NRR -0.449). Upton left after this season; Andrew McDonald replaced him."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 12 points. Did not qualify for playoffs. Season played in UAE due to COVID-19. McDonald was let go in early 2021 before the next season even though he had a 3-year contract."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 10 points. First season as DoC + acting head coach after McDonald was let go. Lead Assistant Coach: Trevor Penney."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (18 pts, NRR 0.298). Lost Q1 to GT by 7 wickets; beat RCB in Q2 by 7 wickets; lost final to GT by 7 wickets. Franchise's first final since winning the inaugural 2008 title — 14 years between finals. Captain: Sanju Samson."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 70,
+          "wins": 32,
+          "losses": 37,
+          "noResults": 1,
+          "winPct": 45.71
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 1,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 25.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://en.wikipedia.org/wiki/2018_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2019_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2020_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2021_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2022_Rajasthan_Royals_season"
+      ],
+      "notes": "Titled 'Head of Cricket' 2018-2019 and 'Development & Performance Director' 2020-2022. Modelled as director-of-cricket."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 70,
+      "wins": 32,
+      "losses": 37,
+      "noResults": 1,
+      "winPct": 45.71
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 25.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true
+}

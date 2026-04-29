@@ -1,0 +1,30 @@
+{
+  "id": "cf59b3f0",
+  "name": "Urvil Patel",
+  "shortName": "Urvil Patel",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-05-07",
+  "lastMatch": "2026-04-26",
+  "matchCount": 4,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

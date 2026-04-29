@@ -1,0 +1,36 @@
+{
+  "id": "6afb26d6",
+  "name": "MD Mishra",
+  "shortName": "MD Mishra",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2010-03-21",
+  "lastMatch": "2012-05-11",
+  "matchCount": 18,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    }
+  ]
+}

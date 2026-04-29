@@ -1,0 +1,25 @@
+{
+  "id": "e1d9ae9c",
+  "name": "Shivam Singh",
+  "shortName": "Shivam Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-05-19",
+  "lastMatch": "2024-05-19",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    }
+  ]
+}

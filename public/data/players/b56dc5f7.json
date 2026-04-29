@@ -1,0 +1,30 @@
+{
+  "id": "b56dc5f7",
+  "name": "BE Hendricks",
+  "shortName": "BE Hendricks",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2014-05-19",
+  "lastMatch": "2015-05-16",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    }
+  ]
+}

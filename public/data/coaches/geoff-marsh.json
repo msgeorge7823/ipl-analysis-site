@@ -1,0 +1,111 @@
+{
+  "id": "geoff-marsh",
+  "name": "Geoff Marsh",
+  "fullName": "Geoffrey Robert Marsh",
+  "dob": "1958-12-31",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "opening"
+  ],
+  "playingCareerSummary": "Former Australia opener and 1987 ODI World Cup winner: 50 Tests (2854 runs), 117 ODIs. Father of Shaun and Mitchell Marsh. Did not play in the IPL.",
+  "bio": "Pune Warriors India's inaugural head coach in IPL 2011. Resigned at the end of the season to become Sri Lanka's national head coach, and was replaced by Allan Donald at Pune.",
+  "tenures": [
+    {
+      "team": "Pune Warriors",
+      "role": "head-coach",
+      "fromSeason": "2011",
+      "toSeason": "2011",
+      "seasons": [
+        "2011"
+      ],
+      "perSeason": [
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 9,
+            "noResults": 1,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th of 10 with 9 points."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 9,
+          "noResults": 1,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pune_Warriors_India",
+        "https://en.wikipedia.org/wiki/2011_Pune_Warriors_India_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 9,
+      "noResults": 1,
+      "winPct": 28.57
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Australia (National)",
+      "role": "Head Coach",
+      "period": "1996-1999"
+    },
+    {
+      "team": "Zimbabwe (National)",
+      "role": "Head Coach",
+      "period": "2001-2004"
+    },
+    {
+      "team": "Sri Lanka (National)",
+      "role": "Head Coach",
+      "period": "2011-2012"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Geoff_Marsh"
+  ],
+  "verified": true
+}

@@ -1,0 +1,94 @@
+{
+  "id": "c4487b84",
+  "name": "Abraham Benjamin de Villiers",
+  "shortName": "AB de Villiers",
+  "nicknames": [
+    "Mr. 360",
+    "ABD"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+  ],
+  "firstMatch": "2008-05-02",
+  "lastMatch": "2021-10-11",
+  "matchCount": 183,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    }
+  ]
+}

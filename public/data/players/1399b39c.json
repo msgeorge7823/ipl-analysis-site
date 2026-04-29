@@ -1,0 +1,41 @@
+{
+  "id": "1399b39c",
+  "name": "Anmolpreet Singh",
+  "shortName": "Anmolpreet Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2021-09-19",
+  "lastMatch": "2024-05-02",
+  "matchCount": 9,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    }
+  ]
+}

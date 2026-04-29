@@ -1,0 +1,41 @@
+{
+  "id": "bd77eb62",
+  "name": "A Symonds",
+  "shortName": "A Symonds",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Deccan Chargers",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-20",
+  "lastMatch": "2011-05-20",
+  "matchCount": 39,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    }
+  ]
+}

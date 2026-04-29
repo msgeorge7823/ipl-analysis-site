@@ -1,0 +1,25 @@
+{
+  "id": "23cca426",
+  "name": "OF Smith",
+  "shortName": "OF Smith",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2022"
+  ],
+  "firstMatch": "2022-03-27",
+  "lastMatch": "2022-04-17",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    }
+  ]
+}

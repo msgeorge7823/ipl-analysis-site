@@ -1,0 +1,36 @@
+{
+  "id": "91ffa6c6",
+  "name": "JD Ryder",
+  "shortName": "JD Ryder",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Pune Warriors",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2009",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2009-04-18",
+  "lastMatch": "2012-05-19",
+  "matchCount": 29,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    }
+  ]
+}

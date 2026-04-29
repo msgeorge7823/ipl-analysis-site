@@ -1,0 +1,241 @@
+{
+  "id": "darren-lehmann",
+  "name": "Darren Lehmann",
+  "fullName": "Darren Scott Lehmann",
+  "dob": "1970-02-05",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "strategy",
+    "aggressive-cricket"
+  ],
+  "playingCareerPlayerId": "53fe6ee4",
+  "playingCareerSummary": "Former Australia middle-order batter: 27 Tests (1798 runs at 44.95), 117 ODIs. Two-time ODI World Cup winner (1999, 2003). Played for Rajasthan Royals in IPL 2008.",
+  "bio": "Kings XI Punjab head coach for IPL 2013, a single-season tenure in which KXIP finished 6th. Left IPL coaching to become Australia's national head coach from June 2013 to 2018, winning the 2015 ODI World Cup at home.",
+  "tenures": [
+    {
+      "team": "Deccan Chargers",
+      "role": "head-coach",
+      "fromSeason": "2009",
+      "toSeason": "2012",
+      "seasons": [
+        "2009",
+        "2010",
+        "2011",
+        "2012"
+      ],
+      "perSeason": [
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (15 pts). Beat DD in semi-final by 6 wickets; beat RCB in final by 6 runs at Johannesburg. Inaugural title for the franchise. Season played in South Africa."
+        },
+        {
+          "season": "2010",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Playoffs",
+          "notes": "Finished 2nd in league (16 pts). Lost both playoff matches — semi-final to CSK and 3rd-place playoff to RCB."
+        },
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 10 with 12 points. Home record particularly poor."
+        },
+        {
+          "season": "2012",
+          "league": {
+            "matches": 16,
+            "wins": 4,
+            "losses": 11,
+            "noResults": 1,
+            "winPct": 25.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th of 9 with 9 points. Franchise terminated by BCCI after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 58,
+          "wins": 25,
+          "losses": 31,
+          "noResults": 2,
+          "winPct": 43.1
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 2,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Deccan_Chargers"
+      ],
+      "notes": "Four-season stint during which Lehmann delivered Deccan's only IPL title in 2009 (in South Africa). The franchise declined afterwards and was terminated after the 2012 season."
+    },
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2013",
+      "toSeason": "2013",
+      "seasons": [
+        "2013"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 8,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 16 points. Did not qualify for playoffs. Lehmann left after this season to become Australia's national head coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 16,
+          "wins": 8,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2013_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 74,
+      "wins": 33,
+      "losses": 39,
+      "noResults": 2,
+      "winPct": 44.59
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Deccan Chargers (IPL)",
+      "role": "Head Coach",
+      "period": "2009-2012",
+      "notes": "Won the 2009 IPL title — will be tracked when defunct franchises are added in Phase 4."
+    },
+    {
+      "team": "Queensland (Australia, Domestic)",
+      "role": "Head Coach",
+      "period": "2010-2013"
+    },
+    {
+      "team": "Brisbane Heat (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2011-2013",
+      "notes": "BBL|02 title (2012-13)."
+    },
+    {
+      "team": "Australia (National)",
+      "role": "Head Coach",
+      "period": "2013-2018",
+      "notes": "Won the 2015 ODI World Cup at home. Stepped down after the 2018 Sandpaper-gate scandal in South Africa."
+    },
+    {
+      "team": "Northern Superchargers (The Hundred, England)",
+      "role": "Head Coach",
+      "period": "2021-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darren_Lehmann",
+    "https://en.wikipedia.org/wiki/2013_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

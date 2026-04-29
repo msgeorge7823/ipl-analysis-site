@@ -1,0 +1,147 @@
+{
+  "season": "2019",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "73ad96ed",
+      "name": "Deepak Jagbir Hooda",
+      "shortName": "DJ Hooda",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "62af8546",
+      "name": "Mohammad Nabi",
+      "shortName": "Mohammad Nabi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "7dc35884",
+      "name": "Shakib Al Hasan",
+      "shortName": "Shakib Al Hasan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3c6ffae8",
+      "name": "Yusuf Khan Pathan",
+      "shortName": "YK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d027ba9f",
+      "name": "Kane Stuart Williamson",
+      "shortName": "KS Williamson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2be41edb",
+      "name": "MJ Guptill",
+      "shortName": "MJ Guptill",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b63e358a",
+      "name": "RK Bhui",
+      "shortName": "RK Bhui",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "871e9faf",
+      "name": "Basil Thampi",
+      "shortName": "Basil Thampi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a2f46292",
+      "name": "KK Ahmed",
+      "shortName": "KK Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5f547c8b",
+      "name": "Rashid Khan Arman",
+      "shortName": "Rashid Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dcf81436",
+      "name": "S Kaul",
+      "shortName": "S Kaul",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce820073",
+      "name": "Sandeep Sharma",
+      "shortName": "Sandeep Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "abb83e27",
+      "name": "JM Bairstow",
+      "shortName": "JM Bairstow",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "798934ea",
+  "name": "C Ganapathy",
+  "shortName": "C Ganapathy",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-31",
+  "lastMatch": "2010-03-31",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    }
+  ]
+}

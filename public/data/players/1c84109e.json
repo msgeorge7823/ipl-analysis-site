@@ -1,0 +1,25 @@
+{
+  "id": "1c84109e",
+  "name": "MD Choudhary",
+  "shortName": "MD Choudhary",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-01",
+  "lastMatch": "2026-04-26",
+  "matchCount": 8,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

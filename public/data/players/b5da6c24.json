@@ -1,0 +1,87 @@
+{
+  "id": "b5da6c24",
+  "name": "Parthiv Ajay Patel",
+  "shortName": "PA Patel",
+  "nicknames": [
+    "Parthiv Patel"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians",
+    "Kochi Tuskers Kerala",
+    "Deccan Chargers",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2019-05-04",
+  "matchCount": 139,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    }
+  ]
+}

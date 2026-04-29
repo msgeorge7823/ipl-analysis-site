@@ -1,0 +1,41 @@
+{
+  "id": "d1a60072",
+  "name": "N Wadhera",
+  "shortName": "N Wadhera",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2023-04-02",
+  "lastMatch": "2026-04-25",
+  "matchCount": 43,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

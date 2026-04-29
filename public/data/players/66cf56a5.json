@@ -1,0 +1,45 @@
+{
+  "id": "66cf56a5",
+  "name": "A Mithun",
+  "shortName": "A Mithun",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2009-05-10",
+  "lastMatch": "2013-05-12",
+  "matchCount": 16,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "78eb4223",
+  "name": "KAJ Roach",
+  "shortName": "KAJ Roach",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-28",
+  "lastMatch": "2010-04-01",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

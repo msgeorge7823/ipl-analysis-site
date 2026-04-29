@@ -1,0 +1,125 @@
+{
+  "id": "hrishikesh-kanitkar",
+  "name": "Hrishikesh Kanitkar",
+  "fullName": "Hrishikesh Hemant Kanitkar",
+  "dob": "1974-11-14",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "assistant-coaching"
+  ],
+  "playingCareerSummary": "Former India middle-order batter: 2 Tests, 34 ODIs. Famous for his last-ball four against Pakistan in the 1998 Independence Cup final. Played for Rajasthan Royals briefly in the early IPL.",
+  "bio": "Rising Pune Supergiant's assistant coach under Stephen Fleming for both of their IPL seasons (2016-2017), including the 2017 final run. Later became India Women's head coach and a national selector.",
+  "tenures": [
+    {
+      "team": "Rising Pune Supergiant",
+      "role": "assistant-coach",
+      "fromSeason": "2016",
+      "toSeason": "2017",
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 8 with 10 points. Franchise's inaugural season during CSK's suspension."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (20 pts). Beat MI in Qualifier 1 by 20 runs; lost final to MI by 1 run. Franchise's final season — disbanded when CSK returned in 2018. Captain: Steve Smith."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 14,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rising_Pune_Supergiant"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 14,
+      "losses": 14,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India Women (National)",
+      "role": "Head Coach",
+      "period": "2022-2023"
+    },
+    {
+      "team": "India (National)",
+      "role": "National Selector",
+      "period": "2023-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hrishikesh_Kanitkar"
+  ],
+  "verified": true
+}

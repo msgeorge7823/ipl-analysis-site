@@ -1,0 +1,109 @@
+{
+  "id": "brian-lara",
+  "name": "Brian Lara",
+  "fullName": "Brian Charles Lara",
+  "dob": "1969-05-02",
+  "nationality": "Trinidadian (West Indian)",
+  "specialty": [
+    "batting",
+    "strategy"
+  ],
+  "playingCareerSummary": "One of the greatest batters in cricket history: 131 Tests (11,953 runs at 52.88), 299 ODIs (10,405 runs). Holds the record for the highest individual Test score (400*) and first-class score (501*). Did not play in the IPL (retired in 2007 before the league began).",
+  "bio": "Sunrisers Hyderabad head coach for IPL 2023 — his only IPL head-coaching role. Took over from Tom Moody and presided over a franchise-worst last-place finish (4W-10L). Was replaced by Daniel Vettori before the 2024 season. Previously served as SRH's batting coach and strategic advisor from 2020.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "head-coach",
+      "fromSeason": "2023",
+      "toSeason": "2023",
+      "seasons": [
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points (NRR -0.590). Lara's only IPL head-coaching season. Replaced by Daniel Vettori for IPL 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://www.espncricinfo.com/story/daniel-vettori-named-new-sunrisers-hyderabad-head-coach-1391275"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 10,
+      "noResults": 0,
+      "winPct": 28.57
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Sunrisers Hyderabad (IPL)",
+      "role": "Batting Coach / Strategic Advisor",
+      "period": "2020-2022",
+      "notes": "Served in SRH's support staff before being elevated to head coach for 2023."
+    },
+    {
+      "team": "West Indies (National)",
+      "role": "Performance Mentor / Batting Consultant",
+      "period": "2010-2012"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brian_Lara",
+    "https://en.wikipedia.org/wiki/2023_Sunrisers_Hyderabad_season"
+  ],
+  "verified": true
+}

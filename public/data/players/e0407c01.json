@@ -1,0 +1,36 @@
+{
+  "id": "e0407c01",
+  "name": "IC Pandey",
+  "shortName": "IC Pandey",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2013-04-23",
+  "lastMatch": "2015-05-16",
+  "matchCount": 25,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2015"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "bff458c6",
+  "name": "AA Bilakhia",
+  "shortName": "AA Bilakhia",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2009-04-27",
+  "lastMatch": "2010-04-05",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

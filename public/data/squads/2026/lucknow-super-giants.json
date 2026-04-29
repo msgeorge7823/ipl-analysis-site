@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "lucknow-super-giants",
+  "teamName": "Lucknow Super Giants",
+  "captain": "Rishabh Pant",
+  "coach": "Justin Langer",
+  "players": [
+    {
+      "name": "Rishabh Pant",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "27 Cr",
+      "retained": true
+    },
+    {
+      "name": "Aiden Markram",
+      "role": "Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Himmat Singh",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Matthew Breetzke",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mukul Choudhary",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Akshat Raghuwanshi",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Josh Inglis",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Nicholas Pooran",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mitchell Marsh",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Abdul Samad",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shahbaz Ahmed",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Arshin Kulkarni",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ayush Badoni",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mohammad Shami",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Avesh Khan",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Manimaran Siddharth",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Digvesh Rathi",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Akash Singh",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Prince Yadav",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Arjun Tendulkar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Anrich Nortje",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Naman Tiwari",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mayank Yadav",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": true
+    },
+    {
+      "name": "Mohsin Khan",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    }
+  ]
+}

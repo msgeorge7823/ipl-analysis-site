@@ -1,0 +1,42 @@
+{
+  "id": "fa2f1dde",
+  "name": "K Khejroliya",
+  "shortName": "K Khejroliya",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2018",
+    "2019",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2018-04-08",
+  "lastMatch": "2025-04-09",
+  "matchCount": 8,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

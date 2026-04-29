@@ -1,0 +1,195 @@
+{
+  "id": "lasith-malinga",
+  "name": "Lasith Malinga",
+  "fullName": "Separamadu Lasith Malinga",
+  "dob": "1983-08-28",
+  "nationality": "Sri Lankan",
+  "specialty": [
+    "fast-bowling",
+    "death-bowling",
+    "yorkers"
+  ],
+  "playingCareerPlayerId": "a12e1d51",
+  "playingCareerSummary": "One of the greatest T20 bowlers ever and former Sri Lanka captain: 30 Tests, 226 ODIs (338 wickets), 84 T20Is (107 wickets). Played for Mumbai Indians (2009-2019) in the IPL, winning four titles as a player (2013, 2015, 2017, 2019). All-time leading IPL wicket-taker for MI and at one point the tournament's leading wicket-taker overall.",
+  "bio": "Mumbai Indians' most iconic bowler turned bowling coach. Served as bowling mentor in 2018 while still playing (a unique player-mentor hybrid role) and returned as the lead bowling coach for 2024 after Shane Bond's nine-year tenure ended. From 2025 he has shared bowling-coach duties with Paras Mhambrey. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "mentor",
+      "fromSeason": "2018",
+      "toSeason": "2018",
+      "seasons": [
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 12 points. Did not qualify for playoffs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2018_Mumbai_Indians_season"
+      ],
+      "notes": "Appointed bowling mentor in February 2018 while still playing for MI — a hybrid player-mentor role."
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "bowling-coach",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points. First team eliminated from IPL 2024."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 12,
+          "losses": 16,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2024_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2026_Mumbai_Indians_season"
+      ],
+      "notes": "Promoted to lead bowling coach for IPL 2024 after Shane Bond's departure. Paired with Paras Mhambrey from 2025."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 18,
+      "losses": 24,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lasith_Malinga",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

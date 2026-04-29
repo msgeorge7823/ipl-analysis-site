@@ -1,0 +1,25 @@
+{
+  "id": "0af3426f",
+  "name": "SS Mundhe",
+  "shortName": "SS Mundhe",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-21",
+  "lastMatch": "2011-05-21",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

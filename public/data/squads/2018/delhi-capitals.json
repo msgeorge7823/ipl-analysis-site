@@ -1,0 +1,161 @@
+{
+  "season": "2018",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb66ce1f",
+      "name": "CH Morris",
+      "shortName": "CH Morris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2a2e6343",
+      "name": "DT Christian",
+      "shortName": "DT Christian",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39a2dfa8",
+      "name": "Rahul Tewatia",
+      "shortName": "R Tewatia",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "af2c687b",
+      "name": "C Munro",
+      "shortName": "C Munro",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1cb14aa4",
+      "name": "CJ Dala",
+      "shortName": "CJ Dala",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb345e0b",
+      "name": "Gautam Gambhir",
+      "shortName": "G Gambhir",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d1c36f5c",
+      "name": "JJ Roy",
+      "shortName": "JJ Roy",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8b3e9c7c",
+      "name": "PP Shaw",
+      "shortName": "PP Shaw",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85ec8e33",
+      "name": "Shreyas Santosh Iyer",
+      "shortName": "SS Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6b19d823",
+      "name": "Amit Mishra",
+      "shortName": "A Mishra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "eef2536f",
+      "name": "Avesh Khan",
+      "shortName": "Avesh Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9a963804",
+      "name": "LE Plunkett",
+      "shortName": "LE Plunkett",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8cf9814c",
+      "name": "Mohammed Shami Ahmed",
+      "shortName": "Mohammed Shami",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b410bd3d",
+      "name": "S Lamichhane",
+      "shortName": "S Lamichhane",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a818c1be",
+      "name": "Trent Alexander Boult",
+      "shortName": "TA Boult",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "890946a0",
+      "name": "Naman Vinaykumar Ojha",
+      "shortName": "NV Ojha",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "919a3be2",
+      "name": "Rishabh Rajendra Pant",
+      "shortName": "RR Pant",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

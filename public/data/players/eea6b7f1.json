@@ -1,0 +1,25 @@
+{
+  "id": "eea6b7f1",
+  "name": "SP Fleming",
+  "shortName": "SP Fleming",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-02",
+  "lastMatch": "2008-05-27",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    }
+  ]
+}

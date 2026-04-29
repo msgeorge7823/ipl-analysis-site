@@ -1,0 +1,60 @@
+{
+  "id": "21d4e29b",
+  "name": "Navdeep Saini",
+  "shortName": "Navdeep Saini",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2026"
+  ],
+  "firstMatch": "2019-03-23",
+  "lastMatch": "2026-04-09",
+  "matchCount": 34,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2026",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Harshit Rana",
+      "reason": "Injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

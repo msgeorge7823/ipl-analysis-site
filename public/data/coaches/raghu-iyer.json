@@ -1,0 +1,112 @@
+{
+  "id": "raghu-iyer",
+  "name": "Raghu Iyer",
+  "fullName": "Raghu Iyer",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration"
+  ],
+  "playingCareerSummary": "Cricket franchise administrator.",
+  "bio": "Lucknow Super Giants' CEO in 2022 and 2023, their first two IPL seasons.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "team-manager",
+      "fromSeason": "2022",
+      "toSeason": "2023",
+      "seasons": [
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 17,
+          "losses": 10,
+          "noResults": 1,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "Role is CEO. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 17,
+      "losses": 10,
+      "noResults": 1,
+      "winPct": 60.71
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true
+}

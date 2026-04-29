@@ -1,0 +1,25 @@
+{
+  "id": "fdf7491e",
+  "name": "IC Porel",
+  "shortName": "IC Porel",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2021"
+  ],
+  "firstMatch": "2021-09-21",
+  "lastMatch": "2021-09-21",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    }
+  ]
+}

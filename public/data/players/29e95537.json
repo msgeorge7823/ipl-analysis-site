@@ -1,0 +1,118 @@
+{
+  "id": "29e95537",
+  "name": "Ajinkya Madhukar Rahane",
+  "shortName": "AM Rahane",
+  "nicknames": [
+    "Jinx",
+    "Ajinkya Rahane"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Rising Pune Supergiant",
+    "Delhi Capitals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008",
+    "2009",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2008-04-27",
+  "lastMatch": "2026-04-26",
+  "matchCount": 206,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

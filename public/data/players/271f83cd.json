@@ -1,0 +1,95 @@
+{
+  "id": "271f83cd",
+  "name": "Suryakumar Ashok Yadav",
+  "shortName": "SA Yadav",
+  "nicknames": [
+    "SKY",
+    "Surya",
+    "Suryakumar Yadav"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2012",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2012-04-06",
+  "lastMatch": "2026-04-23",
+  "matchCount": 173,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2014"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2015"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

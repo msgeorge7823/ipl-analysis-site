@@ -1,0 +1,59 @@
+{
+  "id": "85e0cf10",
+  "name": "Prasidh Krishna",
+  "shortName": "M Prasidh Krishna",
+  "nicknames": [
+    "Prasidh"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Gujarat Titans",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2018-05-06",
+  "lastMatch": "2026-04-24",
+  "matchCount": 73,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

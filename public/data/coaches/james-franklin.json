@@ -1,0 +1,95 @@
+{
+  "id": "james-franklin",
+  "name": "James Franklin",
+  "fullName": "James Edward Charles Franklin",
+  "nationality": "New Zealander",
+  "specialty": [
+    "all-round",
+    "left-arm-pace"
+  ],
+  "playingCareerSummary": "Former New Zealand left-arm pace all-rounder: 31 Tests, 110 ODIs, 38 T20Is. Played for Mumbai Indians in the IPL.",
+  "bio": "Sunrisers Hyderabad's bowling coach for IPL 2025, replacing Dale Steyn.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "bowling-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 13 points. Third team eliminated from IPL 2025. Pat Cummins continued as captain."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 7,
+          "noResults": 1,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2025_Sunrisers_Hyderabad_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 7,
+      "noResults": 1,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true,
+  "dob": "1980-11-07",
+  "playingCareerPlayerId": "cf73ad76"
+}

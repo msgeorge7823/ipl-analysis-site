@@ -1,0 +1,294 @@
+{
+  "id": "mahela-jayawardene",
+  "name": "Mahela Jayawardene",
+  "fullName": "Denagamage Proboth Mahela de Silva Jayawardene",
+  "dob": "1977-05-27",
+  "nationality": "Sri Lankan",
+  "specialty": [
+    "batting",
+    "strategy",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "d18f9182",
+  "playingCareerSummary": "Former Sri Lanka captain and one of the game's most elegant batters: 149 Tests (11,814 runs), 448 ODIs (12,650 runs). IPL playing career: Kings XI Punjab (2008), Kochi Tuskers Kerala (2011), Delhi Daredevils (2013-2015).",
+  "bio": "The only person to win three IPL titles as Mumbai Indians head coach (2017, 2019, 2020). First joined as MI's batting consultant in 2015 before being elevated to head coach in 2017. Led MI through the most successful run in franchise history, including back-to-back titles in 2019-2020. Stepped down after the disastrous 2022 season and was replaced by Mark Boucher. Returned to the role in 2025 after Boucher's two seasons yielded limited success.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2017",
+      "toSeason": "2022",
+      "seasons": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (20 pts). Lost Q1 to RPS by 20 runs; beat KKR in Q2 by 6 wickets; beat RPS in final by 1 run. Franchise's third IPL title."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 12 points. Did not qualify for playoffs."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts, NRR 0.421). Beat CSK in Q1 by 6 wickets; beat CSK in final by 1 run. Franchise's fourth IPL title."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts). Beat DC in Q1 by 57 runs; beat DC in final by 5 wickets. Fifth IPL title. Season played in UAE due to COVID-19. Became 2nd team after CSK to defend an IPL title."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Could not defend their title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points and NRR -0.506. Franchise-worst season to that point."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 84,
+          "wins": 45,
+          "losses": 39,
+          "noResults": 0,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 7,
+          "wins": 6,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 85.71
+        },
+        "titles": 3,
+        "finalsReached": 3,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2017_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2018_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2019_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2020_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2021_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2022_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ],
+      "notes": "First stint. Three titles (2017, 2019, 2020) — second-most by any IPL head coach after Stephen Fleming."
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://www.espncricinfo.com/story/ipl-2025-mahela-jayawardene-returns-as-mumbai-indians-head-coach-1455125",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ],
+      "notes": "Second stint — returned to replace Mark Boucher ahead of IPL 2025."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 98,
+      "wins": 53,
+      "losses": 45,
+      "noResults": 0,
+      "winPct": 54.08
+    },
+    "playoffs": {
+      "matches": 9,
+      "wins": 7,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 77.78
+    },
+    "titles": 3,
+    "finalsReached": 3,
+    "playoffAppearances": 4
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "England (National)",
+      "role": "Batting / Consultant",
+      "period": "2018-2020",
+      "notes": "Batting consultant with the England white-ball side during their 2019 ODI World Cup winning campaign."
+    },
+    {
+      "team": "Southern Brave (The Hundred, England)",
+      "role": "Head Coach",
+      "period": "2021-present",
+      "notes": "Head coach of the Southern Brave men's team in The Hundred."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mahela_Jayawardene",
+    "https://www.espncricinfo.com/story/ipl-2025-mahela-jayawardene-returns-as-mumbai-indians-head-coach-1455125",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

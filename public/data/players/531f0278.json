@@ -1,0 +1,25 @@
+{
+  "id": "531f0278",
+  "name": "K Santokie",
+  "shortName": "K Santokie",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2014"
+  ],
+  "firstMatch": "2014-05-19",
+  "lastMatch": "2014-05-21",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    }
+  ]
+}

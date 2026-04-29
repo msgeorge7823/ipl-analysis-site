@@ -1,0 +1,133 @@
+{
+  "season": "2017",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "dbe50b21",
+      "name": "Hardik Himanshu Pandya",
+      "shortName": "HH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5b8c830e",
+      "name": "Krunal Himanshu Pandya",
+      "shortName": "KH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "70d205c9",
+      "name": "Ambati Thirupathi Rayudu",
+      "shortName": "AT Rayudu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "89f64c19",
+      "name": "LMP Simmons",
+      "shortName": "LMP Simmons",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "709b0bac",
+      "name": "Saurabh Shyam Tiwary",
+      "shortName": "SS Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "462411b3",
+      "name": "Jasprit Jasbirsingh Bumrah",
+      "shortName": "JJ Bumrah",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "119678fd",
+      "name": "Karn Veer Sharma",
+      "shortName": "KV Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f5180fe6",
+      "name": "MG Johnson",
+      "shortName": "MG Johnson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "51a3c5ef",
+      "name": "MJ McClenaghan",
+      "shortName": "MJ McClenaghan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "41eb4a4f",
+      "name": "Raghavendra Vinay Kumar",
+      "shortName": "R Vinay Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a12e1d51",
+      "name": "Separamadu Lasith Malinga",
+      "shortName": "SL Malinga",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "13c35c9e",
+      "name": "TG Southee",
+      "shortName": "TG Southee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99b75528",
+      "name": "Joseph Charles Buttler",
+      "shortName": "JC Buttler",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "b5da6c24",
+      "name": "Parthiv Ajay Patel",
+      "shortName": "PA Patel",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "44afbf2d",
+  "name": "NJ Maddinson",
+  "shortName": "NJ Maddinson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2014-04-17",
+  "lastMatch": "2015-05-04",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "90edaaa9",
+  "name": "S Rana",
+  "shortName": "S Rana",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2011",
+    "2014"
+  ],
+  "firstMatch": "2011-05-19",
+  "lastMatch": "2014-05-24",
+  "matchCount": 11,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "f9e6e7ef",
+  "name": "Shahbaz Ahmed",
+  "shortName": "Shahbaz Ahmed",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Lucknow Super Giants",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2020-10-17",
+  "lastMatch": "2026-04-01",
+  "matchCount": 59,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

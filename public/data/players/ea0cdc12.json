@@ -1,0 +1,41 @@
+{
+  "id": "ea0cdc12",
+  "name": "BAW Mendis",
+  "shortName": "BAW Mendis",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2013"
+  ],
+  "firstMatch": "2008-05-25",
+  "lastMatch": "2013-05-11",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "season": "2022",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "eade4650",
+      "name": "DJ Mitchell",
+      "shortName": "DJ Mitchell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9219eff0",
+      "name": "JDS Neesham",
+      "shortName": "JDS Neesham",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "04a418e8",
+      "name": "Riyan Parag",
+      "shortName": "R Parag",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2c25d4f5",
+      "name": "D Padikkal",
+      "shortName": "D Padikkal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9948e262",
+      "name": "HE van der Dussen",
+      "shortName": "HE van der Dussen",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "944533a5",
+      "name": "Karun Kaladharan Nair",
+      "shortName": "KK Nair",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48a1d7b7",
+      "name": "Shimron Odilon Hetmyer",
+      "shortName": "SO Hetmyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6c19c6e5",
+      "name": "Yashasvi Jaiswal",
+      "shortName": "YBK Jaiswal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2e78f685",
+      "name": "KR Sen",
+      "shortName": "KR Sen",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "56ab442f",
+      "name": "NM Coulter-Nile",
+      "shortName": "NM Coulter-Nile",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "21d4e29b",
+      "name": "Navdeep Saini",
+      "shortName": "Navdeep Saini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "529eb9e0",
+      "name": "OC McCoy",
+      "shortName": "OC McCoy",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85e0cf10",
+      "name": "Prasidh Krishna",
+      "shortName": "M Prasidh Krishna",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a818c1be",
+      "name": "Trent Alexander Boult",
+      "shortName": "TA Boult",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99b75528",
+      "name": "Joseph Charles Buttler",
+      "shortName": "JC Buttler",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

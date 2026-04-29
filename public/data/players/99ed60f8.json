@@ -1,0 +1,25 @@
+{
+  "id": "99ed60f8",
+  "name": "JPR Scantlebury-Searles",
+  "shortName": "JPR Scantlebury-Searles",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2018"
+  ],
+  "firstMatch": "2018-05-12",
+  "lastMatch": "2018-05-23",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    }
+  ]
+}

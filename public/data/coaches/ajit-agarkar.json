@@ -1,0 +1,103 @@
+{
+  "id": "ajit-agarkar",
+  "name": "Ajit Agarkar",
+  "fullName": "Ajit Bhalchandra Agarkar",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling",
+    "death-bowling"
+  ],
+  "playingCareerSummary": "Former India right-arm medium-fast bowler: 26 Tests (58 wickets), 191 ODIs (288 wickets). Played for Kolkata Knight Riders and Delhi Daredevils in the IPL.",
+  "bio": "Delhi Capitals' assistant coach for IPL 2022 alongside Shane Watson under head coach Ricky Ponting. Later became chairman of India's senior men's selection committee in 2023.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "assistant-coach",
+      "fromSeason": "2022",
+      "toSeason": "2022",
+      "seasons": [
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1977-12-04",
+  "playingCareerPlayerId": "fa463154",
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Chairman of Selectors",
+      "period": "2023-present",
+      "notes": "Chief selector of the India senior men's team."
+    }
+  ]
+}

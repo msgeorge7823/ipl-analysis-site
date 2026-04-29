@@ -1,0 +1,146 @@
+{
+  "id": "vvs-laxman",
+  "name": "VVS Laxman",
+  "fullName": "Vangipurappu Venkata Sai Laxman",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "mentoring",
+    "strategy"
+  ],
+  "playingCareerSummary": "Legendary India Test middle-order batter famous for his 281 vs Australia at Eden Gardens in 2001: 134 Tests (8781 runs at 45.97), 86 ODIs. Played for Deccan Chargers (2008-2011) and Kochi Tuskers Kerala (2011) in the IPL.",
+  "bio": "Sunrisers Hyderabad's mentor from 2019 to 2021 — three-season tenure that followed Hyderabad's title-winning era. Also served as the Director of the National Cricket Academy (NCA) in India subsequently.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "mentor",
+      "fromSeason": "2019",
+      "toSeason": "2021",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 12 points (NRR +0.577). Lost Eliminator to Delhi Capitals by 2 wickets."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd (14 pts). Beat RCB in Eliminator; lost Qualifier 2 to Delhi Capitals by 17 runs. Replaced Tom Moody for IPL 2020."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 11,
+            "noResults": 0,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 6 points. Franchise-worst season at that time. Bayliss was replaced by Tom Moody for 2022."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 16,
+          "losses": 26,
+          "noResults": 0,
+          "winPct": 38.1
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2019_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2020_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2021_Sunrisers_Hyderabad_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 16,
+      "losses": 26,
+      "noResults": 0,
+      "winPct": 38.1
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true,
+  "dob": "1974-11-01",
+  "playingCareerPlayerId": "de8cce37",
+  "otherCoachingRoles": [
+    {
+      "team": "India National Cricket Academy",
+      "role": "Director",
+      "period": "2021-2024",
+      "notes": "Head of the NCA during which India A and India Under-19 produced significant results."
+    }
+  ]
+}

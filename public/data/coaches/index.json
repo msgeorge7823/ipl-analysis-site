@@ -1,0 +1,1499 @@
+{
+  "_description": "IPL coaches and support staff since 2008. Includes head coaches, assistant coaches, bowling/batting/fielding coaches, mentors, director of cricket, and support staff. Every tenure is cited. Entries with verified=false are flagged for user review.",
+  "_updated": "2026-04-28",
+  "_phase": "All phases COMPLETE — Head coaches, support staff, defunct franchises, and Phase 3 (physios/trainers/analysts/team managers/CEOs/doctors).",
+  "coaches": [
+    {
+      "id": "kepler-wessels",
+      "name": "Kepler Wessels",
+      "nationality": "South African",
+      "specialty": [
+        "batting",
+        "strategy"
+      ]
+    },
+    {
+      "id": "stephen-fleming",
+      "name": "Stephen Fleming",
+      "nationality": "New Zealander",
+      "specialty": [
+        "strategy",
+        "batting",
+        "leadership"
+      ]
+    },
+    {
+      "id": "lalchand-rajput",
+      "name": "Lalchand Rajput",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "management"
+      ]
+    },
+    {
+      "id": "shaun-pollock",
+      "name": "Shaun Pollock",
+      "nationality": "South African",
+      "specialty": [
+        "fast-bowling",
+        "all-round"
+      ]
+    },
+    {
+      "id": "robin-singh",
+      "name": "Robin Singh",
+      "nationality": "Indian",
+      "specialty": [
+        "fielding",
+        "all-round",
+        "finishing"
+      ]
+    },
+    {
+      "id": "john-wright",
+      "name": "John Wright",
+      "nationality": "New Zealander",
+      "specialty": [
+        "batting",
+        "strategy"
+      ]
+    },
+    {
+      "id": "ricky-ponting",
+      "name": "Ricky Ponting",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "id": "mahela-jayawardene",
+      "name": "Mahela Jayawardene",
+      "nationality": "Sri Lankan",
+      "specialty": [
+        "batting",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "id": "mark-boucher",
+      "name": "Mark Boucher",
+      "nationality": "South African",
+      "specialty": [
+        "wicket-keeping",
+        "batting",
+        "leadership"
+      ]
+    },
+    {
+      "id": "venkatesh-prasad",
+      "name": "Venkatesh Prasad",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling"
+      ]
+    },
+    {
+      "id": "ray-jennings",
+      "name": "Ray Jennings",
+      "nationality": "South African",
+      "specialty": [
+        "wicket-keeping",
+        "man-management"
+      ]
+    },
+    {
+      "id": "daniel-vettori",
+      "name": "Daniel Vettori",
+      "nationality": "New Zealander",
+      "specialty": [
+        "spin-bowling",
+        "all-round",
+        "strategy"
+      ]
+    },
+    {
+      "id": "gary-kirsten",
+      "name": "Gary Kirsten",
+      "nationality": "South African",
+      "specialty": [
+        "batting",
+        "strategy",
+        "player-development"
+      ]
+    },
+    {
+      "id": "simon-katich",
+      "name": "Simon Katich",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "man-management"
+      ]
+    },
+    {
+      "id": "sanjay-bangar",
+      "name": "Sanjay Bangar",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "all-round",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "andy-flower",
+      "name": "Andy Flower",
+      "nationality": "Zimbabwean",
+      "specialty": [
+        "batting",
+        "strategy",
+        "player-development"
+      ]
+    },
+    {
+      "id": "john-buchanan",
+      "name": "John Buchanan",
+      "nationality": "Australian",
+      "specialty": [
+        "strategy",
+        "sports-science"
+      ]
+    },
+    {
+      "id": "dav-whatmore",
+      "name": "Dav Whatmore",
+      "nationality": "Sri Lankan / Australian",
+      "specialty": [
+        "batting",
+        "player-development",
+        "subcontinent-coaching"
+      ]
+    },
+    {
+      "id": "trevor-bayliss",
+      "name": "Trevor Bayliss",
+      "nationality": "Australian",
+      "specialty": [
+        "strategy",
+        "white-ball-cricket",
+        "man-management"
+      ]
+    },
+    {
+      "id": "jacques-kallis",
+      "name": "Jacques Kallis",
+      "nationality": "South African",
+      "specialty": [
+        "batting",
+        "all-round",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "brendon-mccullum",
+      "name": "Brendon McCullum",
+      "nationality": "New Zealander",
+      "specialty": [
+        "batting",
+        "aggressive-cricket",
+        "leadership"
+      ]
+    },
+    {
+      "id": "chandrakant-pandit",
+      "name": "Chandrakant Pandit",
+      "nationality": "Indian",
+      "specialty": [
+        "wicket-keeping",
+        "discipline",
+        "domestic-cricket"
+      ]
+    },
+    {
+      "id": "abhishek-nayar",
+      "name": "Abhishek Nayar",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "mentoring",
+        "player-development"
+      ]
+    },
+    {
+      "id": "greg-shipperd",
+      "name": "Greg Shipperd",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "domestic-coaching",
+        "T20"
+      ]
+    },
+    {
+      "id": "eric-simons",
+      "name": "Eric Simons",
+      "nationality": "South African",
+      "specialty": [
+        "pace-bowling",
+        "all-round"
+      ]
+    },
+    {
+      "id": "paddy-upton",
+      "name": "Paddy Upton",
+      "nationality": "South African",
+      "specialty": [
+        "mental-conditioning",
+        "player-development",
+        "sports-psychology"
+      ]
+    },
+    {
+      "id": "hemang-badani",
+      "name": "Hemang Badani",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "T20-coaching",
+        "player-development"
+      ]
+    },
+    {
+      "id": "tom-moody",
+      "name": "Tom Moody",
+      "nationality": "Australian",
+      "specialty": [
+        "all-round",
+        "T20-coaching",
+        "strategy"
+      ]
+    },
+    {
+      "id": "michael-bevan",
+      "name": "Michael Bevan",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "finishing",
+        "ODI-cricket"
+      ]
+    },
+    {
+      "id": "adam-gilchrist",
+      "name": "Adam Gilchrist",
+      "nationality": "Australian",
+      "specialty": [
+        "wicket-keeping",
+        "batting",
+        "leadership"
+      ]
+    },
+    {
+      "id": "darren-lehmann",
+      "name": "Darren Lehmann",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "strategy",
+        "aggressive-cricket"
+      ]
+    },
+    {
+      "id": "virender-sehwag",
+      "name": "Virender Sehwag",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "aggressive-cricket"
+      ]
+    },
+    {
+      "id": "brad-hodge",
+      "name": "Brad Hodge",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "T20-cricket",
+        "finishing"
+      ]
+    },
+    {
+      "id": "mike-hesson",
+      "name": "Mike Hesson",
+      "nationality": "New Zealander",
+      "specialty": [
+        "strategy",
+        "player-development",
+        "data-analysis"
+      ]
+    },
+    {
+      "id": "anil-kumble",
+      "name": "Anil Kumble",
+      "nationality": "Indian",
+      "specialty": [
+        "spin-bowling",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "id": "shane-warne",
+      "name": "Shane Warne",
+      "nationality": "Australian",
+      "specialty": [
+        "spin-bowling",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "id": "andrew-mcdonald",
+      "name": "Andrew McDonald",
+      "nationality": "Australian",
+      "specialty": [
+        "strategy",
+        "all-round",
+        "player-management"
+      ]
+    },
+    {
+      "id": "kumar-sangakkara",
+      "name": "Kumar Sangakkara",
+      "nationality": "Sri Lankan",
+      "specialty": [
+        "batting",
+        "wicket-keeping",
+        "leadership",
+        "strategy"
+      ]
+    },
+    {
+      "id": "rahul-dravid",
+      "name": "Rahul Dravid",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "player-development",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "id": "brian-lara",
+      "name": "Brian Lara",
+      "nationality": "Trinidadian (West Indian)",
+      "specialty": [
+        "batting",
+        "strategy"
+      ]
+    },
+    {
+      "id": "ashish-nehra",
+      "name": "Ashish Nehra",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling",
+        "player-development",
+        "man-management"
+      ]
+    },
+    {
+      "id": "justin-langer",
+      "name": "Justin Langer",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "strategy",
+        "team-culture"
+      ]
+    },
+    {
+      "id": "mike-hussey",
+      "name": "Mike Hussey",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "finishing",
+        "mental-strength"
+      ]
+    },
+    {
+      "id": "lakshmipathy-balaji",
+      "name": "Lakshmipathy Balaji",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling",
+        "death-bowling"
+      ]
+    },
+    {
+      "id": "dwayne-bravo",
+      "name": "Dwayne Bravo",
+      "nationality": "Trinidadian (West Indian)",
+      "specialty": [
+        "death-bowling",
+        "all-round",
+        "T20-cricket"
+      ]
+    },
+    {
+      "id": "rajiv-kumar",
+      "name": "Rajiv Kumar",
+      "nationality": "Indian",
+      "specialty": [
+        "fielding",
+        "man-management"
+      ]
+    },
+    {
+      "id": "sridharan-sriram",
+      "name": "Sridharan Sriram",
+      "nationality": "Indian",
+      "specialty": [
+        "spin-bowling",
+        "T20-strategy"
+      ]
+    },
+    {
+      "id": "james-foster",
+      "name": "James Foster",
+      "nationality": "English",
+      "specialty": [
+        "wicket-keeping",
+        "fielding"
+      ]
+    },
+    {
+      "id": "arun-karthik",
+      "name": "Arun Karthik",
+      "nationality": "Indian",
+      "specialty": [
+        "wicket-keeping",
+        "fielding"
+      ]
+    },
+    {
+      "id": "jonty-rhodes",
+      "name": "Jonty Rhodes",
+      "nationality": "South African",
+      "specialty": [
+        "fielding"
+      ]
+    },
+    {
+      "id": "james-pamment",
+      "name": "James Pamment",
+      "nationality": "New Zealander",
+      "specialty": [
+        "fielding",
+        "wicket-keeping"
+      ]
+    },
+    {
+      "id": "carl-hopkinson",
+      "name": "Carl Hopkinson",
+      "nationality": "English",
+      "specialty": [
+        "fielding"
+      ]
+    },
+    {
+      "id": "shane-bond",
+      "name": "Shane Bond",
+      "nationality": "New Zealander",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "lasith-malinga",
+      "name": "Lasith Malinga",
+      "nationality": "Sri Lankan",
+      "specialty": [
+        "fast-bowling",
+        "death-bowling",
+        "yorkers"
+      ]
+    },
+    {
+      "id": "paras-mhambrey",
+      "name": "Paras Mhambrey",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling"
+      ]
+    },
+    {
+      "id": "kieron-pollard",
+      "name": "Kieron Pollard",
+      "nationality": "Trinidadian (West Indian)",
+      "specialty": [
+        "batting",
+        "power-hitting",
+        "T20-cricket"
+      ]
+    },
+    {
+      "id": "sachin-tendulkar",
+      "name": "Sachin Tendulkar",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "mentoring"
+      ]
+    },
+    {
+      "id": "zaheer-khan",
+      "name": "Zaheer Khan",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling",
+        "strategy"
+      ]
+    },
+    {
+      "id": "trent-woodhill",
+      "name": "Trent Woodhill",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "player-development",
+        "T20-analysis"
+      ]
+    },
+    {
+      "id": "adam-griffith",
+      "name": "Adam Griffith",
+      "nationality": "Australian",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "malolan-rangarajan",
+      "name": "Malolan Rangarajan",
+      "nationality": "Indian",
+      "specialty": [
+        "fielding",
+        "scouting",
+        "player-development"
+      ]
+    },
+    {
+      "id": "richard-halsall",
+      "name": "Richard Halsall",
+      "nationality": "English",
+      "specialty": [
+        "fielding",
+        "player-development",
+        "assistant-coaching"
+      ]
+    },
+    {
+      "id": "dinesh-karthik",
+      "name": "Dinesh Karthik",
+      "nationality": "Indian",
+      "specialty": [
+        "wicket-keeping",
+        "finishing",
+        "batting"
+      ]
+    },
+    {
+      "id": "omkar-salvi",
+      "name": "Omkar Salvi",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling"
+      ]
+    },
+    {
+      "id": "kyle-mills",
+      "name": "Kyle Mills",
+      "nationality": "New Zealander",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "david-hussey",
+      "name": "David Hussey",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "finishing"
+      ]
+    },
+    {
+      "id": "bharat-arun",
+      "name": "Bharat Arun",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling",
+        "spin-bowling",
+        "coaching"
+      ]
+    },
+    {
+      "id": "ryan-ten-doeschate",
+      "name": "Ryan ten Doeschate",
+      "nationality": "Dutch",
+      "specialty": [
+        "all-round",
+        "fielding",
+        "leadership"
+      ]
+    },
+    {
+      "id": "carl-crowe",
+      "name": "Carl Crowe",
+      "nationality": "English",
+      "specialty": [
+        "spin-bowling"
+      ]
+    },
+    {
+      "id": "ottis-gibson",
+      "name": "Ottis Gibson",
+      "nationality": "Barbadian (West Indian)",
+      "specialty": [
+        "pace-bowling",
+        "all-round"
+      ]
+    },
+    {
+      "id": "gautam-gambhir",
+      "name": "Gautam Gambhir",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "leadership",
+        "strategy"
+      ]
+    },
+    {
+      "id": "shane-watson",
+      "name": "Shane Watson",
+      "nationality": "Australian",
+      "specialty": [
+        "all-round",
+        "batting",
+        "opening"
+      ]
+    },
+    {
+      "id": "tim-southee",
+      "name": "Tim Southee",
+      "nationality": "New Zealander",
+      "specialty": [
+        "fast-bowling",
+        "swing-bowling"
+      ]
+    },
+    {
+      "id": "andre-russell",
+      "name": "Andre Russell",
+      "nationality": "Jamaican (West Indian)",
+      "specialty": [
+        "power-hitting",
+        "fast-bowling",
+        "all-round"
+      ]
+    },
+    {
+      "id": "dishant-yagnik",
+      "name": "Dishant Yagnik",
+      "nationality": "Indian",
+      "specialty": [
+        "fielding",
+        "wicket-keeping"
+      ]
+    },
+    {
+      "id": "pravin-amre",
+      "name": "Pravin Amre",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "james-hopes",
+      "name": "James Hopes",
+      "nationality": "Australian",
+      "specialty": [
+        "pace-bowling",
+        "all-round"
+      ]
+    },
+    {
+      "id": "mohammad-kaif",
+      "name": "Mohammad Kaif",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "fielding"
+      ]
+    },
+    {
+      "id": "samuel-badree",
+      "name": "Samuel Badree",
+      "nationality": "Trinidadian (West Indian)",
+      "specialty": [
+        "spin-bowling",
+        "leg-spin"
+      ]
+    },
+    {
+      "id": "ryan-harris",
+      "name": "Ryan Harris",
+      "nationality": "Australian",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "biju-george",
+      "name": "Biju George",
+      "nationality": "Indian",
+      "specialty": [
+        "fielding",
+        "man-management"
+      ]
+    },
+    {
+      "id": "ajit-agarkar",
+      "name": "Ajit Agarkar",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling",
+        "death-bowling"
+      ]
+    },
+    {
+      "id": "matthew-mott",
+      "name": "Matthew Mott",
+      "nationality": "Australian",
+      "specialty": [
+        "strategy",
+        "white-ball-cricket"
+      ]
+    },
+    {
+      "id": "munaf-patel",
+      "name": "Munaf Patel",
+      "nationality": "Indian",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "kevin-pietersen",
+      "name": "Kevin Pietersen",
+      "nationality": "English",
+      "specialty": [
+        "batting",
+        "aggressive-cricket"
+      ]
+    },
+    {
+      "id": "venugopal-rao",
+      "name": "Venugopal Rao",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "administration"
+      ]
+    },
+    {
+      "id": "brad-haddin",
+      "name": "Brad Haddin",
+      "nationality": "Australian",
+      "specialty": [
+        "wicket-keeping",
+        "batting"
+      ]
+    },
+    {
+      "id": "wasim-jaffer",
+      "name": "Wasim Jaffer",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "charl-langeveldt",
+      "name": "Charl Langeveldt",
+      "nationality": "South African",
+      "specialty": [
+        "fast-bowling",
+        "death-bowling"
+      ]
+    },
+    {
+      "id": "sunil-joshi",
+      "name": "Sunil Joshi",
+      "nationality": "Indian",
+      "specialty": [
+        "spin-bowling",
+        "left-arm-orthodox"
+      ]
+    },
+    {
+      "id": "damien-wright",
+      "name": "Damien Wright",
+      "nationality": "Australian",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "julian-wood",
+      "name": "Julian Wood",
+      "nationality": "English",
+      "specialty": [
+        "batting",
+        "power-hitting"
+      ]
+    },
+    {
+      "id": "craig-mcmillan",
+      "name": "Craig McMillan",
+      "nationality": "New Zealander",
+      "specialty": [
+        "batting"
+      ]
+    },
+    {
+      "id": "trevor-gonsalves",
+      "name": "Trevor Gonsalves",
+      "nationality": "Indian",
+      "specialty": [
+        "pace-bowling"
+      ]
+    },
+    {
+      "id": "amol-muzumdar",
+      "name": "Amol Muzumdar",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "sairaj-bahutule",
+      "name": "Sairaj Bahutule",
+      "nationality": "Indian",
+      "specialty": [
+        "spin-bowling",
+        "leg-spin"
+      ]
+    },
+    {
+      "id": "zubin-bharucha",
+      "name": "Zubin Bharucha",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "high-performance",
+        "talent-id"
+      ]
+    },
+    {
+      "id": "steffan-jones",
+      "name": "Steffan Jones",
+      "nationality": "Welsh / British",
+      "specialty": [
+        "fast-bowling",
+        "biomechanics",
+        "high-performance"
+      ]
+    },
+    {
+      "id": "rob-cassell",
+      "name": "Rob Cassell",
+      "nationality": "Australian",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "trevor-penney",
+      "name": "Trevor Penney",
+      "nationality": "Zimbabwean / British",
+      "specialty": [
+        "batting",
+        "fielding",
+        "assistant-coaching"
+      ]
+    },
+    {
+      "id": "vikram-rathour",
+      "name": "Vikram Rathour",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "technical-coaching"
+      ]
+    },
+    {
+      "id": "muttiah-muralitharan",
+      "name": "Muttiah Muralitharan",
+      "nationality": "Sri Lankan",
+      "specialty": [
+        "spin-bowling",
+        "off-spin"
+      ]
+    },
+    {
+      "id": "vvs-laxman",
+      "name": "VVS Laxman",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "mentoring",
+        "strategy"
+      ]
+    },
+    {
+      "id": "simon-helmot",
+      "name": "Simon Helmot",
+      "nationality": "Australian",
+      "specialty": [
+        "T20-strategy",
+        "assistant-coaching"
+      ]
+    },
+    {
+      "id": "dale-steyn",
+      "name": "Dale Steyn",
+      "nationality": "South African",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "james-franklin",
+      "name": "James Franklin",
+      "nationality": "New Zealander",
+      "specialty": [
+        "all-round",
+        "left-arm-pace"
+      ]
+    },
+    {
+      "id": "ryan-cook",
+      "name": "Ryan Cook",
+      "nationality": "South African",
+      "specialty": [
+        "fielding"
+      ]
+    },
+    {
+      "id": "varun-aaron",
+      "name": "Varun Aaron",
+      "nationality": "Indian",
+      "specialty": [
+        "fast-bowling",
+        "express-pace"
+      ]
+    },
+    {
+      "id": "aashish-kapoor",
+      "name": "Aashish Kapoor",
+      "nationality": "Indian",
+      "specialty": [
+        "spin-bowling",
+        "off-spin",
+        "scouting"
+      ]
+    },
+    {
+      "id": "vikram-solanki",
+      "name": "Vikram Solanki",
+      "nationality": "English (India-born)",
+      "specialty": [
+        "batting",
+        "administration",
+        "cricket-operations"
+      ]
+    },
+    {
+      "id": "mithun-manhas",
+      "name": "Mithun Manhas",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "leadership"
+      ]
+    },
+    {
+      "id": "narender-negi",
+      "name": "Narender Negi",
+      "nationality": "Indian",
+      "specialty": [
+        "assistant-coaching",
+        "fielding"
+      ]
+    },
+    {
+      "id": "matthew-wade",
+      "name": "Matthew Wade",
+      "nationality": "Australian",
+      "specialty": [
+        "wicket-keeping",
+        "batting"
+      ]
+    },
+    {
+      "id": "parthiv-patel",
+      "name": "Parthiv Patel",
+      "nationality": "Indian",
+      "specialty": [
+        "wicket-keeping",
+        "batting",
+        "opening"
+      ]
+    },
+    {
+      "id": "morne-morkel",
+      "name": "Morne Morkel",
+      "nationality": "South African",
+      "specialty": [
+        "fast-bowling",
+        "height-bowling"
+      ]
+    },
+    {
+      "id": "vijay-dahiya",
+      "name": "Vijay Dahiya",
+      "nationality": "Indian",
+      "specialty": [
+        "wicket-keeping",
+        "batting",
+        "assistant-coaching"
+      ]
+    },
+    {
+      "id": "lance-klusener",
+      "name": "Lance Klusener",
+      "nationality": "South African",
+      "specialty": [
+        "all-round",
+        "pace-bowling",
+        "finishing"
+      ]
+    },
+    {
+      "id": "geoff-lawson",
+      "name": "Geoff Lawson",
+      "nationality": "Australian",
+      "specialty": [
+        "fast-bowling",
+        "strategy"
+      ]
+    },
+    {
+      "id": "geoff-marsh",
+      "name": "Geoff Marsh",
+      "nationality": "Australian",
+      "specialty": [
+        "batting",
+        "opening"
+      ]
+    },
+    {
+      "id": "allan-donald",
+      "name": "Allan Donald",
+      "nationality": "South African",
+      "specialty": [
+        "fast-bowling"
+      ]
+    },
+    {
+      "id": "hrishikesh-kanitkar",
+      "name": "Hrishikesh Kanitkar",
+      "nationality": "Indian",
+      "specialty": [
+        "batting",
+        "assistant-coaching"
+      ]
+    },
+    {
+      "id": "tommy-simsek",
+      "name": "Tommy Simsek",
+      "nationality": "Turkish / Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "greg-king",
+      "name": "Greg King",
+      "nationality": "Australian",
+      "specialty": [
+        "strength-and-conditioning",
+        "trainer"
+      ]
+    },
+    {
+      "id": "madhu-thottappillil",
+      "name": "Dr. Madhu Thottappillil",
+      "nationality": "Indian",
+      "specialty": [
+        "sports-medicine"
+      ]
+    },
+    {
+      "id": "russell-radhakrishnan",
+      "name": "Russell Radhakrishnan",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "kasi-viswanathan",
+      "name": "Kasi Viswanathan",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "sundar-raman",
+      "name": "Sundar Raman",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration",
+        "strategy"
+      ]
+    },
+    {
+      "id": "rahul-sanghvi",
+      "name": "Rahul Sanghvi",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management",
+        "cricket-operations"
+      ]
+    },
+    {
+      "id": "prashant-jangam",
+      "name": "Prashant Jangam",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "kevin-sims",
+      "name": "Kevin Sims",
+      "nationality": "Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "paul-chapman",
+      "name": "Paul Chapman",
+      "nationality": "Australian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "evan-speechly",
+      "name": "Evan Speechly",
+      "nationality": "South African",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "basu-shanker",
+      "name": "Basu Shanker",
+      "nationality": "Indian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "charles-minz",
+      "name": "Dr. Charles Minz",
+      "nationality": "Indian",
+      "specialty": [
+        "sports-medicine"
+      ]
+    },
+    {
+      "id": "avinash-vaidya",
+      "name": "Avinash Vaidya",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management",
+        "cricket-operations"
+      ]
+    },
+    {
+      "id": "soumyadeep-pyne",
+      "name": "Soumyadeep Pyne",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "prathamesh-mishra",
+      "name": "Prathamesh Mishra",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "chris-donaldson",
+      "name": "Chris Donaldson",
+      "nationality": "New Zealander",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "wayne-bentley",
+      "name": "Wayne Bentley",
+      "nationality": "Australian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "venky-mysore",
+      "name": "Venky Mysore",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "patrick-farhart",
+      "name": "Patrick Farhart",
+      "nationality": "Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "rajinikanth-sivagnanam",
+      "name": "Rajinikanth Sivagnanam",
+      "nationality": "Indian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "sumeshen-moodley",
+      "name": "Sumeshen Moodley",
+      "nationality": "South African",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "dhiraj-malhotra",
+      "name": "Dhiraj Malhotra",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "siddharth-bhasin",
+      "name": "Siddharth Bhasin",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "parth-jindal",
+      "name": "Parth Jindal",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration",
+        "ownership"
+      ]
+    },
+    {
+      "id": "andrew-leipus",
+      "name": "Andrew Leipus",
+      "nationality": "Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "adrian-le-roux",
+      "name": "Adrian le Roux",
+      "nationality": "South African",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "srinand-srinivas",
+      "name": "Dr. Srinand Srinivas",
+      "nationality": "Indian",
+      "specialty": [
+        "sports-medicine"
+      ]
+    },
+    {
+      "id": "satish-menon",
+      "name": "Satish Menon",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "nishant-thakur",
+      "name": "Nishant Thakur",
+      "nationality": "Indian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "jake-lush-mccrum",
+      "name": "Jake Lush McCrum",
+      "nationality": "English",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "romi-bhinder",
+      "name": "Romi Bhinder",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "john-gloster",
+      "name": "John Gloster",
+      "nationality": "Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "theo-kapakoulakis",
+      "name": "Theo Kapakoulakis",
+      "nationality": "Australian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "mario-villavarayan",
+      "name": "Mario Villavarayan",
+      "nationality": "Sri Lankan",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "jade-roberts",
+      "name": "Jade Roberts",
+      "nationality": "Australian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "k-shanmughan",
+      "name": "K Shanmughan",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "kavya-maran",
+      "name": "Kavya Maran",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration",
+        "ownership"
+      ]
+    },
+    {
+      "id": "vijay-kumar-srh",
+      "name": "Vijay Kumar",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "rohit-sawalkar",
+      "name": "Rohit Sawalkar",
+      "nationality": "Indian",
+      "specialty": [
+        "physiotherapy"
+      ]
+    },
+    {
+      "id": "satyajit-parab",
+      "name": "Satyajit Parab",
+      "nationality": "Indian",
+      "specialty": [
+        "team-management"
+      ]
+    },
+    {
+      "id": "arvinder-singh",
+      "name": "Arvinder Singh",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "warren-andrews",
+      "name": "Warren Andrews",
+      "nationality": "Australian",
+      "specialty": [
+        "strength-and-conditioning"
+      ]
+    },
+    {
+      "id": "vinod-bisht",
+      "name": "Vinod Bisht",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    },
+    {
+      "id": "raghu-iyer",
+      "name": "Raghu Iyer",
+      "nationality": "Indian",
+      "specialty": [
+        "cricket-administration"
+      ]
+    }
+  ]
+}

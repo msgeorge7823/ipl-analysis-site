@@ -1,0 +1,110 @@
+{
+  "id": "lalchand-rajput",
+  "name": "Lalchand Rajput",
+  "fullName": "Lalchand Sitaram Rajput",
+  "dob": "1961-12-18",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "management"
+  ],
+  "playingCareerSummary": "Former India opening batter (2 Tests, 4 ODIs, 1985-87). Manager of the India team that won the 2007 ICC World T20.",
+  "bio": "The inaugural head coach of the Mumbai Indians in the 2008 IPL. He came in directly off the back of managing India's 2007 T20 World Cup-winning squad. Replaced by Shaun Pollock after a single season in which MI finished 5th.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2008",
+      "seasons": [
+        "2008"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th of 8 with 14 points. Did not qualify for semi-finals. Franchise's inaugural season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://www.insidesport.in/cricket/list-of-mumbai-indians-coaches-in-ipl/"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Afghanistan (National)",
+      "role": "Head Coach",
+      "period": "2016-2017, 2020-2021",
+      "notes": "Afghanistan national team head coach across two stints; guided their 2018 Asia Cup qualification campaign in his first stint."
+    },
+    {
+      "team": "Zimbabwe (National)",
+      "role": "Head Coach",
+      "period": "2018-2019"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lalchand_Rajput",
+    "https://en.wikipedia.org/wiki/2008_Mumbai_Indians_season",
+    "https://www.insidesport.in/cricket/list-of-mumbai-indians-coaches-in-ipl/"
+  ],
+  "verified": true
+}

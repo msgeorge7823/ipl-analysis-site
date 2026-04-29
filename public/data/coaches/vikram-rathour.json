@@ -1,0 +1,115 @@
+{
+  "id": "vikram-rathour",
+  "name": "Vikram Rathour",
+  "fullName": "Vikram Rathour",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "technical-coaching"
+  ],
+  "playingCareerSummary": "Former India opener: 6 Tests, 7 ODIs. Did not play in the IPL. Long post-retirement career as a national selector and batting coach including India senior team batting coach 2019-2024.",
+  "bio": "Rajasthan Royals' batting coach for IPL 2025 under Rahul Dravid. Also confirmed for IPL 2026 as assistant coach under Kumar Sangakkara.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "batting-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 8 points (NRR -0.549). Second team eliminated from IPL 2025. Single-season tenure; Dravid left after this and Sangakkara returned for 2026."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Sangakkara returned as HC + Director of Cricket after Dravid's single-season stint. Assistant: Vikram Rathour (promoted from batting coach). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://en.wikipedia.org/wiki/2025_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2026_Rajasthan_Royals_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 10,
+      "noResults": 0,
+      "winPct": 28.57
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true,
+  "dob": "1969-03-26"
+}

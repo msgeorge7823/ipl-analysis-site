@@ -1,0 +1,83 @@
+{
+  "season": "2017",
+  "players": [
+    {
+      "player": "Colin de Grandhomme",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Andre Russell",
+      "reason": "Doping code violation ban"
+    },
+    {
+      "player": "Imran Tahir",
+      "team": "Rising Pune Supergiant",
+      "replacing": "Mitchell Marsh",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Ben Hilfenhaus",
+      "team": "Delhi Daredevils",
+      "replacing": "JP Duminy",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Marlon Samuels",
+      "team": "Delhi Daredevils",
+      "replacing": "Quinton de Kock",
+      "reason": "Finger injury"
+    },
+    {
+      "player": "Vishnu Vinod",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "KL Rahul",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Washington Sundar",
+      "team": "Rising Pune Supergiant",
+      "replacing": "R Ashwin",
+      "reason": "Sports hernia"
+    },
+    {
+      "player": "Ishant Sharma",
+      "team": "Kings XI Punjab",
+      "replacing": "Murali Vijay",
+      "reason": "Wrist and shoulder injury"
+    },
+    {
+      "player": "Harpreet Singh Bhatia",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Sarfaraz Khan",
+      "reason": "Leg injury"
+    },
+    {
+      "player": "Irfan Pathan",
+      "team": "Gujarat Lions",
+      "replacing": "Dwayne Bravo",
+      "reason": "Hamstring injury"
+    },
+    {
+      "player": "Ankit Soni",
+      "team": "Gujarat Lions",
+      "replacing": "Shivil Kaushik",
+      "reason": "Injury"
+    },
+    {
+      "player": "Brendon McCullum",
+      "team": "Gujarat Lions",
+      "replacing": "Andrew Tye",
+      "reason": "Dislocated shoulder"
+    },
+    {
+      "player": "Nathu Singh",
+      "team": "Gujarat Lions",
+      "replacing": "Brendon McCullum",
+      "reason": "Hamstring strain"
+    },
+    {
+      "player": "Marcus Stoinis",
+      "team": "Kings XI Punjab",
+      "replacing": "Jason Roy",
+      "reason": "International duty"
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Player Ratings | IPL Analytics Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        surface: '#0a0a0f',
+                        card: '#131320',
+                        border: '#1e1e3a',
+                        accent: '#6366f1',
+                        'accent-light': '#818cf8',
+                        'accent-dim': '#4f46e5',
+                        gold: '#fbbf24',
+                        silver: '#94a3b8',
+                        bronze: '#d97706',
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; background: #0a0a0f; }
+        .glow { box-shadow: 0 0 40px rgba(99, 102, 241, 0.08); }
+        .sparkline-up { stroke: #22c55e; }
+        .sparkline-down { stroke: #ef4444; }
+        .sparkline-stable { stroke: #64748b; }
+        .tier-world-class { color: #a78bfa; }
+        .tier-elite { color: #6366f1; }
+        .tier-established { color: #38bdf8; }
+        .tier-rising { color: #2dd4bf; }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(99,102,241,0.12) 0%, rgba(139,92,246,0.06) 50%, transparent 100%);
+        }
+        .table-row-hover:hover {
+            background: rgba(99,102,241,0.06);
+            cursor: pointer;
+        }
+        .nav-glass {
+            background: rgba(19, 19, 32, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .rating-badge {
+            background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(139,92,246,0.1));
+            border: 1px solid rgba(99,102,241,0.3);
+        }
+        .tab-active {
+            border-bottom: 2px solid #6366f1;
+            color: #fff;
+        }
+        .gold-border { border-left: 3px solid #fbbf24; }
+        .silver-border { border-left: 3px solid #94a3b8; }
+        .bronze-border { border-left: 3px solid #d97706; }
+    </style>
+</head>
+<body class="text-gray-200 min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="nav-glass fixed top-0 left-0 right-0 z-50 border-b border-border">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <span class="text-lg font-bold text-white tracking-tight">IPL Analytics</span>
+                </div>
+                <div class="hidden md:flex items-center gap-6 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Dashboard</a>
+                    <a href="#" class="text-white font-medium">Ratings</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Analytics Lab</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Players</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Teams</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Matches</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="relative hidden md:block">
+                    <svg class="w-4 h-4 text-gray-500 absolute left-3 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    <input type="text" placeholder="Search players, teams..." class="bg-surface border border-border rounded-lg pl-10 pr-4 py-2 text-sm text-gray-300 placeholder-gray-600 focus:outline-none focus:border-accent w-64">
+                </div>
+                <button class="w-9 h-9 rounded-lg border border-border flex items-center justify-center hover:bg-card transition">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <div class="w-9 h-9 rounded-full bg-accent/20 border border-accent/30 flex items-center justify-center text-sm font-semibold text-accent-light">S</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="pt-16">
+        <div class="hero-gradient border-b border-border">
+            <div class="max-w-7xl mx-auto px-6 py-14">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-1.5 h-8 rounded-full bg-accent"></div>
+                    <h1 class="text-4xl font-extrabold text-white tracking-tight">IPL Player Ratings</h1>
+                </div>
+                <p class="text-gray-400 text-base ml-5 flex items-center gap-2">
+                    <span class="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    Powered by ICC-Calibrated Algorithm &middot; Historical from 2008
+                </p>
+                <div class="flex items-center gap-6 mt-6 ml-5">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-3 h-3 rounded-full bg-purple-400"></span>
+                        <span class="text-gray-500">World Class</span>
+                        <span class="text-gray-600">(850+)</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-3 h-3 rounded-full bg-accent"></span>
+                        <span class="text-gray-500">Elite</span>
+                        <span class="text-gray-600">(750-849)</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-3 h-3 rounded-full bg-sky-400"></span>
+                        <span class="text-gray-500">Established</span>
+                        <span class="text-gray-600">(600-749)</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-3 h-3 rounded-full bg-teal-400"></span>
+                        <span class="text-gray-500">Rising</span>
+                        <span class="text-gray-600">(&lt;600)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Tabs -->
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center gap-0 border-b border-border mt-0">
+            <button class="tab-active px-6 py-4 text-sm font-semibold transition">Batting</button>
+            <button class="px-6 py-4 text-sm font-medium text-gray-500 hover:text-gray-300 transition border-b-2 border-transparent">Bowling</button>
+            <button class="px-6 py-4 text-sm font-medium text-gray-500 hover:text-gray-300 transition border-b-2 border-transparent">All-Rounder</button>
+            <button class="px-6 py-4 text-sm font-medium text-gray-500 hover:text-gray-300 transition border-b-2 border-transparent">Fielding</button>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="max-w-7xl mx-auto px-6 mt-6">
+        <div class="bg-card border border-border rounded-xl p-4 flex flex-wrap items-center gap-4">
+            <!-- Nationality -->
+            <div class="flex flex-col gap-1">
+                <label class="text-[11px] font-medium text-gray-500 uppercase tracking-wider">Nationality</label>
+                <select class="bg-surface border border-border rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent min-w-[140px] appearance-none cursor-pointer">
+                    <option>All</option>
+                </select>
+            </div>
+            <!-- Team -->
+            <div class="flex flex-col gap-1">
+                <label class="text-[11px] font-medium text-gray-500 uppercase tracking-wider">Team</label>
+                <select class="bg-surface border border-border rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent min-w-[140px] appearance-none cursor-pointer">
+                    <option>All Teams</option>
+                </select>
+            </div>
+            <!-- Season -->
+            <div class="flex flex-col gap-1">
+                <label class="text-[11px] font-medium text-gray-500 uppercase tracking-wider">Season</label>
+                <select class="bg-surface border border-border rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent min-w-[120px] appearance-none cursor-pointer">
+                    <option>2025</option>
+                </select>
+            </div>
+            <!-- Spacer -->
+            <div class="flex-1"></div>
+            <!-- View Toggle -->
+            <div class="flex flex-col gap-1">
+                <label class="text-[11px] font-medium text-gray-500 uppercase tracking-wider">View</label>
+                <div class="flex items-center bg-surface border border-border rounded-lg overflow-hidden">
+                    <button class="px-4 py-2 text-sm font-medium bg-accent text-white">Active</button>
+                    <button class="px-4 py-2 text-sm text-gray-400 hover:text-gray-200 transition">All-Time</button>
+                    <button class="px-4 py-2 text-sm text-gray-400 hover:text-gray-200 transition">Retired</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaderboard Table -->
+    <div class="max-w-7xl mx-auto px-6 mt-6 mb-8">
+        <div class="bg-card border border-border rounded-xl overflow-hidden glow">
+            <table class="w-full">
+                <thead>
+                    <tr class="bg-[#0e0e1a] border-b border-border">
+                        <th class="text-left text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-5 py-4 w-16">Rank</th>
+                        <th class="text-center text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-2 py-4 w-16">Mvmt</th>
+                        <th class="text-left text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-4 py-4">Player</th>
+                        <th class="text-left text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-4 py-4 w-32">Team</th>
+                        <th class="text-right text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-4 py-4 w-28">Rating</th>
+                        <th class="text-right text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-4 py-4 w-36">Best Rating</th>
+                        <th class="text-center text-[11px] font-semibold text-gray-500 uppercase tracking-wider px-4 py-4 w-28">Trend</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Row 1 - Gold -->
+                    <tr class="border-b border-border/50 table-row-hover gold-border">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gold">1</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-green-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 0L10 7H0z"/></svg>1
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center text-sm font-bold text-white">VK</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Virat Kohli</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-red-500/10 text-red-400 border border-red-500/20 rounded-md px-2.5 py-1 text-xs font-medium">RCB</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-world-class">892</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">968</span>
+                            <span class="text-xs text-gray-600 ml-1">(2016)</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,18 12,16 24,14 36,11 48,8 60,4" fill="none" class="sparkline-up" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 2 - Silver -->
+                    <tr class="border-b border-border/50 table-row-hover silver-border">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-silver">2</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-red-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 10L0 3h10z"/></svg>1
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-800 to-blue-950 flex items-center justify-center text-sm font-bold text-white">SG</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Shubman Gill</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-md px-2.5 py-1 text-xs font-medium">GT</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-world-class">878</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">878</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,12 12,12 24,13 36,12 48,12 60,11" fill="none" class="sparkline-stable" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 3 - Bronze -->
+                    <tr class="border-b border-border/50 table-row-hover bronze-border">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-orange-400">3</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center text-gray-500 text-sm font-semibold">—</span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-pink-600 to-pink-900 flex items-center justify-center text-sm font-bold text-white">JB</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Jos Buttler</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🏴</span> England
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-pink-500/10 text-pink-400 border border-pink-500/20 rounded-md px-2.5 py-1 text-xs font-medium">RR</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">845</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">912</span>
+                            <span class="text-xs text-gray-600 ml-1">(2022)</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,8 12,9 24,11 36,12 48,14 60,15" fill="none" class="sparkline-down" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 4 -->
+                    <tr class="border-b border-border/50 table-row-hover border-l-3 border-l-transparent">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">4</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-green-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 0L10 7H0z"/></svg>2
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-800 flex items-center justify-center text-sm font-bold text-white">SY</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Suryakumar Yadav</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-300 border border-blue-500/20 rounded-md px-2.5 py-1 text-xs font-medium">MI</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">831</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">856</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,18 12,15 24,13 36,10 48,7 60,4" fill="none" class="sparkline-up" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 5 -->
+                    <tr class="border-b border-border/50 table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">5</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-red-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 10L0 3h10z"/></svg>1
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center text-sm font-bold text-white">FD</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Faf du Plessis</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇿🇦</span> South Africa
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-red-500/10 text-red-400 border border-red-500/20 rounded-md px-2.5 py-1 text-xs font-medium">RCB</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">812</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">843</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,8 12,10 24,12 36,14 48,16 60,18" fill="none" class="sparkline-down" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 6 -->
+                    <tr class="border-b border-border/50 table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">6</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-green-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 0L10 7H0z"/></svg>3
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-orange-800 flex items-center justify-center text-sm font-bold text-white">TH</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Travis Head</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇦🇺</span> Australia
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 border border-orange-500/20 rounded-md px-2.5 py-1 text-xs font-medium">SRH</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">798</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">798</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,20 12,17 24,14 36,11 48,7 60,4" fill="none" class="sparkline-up" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 7 -->
+                    <tr class="border-b border-border/50 table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">7</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center text-gray-500 text-sm font-semibold">—</span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-500 to-yellow-800 flex items-center justify-center text-sm font-bold text-white">RG</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Ruturaj Gaikwad</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 rounded-md px-2.5 py-1 text-xs font-medium">CSK</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">789</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">801</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,12 12,13 24,12 36,11 48,12 60,12" fill="none" class="sparkline-stable" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 8 -->
+                    <tr class="border-b border-border/50 table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">8</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-red-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 10L0 3h10z"/></svg>2
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center text-sm font-bold text-white">DW</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">David Warner</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇦🇺</span> Australia
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-md px-2.5 py-1 text-xs font-medium">DC</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">776</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">921</span>
+                            <span class="text-xs text-gray-600 ml-1">(2016)</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,6 12,8 24,11 36,14 48,16 60,19" fill="none" class="sparkline-down" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 9 -->
+                    <tr class="border-b border-border/50 table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">9</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center gap-1 text-green-400 text-sm font-semibold">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 10 10"><path d="M5 0L10 7H0z"/></svg>1
+                            </span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-600 to-cyan-900 flex items-center justify-center text-sm font-bold text-white">KL</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">KL Rahul</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 rounded-md px-2.5 py-1 text-xs font-medium">LSG</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">764</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">824</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,16 12,15 24,13 36,12 48,10 60,9" fill="none" class="sparkline-up" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+
+                    <!-- Row 10 -->
+                    <tr class="table-row-hover">
+                        <td class="px-5 py-4">
+                            <span class="text-lg font-bold text-gray-400">10</span>
+                        </td>
+                        <td class="px-2 py-4 text-center">
+                            <span class="inline-flex items-center text-gray-500 text-sm font-semibold">—</span>
+                        </td>
+                        <td class="px-4 py-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-pink-600 to-pink-900 flex items-center justify-center text-sm font-bold text-white">SS</div>
+                                <div>
+                                    <div class="font-semibold text-white text-[15px]">Sanju Samson</div>
+                                    <div class="text-xs text-gray-500 flex items-center gap-1">
+                                        <span class="inline-block w-4 text-center">🇮🇳</span> India
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-4">
+                            <span class="inline-flex items-center gap-1.5 bg-pink-500/10 text-pink-400 border border-pink-500/20 rounded-md px-2.5 py-1 text-xs font-medium">RR</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-xl font-bold tier-elite">751</span>
+                        </td>
+                        <td class="px-4 py-4 text-right">
+                            <span class="text-sm text-gray-300 font-semibold">780</span>
+                        </td>
+                        <td class="px-4 py-4 text-center">
+                            <svg width="60" height="24" viewBox="0 0 60 24" class="inline-block"><polyline points="0,12 12,11 24,12 36,12 48,13 60,12" fill="none" class="sparkline-stable" stroke-width="2" stroke-linecap="round"/></svg>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="flex items-center justify-between mt-5 mb-10">
+            <p class="text-sm text-gray-500">Showing <span class="text-gray-300 font-medium">1-10</span> of <span class="text-gray-300 font-medium">387</span> players</p>
+            <div class="flex items-center gap-1">
+                <button class="w-9 h-9 rounded-lg border border-border text-gray-500 flex items-center justify-center hover:bg-card transition text-sm">&lt;</button>
+                <button class="w-9 h-9 rounded-lg bg-accent text-white flex items-center justify-center text-sm font-semibold">1</button>
+                <button class="w-9 h-9 rounded-lg border border-border text-gray-400 flex items-center justify-center hover:bg-card transition text-sm">2</button>
+                <button class="w-9 h-9 rounded-lg border border-border text-gray-400 flex items-center justify-center hover:bg-card transition text-sm">3</button>
+                <span class="text-gray-600 px-2">...</span>
+                <button class="w-9 h-9 rounded-lg border border-border text-gray-400 flex items-center justify-center hover:bg-card transition text-sm">39</button>
+                <button class="w-9 h-9 rounded-lg border border-border text-gray-500 flex items-center justify-center hover:bg-card transition text-sm">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-border bg-card/50">
+        <div class="max-w-7xl mx-auto px-6 py-8">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-7 h-7 rounded-lg bg-accent flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <span class="text-sm font-semibold text-gray-400">IPL Analytics Platform</span>
+                </div>
+                <div class="flex items-center gap-6 text-xs text-gray-600">
+                    <span>Ratings updated daily</span>
+                    <span>|</span>
+                    <span>Data from 2008 - 2025</span>
+                    <span>|</span>
+                    <span>Built for broadcast</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

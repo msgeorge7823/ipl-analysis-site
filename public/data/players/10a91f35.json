@@ -1,0 +1,25 @@
+{
+  "id": "10a91f35",
+  "name": "Shoaib Akhtar",
+  "shortName": "Shoaib Akhtar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-13",
+  "lastMatch": "2008-05-18",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    }
+  ]
+}

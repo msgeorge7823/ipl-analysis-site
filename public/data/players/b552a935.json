@@ -1,0 +1,30 @@
+{
+  "id": "b552a935",
+  "name": "AC Thomas",
+  "shortName": "AC Thomas",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-04-10",
+  "lastMatch": "2012-05-11",
+  "matchCount": 15,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3b53243a",
+  "name": "XC Bartlett",
+  "shortName": "XC Bartlett",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-04-15",
+  "lastMatch": "2026-04-25",
+  "matchCount": 11,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

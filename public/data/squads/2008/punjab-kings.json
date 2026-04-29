@@ -1,0 +1,154 @@
+{
+  "season": "2008",
+  "teamId": "punjab-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "5fa06777",
+      "name": "Irfan Khan Pathan",
+      "shortName": "IK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1c914163",
+      "name": "Yuvraj Singh",
+      "shortName": "Yuvraj Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d18f9182",
+      "name": "DPMD Jayawardene",
+      "shortName": "DPMD Jayawardene",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "890de8cb",
+      "name": "Gagandeep Singh",
+      "shortName": "Gagandeep Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a1f1829d",
+      "name": "K Goel",
+      "shortName": "K Goel",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b63ab531",
+      "name": "LA Pomersbach",
+      "shortName": "LA Pomersbach",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "eaa90ab4",
+      "name": "P Dharmani",
+      "shortName": "P Dharmani",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "36d33dd0",
+      "name": "RR Sarwan",
+      "shortName": "RR Sarwan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3fca55af",
+      "name": "S Sohal",
+      "shortName": "S Sohal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fdedb37c",
+      "name": "SM Katich",
+      "shortName": "SM Katich",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "508a1ea7",
+      "name": "Shaun Edward Marsh",
+      "shortName": "SE Marsh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a76d10ba",
+      "name": "TM Srivastava",
+      "shortName": "TM Srivastava",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "622cc511",
+      "name": "U Kaul",
+      "shortName": "U Kaul",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3dba85c2",
+      "name": "WA Mota",
+      "shortName": "WA Mota",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dd09ff8e",
+      "name": "B Lee",
+      "shortName": "B Lee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2498e163",
+      "name": "JR Hopes",
+      "shortName": "JR Hopes",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "98ae73b1",
+      "name": "Piyush Pramod Chawla",
+      "shortName": "PP Chawla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d096f3d",
+      "name": "RR Powar",
+      "shortName": "RR Powar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6b8eb6e5",
+      "name": "S Sreesanth",
+      "shortName": "S Sreesanth",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "034b4b7d",
+      "name": "VRV Singh",
+      "shortName": "VRV Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6b71e6cf",
+      "name": "KC Sangakkara",
+      "shortName": "KC Sangakkara",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

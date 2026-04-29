@@ -1,0 +1,89 @@
+{
+  "id": "462411b3",
+  "name": "Jasprit Jasbirsingh Bumrah",
+  "shortName": "JJ Bumrah",
+  "nicknames": [
+    "Boom Boom Bumrah",
+    "Jassi",
+    "Jasprit Bumrah"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-04-04",
+  "lastMatch": "2026-04-23",
+  "matchCount": 152,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

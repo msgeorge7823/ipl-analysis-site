@@ -1,0 +1,140 @@
+{
+  "season": "2025",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "5b8c830e",
+      "name": "Krunal Himanshu Pandya",
+      "shortName": "KH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "50c6bc2b",
+      "name": "LS Livingstone",
+      "shortName": "LS Livingstone",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c5aef772",
+      "name": "R Shepherd",
+      "shortName": "R Shepherd",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2c25d4f5",
+      "name": "D Padikkal",
+      "shortName": "D Padikkal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3c55c703",
+      "name": "JG Bethell",
+      "shortName": "JG Bethell",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "e96801ea",
+      "name": "MS Bhandage",
+      "shortName": "MS Bhandage",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c740ea83",
+      "name": "RM Patidar",
+      "shortName": "RM Patidar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "f1f99156",
+      "name": "TH David",
+      "shortName": "TH David",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "03806cf8",
+      "name": "JR Hazlewood",
+      "shortName": "JR Hazlewood",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f834dcfc",
+      "name": "L Ngidi",
+      "shortName": "L Ngidi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ee1b6c27",
+      "name": "N Thushara",
+      "shortName": "N Thushara",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b8527c3d",
+      "name": "Rasikh Salam",
+      "shortName": "Rasikh Salam",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9440ef41",
+      "name": "Suyash Sharma",
+      "shortName": "Suyash Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7210d461",
+      "name": "Yash Dayal",
+      "shortName": "Yash Dayal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "800d2d97",
+      "name": "JM Sharma",
+      "shortName": "JM Sharma",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "3d284ca3",
+      "name": "PD Salt",
+      "shortName": "PD Salt",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

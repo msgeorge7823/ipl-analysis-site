@@ -1,0 +1,27 @@
+{
+  "id": "926c7443",
+  "name": "Sahil Parakh",
+  "shortName": "SU Parakh",
+  "nicknames": [
+    "SU Parakh"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-27",
+  "lastMatch": "2026-04-27",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1cb14aa4",
+  "name": "CJ Dala",
+  "shortName": "CJ Dala",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2018"
+  ],
+  "firstMatch": "2018-05-12",
+  "lastMatch": "2018-05-12",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    }
+  ]
+}

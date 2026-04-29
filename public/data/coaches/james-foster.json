@@ -1,0 +1,192 @@
+{
+  "id": "james-foster",
+  "name": "James Foster",
+  "fullName": "James Savin Foster",
+  "dob": "1980-05-15",
+  "nationality": "English",
+  "specialty": [
+    "wicket-keeping",
+    "fielding"
+  ],
+  "playingCareerSummary": "Former England wicket-keeper: 7 Tests, 11 ODIs, 5 T20Is. Long and distinguished county career with Essex as one of England's finest keepers of his generation. Did not play in the IPL.",
+  "bio": "Former England wicket-keeper turned specialist fielding coach. Kolkata Knight Riders' fielding coach from 2020 to 2022 under Brendon McCullum, then joined Chennai Super Kings as their dedicated fielding coach from IPL 2026.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "fielding-coach",
+      "fromSeason": "2020",
+      "toSeason": "2022",
+      "seasons": [
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.214). Missed playoffs on net run rate. Season played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th with 14 points. Beat RCB in Eliminator by 4 wickets; beat DC in Qualifier 2 by 3 wickets; lost final to CSK by 27 runs. Season split across India and UAE legs due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. McCullum left after this season to become England's Test head coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 20,
+          "losses": 22,
+          "noResults": 0,
+          "winPct": 47.62
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season"
+      ],
+      "notes": "First IPL role — fielding coach under Brendon McCullum. Replaced by Ryan ten Doeschate for 2023."
+    },
+    {
+      "team": "Chennai Super Kings",
+      "role": "fielding-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 42,
+      "wins": 20,
+      "losses": 22,
+      "noResults": 0,
+      "winPct": 47.62
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/James_Foster_(cricketer)",
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

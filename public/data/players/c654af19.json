@@ -1,0 +1,37 @@
+{
+  "id": "c654af19",
+  "name": "R McLaren",
+  "shortName": "R McLaren",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010",
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2013-05-07",
+  "matchCount": 18,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    }
+  ]
+}

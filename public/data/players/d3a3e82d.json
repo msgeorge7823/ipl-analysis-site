@@ -1,0 +1,25 @@
+{
+  "id": "d3a3e82d",
+  "name": "AB Barath",
+  "shortName": "AB Barath",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-19",
+  "lastMatch": "2010-04-11",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "5d1e7582",
+  "name": "BKG Mendis",
+  "shortName": "BKG Mendis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-05-30",
+  "lastMatch": "2025-05-30",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "45eda7c8",
+  "name": "CA Lynn",
+  "shortName": "CA Lynn",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Deccan Chargers",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2012",
+    "2014",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2021"
+  ],
+  "firstMatch": "2012-05-18",
+  "lastMatch": "2021-04-09",
+  "matchCount": 42,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2014"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    }
+  ]
+}

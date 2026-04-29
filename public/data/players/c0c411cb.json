@@ -1,0 +1,30 @@
+{
+  "id": "c0c411cb",
+  "name": "Naveen-ul-Haq",
+  "shortName": "Naveen-ul-Haq",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2023-04-19",
+  "lastMatch": "2024-05-17",
+  "matchCount": 18,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

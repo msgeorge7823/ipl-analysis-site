@@ -1,0 +1,30 @@
+{
+  "id": "172dff15",
+  "name": "C Bosch",
+  "shortName": "C Bosch",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-04-27",
+  "lastMatch": "2026-04-04",
+  "matchCount": 4,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

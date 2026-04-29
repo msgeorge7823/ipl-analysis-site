@@ -1,0 +1,25 @@
+{
+  "id": "9868bc75",
+  "name": "BMAJ Mendis",
+  "shortName": "BMAJ Mendis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-04-09",
+  "lastMatch": "2013-05-04",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    }
+  ]
+}

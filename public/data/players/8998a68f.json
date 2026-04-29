@@ -1,0 +1,25 @@
+{
+  "id": "8998a68f",
+  "name": "Sumit Kumar",
+  "shortName": "Sumit Kumar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-03-23",
+  "lastMatch": "2024-04-17",
+  "matchCount": 4,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    }
+  ]
+}

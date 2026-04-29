@@ -1,0 +1,129 @@
+{
+  "id": "paras-mhambrey",
+  "name": "Paras Mhambrey",
+  "fullName": "Paras Laxmikant Mhambrey",
+  "dob": "1972-06-20",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling"
+  ],
+  "playingCareerSummary": "Former India right-arm medium-pacer: 2 Tests, 3 ODIs (1996). Long domestic career with Mumbai followed by an extensive coaching career including stints as India U19 head coach and India senior team bowling coach.",
+  "bio": "Mumbai Indians' bowling coach from IPL 2025 alongside Lasith Malinga, following his stint as India senior men's bowling coach under Rahul Dravid (2022-2024). Known for developing young Indian pacers.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "bowling-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2026_Mumbai_Indians_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 6,
+      "noResults": 0,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Bowling Coach",
+      "period": "2022-2024",
+      "notes": "India senior men's bowling coach under head coach Rahul Dravid."
+    },
+    {
+      "team": "India Under-19 (National)",
+      "role": "Head Coach",
+      "period": "2015-2017",
+      "notes": "Won the 2016 U19 World Cup final (lost) with a young core."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Paras_Mhambrey",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

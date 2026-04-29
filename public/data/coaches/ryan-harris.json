@@ -1,0 +1,150 @@
+{
+  "id": "ryan-harris",
+  "name": "Ryan Harris",
+  "fullName": "Ryan James Harris",
+  "nationality": "Australian",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerSummary": "Former Australia right-arm fast bowler: 27 Tests (113 wickets at 23.52), 21 ODIs, 3 T20Is. Played for Kings XI Punjab and Deccan Chargers in the IPL.",
+  "bio": "Delhi Capitals' fast bowling coach for IPL 2020 — the COVID-affected UAE season in which DC reached their first IPL final.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "fast-bowling-coach",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "team": "Kings XI Punjab",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points (NRR -0.251). Missed playoffs. Hesson later moved to RCB as Director of Cricket (2020-2023)."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "KXIP bowling coach under Mike Hesson for IPL 2019, one season before moving to DC for 2020."
+    },
+    {
+      "team": "Delhi Capitals",
+      "role": "fast-bowling-coach",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (16 pts). Lost Qualifier 1 to MI by 57 runs; beat SRH in Qualifier 2 by 17 runs; lost final to MI by 5 wickets. Franchise's first-ever IPL final, 12 years after their 2008 debut. Played in UAE due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 28,
+      "wins": 14,
+      "losses": 14,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1979-10-11",
+  "playingCareerPlayerId": "12eddf28"
+}

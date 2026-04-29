@@ -1,0 +1,119 @@
+{
+  "season": "2021",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "798cc28e",
+      "name": "KM Asif",
+      "shortName": "KM Asif",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bb351c23",
+      "name": "MM Ali",
+      "shortName": "MM Ali",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e94915e6",
+      "name": "SM Curran",
+      "shortName": "SM Curran",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "70d205c9",
+      "name": "Ambati Thirupathi Rayudu",
+      "shortName": "AT Rayudu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "45a43fe2",
+      "name": "Ruturaj Dhananjay Gaikwad",
+      "shortName": "RD Gaikwad",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "23eeb873",
+      "name": "Deepak Lokendrasingh Chahar",
+      "shortName": "DL Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "03806cf8",
+      "name": "JR Hazlewood",
+      "shortName": "JR Hazlewood",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f834dcfc",
+      "name": "L Ngidi",
+      "shortName": "L Ngidi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "acee4cc4",
+      "name": "Mohammad Imran Tahir",
+      "shortName": "Imran Tahir",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

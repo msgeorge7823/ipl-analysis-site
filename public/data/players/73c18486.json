@@ -1,0 +1,25 @@
+{
+  "id": "73c18486",
+  "name": "KR Mayers",
+  "shortName": "KR Mayers",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-01",
+  "lastMatch": "2023-05-24",
+  "matchCount": 13,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    }
+  ]
+}

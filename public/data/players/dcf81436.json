@@ -1,0 +1,62 @@
+{
+  "id": "dcf81436",
+  "name": "S Kaul",
+  "shortName": "S Kaul",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2013",
+    "2014",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2013-04-12",
+  "lastMatch": "2022-05-19",
+  "matchCount": 55,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    }
+  ]
+}

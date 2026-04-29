@@ -1,0 +1,31 @@
+{
+  "id": "378daa89",
+  "name": "Aman Hakim Khan",
+  "shortName": "Aman Hakim Khan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2022-04-15",
+  "lastMatch": "2023-05-20",
+  "matchCount": 12,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    }
+  ]
+}

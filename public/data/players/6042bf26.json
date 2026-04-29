@@ -1,0 +1,25 @@
+{
+  "id": "6042bf26",
+  "name": "NJ Rimmington",
+  "shortName": "NJ Rimmington",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-10",
+  "lastMatch": "2011-04-10",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    }
+  ]
+}

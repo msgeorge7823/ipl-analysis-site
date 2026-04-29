@@ -1,0 +1,25 @@
+{
+  "id": "fb5f69e4",
+  "name": "M Tiwari",
+  "shortName": "M Tiwari",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-05-08",
+  "lastMatch": "2025-05-21",
+  "matchCount": 2,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "deccan-chargers",
+  "name": "Deccan Chargers",
+  "shortName": "DCH",
+  "primaryColor": "#5B8FBF",
+  "secondaryColor": "#C0C0C0",
+  "homeVenue": "Eden Gardens",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "isDefunct": true,
+  "aliases": []
+}

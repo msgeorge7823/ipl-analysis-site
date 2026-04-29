@@ -1,0 +1,105 @@
+{
+  "season": "2015",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "35205dfc",
+      "name": "Dwayne Romel Smith",
+      "shortName": "DR Smith",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8a55852",
+      "name": "Brendon Barrie McCullum",
+      "shortName": "BB McCullum",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48fd7349",
+      "name": "Michael Edward Killeen Hussey",
+      "shortName": "MEK Hussey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b2b23612",
+      "name": "RG More",
+      "shortName": "RG More",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "96fd40ae",
+      "name": "Ashish Nehra",
+      "shortName": "A Nehra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e0407c01",
+      "name": "IC Pandey",
+      "shortName": "IC Pandey",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "e96801ea",
+  "name": "MS Bhandage",
+  "shortName": "MS Bhandage",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-04-18",
+  "lastMatch": "2025-04-18",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    }
+  ]
+}

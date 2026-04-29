@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2023 — Season Detail | IPL Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0a0a0f', card: '#131320', border: '#1e1e3a', surface: '#0f0f1a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+                    },
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0a0a0f; color: #e2e8f0; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0f; }
+        ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+        .top4 { background: rgba(99, 102, 241, 0.06); border-left: 3px solid #6366f1; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-xl border-b border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="#" class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-xs">IPL</span>
+                    </div>
+                    <span class="text-white font-semibold text-sm tracking-tight">Analytics</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Home</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-accent font-medium bg-accent/10 rounded-lg">Seasons</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Teams</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Players</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Matches</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Ratings</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Analytics Lab</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Auctions</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Venues</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Records</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">More</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-purple-900/10"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/5 rounded-full blur-3xl"></div>
+        <div class="relative max-w-7xl mx-auto px-4 pt-16 pb-12">
+            <div class="flex items-center gap-2 text-sm text-gray-500 mb-4">
+                <a href="#" class="hover:text-accent transition">Seasons</a>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                <span class="text-gray-400">2023</span>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-3">IPL 2023</h1>
+            <p class="text-xl text-accent-light font-medium mb-1">Tata IPL 2023</p>
+            <p class="text-gray-400 text-lg">Mar 31 &ndash; May 28, 2023 &middot; 16th Season</p>
+        </div>
+    </section>
+
+    <!-- Winner / Runner-up -->
+    <section class="max-w-7xl mx-auto px-4 -mt-2 mb-12">
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-8 glow flex items-center gap-6 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-yellow-500/5 rounded-full blur-2xl"></div>
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-500/20 to-yellow-600/10 border border-yellow-500/20 flex items-center justify-center text-3xl flex-shrink-0">
+                    🏆
+                </div>
+                <div>
+                    <p class="text-sm text-yellow-400 font-semibold uppercase tracking-wider mb-1">Champions</p>
+                    <h3 class="text-2xl font-bold text-white">Chennai Super Kings</h3>
+                    <p class="text-gray-400 text-sm mt-1">5th IPL Title</p>
+                </div>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-8 flex items-center gap-6">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-gray-500/20 to-gray-600/10 border border-gray-500/20 flex items-center justify-center text-3xl flex-shrink-0">
+                    🥈
+                </div>
+                <div>
+                    <p class="text-sm text-gray-400 font-semibold uppercase tracking-wider mb-1">Runner-up</p>
+                    <h3 class="text-2xl font-bold text-white">Gujarat Titans</h3>
+                    <p class="text-gray-400 text-sm mt-1">Defending Champions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Award Cards -->
+    <section class="max-w-7xl mx-auto px-4 mb-16">
+        <h2 class="text-2xl font-bold text-white mb-6">Season Awards</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 hover:border-orange-500/30 transition group">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center">
+                        <span class="text-orange-400 text-lg">🧢</span>
+                    </div>
+                    <div>
+                        <p class="text-xs text-orange-400 font-semibold uppercase tracking-wider">Orange Cap</p>
+                        <p class="text-xs text-gray-500">Most Runs</p>
+                    </div>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Faf du Plessis</h3>
+                <p class="text-3xl font-extrabold text-orange-400">730 <span class="text-base font-medium text-gray-500">runs</span></p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 hover:border-purple-500/30 transition group">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center">
+                        <span class="text-purple-400 text-lg">🧢</span>
+                    </div>
+                    <div>
+                        <p class="text-xs text-purple-400 font-semibold uppercase tracking-wider">Purple Cap</p>
+                        <p class="text-xs text-gray-500">Most Wickets</p>
+                    </div>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Mohammed Shami</h3>
+                <p class="text-3xl font-extrabold text-purple-400">28 <span class="text-base font-medium text-gray-500">wickets</span></p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 hover:border-accent/30 transition group">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
+                        <span class="text-accent text-lg">⭐</span>
+                    </div>
+                    <div>
+                        <p class="text-xs text-accent font-semibold uppercase tracking-wider">Player of the Tournament</p>
+                        <p class="text-xs text-gray-500">Best Overall</p>
+                    </div>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Shubman Gill</h3>
+                <p class="text-sm text-gray-400 mt-2">Exceptional performance throughout the season</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Points Table -->
+    <section class="max-w-7xl mx-auto px-4 mb-20">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white">Points Table</h2>
+            <button class="text-sm text-accent hover:text-accent-light transition flex items-center gap-1">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"/></svg>
+                Sort
+            </button>
+        </div>
+        <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-dark-border text-gray-500 text-xs uppercase tracking-wider">
+                            <th class="text-left py-4 px-6 font-semibold">#</th>
+                            <th class="text-left py-4 px-4 font-semibold">Team</th>
+                            <th class="text-center py-4 px-4 font-semibold">M</th>
+                            <th class="text-center py-4 px-4 font-semibold">W</th>
+                            <th class="text-center py-4 px-4 font-semibold">L</th>
+                            <th class="text-center py-4 px-4 font-semibold">NR</th>
+                            <th class="text-center py-4 px-4 font-semibold">Pts</th>
+                            <th class="text-center py-4 px-6 font-semibold">NRR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="top4 border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">1</td>
+                            <td class="py-4 px-4 font-semibold text-white">Gujarat Titans</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">10</td>
+                            <td class="text-center py-4 px-4 text-red-400">4</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">20</td>
+                            <td class="text-center py-4 px-6 text-green-400 font-mono">+0.809</td>
+                        </tr>
+                        <tr class="top4 border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">2</td>
+                            <td class="py-4 px-4 font-semibold text-white">Chennai Super Kings</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">9</td>
+                            <td class="text-center py-4 px-4 text-red-400">5</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">18</td>
+                            <td class="text-center py-4 px-6 text-green-400 font-mono">+0.652</td>
+                        </tr>
+                        <tr class="top4 border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">3</td>
+                            <td class="py-4 px-4 font-semibold text-white">Lucknow Super Giants</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">8</td>
+                            <td class="text-center py-4 px-4 text-red-400">6</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">16</td>
+                            <td class="text-center py-4 px-6 text-green-400 font-mono">+0.284</td>
+                        </tr>
+                        <tr class="top4 border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">4</td>
+                            <td class="py-4 px-4 font-semibold text-white">Mumbai Indians</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">8</td>
+                            <td class="text-center py-4 px-4 text-red-400">6</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">16</td>
+                            <td class="text-center py-4 px-6 text-green-400 font-mono">+0.044</td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">5</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Rajasthan Royals</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">7</td>
+                            <td class="text-center py-4 px-4 text-red-400">7</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">14</td>
+                            <td class="text-center py-4 px-6 text-green-400 font-mono">+0.246</td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">6</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Royal Challengers Bangalore</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">7</td>
+                            <td class="text-center py-4 px-4 text-red-400">7</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">14</td>
+                            <td class="text-center py-4 px-6 text-red-400 font-mono">-0.551</td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">7</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Kolkata Knight Riders</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">6</td>
+                            <td class="text-center py-4 px-4 text-red-400">8</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">12</td>
+                            <td class="text-center py-4 px-6 text-red-400 font-mono">-0.091</td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">8</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Punjab Kings</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">6</td>
+                            <td class="text-center py-4 px-4 text-red-400">8</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">12</td>
+                            <td class="text-center py-4 px-6 text-red-400 font-mono">-0.304</td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">9</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Delhi Capitals</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">5</td>
+                            <td class="text-center py-4 px-4 text-red-400">9</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">10</td>
+                            <td class="text-center py-4 px-6 text-red-400 font-mono">-0.503</td>
+                        </tr>
+                        <tr class="hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6 text-gray-500 font-medium">10</td>
+                            <td class="py-4 px-4 font-semibold text-gray-300">Sunrisers Hyderabad</td>
+                            <td class="text-center py-4 px-4 text-gray-300">14</td>
+                            <td class="text-center py-4 px-4 text-green-400 font-semibold">4</td>
+                            <td class="text-center py-4 px-4 text-red-400">10</td>
+                            <td class="text-center py-4 px-4 text-gray-500">0</td>
+                            <td class="text-center py-4 px-4 text-gray-300 font-bold">8</td>
+                            <td class="text-center py-4 px-6 text-red-400 font-mono">-0.602</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="px-6 py-3 border-t border-dark-border flex items-center gap-4 text-xs text-gray-500">
+                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-accent"></span> Qualified for Playoffs</span>
+                <span>M = Matches &middot; W = Won &middot; L = Lost &middot; NR = No Result &middot; Pts = Points &middot; NRR = Net Run Rate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-border bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-[10px]">IPL</span>
+                    </div>
+                    <span class="text-gray-400 text-sm font-medium">Analytics Platform</span>
+                </div>
+                <p class="text-gray-600 text-xs">&copy; 2026 IPL Analytics. For educational and analytical purposes only. Not affiliated with BCCI or IPL.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+{
+  "id": "vikram-solanki",
+  "name": "Vikram Solanki",
+  "fullName": "Vikram Singh Solanki",
+  "nationality": "English (India-born)",
+  "specialty": [
+    "batting",
+    "administration",
+    "cricket-operations"
+  ],
+  "playingCareerSummary": "Former England right-handed top-order batter: 51 ODIs, 3 T20Is. Long county career with Worcestershire and Surrey. Did not play in the IPL.",
+  "bio": "Gujarat Titans' Director of Cricket since the franchise's founding in 2022. Oversaw the inaugural title (2022), runner-up finish (2023) and 2025 playoff appearance — an architect of GT's early success.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "director-of-cricket",
+      "fromSeason": "2022",
+      "toSeason": "2026",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (20 pts, NRR 0.316). Beat Rajasthan Royals in Qualifier 1 by 7 wickets; beat RR in final by 7 wickets at Narendra Modi Stadium, Ahmedabad. Inaugural season title — GT became only the second team (after CSK in 2008) to win the IPL in their debut season. Captain: Hardik Pandya. Gary Kirsten: batting coach/mentor."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (20 pts). Lost Qualifier 1 to CSK by 15 runs; beat Mumbai Indians in Qualifier 2 by 62 runs; lost final to CSK by 5 wickets (DLS). The 'longest-ever IPL final' — spanned 3 calendar days due to rain, ending at 01:35 IST on 30 May."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -1.063). First season GT missed the playoffs. Captain Shubman Gill took over from Hardik Pandya who returned to MI."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in Group B. Lost Eliminator to Mumbai Indians by 20 runs (208/6 vs 228/5) at Mullanpur on 30 May. Sai Sudharsan top-scored across the IPL with 759 runs; Prasidh Krishna most wickets with 25."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Nehra retained as HC alongside Vikram Solanki (DoC). Matthew Hayden joined as mentor and Parthiv Patel as batting coach. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 34,
+          "losses": 20,
+          "noResults": 2,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 6,
+          "wins": 3,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 1,
+        "finalsReached": 2,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans",
+        "https://en.wikipedia.org/wiki/2022_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2023_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2024_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2025_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2026_Gujarat_Titans_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 34,
+      "losses": 20,
+      "noResults": 2,
+      "winPct": 60.71
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true,
+  "dob": "1976-04-01"
+}

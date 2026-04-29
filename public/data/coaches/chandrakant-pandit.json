@@ -1,0 +1,160 @@
+{
+  "id": "chandrakant-pandit",
+  "name": "Chandrakant Pandit",
+  "fullName": "Chandrakant Sitaram Pandit",
+  "dob": "1961-09-30",
+  "nationality": "Indian",
+  "specialty": [
+    "wicket-keeping",
+    "discipline",
+    "domestic-cricket"
+  ],
+  "playingCareerSummary": "Former India wicket-keeper batter: 5 Tests, 36 ODIs (1986-1992). Did not play in the IPL. The most successful domestic coach in Indian cricket history, with six Ranji Trophy titles (two with Mumbai, three with Vidarbha, one with Madhya Pradesh).",
+  "bio": "KKR head coach from 2023 to 2025. Delivered KKR's third IPL title in 2024 with a dominant campaign — just 3 losses all season, 1st in the table, and the fastest run-chase in an IPL final. Worked alongside mentor Gautam Gambhir in 2024 (a partnership widely credited with the transformation). His disciplinarian reputation made him a contrast to the more player-led McCullum era. Stepped aside after his three-year contract ended in 2025.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2023",
+      "toSeason": "2025",
+      "seasons": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. First season replacing Brendon McCullum."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 3,
+            "noResults": 2,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st with 20 points. Lost just 3 matches all season (a joint record for fewest losses in a full IPL). Beat SRH in Qualifier 1 by 8 wickets; beat SRH in final by 8 wickets — the fastest IPL final chase (57 balls remaining). KKR's third IPL title. Mentor: Gautam Gambhir."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points. Eliminated when the RCB match was abandoned. Mentor: Dwayne Bravo. Pandit's three-year contract ended after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 20,
+          "losses": 18,
+          "noResults": 4,
+          "winPct": 47.62
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 20,
+      "losses": 18,
+      "noResults": 4,
+      "winPct": 47.62
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Mumbai (Ranji Trophy)",
+      "role": "Head Coach",
+      "period": "2002-2004, 2015-2016",
+      "notes": "Ranji Trophy titles in 2002-03 and 2015-16."
+    },
+    {
+      "team": "Vidarbha (Ranji Trophy)",
+      "role": "Head Coach",
+      "period": "2016-2019",
+      "notes": "Back-to-back Ranji Trophy titles in 2017-18 and 2018-19, plus the Irani Cup."
+    },
+    {
+      "team": "Madhya Pradesh (Ranji Trophy)",
+      "role": "Head Coach",
+      "period": "2020-2022",
+      "notes": "Ranji Trophy title in 2021-22 — MP's first ever."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chandrakant_Pandit",
+    "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season"
+  ],
+  "verified": true
+}

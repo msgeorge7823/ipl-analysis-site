@@ -1,0 +1,132 @@
+{
+  "id": "vinod-bisht",
+  "name": "Vinod Bisht",
+  "fullName": "Vinod Bisht",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration"
+  ],
+  "playingCareerSummary": "Sports business and cricket operations executive.",
+  "bio": "Lucknow Super Giants' CEO, documented in IPL 2024.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "team-manager",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "Role is CEO. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 13,
+      "losses": 15,
+      "noResults": 0,
+      "winPct": 46.43
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true
+}

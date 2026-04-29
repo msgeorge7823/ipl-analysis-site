@@ -1,0 +1,25 @@
+{
+  "id": "75de770f",
+  "name": "T Taibu",
+  "shortName": "T Taibu",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-08",
+  "lastMatch": "2008-05-13",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    }
+  ]
+}

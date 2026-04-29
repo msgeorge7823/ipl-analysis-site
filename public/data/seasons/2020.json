@@ -1,0 +1,28 @@
+{
+  "year": "2020",
+  "winner": "Mumbai Indians",
+  "runnerUp": "Delhi Capitals",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Kannur Lokesh Rahul",
+    "shortName": "KL Rahul",
+    "runs": 670
+  },
+  "purpleCap": {
+    "player": "Kagiso Rabada",
+    "shortName": "K Rabada",
+    "wickets": 30
+  }
+}

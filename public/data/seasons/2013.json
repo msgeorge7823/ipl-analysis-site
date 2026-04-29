@@ -1,0 +1,29 @@
+{
+  "year": "2013",
+  "winner": "Mumbai Indians",
+  "runnerUp": "Chennai Super Kings",
+  "isOngoing": false,
+  "matchCount": 76,
+  "matchesWithData": 76,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Pune Warriors",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Michael Edward Killeen Hussey",
+    "shortName": "MEK Hussey",
+    "runs": 733
+  },
+  "purpleCap": {
+    "player": "Dwayne James Bravo",
+    "shortName": "DJ Bravo",
+    "wickets": 32
+  }
+}

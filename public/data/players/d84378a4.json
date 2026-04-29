@@ -1,0 +1,42 @@
+{
+  "id": "d84378a4",
+  "name": "M Kaif",
+  "shortName": "M Kaif",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2012-04-15",
+  "matchCount": 29,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    }
+  ]
+}

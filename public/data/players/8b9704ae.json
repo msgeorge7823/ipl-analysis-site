@@ -1,0 +1,30 @@
+{
+  "id": "8b9704ae",
+  "name": "L Ablish",
+  "shortName": "L Ablish",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-04-09",
+  "lastMatch": "2011-05-06",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    }
+  ]
+}

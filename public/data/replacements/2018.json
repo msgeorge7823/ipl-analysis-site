@@ -1,0 +1,77 @@
+{
+  "season": "2018",
+  "players": [
+    {
+      "player": "Mitchell McClenaghan",
+      "team": "Mumbai Indians",
+      "replacing": "Jason Behrendorff",
+      "reason": "Back problem"
+    },
+    {
+      "player": "Corey Anderson",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Nathan Coulter-Nile",
+      "reason": "Injury"
+    },
+    {
+      "player": "Alex Hales",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "David Warner",
+      "reason": "Ball tampering ban"
+    },
+    {
+      "player": "Heinrich Klaasen",
+      "team": "Rajasthan Royals",
+      "replacing": "Steve Smith",
+      "reason": "Ball tampering ban"
+    },
+    {
+      "player": "Tom Curran",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mitchell Starc",
+      "reason": "Tibial bone stress"
+    },
+    {
+      "player": "Liam Plunkett",
+      "team": "Delhi Daredevils",
+      "replacing": "Kagiso Rabada",
+      "reason": "Lower-back stress reaction"
+    },
+    {
+      "player": "Adam Milne",
+      "team": "Mumbai Indians",
+      "replacing": "Pat Cummins",
+      "reason": "Back injury"
+    },
+    {
+      "player": "Ish Sodhi",
+      "team": "Rajasthan Royals",
+      "replacing": "Zahir Khan Pakteen",
+      "reason": "Injury"
+    },
+    {
+      "player": "Prasidh Krishna",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Kamlesh Nagarkoti",
+      "reason": "Foot injury"
+    },
+    {
+      "player": "Chris Morris",
+      "team": "Delhi Daredevils",
+      "replacing": "Billy Stanlake",
+      "reason": "Fractured finger"
+    },
+    {
+      "player": "Junior Dala",
+      "team": "Delhi Daredevils",
+      "replacing": "Chris Morris",
+      "reason": "Back injury"
+    },
+    {
+      "player": "David Willey",
+      "team": "Chennai Super Kings",
+      "replacing": "Mark Wood",
+      "reason": "Returned to England"
+    }
+  ]
+}

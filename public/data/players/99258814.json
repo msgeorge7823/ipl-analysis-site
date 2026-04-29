@@ -1,0 +1,33 @@
+{
+  "id": "99258814",
+  "name": "Gurnoor Brar",
+  "shortName": "Gurnoor Brar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-28",
+  "lastMatch": "2023-04-28",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2023",
+      "team": "Punjab Kings",
+      "replacing": "Raj Bawa",
+      "reason": "Shoulder injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "kevin-pietersen",
+  "name": "Kevin Pietersen",
+  "fullName": "Kevin Peter Pietersen",
+  "nationality": "English",
+  "specialty": [
+    "batting",
+    "aggressive-cricket"
+  ],
+  "playingCareerSummary": "Former England captain and one of the most explosive batters of his generation: 104 Tests (8181 runs at 47.28), 136 ODIs. Played for Royal Challengers Bangalore, Deccan Chargers, Delhi Daredevils and Sunrisers Hyderabad in the IPL.",
+  "bio": "Delhi Capitals' team mentor from IPL 2025 — his first major IPL coaching role. Retained for 2026 alongside Venugopal Rao as Director of Cricket and Munaf Patel as bowling coach.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "mentor",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group B with 15 points. Last team eliminated from IPL 2025. Kevin Pietersen served as team mentor."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete. Venugopal Rao is Director of Cricket; Kevin Pietersen continues as team mentor; Munaf Patel is bowling coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 6,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2026_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 6,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1980-06-27",
+  "playingCareerPlayerId": "39f01cdb"
+}

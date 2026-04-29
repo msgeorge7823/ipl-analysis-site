@@ -1,0 +1,140 @@
+{
+  "season": "2025",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "e9c7f0d0",
+      "name": "Fazalhaq Farooqi",
+      "shortName": "Fazalhaq Farooqi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "04a418e8",
+      "name": "Riyan Parag",
+      "shortName": "R Parag",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4885bbe6",
+      "name": "Yudhvir Singh",
+      "shortName": "Yudhvir Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e3851766",
+      "name": "KS Rathore",
+      "shortName": "KS Rathore",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "107c26fb",
+      "name": "KT Maphaka",
+      "shortName": "KT Maphaka",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6b2ff18f",
+      "name": "SB Dubey",
+      "shortName": "SB Dubey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48a1d7b7",
+      "name": "Shimron Odilon Hetmyer",
+      "shortName": "SO Hetmyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "470f446b",
+      "name": "V Suryavanshi",
+      "shortName": "V Suryavanshi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6c19c6e5",
+      "name": "Yashasvi Jaiswal",
+      "shortName": "YBK Jaiswal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4bd09374",
+      "name": "Akash Madhwal",
+      "shortName": "Akash Madhwal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5574750c",
+      "name": "JC Archer",
+      "shortName": "JC Archer",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f6d8a7ab",
+      "name": "K Kartikeya",
+      "shortName": "K Kartikeya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f24c6701",
+      "name": "M Theekshana",
+      "shortName": "M Theekshana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a97c8ec2",
+      "name": "PWH de Silva",
+      "shortName": "PWH de Silva",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce820073",
+      "name": "Sandeep Sharma",
+      "shortName": "Sandeep Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "46a9bea1",
+      "name": "TU Deshpande",
+      "shortName": "TU Deshpande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "bcf325d2",
+      "name": "Dhruv Jurel",
+      "shortName": "Dhruv Jurel",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

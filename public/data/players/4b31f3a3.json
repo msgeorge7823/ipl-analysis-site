@@ -1,0 +1,36 @@
+{
+  "id": "4b31f3a3",
+  "name": "Yash Thakur",
+  "shortName": "Yash Thakur",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2023-04-03",
+  "lastMatch": "2025-04-12",
+  "matchCount": 21,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

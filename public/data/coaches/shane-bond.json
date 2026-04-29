@@ -1,0 +1,323 @@
+{
+  "id": "shane-bond",
+  "name": "Shane Bond",
+  "fullName": "Shane Edward Bond",
+  "dob": "1975-06-07",
+  "nationality": "New Zealander",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerPlayerId": "4f629497",
+  "playingCareerSummary": "Former New Zealand right-arm fast bowler: 18 Tests (87 wickets at 22.09), 82 ODIs (147 wickets at 20.88). One of the finest pacers of his era. Played for Kolkata Knight Riders in the IPL briefly before retiring.",
+  "bio": "Mumbai Indians' bowling coach for nine seasons from 2015 to 2023 — the longest bowling-coach tenure at the franchise. Oversaw MI's pace-bowling during their 2015, 2017, 2019 and 2020 title runs. Ended his stint after IPL 2023 and was replaced by Lasith Malinga for 2024. Also head coach of MI Emirates in the ILT20.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "bowling-coach",
+      "fromSeason": "2015",
+      "toSeason": "2023",
+      "seasons": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (16 pts). Beat CSK in Q1 by 25 runs; beat CSK in final by 41 runs. Franchise's second IPL title."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Did not qualify for playoffs."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (20 pts). Lost Q1 to RPS by 20 runs; beat KKR in Q2 by 6 wickets; beat RPS in final by 1 run. Franchise's third IPL title."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 12 points. Did not qualify for playoffs."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts, NRR 0.421). Beat CSK in Q1 by 6 wickets; beat CSK in final by 1 run. Franchise's fourth IPL title."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts). Beat DC in Q1 by 57 runs; beat DC in final by 5 wickets. Fifth IPL title. Season played in UAE due to COVID-19. Became 2nd team after CSK to defend an IPL title."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Could not defend their title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points and NRR -0.506. Franchise-worst season to that point."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league. Beat LSG in Eliminator; lost Q2 to GT."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 126,
+          "wins": 68,
+          "losses": 58,
+          "noResults": 0,
+          "winPct": 53.97
+        },
+        "playoffs": {
+          "matches": 11,
+          "wins": 9,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 81.82
+        },
+        "titles": 4,
+        "finalsReached": 4,
+        "playoffAppearances": 5
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://www.mumbaiindians.com/news/mumbai-indians-appoints-shane-bond-as-bowling-coach-friday-january-09-2015",
+        "https://www.mumbaiindians.com/news/mumbai-indians-bowling-coach-and-mi-emirates-head-coach-shane-bond-moves-on-from-the-mi"
+      ]
+    },
+    {
+      "team": "Rajasthan Royals",
+      "role": "bowling-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd with 17 points. Beat RCB in Eliminator by 4 wickets; lost Qualifier 2 to SRH by 36 runs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 5,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+      ],
+      "notes": "Single-season RR stint after 9 seasons at MI (2015-2023)."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 10,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 140,
+      "wins": 76,
+      "losses": 63,
+      "noResults": 1,
+      "winPct": 54.29
+    },
+    "playoffs": {
+      "matches": 13,
+      "wins": 10,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 76.92
+    },
+    "titles": 4,
+    "finalsReached": 4,
+    "playoffAppearances": 6
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "MI Emirates (ILT20)",
+      "role": "Head Coach",
+      "period": "2023-present"
+    },
+    {
+      "team": "New Zealand (National)",
+      "role": "Bowling Coach",
+      "period": "2012-2015"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shane_Bond",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

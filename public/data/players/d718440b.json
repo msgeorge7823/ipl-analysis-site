@@ -1,0 +1,25 @@
+{
+  "id": "d718440b",
+  "name": "V Pratap Singh",
+  "shortName": "V Pratap Singh",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-19",
+  "lastMatch": "2012-05-20",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    }
+  ]
+}

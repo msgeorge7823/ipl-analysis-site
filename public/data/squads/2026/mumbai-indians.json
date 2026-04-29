@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "mumbai-indians",
+  "teamName": "Mumbai Indians",
+  "captain": "Hardik Pandya",
+  "coach": "Mahela Jayawardene",
+  "players": [
+    {
+      "name": "Rohit Sharma",
+      "role": "Batter",
+      "overseas": false,
+      "price": "16.3 Cr",
+      "retained": true
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "role": "Batter",
+      "overseas": false,
+      "price": "16.35 Cr",
+      "retained": true
+    },
+    {
+      "name": "Robin Minz",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "role": "Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ryan Rickelton",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Quinton de Kock",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Danish Malewar",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Tilak Varma",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": true
+    },
+    {
+      "name": "Hardik Pandya",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "16.35 Cr",
+      "retained": true
+    },
+    {
+      "name": "Naman Dhir",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Raj Angad Bawa",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Atharva Ankolekar",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mayank Rawat",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Corbin Bosch",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Will Jacks",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Trent Boult",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mayank Markande",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ashwani Kumar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Raghu Sharma",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mohammad Izhar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Allah Ghazanfar",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "18 Cr",
+      "retained": true
+    }
+  ]
+}

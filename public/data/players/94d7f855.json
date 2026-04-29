@@ -1,0 +1,36 @@
+{
+  "id": "94d7f855",
+  "name": "C de Grandhomme",
+  "shortName": "C de Grandhomme",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2017-04-13",
+  "lastMatch": "2019-05-04",
+  "matchCount": 25,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    }
+  ]
+}

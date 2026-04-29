@@ -1,0 +1,37 @@
+{
+  "id": "dec8e038",
+  "name": "J Theron",
+  "shortName": "J Theron",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Deccan Chargers",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2010",
+    "2012",
+    "2015"
+  ],
+  "firstMatch": "2010-03-21",
+  "lastMatch": "2015-05-01",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    }
+  ]
+}

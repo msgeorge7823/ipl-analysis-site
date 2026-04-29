@@ -1,0 +1,53 @@
+{
+  "id": "5d2eea49",
+  "name": "Kartik Tyagi",
+  "shortName": "Kartik Tyagi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad",
+    "Gujarat Titans",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2026"
+  ],
+  "firstMatch": "2020-10-06",
+  "lastMatch": "2026-04-26",
+  "matchCount": 28,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

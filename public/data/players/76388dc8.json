@@ -1,0 +1,37 @@
+{
+  "id": "76388dc8",
+  "name": "S Badree",
+  "shortName": "S Badree",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2013",
+    "2014",
+    "2017"
+  ],
+  "firstMatch": "2013-04-06",
+  "lastMatch": "2017-05-07",
+  "matchCount": 12,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    }
+  ]
+}

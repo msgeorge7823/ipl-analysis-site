@@ -1,0 +1,25 @@
+{
+  "id": "cc61ee8f",
+  "name": "Gurjapneet Singh",
+  "shortName": "Gurjapneet Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-11",
+  "lastMatch": "2026-04-26",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

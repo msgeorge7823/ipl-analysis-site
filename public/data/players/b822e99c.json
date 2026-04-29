@@ -1,0 +1,25 @@
+{
+  "id": "b822e99c",
+  "name": "NB Singh",
+  "shortName": "NB Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-23",
+  "lastMatch": "2017-04-27",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

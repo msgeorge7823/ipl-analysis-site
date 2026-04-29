@@ -1,0 +1,95 @@
+{
+  "id": "arun-karthik",
+  "name": "Arun Karthik",
+  "fullName": "KB Arun Karthik",
+  "nationality": "Indian",
+  "specialty": [
+    "wicket-keeping",
+    "fielding"
+  ],
+  "playingCareerPlayerId": "7daedf2f",
+  "playingCareerSummary": "Former Tamil Nadu first-class cricketer and wicket-keeper batter. Played for Chennai Super Kings and Royal Challengers Bangalore in the IPL as a squad player.",
+  "bio": "Chennai Super Kings' assistant fielding coach from IPL 2026, joining the reshuffled fielding department under James Foster and Rajiv Kumar.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "fielding-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ],
+      "notes": "Assistant fielding coach under James Foster for IPL 2026."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 0,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

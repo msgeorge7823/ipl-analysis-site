@@ -1,0 +1,37 @@
+{
+  "id": "4c5d73db",
+  "name": "CR Woakes",
+  "shortName": "CR Woakes",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2017",
+    "2018",
+    "2021"
+  ],
+  "firstMatch": "2017-04-07",
+  "lastMatch": "2021-04-18",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    }
+  ]
+}

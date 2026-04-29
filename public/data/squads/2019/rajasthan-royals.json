@@ -1,0 +1,154 @@
+{
+  "season": "2019",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "e087956b",
+      "name": "BA Stokes",
+      "shortName": "BA Stokes",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "641ac5ff",
+      "name": "IS Sodhi",
+      "shortName": "IS Sodhi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "50c6bc2b",
+      "name": "LS Livingstone",
+      "shortName": "LS Livingstone",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "04a418e8",
+      "name": "Riyan Parag",
+      "shortName": "R Parag",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bd17b45f",
+      "name": "Stuart Terrance Roger Binny",
+      "shortName": "STR Binny",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ff1e12a0",
+      "name": "AJ Turner",
+      "shortName": "AJ Turner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "da934ee8",
+      "name": "MK Lomror",
+      "shortName": "MK Lomror",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c6097d68",
+      "name": "O Thomas",
+      "shortName": "O Thomas",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8ac93ca2",
+      "name": "P Chopra",
+      "shortName": "P Chopra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ade90de7",
+      "name": "S Midhun",
+      "shortName": "S Midhun",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "30a45b23",
+      "name": "Steven Peter Devereux Smith",
+      "shortName": "SPD Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2a989fc",
+      "name": "Dhawal Sunil Kulkarni",
+      "shortName": "DS Kulkarni",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5574750c",
+      "name": "JC Archer",
+      "shortName": "JC Archer",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "90de905a",
+      "name": "K Gowtham",
+      "shortName": "K Gowtham",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7a8bd078",
+      "name": "S Gopal",
+      "shortName": "S Gopal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a3d54b9",
+      "name": "VR Aaron",
+      "shortName": "VR Aaron",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99b75528",
+      "name": "Joseph Charles Buttler",
+      "shortName": "JC Buttler",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

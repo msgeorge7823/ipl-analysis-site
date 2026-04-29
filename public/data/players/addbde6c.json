@@ -1,0 +1,25 @@
+{
+  "id": "addbde6c",
+  "name": "N Saini",
+  "shortName": "N Saini",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-20",
+  "lastMatch": "2012-05-17",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    }
+  ]
+}

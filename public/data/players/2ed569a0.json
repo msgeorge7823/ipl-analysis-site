@@ -1,0 +1,69 @@
+{
+  "id": "2ed569a0",
+  "name": "RD Chahar",
+  "shortName": "RD Chahar",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rising Pune Supergiant",
+    "Sunrisers Hyderabad",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2017",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2017-04-08",
+  "lastMatch": "2026-04-03",
+  "matchCount": 80,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "f1f99156",
+  "name": "TH David",
+  "shortName": "TH David",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2021-09-24",
+  "lastMatch": "2026-04-27",
+  "matchCount": 58,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

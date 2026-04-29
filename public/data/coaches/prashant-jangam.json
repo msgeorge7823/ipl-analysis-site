@@ -1,0 +1,91 @@
+{
+  "id": "prashant-jangam",
+  "name": "Prashant Jangam",
+  "fullName": "Prashant Jangam",
+  "nationality": "Indian",
+  "specialty": [
+    "team-management"
+  ],
+  "playingCareerSummary": "Cricket operations specialist.",
+  "bio": "Mumbai Indians' team manager for IPL 2024 under head coach Mark Boucher.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "team-manager",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 10,
+      "noResults": 0,
+      "winPct": 28.57
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

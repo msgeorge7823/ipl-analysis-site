@@ -1,0 +1,161 @@
+{
+  "season": "2022",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "be24ead0",
+      "name": "Ramandeep Singh",
+      "shortName": "Ramandeep Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1399b39c",
+      "name": "Anmolpreet Singh",
+      "shortName": "Anmolpreet Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "844e79d1",
+      "name": "D Brevis",
+      "shortName": "D Brevis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b52ffbbd",
+      "name": "FA Allen",
+      "shortName": "FA Allen",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0c9652b0",
+      "name": "HR Shokeen",
+      "shortName": "HR Shokeen",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "33ffc3dd",
+      "name": "R Sanjay Yadav",
+      "shortName": "R Sanjay Yadav",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "271f83cd",
+      "name": "Suryakumar Ashok Yadav",
+      "shortName": "SA Yadav",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85b3fab2",
+      "name": "T Stubbs",
+      "shortName": "T Stubbs",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "f1f99156",
+      "name": "TH David",
+      "shortName": "TH David",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0482a1d",
+      "name": "Tilak Varma",
+      "shortName": "Tilak Varma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "871e9faf",
+      "name": "Basil Thampi",
+      "shortName": "Basil Thampi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "caf69bf7",
+      "name": "DR Sams",
+      "shortName": "DR Sams",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "462411b3",
+      "name": "Jasprit Jasbirsingh Bumrah",
+      "shortName": "JJ Bumrah",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f6d8a7ab",
+      "name": "K Kartikeya",
+      "shortName": "K Kartikeya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e2db2409",
+      "name": "M Ashwin",
+      "shortName": "M Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "64775749",
+      "name": "RP Meredith",
+      "shortName": "RP Meredith",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "245c97cb",
+      "name": "Tymal Solomon Mills",
+      "shortName": "TS Mills",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "752f7486",
+      "name": "Ishan Kishan",
+      "shortName": "Ishan Kishan",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "virender-sehwag",
+  "name": "Virender Sehwag",
+  "fullName": "Virender Sehwag",
+  "dob": "1978-10-20",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "aggressive-cricket"
+  ],
+  "playingCareerPlayerId": "8ba8195d",
+  "playingCareerSummary": "One of India's greatest openers and a revolutionary T20 hitter: 104 Tests (8586 runs at 49.34 with two triple-hundreds), 251 ODIs. Played for Delhi Daredevils (2008-2013) and Kings XI Punjab (2014-2015) in the IPL.",
+  "bio": "Took charge of Kings XI Punjab in January 2017 as 'Head of Cricket Operations and Strategy' after Sanjay Bangar stepped down — a role that effectively made him head coach for the 2017 season. KXIP finished 5th, narrowly missing the playoffs. He continued in the mentor/DoC role for several subsequent seasons but was succeeded as head coach by Brad Hodge for 2018.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2017",
+      "toSeason": "2017",
+      "seasons": [
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.009). Just missed playoffs by net run rate. Officially held the title 'Head of Cricket Operations and Strategy' after Sanjay Bangar stepped down — functioned as head coach with J. Arunkumar as batting coach. KXIP did not appoint a separately-titled head coach for this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2017_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings",
+        "https://www.mykhel.com/cricket/list-of-head-coaches-of-punjab-kings-history-since-ipl-2008-ricky-ponting-anil-kumble-virender-se-308733.html"
+      ],
+      "notes": "Official title was 'Head of Cricket Operations and Strategy'. KXIP had no separately-appointed head coach in 2017 — Sehwag functioned as head coach in practice."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Kings XI Punjab (IPL)",
+      "role": "Mentor / DoC",
+      "period": "2018-2020",
+      "notes": "Continued as mentor / Director of Cricket operations after stepping away from head coaching duties."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Virender_Sehwag",
+    "https://en.wikipedia.org/wiki/2017_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

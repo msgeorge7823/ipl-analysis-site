@@ -1,0 +1,126 @@
+{
+  "season": "2011",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bd77eb62",
+      "name": "A Symonds",
+      "shortName": "A Symonds",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ef5da05c",
+      "name": "AG Murtaza",
+      "shortName": "AG Murtaza",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "cf73ad76",
+      "name": "JEC Franklin",
+      "shortName": "JEC Franklin",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1efb8a28",
+      "name": "AC Blizzard",
+      "shortName": "AC Blizzard",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "70d205c9",
+      "name": "Ambati Thirupathi Rayudu",
+      "shortName": "AT Rayudu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a84468fe",
+      "name": "DJ Jacobs",
+      "shortName": "DJ Jacobs",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "626c5379",
+      "name": "R Sathish",
+      "shortName": "R Sathish",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "67af6f81",
+      "name": "RW Price",
+      "shortName": "RW Price",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2c2b2d5",
+      "name": "Sachin Ramesh Tendulkar",
+      "shortName": "SR Tendulkar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aaa1b522",
+      "name": "TL Suman",
+      "shortName": "TL Suman",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2af1b6d2",
+      "name": "AN Ahmed",
+      "shortName": "AN Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d2a989fc",
+      "name": "Dhawal Sunil Kulkarni",
+      "shortName": "DS Kulkarni",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f0f628c7",
+      "name": "MM Patel",
+      "shortName": "MM Patel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a12e1d51",
+      "name": "Separamadu Lasith Malinga",
+      "shortName": "SL Malinga",
+      "role": "Bowler",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dddca1d6",
+  "name": "SB Wagh",
+  "shortName": "SB Wagh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-04-03",
+  "lastMatch": "2011-05-10",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

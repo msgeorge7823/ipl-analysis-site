@@ -1,0 +1,151 @@
+{
+  "id": "rohit-sawalkar",
+  "name": "Rohit Sawalkar",
+  "fullName": "Rohit Sawalkar",
+  "nationality": "Indian",
+  "specialty": [
+    "physiotherapy"
+  ],
+  "playingCareerSummary": "Specialist sports physiotherapist.",
+  "bio": "Gujarat Titans' head physiotherapist, documented from IPL 2023.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "physio",
+      "fromSeason": "2023",
+      "toSeason": "2026",
+      "seasons": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 24,
+          "losses": 16,
+          "noResults": 2,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 1,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 25.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 24,
+      "losses": 16,
+      "noResults": 2,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 25.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true
+}

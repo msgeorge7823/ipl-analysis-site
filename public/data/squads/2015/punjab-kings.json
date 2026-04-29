@@ -1,0 +1,140 @@
+{
+  "season": "2015",
+  "teamId": "punjab-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b56dc5f7",
+      "name": "BE Hendricks",
+      "shortName": "BE Hendricks",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0f12f9df",
+      "name": "NLTC Perera",
+      "shortName": "NLTC Perera",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "5056011d",
+      "name": "GJ Bailey",
+      "shortName": "GJ Bailey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6eb146d2",
+      "name": "Gurkeerat Singh",
+      "shortName": "Gurkeerat Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4b57e452",
+      "name": "M Vijay",
+      "shortName": "M Vijay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c03e2850",
+      "name": "M Vohra",
+      "shortName": "M Vohra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "508a1ea7",
+      "name": "Shaun Edward Marsh",
+      "shortName": "SE Marsh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6f49cc6e",
+      "name": "Shivam Sharma",
+      "shortName": "Shivam Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8ba8195d",
+      "name": "Virender Sehwag",
+      "shortName": "V Sehwag",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "69be866a",
+      "name": "Anureet Singh",
+      "shortName": "Anureet Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1647bd37",
+      "name": "Karanveer Singh",
+      "shortName": "Karanveer Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f5180fe6",
+      "name": "MG Johnson",
+      "shortName": "MG Johnson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "26a85969",
+      "name": "R Dhawan",
+      "shortName": "R Dhawan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce820073",
+      "name": "Sandeep Sharma",
+      "shortName": "Sandeep Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

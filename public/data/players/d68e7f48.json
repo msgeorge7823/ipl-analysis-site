@@ -1,0 +1,30 @@
+{
+  "id": "d68e7f48",
+  "name": "R Rampaul",
+  "shortName": "R Rampaul",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2013-04-13",
+  "lastMatch": "2014-05-24",
+  "matchCount": 12,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    }
+  ]
+}

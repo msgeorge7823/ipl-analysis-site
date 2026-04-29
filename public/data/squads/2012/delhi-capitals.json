@@ -1,0 +1,161 @@
+{
+  "season": "2012",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5fa06777",
+      "name": "Irfan Khan Pathan",
+      "shortName": "IK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39f01cdb",
+      "name": "KP Pietersen",
+      "shortName": "KP Pietersen",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe763256",
+      "name": "Y Venugopal Rao",
+      "shortName": "Y Venugopal Rao",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2e9fdf9b",
+      "name": "DAJ Bracewell",
+      "shortName": "DAJ Bracewell",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d18f9182",
+      "name": "DPMD Jayawardene",
+      "shortName": "DPMD Jayawardene",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b61a3e1a",
+      "name": "LRPL Taylor",
+      "shortName": "LRPL Taylor",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ee3dfa89",
+      "name": "Sunny Gupta",
+      "shortName": "Sunny Gupta",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0c94f480",
+      "name": "UBT Chand",
+      "shortName": "UBT Chand",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8ba8195d",
+      "name": "Virender Sehwag",
+      "shortName": "V Sehwag",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "662c47a6",
+      "name": "Y Nagar",
+      "shortName": "Y Nagar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fa463154",
+      "name": "AB Agarkar",
+      "shortName": "AB Agarkar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb5a915",
+      "name": "Morne Morkel",
+      "shortName": "M Morkel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "05c2ca46",
+      "name": "RE van der Merwe",
+      "shortName": "RE van der Merwe",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a3d54b9",
+      "name": "VR Aaron",
+      "shortName": "VR Aaron",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "890946a0",
+      "name": "Naman Vinaykumar Ojha",
+      "shortName": "NV Ojha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

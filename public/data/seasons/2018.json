@@ -1,0 +1,28 @@
+{
+  "year": "2018",
+  "winner": "Chennai Super Kings",
+  "runnerUp": "Sunrisers Hyderabad",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Kane Stuart Williamson",
+    "shortName": "KS Williamson",
+    "runs": 735
+  },
+  "purpleCap": {
+    "player": "Andrew James Tye",
+    "shortName": "AJ Tye",
+    "wickets": 24
+  }
+}

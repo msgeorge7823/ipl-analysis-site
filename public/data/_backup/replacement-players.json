@@ -1,0 +1,636 @@
+{
+  "_description": "IPL mid-season replacement players. These players joined teams as injury/unavailability replacements during the season.",
+  "_updated": "2026-04-28",
+  "2017": [
+    {
+      "player": "Colin de Grandhomme",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Andre Russell",
+      "reason": "Doping code violation ban"
+    },
+    {
+      "player": "Imran Tahir",
+      "team": "Rising Pune Supergiant",
+      "replacing": "Mitchell Marsh",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Ben Hilfenhaus",
+      "team": "Delhi Daredevils",
+      "replacing": "JP Duminy",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Marlon Samuels",
+      "team": "Delhi Daredevils",
+      "replacing": "Quinton de Kock",
+      "reason": "Finger injury"
+    },
+    {
+      "player": "Vishnu Vinod",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "KL Rahul",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Washington Sundar",
+      "team": "Rising Pune Supergiant",
+      "replacing": "R Ashwin",
+      "reason": "Sports hernia"
+    },
+    {
+      "player": "Ishant Sharma",
+      "team": "Kings XI Punjab",
+      "replacing": "Murali Vijay",
+      "reason": "Wrist and shoulder injury"
+    },
+    {
+      "player": "Harpreet Singh Bhatia",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Sarfaraz Khan",
+      "reason": "Leg injury"
+    },
+    {
+      "player": "Irfan Pathan",
+      "team": "Gujarat Lions",
+      "replacing": "Dwayne Bravo",
+      "reason": "Hamstring injury"
+    },
+    {
+      "player": "Ankit Soni",
+      "team": "Gujarat Lions",
+      "replacing": "Shivil Kaushik",
+      "reason": "Injury"
+    },
+    {
+      "player": "Brendon McCullum",
+      "team": "Gujarat Lions",
+      "replacing": "Andrew Tye",
+      "reason": "Dislocated shoulder"
+    },
+    {
+      "player": "Nathu Singh",
+      "team": "Gujarat Lions",
+      "replacing": "Brendon McCullum",
+      "reason": "Hamstring strain"
+    },
+    {
+      "player": "Marcus Stoinis",
+      "team": "Kings XI Punjab",
+      "replacing": "Jason Roy",
+      "reason": "International duty"
+    }
+  ],
+  "2018": [
+    {
+      "player": "Mitchell McClenaghan",
+      "team": "Mumbai Indians",
+      "replacing": "Jason Behrendorff",
+      "reason": "Back problem"
+    },
+    {
+      "player": "Corey Anderson",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Nathan Coulter-Nile",
+      "reason": "Injury"
+    },
+    {
+      "player": "Alex Hales",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "David Warner",
+      "reason": "Ball tampering ban"
+    },
+    {
+      "player": "Heinrich Klaasen",
+      "team": "Rajasthan Royals",
+      "replacing": "Steve Smith",
+      "reason": "Ball tampering ban"
+    },
+    {
+      "player": "Tom Curran",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mitchell Starc",
+      "reason": "Tibial bone stress"
+    },
+    {
+      "player": "Liam Plunkett",
+      "team": "Delhi Daredevils",
+      "replacing": "Kagiso Rabada",
+      "reason": "Lower-back stress reaction"
+    },
+    {
+      "player": "Adam Milne",
+      "team": "Mumbai Indians",
+      "replacing": "Pat Cummins",
+      "reason": "Back injury"
+    },
+    {
+      "player": "Ish Sodhi",
+      "team": "Rajasthan Royals",
+      "replacing": "Zahir Khan Pakteen",
+      "reason": "Injury"
+    },
+    {
+      "player": "Prasidh Krishna",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Kamlesh Nagarkoti",
+      "reason": "Foot injury"
+    },
+    {
+      "player": "Chris Morris",
+      "team": "Delhi Daredevils",
+      "replacing": "Billy Stanlake",
+      "reason": "Fractured finger"
+    },
+    {
+      "player": "Junior Dala",
+      "team": "Delhi Daredevils",
+      "replacing": "Chris Morris",
+      "reason": "Back injury"
+    },
+    {
+      "player": "David Willey",
+      "team": "Chennai Super Kings",
+      "replacing": "Mark Wood",
+      "reason": "Returned to England"
+    }
+  ],
+  "2020": [
+    {
+      "player": "Daniel Sams",
+      "team": "Delhi Capitals",
+      "replacing": "Jason Roy",
+      "reason": "Injury"
+    },
+    {
+      "player": "Anrich Nortje",
+      "team": "Delhi Capitals",
+      "replacing": "Chris Woakes",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "James Pattinson",
+      "team": "Mumbai Indians",
+      "replacing": "Lasith Malinga",
+      "reason": "Personal reasons (family)"
+    },
+    {
+      "player": "Adam Zampa",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Kane Richardson",
+      "reason": "Personal reasons (family)"
+    }
+  ],
+  "2021": [
+    {
+      "player": "Wanindu Hasaranga",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Adam Zampa",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Daniel Sams",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Tim David",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Finn Allen",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "George Garton",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Kane Richardson",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Akash Deep",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Washington Sundar",
+      "reason": "Injury"
+    },
+    {
+      "player": "Tim Southee",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Pat Cummins",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Nathan Ellis",
+      "team": "Punjab Kings",
+      "replacing": "Riley Meredith",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Adil Rashid",
+      "team": "Punjab Kings",
+      "replacing": "Jhye Richardson",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Aiden Markram",
+      "team": "Punjab Kings",
+      "replacing": "Dawid Malan",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Glenn Phillips",
+      "team": "Rajasthan Royals",
+      "replacing": "Jofra Archer",
+      "reason": "Injury"
+    },
+    {
+      "player": "Tabraiz Shamsi",
+      "team": "Rajasthan Royals",
+      "replacing": "Andrew Tye",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Evin Lewis",
+      "team": "Rajasthan Royals",
+      "replacing": "Jos Buttler",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Ben Dwarshuis",
+      "team": "Delhi Capitals",
+      "replacing": "Chris Woakes",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "team": "Delhi Capitals",
+      "replacing": "Siddharth Manimaran",
+      "reason": "Injury"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Jonny Bairstow",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Simarjeet Singh",
+      "team": "Mumbai Indians",
+      "replacing": "Arjun Tendulkar",
+      "reason": "Injury"
+    },
+    {
+      "player": "Dominic Drakes",
+      "team": "Chennai Super Kings",
+      "replacing": "Sam Curran",
+      "reason": "Injury"
+    }
+  ],
+  "2022": [
+    {
+      "player": "Rahmanullah Gurbaz",
+      "team": "Gujarat Titans",
+      "replacing": "Jason Roy",
+      "reason": "Bubble fatigue withdrawal"
+    },
+    {
+      "player": "Aaron Finch",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Alex Hales",
+      "reason": "Bubble fatigue withdrawal"
+    },
+    {
+      "player": "Andrew Tye",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mark Wood",
+      "reason": "Elbow injury"
+    },
+    {
+      "player": "Rajat Patidar",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Luvnith Sisodia",
+      "reason": "Injury"
+    },
+    {
+      "player": "Matheesha Pathirana",
+      "team": "Chennai Super Kings",
+      "replacing": "Adam Milne",
+      "reason": "Hamstring injury"
+    }
+  ],
+  "2023": [
+    {
+      "player": "Sandeep Warrier",
+      "team": "Mumbai Indians",
+      "replacing": "Jasprit Bumrah",
+      "reason": "Back injury"
+    },
+    {
+      "player": "Riley Meredith",
+      "team": "Mumbai Indians",
+      "replacing": "Jhye Richardson",
+      "reason": "Hamstring surgery"
+    },
+    {
+      "player": "Wayne Parnell",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Reece Topley",
+      "reason": "Shoulder dislocation"
+    },
+    {
+      "player": "Michael Bracewell",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Will Jacks",
+      "reason": "Muscle injury"
+    },
+    {
+      "player": "Vijaykumar Vyshak",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Rajat Patidar",
+      "reason": "Heel injury"
+    },
+    {
+      "player": "Matthew Short",
+      "team": "Punjab Kings",
+      "replacing": "Jonny Bairstow",
+      "reason": "Golf accident injury"
+    },
+    {
+      "player": "Gurnoor Brar",
+      "team": "Punjab Kings",
+      "replacing": "Raj Bawa",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Akash Singh",
+      "team": "Chennai Super Kings",
+      "replacing": "Mukesh Choudhary",
+      "reason": "Back stress fracture"
+    },
+    {
+      "player": "Sisanda Magala",
+      "team": "Chennai Super Kings",
+      "replacing": "Kyle Jamieson",
+      "reason": "Back stress fracture"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "team": "Rajasthan Royals",
+      "replacing": "Prasidh Krishna",
+      "reason": "Lumbar stress fracture"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Gujarat Titans",
+      "replacing": "Kane Williamson",
+      "reason": "Knee injury"
+    },
+    {
+      "player": "Abhishek Porel",
+      "team": "Delhi Capitals",
+      "replacing": "Rishabh Pant",
+      "reason": "Car accident recovery"
+    },
+    {
+      "player": "Suryansh Shedge",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Jaydev Unadkat",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Kedar Jadhav",
+      "team": "Chennai Super Kings",
+      "replacing": "David Willey",
+      "reason": "Toe injury"
+    },
+    {
+      "player": "Priyam Garg",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Kamlesh Nagarkoti",
+      "reason": "Lower back stress fracture"
+    }
+  ],
+  "2024": [
+    {
+      "player": "Sandeep Warrier",
+      "team": "Gujarat Titans",
+      "replacing": "Mohammed Shami",
+      "reason": "Ankle injury"
+    },
+    {
+      "player": "BR Sharath",
+      "team": "Gujarat Titans",
+      "replacing": "Robin Minz",
+      "reason": "Bike accident injury"
+    },
+    {
+      "player": "Tanush Kotian",
+      "team": "Rajasthan Royals",
+      "replacing": "Adam Zampa",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Keshav Maharaj",
+      "team": "Rajasthan Royals",
+      "replacing": "Prasidh Krishna",
+      "reason": "Quadriceps injury"
+    },
+    {
+      "player": "Phil Salt",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Jason Roy",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Allah Ghazanfar",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mujeeb Ur Rahman",
+      "reason": "Injury"
+    },
+    {
+      "player": "Shamar Joseph",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mark Wood",
+      "reason": "ECB workload management"
+    },
+    {
+      "player": "Matt Henry",
+      "team": "Lucknow Super Giants",
+      "replacing": "David Willey",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Luke Wood",
+      "team": "Mumbai Indians",
+      "replacing": "Jason Behrendorff",
+      "reason": "Leg injury"
+    },
+    {
+      "player": "Kwena Maphaka",
+      "team": "Mumbai Indians",
+      "replacing": "Dilshan Madushanka",
+      "reason": "Hamstring tear"
+    },
+    {
+      "player": "Harvik Desai",
+      "team": "Mumbai Indians",
+      "replacing": "Vishnu Vinod",
+      "reason": "Forearm injury"
+    },
+    {
+      "player": "Jake Fraser-McGurk",
+      "team": "Delhi Capitals",
+      "replacing": "Lungi Ngidi",
+      "reason": "Lower back injury"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Gus Atkinson",
+      "reason": "ECB workload management"
+    }
+  ],
+  "2025": [
+    {
+      "player": "Chetan Sakariya",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Umran Malik",
+      "reason": "Injury"
+    },
+    {
+      "player": "Corbin Bosch",
+      "team": "Mumbai Indians",
+      "replacing": "Lizaad Williams",
+      "reason": "Knee injury"
+    },
+    {
+      "player": "Wiaan Mulder",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Brydon Carse",
+      "reason": "Injury"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Gujarat Titans",
+      "replacing": "Glenn Phillips",
+      "reason": "Injury"
+    },
+    {
+      "player": "Kyle Jamieson",
+      "team": "Punjab Kings",
+      "replacing": "Lockie Ferguson",
+      "reason": "Injury"
+    },
+    {
+      "player": "Will O'Rourke",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mayank Yadav",
+      "reason": "Injury"
+    },
+    {
+      "player": "Kusal Mendis",
+      "team": "Gujarat Titans",
+      "replacing": "Temporary playoff replacement",
+      "reason": "Playoffs reinforcement"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "team": "Delhi Capitals",
+      "replacing": "Jake Fraser-McGurk",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Sediqullah Atal",
+      "team": "Delhi Capitals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Mayank Agarwal",
+      "team": "Royal Challengers Bengaluru",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Lhuan-dre Pretorius",
+      "team": "Rajasthan Royals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Nandre Burger",
+      "team": "Rajasthan Royals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    }
+  ],
+  "2026": [
+    {
+      "player": "Spencer Johnson",
+      "team": "Chennai Super Kings",
+      "replacing": "Nathan Ellis",
+      "reason": "Hamstring injury",
+      "price": "1.5 crore"
+    },
+    {
+      "player": "Saurabh Kumar",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Akash Deep",
+      "reason": "Lumbar stress injury",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Navdeep Saini",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Harshit Rana",
+      "reason": "Injury"
+    },
+    {
+      "player": "Blessing Muzarabani",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mustafizur Rahman",
+      "reason": "BCCI directive"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Rajasthan Royals",
+      "replacing": "Sam Curran",
+      "reason": "Groin injury",
+      "price": "2 crore"
+    },
+    {
+      "player": "David Payne",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Jack Edwards",
+      "reason": "Injury",
+      "price": "1.5 crore"
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "team": "Gujarat Titans",
+      "replacing": "Prithviraj Yarra",
+      "reason": "Injury",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Rehan Ahmed",
+      "team": "Delhi Capitals",
+      "replacing": "Ben Duckett",
+      "reason": "Withdrew to focus on Test cricket (Ashes prep)",
+      "price": "75 lakh"
+    },
+    {
+      "player": "Krish Bhagat",
+      "team": "Mumbai Indians",
+      "replacing": "Atharva Ankolekar",
+      "reason": "Meniscus tear (knee injury)",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Dilshan Madushanka",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Brydon Carse",
+      "reason": "Hand injury",
+      "price": "75 lakh"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "30e37810",
+  "name": "Sunny Singh",
+  "shortName": "Sunny Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-10",
+  "lastMatch": "2011-05-06",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    }
+  ]
+}

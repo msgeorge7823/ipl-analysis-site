@@ -1,0 +1,43 @@
+{
+  "id": "d014d5ac",
+  "name": "SE Rutherford",
+  "shortName": "SE Rutherford",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Gujarat Titans",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2019",
+    "2022",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-04-20",
+  "lastMatch": "2026-04-23",
+  "matchCount": 30,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

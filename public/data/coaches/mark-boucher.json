@@ -1,0 +1,127 @@
+{
+  "id": "mark-boucher",
+  "name": "Mark Boucher",
+  "fullName": "Mark Verdon Boucher",
+  "dob": "1976-12-03",
+  "nationality": "South African",
+  "specialty": [
+    "wicket-keeping",
+    "batting",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "f3cb53a1",
+  "playingCareerSummary": "Former South Africa wicket-keeper with a world-record 555 Test dismissals across 147 Tests. Played for Royal Challengers Bangalore and Kolkata Knight Riders in the IPL.",
+  "bio": "Mumbai Indians head coach for 2023 and 2024. Replaced Mahela Jayawardene after the 2022 disaster and took MI back to the playoffs in his first season (lost Q2 to GT). His second season ended in another last-place finish, prompting MI to bring Jayawardene back for 2025.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2023",
+      "toSeason": "2024",
+      "seasons": [
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league. Beat LSG in Eliminator; lost Q2 to GT."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points. First team eliminated from IPL 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 12,
+          "losses": 16,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2024_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 12,
+      "losses": 16,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "South Africa (National)",
+      "role": "Head Coach",
+      "period": "2019-2022",
+      "notes": "Proteas head coach, including through the 2021 T20 World Cup. Resigned amid ongoing Social Justice and Nation Building Project proceedings."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mark_Boucher",
+    "https://en.wikipedia.org/wiki/2023_Mumbai_Indians_season",
+    "https://en.wikipedia.org/wiki/2024_Mumbai_Indians_season"
+  ],
+  "verified": true
+}

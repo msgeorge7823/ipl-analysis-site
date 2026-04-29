@@ -1,0 +1,68 @@
+{
+  "id": "f088b960",
+  "name": "SN Khan",
+  "shortName": "SN Khan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Punjab Kings",
+    "Delhi Capitals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2026"
+  ],
+  "firstMatch": "2015-04-22",
+  "lastMatch": "2026-04-26",
+  "matchCount": 58,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "64a4c383",
+  "name": "S Sriram",
+  "shortName": "S Sriram",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-04-10",
+  "lastMatch": "2011-05-15",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    }
+  ]
+}

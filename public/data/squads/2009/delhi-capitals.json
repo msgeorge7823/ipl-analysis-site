@@ -1,0 +1,140 @@
+{
+  "season": "2009",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "5bdcdb72",
+      "name": "TM Dilshan",
+      "shortName": "TM Dilshan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb345e0b",
+      "name": "Gautam Gambhir",
+      "shortName": "G Gambhir",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c42aaf71",
+      "name": "M Manhas",
+      "shortName": "M Manhas",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8ba8195d",
+      "name": "Virender Sehwag",
+      "shortName": "V Sehwag",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "662c47a6",
+      "name": "Y Nagar",
+      "shortName": "Y Nagar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "16043342",
+      "name": "AB McDonald",
+      "shortName": "AB McDonald",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "260fd380",
+      "name": "AM Salvi",
+      "shortName": "AM Salvi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6b19d823",
+      "name": "Amit Mishra",
+      "shortName": "A Mishra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "96fd40ae",
+      "name": "Ashish Nehra",
+      "shortName": "A Nehra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d7c6af50",
+      "name": "DL Vettori",
+      "shortName": "DL Vettori",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c404f58a",
+      "name": "DP Nannes",
+      "shortName": "DP Nannes",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ab89348d",
+      "name": "MF Maharoof",
+      "shortName": "MF Maharoof",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9fc0ef64",
+      "name": "PJ Sangwan",
+      "shortName": "PJ Sangwan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "33a364a6",
+      "name": "Rajat Bhatia",
+      "shortName": "R Bhatia",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "93a17209",
+      "name": "VY Mahesh",
+      "shortName": "VY Mahesh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

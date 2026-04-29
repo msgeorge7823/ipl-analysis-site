@@ -1,0 +1,16 @@
+{
+  "id": "rising-pune-supergiant",
+  "name": "Rising Pune Supergiant",
+  "shortName": "RPS",
+  "primaryColor": "#9B59E8",
+  "secondaryColor": "#D1C4E9",
+  "homeVenue": "Wankhede Stadium",
+  "seasons": [
+    "2016",
+    "2017"
+  ],
+  "isDefunct": true,
+  "aliases": [
+    "Rising Pune Supergiants"
+  ]
+}

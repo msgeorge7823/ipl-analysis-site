@@ -1,0 +1,41 @@
+{
+  "id": "844e79d1",
+  "name": "D Brevis",
+  "shortName": "D Brevis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-04-06",
+  "lastMatch": "2026-04-26",
+  "matchCount": 21,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

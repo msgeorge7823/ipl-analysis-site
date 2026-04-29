@@ -1,0 +1,134 @@
+{
+  "id": "ryan-cook",
+  "name": "Ryan Cook",
+  "fullName": "Ryan Cook",
+  "nationality": "South African",
+  "specialty": [
+    "fielding"
+  ],
+  "playingCareerSummary": "South African specialist fielding coach with international coaching experience.",
+  "bio": "Sunrisers Hyderabad's fielding coach from IPL 2024 onwards — three consecutive seasons including the 2024 final appearance.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "fielding-coach",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (17 pts). Qualifier 1 loss to KKR; Qualifier 2 W vs Rajasthan Royals; lost final to KKR by 8 wickets. SRH's second IPL final after 2018. Vettori's first season replacing Brian Lara."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 13 points. Third team eliminated from IPL 2025. Pat Cummins continued as captain."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Vettori retained; new spin bowling coach Muttiah Muralitharan added to the support staff alongside Hemang Badani as batting coach (his second IPL role alongside Delhi Capitals). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 12,
+          "noResults": 2,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2024_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2025_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2026_Sunrisers_Hyderabad_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 14,
+      "losses": 12,
+      "noResults": 2,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true
+}

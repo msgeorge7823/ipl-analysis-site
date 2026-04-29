@@ -1,0 +1,64 @@
+{
+  "id": "3241e3fd",
+  "name": "Nicholas Pooran",
+  "shortName": "N Pooran",
+  "nicknames": [
+    "Pooran"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Lucknow Super Giants",
+    "Punjab Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-03-25",
+  "lastMatch": "2026-04-26",
+  "matchCount": 98,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

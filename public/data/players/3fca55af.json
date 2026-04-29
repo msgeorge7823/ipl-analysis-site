@@ -1,0 +1,41 @@
+{
+  "id": "3fca55af",
+  "name": "S Sohal",
+  "shortName": "S Sohal",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-21",
+  "lastMatch": "2011-05-16",
+  "matchCount": 22,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    }
+  ]
+}

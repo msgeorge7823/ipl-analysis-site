@@ -1,0 +1,165 @@
+{
+  "id": "venkatesh-prasad",
+  "name": "Venkatesh Prasad",
+  "fullName": "Bapu Krishnarao Venkatesh Prasad",
+  "dob": "1969-08-05",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling"
+  ],
+  "playingCareerSummary": "Former India right-arm fast-medium bowler: 33 Tests (96 wickets), 161 ODIs (196 wickets). Famed for his duel with Aamer Sohail in the 1996 World Cup quarter-final. Did not play in the IPL (retired in 2005).",
+  "bio": "Royal Challengers Bangalore's inaugural head coach in 2008. Oversaw a poor first campaign (7th of 8) before being replaced by Ray Jennings ahead of IPL 2009. Later returned to coaching as India's bowling coach under Greg Chappell and in various roles in domestic Indian cricket.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2009",
+      "seasons": [
+        "2008",
+        "2009"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 8 with 8 points. Martin Crowe briefly held the chief cricketing officer role earlier in the team's build-up before Prasad coached the inaugural IPL season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    },
+    {
+      "team": "Kings XI Punjab",
+      "role": "bowling-coach",
+      "fromSeason": "2018",
+      "toSeason": "2018",
+      "seasons": [
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "team": "Kings XI Punjab",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Missed playoffs. Single-season tenure; Mike Hesson replaced him for 2019."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Bowling coach under Brad Hodge. Appointed in March 2018."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 28,
+      "wins": 10,
+      "losses": 18,
+      "noResults": 0,
+      "winPct": 35.71
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Bowling Coach",
+      "period": "2007-2009",
+      "notes": "Bowling coach under head coaches Gary Kirsten and predecessors."
+    },
+    {
+      "team": "Kenya (National)",
+      "role": "Bowling Coach",
+      "period": "2010s",
+      "notes": "Short-term consultancy role."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Venkatesh_Prasad",
+    "https://en.wikipedia.org/wiki/2008_Royal_Challengers_Bangalore_season"
+  ],
+  "verified": true
+}

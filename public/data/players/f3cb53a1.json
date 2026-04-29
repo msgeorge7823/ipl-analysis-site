@@ -1,0 +1,41 @@
+{
+  "id": "f3cb53a1",
+  "name": "MV Boucher",
+  "shortName": "MV Boucher",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2011-05-14",
+  "matchCount": 31,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2011"
+    }
+  ]
+}

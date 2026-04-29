@@ -1,0 +1,348 @@
+{
+  "id": "andy-flower",
+  "name": "Andy Flower",
+  "fullName": "Andrew Flower",
+  "dob": "1968-04-28",
+  "nationality": "Zimbabwean",
+  "specialty": [
+    "batting",
+    "strategy",
+    "player-development"
+  ],
+  "playingCareerSummary": "Former Zimbabwe captain and wicket-keeper batter, widely regarded as Zimbabwe's greatest Test player: 63 Tests (4794 runs at 51.54), 213 ODIs (6786 runs). Did not play in the IPL. Brother of Grant Flower.",
+  "bio": "Andy Flower's IPL coaching career began at Kings XI Punjab / Punjab Kings as assistant coach (2020-2021) under Anil Kumble, before taking over Lucknow Super Giants as their inaugural head coach (2022-2023). He then moved to Royal Challengers Bengaluru in 2024 and delivered their first-ever IPL title in 2025 — ending 18 years of RCB's title drought with a 6-run final win over Punjab Kings. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "assistant-coach",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "team": "Kings XI Punjab",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Final season under the 'Kings XI Punjab' name — the franchise rebranded to 'Punjab Kings' on 17 February 2021."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Assistant coach under Anil Kumble. First IPL coaching role."
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "assistant-coach",
+      "fromSeason": "2021",
+      "toSeason": "2021",
+      "seasons": [
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "team": "Punjab Kings",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season under the 'Punjab Kings' name. Finished 6th with 12 points."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Continued as assistant coach into the rebranded Punjab Kings before moving to LSG for 2022."
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "role": "head-coach",
+      "fromSeason": "2022",
+      "toSeason": "2023",
+      "seasons": [
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Inaugural LSG season. Finished 4th in league (18 pts). Lost Eliminator to Royal Challengers Bangalore by 14 runs at Eden Gardens — Rajat Patidar 112* off 54. KL Rahul top-scored with 616 runs. Gautam Gambhir: mentor."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in league (17 pts, NRR 0.284). Lost Eliminator to Mumbai Indians. Flower left after this season to join Royal Challengers Bengaluru for 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 17,
+          "losses": 10,
+          "noResults": 1,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2023_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "LSG's inaugural head coach — took the franchise to the Eliminator playoffs in both of their first two seasons before leaving to join RCB for IPL 2024."
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "head-coach",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points. Lost Eliminator to Rajasthan Royals by 4 wickets at Ahmedabad. Flower's first season, replacing Sanjay Bangar."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (19 points, NRR 0.482). Beat Punjab Kings in Qualifier 1; beat Punjab Kings again in the final to win RCB's first-ever IPL title after 18 years of the franchise's existence."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — RCB enter as defending champions. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 16,
+          "losses": 11,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Royal_Challengers_Bengaluru_season",
+        "https://en.wikipedia.org/wiki/2025_Royal_Challengers_Bengaluru_season",
+        "https://www.royalchallengers.com/rcb-cricket-news/news/andy-flower-appointed-head-coach-of-rcb",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 6,
+    "franchisesCoached": 4,
+    "league": {
+      "matches": 84,
+      "wins": 45,
+      "losses": 37,
+      "noResults": 2,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 4
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "England (National)",
+      "role": "Head Coach",
+      "period": "2009-2014",
+      "notes": "Led England to the 2010 T20 World Cup title and to the World No.1 Test ranking in 2011."
+    },
+    {
+      "team": "St Lucia Kings (CPL)",
+      "role": "Head Coach",
+      "period": "2020-present"
+    },
+    {
+      "team": "Multan Sultans (PSL)",
+      "role": "Head Coach",
+      "period": "2019-2022"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Andy_Flower",
+    "https://www.royalchallengers.com/rcb-cricket-news/news/andy-flower-appointed-head-coach-of-rcb",
+    "https://thefederal.com/sports/cricket/andy-flower-on-rcb-ipl-2026-challenges-virat-kohli-236504",
+    "https://en.wikipedia.org/wiki/2022_Lucknow_Super_Giants_season",
+    "https://en.wikipedia.org/wiki/2023_Lucknow_Super_Giants_season",
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true
+}

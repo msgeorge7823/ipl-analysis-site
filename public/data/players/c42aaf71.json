@@ -1,0 +1,57 @@
+{
+  "id": "c42aaf71",
+  "name": "M Manhas",
+  "shortName": "M Manhas",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Pune Warriors",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2014-05-24",
+  "matchCount": 55,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    }
+  ]
+}

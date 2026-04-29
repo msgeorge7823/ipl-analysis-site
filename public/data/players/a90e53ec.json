@@ -1,0 +1,31 @@
+{
+  "id": "a90e53ec",
+  "name": "MW Short",
+  "shortName": "MW Short",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2023",
+    "2026"
+  ],
+  "firstMatch": "2023-04-09",
+  "lastMatch": "2026-04-18",
+  "matchCount": 8,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

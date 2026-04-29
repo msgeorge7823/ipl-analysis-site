@@ -1,0 +1,25 @@
+{
+  "id": "b970a03f",
+  "name": "M Klinger",
+  "shortName": "M Klinger",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kochi Tuskers Kerala"
+  ],
+  "lastTeam": "Kochi Tuskers Kerala",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-30",
+  "lastMatch": "2011-05-08",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    }
+  ]
+}

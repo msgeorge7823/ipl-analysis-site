@@ -1,0 +1,161 @@
+{
+  "season": "2012",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "66cf56a5",
+      "name": "A Mithun",
+      "shortName": "A Mithun",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c64c2443",
+      "name": "J Syed Mohammad",
+      "shortName": "J Syed Mohammad",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d92e42f5",
+      "name": "KP Appanna",
+      "shortName": "KP Appanna",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0c432afb",
+      "name": "P Parameswaran",
+      "shortName": "P Parameswaran",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5bdcdb72",
+      "name": "TM Dilshan",
+      "shortName": "TM Dilshan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3ae3f034",
+      "name": "AUK Pathan",
+      "shortName": "AUK Pathan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d4f9dbd4",
+      "name": "CA Pujara",
+      "shortName": "CA Pujara",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db584dad",
+      "name": "Christopher Henry Gayle",
+      "shortName": "CH Gayle",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7daedf2f",
+      "name": "KB Arun Karthik",
+      "shortName": "KB Arun Karthik",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d84378a4",
+      "name": "M Kaif",
+      "shortName": "M Kaif",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7d3720ba",
+      "name": "RR Bhatkal",
+      "shortName": "RR Bhatkal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "709b0bac",
+      "name": "Saurabh Shyam Tiwary",
+      "shortName": "SS Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "16043342",
+      "name": "AB McDonald",
+      "shortName": "AB McDonald",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d7c6af50",
+      "name": "DL Vettori",
+      "shortName": "DL Vettori",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4ba44e19",
+      "name": "M Muralitharan",
+      "shortName": "M Muralitharan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "41eb4a4f",
+      "name": "Raghavendra Vinay Kumar",
+      "shortName": "R Vinay Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "957532de",
+      "name": "Sreenath Aravind",
+      "shortName": "S Aravind",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "91a4a398",
+      "name": "Zaheer Khan",
+      "shortName": "Z Khan",
+      "role": "Bowler",
+      "country": null
+    }
+  ]
+}

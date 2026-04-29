@@ -1,0 +1,47 @@
+{
+  "id": "d5130a30",
+  "name": "Sai Sudharsan",
+  "shortName": "B Sai Sudharsan",
+  "nicknames": [
+    "Sudharsan"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-04-08",
+  "lastMatch": "2026-04-26",
+  "matchCount": 48,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

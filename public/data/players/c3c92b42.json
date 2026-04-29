@@ -1,0 +1,25 @@
+{
+  "id": "c3c92b42",
+  "name": "RS Hangargekar",
+  "shortName": "RS Hangargekar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-03-31",
+  "lastMatch": "2023-04-03",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "gujarat-titans",
+  "teamName": "Gujarat Titans",
+  "captain": "Shubman Gill",
+  "coach": "Ashish Nehra",
+  "players": [
+    {
+      "name": "Shubman Gill",
+      "role": "Batter",
+      "overseas": false,
+      "price": "16.5 Cr",
+      "retained": true
+    },
+    {
+      "name": "Jos Buttler",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Kumar Kushagra",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Anuj Rawat",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Tom Banton",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Glenn Phillips",
+      "role": "Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Sai Sudharsan",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": true
+    },
+    {
+      "name": "Nishant Sindhu",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Washington Sundar",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mohd. Arshad Khan",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Sai Kishore",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Jayant Yadav",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Jason Holder",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Rahul Tewatia",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shahrukh Khan",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Kagiso Rabada",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mohammed Siraj",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Prasidh Krishna",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Manav Suthar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Gurnoor Singh Brar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ishant Sharma",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ashok Sharma",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Luke Wood",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Kulwant Khejroliya",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Rashid Khan",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "18 Cr",
+      "retained": true
+    }
+  ]
+}

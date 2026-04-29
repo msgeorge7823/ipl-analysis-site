@@ -1,0 +1,92 @@
+{
+  "id": "rob-cassell",
+  "name": "Rob Cassell",
+  "fullName": "Robert Cassell",
+  "nationality": "Australian",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerSummary": "Australian specialist fast-bowling coach with stints in multiple T20 leagues.",
+  "bio": "Rajasthan Royals' fast bowling coach for IPL 2021.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "fast-bowling-coach",
+      "fromSeason": "2021",
+      "toSeason": "2021",
+      "seasons": [
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 10 points. First season as DoC + acting head coach after McDonald was let go. Lead Assistant Coach: Trevor Penney."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 9,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://en.wikipedia.org/wiki/2021_Rajasthan_Royals_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 5,
+      "losses": 9,
+      "noResults": 0,
+      "winPct": 35.71
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true
+}

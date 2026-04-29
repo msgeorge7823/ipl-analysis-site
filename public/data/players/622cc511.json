@@ -1,0 +1,25 @@
+{
+  "id": "622cc511",
+  "name": "U Kaul",
+  "shortName": "U Kaul",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-05",
+  "lastMatch": "2008-05-21",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    }
+  ]
+}

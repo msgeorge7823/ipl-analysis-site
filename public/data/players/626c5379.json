@@ -1,0 +1,42 @@
+{
+  "id": "626c5379",
+  "name": "R Sathish",
+  "shortName": "R Sathish",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010",
+    "2011",
+    "2013",
+    "2016"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2016-05-25",
+  "matchCount": 34,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    }
+  ]
+}

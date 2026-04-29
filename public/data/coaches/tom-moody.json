@@ -1,0 +1,398 @@
+{
+  "id": "tom-moody",
+  "name": "Tom Moody",
+  "fullName": "Thomas Masson Moody",
+  "dob": "1965-10-02",
+  "nationality": "Australian",
+  "specialty": [
+    "all-round",
+    "T20-coaching",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former Australia batting all-rounder: 8 Tests, 76 ODIs (1987-1999). Part of the 1987 and 1999 ODI World Cup winning Australia squads. Did not play in the IPL.",
+  "bio": "One of the most prolific and successful T20 franchise head coaches ever — 11 IPL seasons across two franchises with one championship. Inaugural head coach of Kings XI Punjab (2008-2010), taking them to the 2008 semi-finals. Joined Sunrisers Hyderabad in 2013 as their inaugural head coach and served two stints (2013-2019, 2022), delivering SRH's maiden IPL title in 2016 (beating RCB by 8 runs in the final) and another final appearance in 2018. Also served as Director of Cricket at SRH during 2015-2019. Stepped down from his second stint on 2 September 2022 and was replaced by Brian Lara.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2010",
+      "seasons": [
+        "2008",
+        "2009",
+        "2010"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Playoffs",
+          "notes": "Finished 2nd in league (20 pts) — franchise-best league finish at the time. Lost Semi-final 2 to Chennai Super Kings by 9 wickets in Mumbai. Captain: Yuvraj Singh."
+        },
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Missed playoffs (NRR -0.483). Season played in South Africa."
+        },
+        {
+          "season": "2010",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 8 points. Franchise-worst season; Moody left after this."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 21,
+          "losses": 21,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/2009_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/2010_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "head-coach",
+      "fromSeason": "2013",
+      "toSeason": "2019",
+      "seasons": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 10,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 62.5
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Inaugural SRH season (replacing Deccan Chargers). Finished 4th in league (20 pts). Lost Eliminator to Rajasthan Royals by 4 wickets."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points (NRR -0.239)."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 3,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 3rd in league (16 pts, NRR +0.577). Beat KKR in Eliminator; beat Gujarat Lions in Qualifier 2; beat RCB by 8 runs in final. SRH's maiden IPL title — first team to win the Eliminator, Qualifier 2 and Final in the same playoff run. David Warner Orange Cap winner with 848 runs."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd (17 pts). Lost Eliminator to KKR (DLS) after posting 128/7 in rain-curtailed match."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (18 pts, NRR 0.284). Lost Qualifier 1 to CSK by 2 wickets; beat KKR in Qualifier 2 by 14 runs; lost final to CSK by 8 wickets. Kane Williamson replaced David Warner as captain after the latter's Cape Town Test ball-tampering ban."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 12 points (NRR +0.577). Lost Eliminator to Delhi Capitals by 2 wickets."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 100,
+          "wins": 54,
+          "losses": 45,
+          "noResults": 1,
+          "winPct": 54.0
+        },
+        "playoffs": {
+          "matches": 9,
+          "wins": 4,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 44.44
+        },
+        "titles": 1,
+        "finalsReached": 2,
+        "playoffAppearances": 5
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2013_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2014_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2015_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2016_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2017_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2018_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2019_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ],
+      "notes": "First stint at SRH — seven seasons. Delivered the franchise's maiden IPL title in 2016 and a second final appearance in 2018. SRH's most successful coach."
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "head-coach",
+      "fromSeason": "2022",
+      "toSeason": "2022",
+      "seasons": [
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -0.379). Moody's second stint at SRH; he stepped down on 2 September 2022 after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ],
+      "notes": "Second stint — returned after Trevor Bayliss's 2020-2021 tenure, but stepped down on 2 September 2022. Replaced by Brian Lara for 2023."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 11,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 156,
+      "wins": 81,
+      "losses": 74,
+      "noResults": 1,
+      "winPct": 51.92
+    },
+    "playoffs": {
+      "matches": 10,
+      "wins": 4,
+      "losses": 6,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 1,
+    "finalsReached": 2,
+    "playoffAppearances": 6
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Worcestershire (England, County)",
+      "role": "Director of Cricket",
+      "period": "2000-2005",
+      "notes": "County Championship title in 2004."
+    },
+    {
+      "team": "Sri Lanka (National)",
+      "role": "Head Coach",
+      "period": "2005-2007",
+      "notes": "Led Sri Lanka to the 2007 ODI World Cup final."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tom_Moody",
+    "https://en.wikipedia.org/wiki/2008_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2009_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2010_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2013_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2014_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2015_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2016_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2017_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2018_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2019_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2022_Sunrisers_Hyderabad_season"
+  ],
+  "verified": true
+}

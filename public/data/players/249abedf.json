@@ -1,0 +1,25 @@
+{
+  "id": "249abedf",
+  "name": "Jalaj S Saxena",
+  "shortName": "Jalaj S Saxena",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2021"
+  ],
+  "firstMatch": "2021-04-18",
+  "lastMatch": "2021-04-18",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    }
+  ]
+}

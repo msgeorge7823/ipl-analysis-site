@@ -1,0 +1,25 @@
+{
+  "id": "7c3c0337",
+  "name": "Auqib Nabi",
+  "shortName": "Auqib Nabi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-11",
+  "lastMatch": "2026-04-25",
+  "matchCount": 3,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c7a995d3",
+  "name": "R Sai Kishore",
+  "shortName": "R Sai Kishore",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2022-05-10",
+  "lastMatch": "2025-05-30",
+  "matchCount": 25,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

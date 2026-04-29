@@ -1,0 +1,175 @@
+{
+  "season": "2017",
+  "teamId": "gujarat-lions",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "35205dfc",
+      "name": "Dwayne Romel Smith",
+      "shortName": "DR Smith",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5fa06777",
+      "name": "Irfan Khan Pathan",
+      "shortName": "IK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "808f425a",
+      "name": "JP Faulkner",
+      "shortName": "JP Faulkner",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1da489ff",
+      "name": "S Kaushik",
+      "shortName": "S Kaushik",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f10e94c4",
+      "name": "AD Nath",
+      "shortName": "AD Nath",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "f18ba07f",
+      "name": "Ankit Soni",
+      "shortName": "Ankit Soni",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b8a55852",
+      "name": "Brendon Barrie McCullum",
+      "shortName": "BB McCullum",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d1c36f5c",
+      "name": "JJ Roy",
+      "shortName": "JJ Roy",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b822e99c",
+      "name": "NB Singh",
+      "shortName": "NB Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b51f72a5",
+      "name": "SS Agarwal",
+      "shortName": "SS Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c28e9f12",
+      "name": "Tejas Baroka",
+      "shortName": "Tejas Baroka",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7c7d63a2",
+      "name": "Andrew James Tye",
+      "shortName": "AJ Tye",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "871e9faf",
+      "name": "Basil Thampi",
+      "shortName": "Basil Thampi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d2a989fc",
+      "name": "Dhawal Sunil Kulkarni",
+      "shortName": "DS Kulkarni",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f0f628c7",
+      "name": "MM Patel",
+      "shortName": "MM Patel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ae78bc32",
+      "name": "MS Gony",
+      "shortName": "MS Gony",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9fc0ef64",
+      "name": "PJ Sangwan",
+      "shortName": "PJ Sangwan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e938e1bc",
+      "name": "Praveen Kumar",
+      "shortName": "P Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c8179c68",
+      "name": "SB Jakati",
+      "shortName": "SB Jakati",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "752f7486",
+      "name": "Ishan Kishan",
+      "shortName": "Ishan Kishan",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

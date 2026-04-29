@@ -1,0 +1,25 @@
+{
+  "id": "be869ccf",
+  "name": "GHS Garton",
+  "shortName": "GHS Garton",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2021"
+  ],
+  "firstMatch": "2021-09-29",
+  "lastMatch": "2021-10-11",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    }
+  ]
+}

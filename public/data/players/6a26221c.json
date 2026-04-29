@@ -1,0 +1,52 @@
+{
+  "id": "6a26221c",
+  "name": "AK Markram",
+  "shortName": "AK Markram",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2021-09-21",
+  "lastMatch": "2026-04-26",
+  "matchCount": 65,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

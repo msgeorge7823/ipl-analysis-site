@@ -1,0 +1,161 @@
+{
+  "season": "2024",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "0a67aec0",
+      "name": "Akash Deep",
+      "shortName": "Akash Deep",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "eaa76d3c",
+      "name": "C Green",
+      "shortName": "C Green",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "983f2f61",
+      "name": "Swapnil Singh",
+      "shortName": "Swapnil Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9caf69a1",
+      "name": "WG Jacks",
+      "shortName": "WG Jacks",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "52294a79",
+      "name": "H Sharma",
+      "shortName": "H Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "da934ee8",
+      "name": "MK Lomror",
+      "shortName": "MK Lomror",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c740ea83",
+      "name": "RM Patidar",
+      "shortName": "RM Patidar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9385de2e",
+      "name": "SS Prabhudessai",
+      "shortName": "SS Prabhudessai",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9e7225b0",
+      "name": "Saurav Chauhan",
+      "shortName": "Saurav Chauhan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0946605",
+      "name": "AS Joseph",
+      "shortName": "AS Joseph",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "119678fd",
+      "name": "Karn Veer Sharma",
+      "shortName": "KV Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a457cfb5",
+      "name": "Mayank Dagar",
+      "shortName": "Mayank Dagar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f49c897",
+      "name": "Mohammed Siraj",
+      "shortName": "Mohammed Siraj",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8db7f47f",
+      "name": "RJW Topley",
+      "shortName": "RJW Topley",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "54e52590",
+      "name": "Vijaykumar Vyshak",
+      "shortName": "Vijaykumar Vyshak",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7210d461",
+      "name": "Yash Dayal",
+      "shortName": "Yash Dayal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c8f5f961",
+      "name": "Anuj Rawat",
+      "shortName": "Anuj Rawat",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

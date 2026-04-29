@@ -1,0 +1,55 @@
+{
+  "id": "c05edf8e",
+  "name": "Harpreet Brar",
+  "shortName": "Harpreet Brar",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2019-04-20",
+  "lastMatch": "2025-05-29",
+  "matchCount": 49,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

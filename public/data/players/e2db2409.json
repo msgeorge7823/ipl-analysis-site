@@ -1,0 +1,59 @@
+{
+  "id": "e2db2409",
+  "name": "M Ashwin",
+  "shortName": "M Ashwin",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Rising Pune Supergiant",
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2016-04-09",
+  "lastMatch": "2023-05-07",
+  "matchCount": 44,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    }
+  ]
+}

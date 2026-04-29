@@ -1,0 +1,30 @@
+{
+  "id": "6f49cc6e",
+  "name": "Shivam Sharma",
+  "shortName": "Shivam Sharma",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2014",
+    "2015"
+  ],
+  "firstMatch": "2014-05-09",
+  "lastMatch": "2015-04-21",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    }
+  ]
+}

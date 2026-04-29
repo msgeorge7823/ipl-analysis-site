@@ -1,0 +1,30 @@
+{
+  "year": "2023",
+  "winner": "Chennai Super Kings",
+  "runnerUp": "Gujarat Titans",
+  "isOngoing": false,
+  "matchCount": 74,
+  "matchesWithData": 74,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Shubman Gill",
+    "shortName": "Shubman Gill",
+    "runs": 890
+  },
+  "purpleCap": {
+    "player": "Mohammed Shami Ahmed",
+    "shortName": "Mohammed Shami",
+    "wickets": 28
+  }
+}

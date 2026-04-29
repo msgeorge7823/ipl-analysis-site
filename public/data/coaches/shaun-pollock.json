@@ -1,0 +1,97 @@
+{
+  "id": "shaun-pollock",
+  "name": "Shaun Pollock",
+  "fullName": "Shaun Maclean Pollock",
+  "dob": "1973-07-16",
+  "nationality": "South African",
+  "specialty": [
+    "fast-bowling",
+    "all-round"
+  ],
+  "playingCareerPlayerId": "88fccd6c",
+  "playingCareerSummary": "Former South Africa captain and one of the most accurate pacers of his era: 108 Tests (421 wickets), 303 ODIs (393 wickets). Played for Mumbai Indians in the inaugural 2008 IPL season before retiring as a player and becoming their head coach in 2009.",
+  "bio": "Took over as Mumbai Indians head coach in 2009 after retiring as a player post the 2008 IPL. His single season in charge was a difficult one — the tournament was relocated to South Africa and MI finished 7th. Was replaced by Robin Singh the following year but remained associated with the franchise as a bowling coach for a period afterwards.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2009",
+      "toSeason": "2009",
+      "seasons": [
+        "2009"
+      ],
+      "perSeason": [
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 8 with 11 points. Season played entirely in South Africa due to general elections in India."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 8,
+          "noResults": 1,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2009_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://www.insidesport.in/cricket/list-of-mumbai-indians-coaches-in-ipl/"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 5,
+      "losses": 8,
+      "noResults": 1,
+      "winPct": 35.71
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shaun_Pollock",
+    "https://en.wikipedia.org/wiki/2009_Mumbai_Indians_season"
+  ],
+  "verified": true
+}

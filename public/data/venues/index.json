@@ -1,0 +1,236 @@
+[
+  {
+    "slug": "wankhede-stadium",
+    "name": "Wankhede Stadium",
+    "city": "Mumbai",
+    "matchCount": 129
+  },
+  {
+    "slug": "m-chinnaswamy-stadium",
+    "name": "M Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "matchCount": 104
+  },
+  {
+    "slug": "eden-gardens",
+    "name": "Eden Gardens",
+    "city": "Kolkata",
+    "matchCount": 104
+  },
+  {
+    "slug": "ma-chidambaram-stadium",
+    "name": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "matchCount": 95
+  },
+  {
+    "slug": "rajiv-gandhi-international-stadium",
+    "name": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "matchCount": 87
+  },
+  {
+    "slug": "sawai-mansingh-stadium",
+    "name": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "matchCount": 65
+  },
+  {
+    "slug": "punjab-cricket-association-is-bindra-stadium",
+    "name": "Punjab Cricket Association IS Bindra Stadium",
+    "city": "Mohali",
+    "matchCount": 61
+  },
+  {
+    "slug": "feroz-shah-kotla",
+    "name": "Feroz Shah Kotla",
+    "city": "Delhi",
+    "matchCount": 60
+  },
+  {
+    "slug": "narendra-modi-stadium",
+    "name": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "matchCount": 48
+  },
+  {
+    "slug": "dubai-international-cricket-stadium",
+    "name": "Dubai International Cricket Stadium",
+    "city": "Dubai",
+    "matchCount": 46
+  },
+  {
+    "slug": "arun-jaitley-stadium",
+    "name": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "matchCount": 41
+  },
+  {
+    "slug": "dr-dy-patil-sports-academy",
+    "name": "Dr DY Patil Sports Academy",
+    "city": "Mumbai",
+    "matchCount": 37
+  },
+  {
+    "slug": "sheikh-zayed-stadium",
+    "name": "Sheikh Zayed Stadium",
+    "city": "Abu Dhabi",
+    "matchCount": 37
+  },
+  {
+    "slug": "maharashtra-cricket-association-stadium",
+    "name": "Maharashtra Cricket Association Stadium",
+    "city": "Pune",
+    "matchCount": 35
+  },
+  {
+    "slug": "sharjah-cricket-stadium",
+    "name": "Sharjah Cricket Stadium",
+    "city": "Sharjah",
+    "matchCount": 28
+  },
+  {
+    "slug": "brabourne-stadium",
+    "name": "Brabourne Stadium",
+    "city": "Mumbai",
+    "matchCount": 27
+  },
+  {
+    "slug": "ekana-cricket-stadium",
+    "name": "Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "matchCount": 26
+  },
+  {
+    "slug": "subrata-roy-sahara-stadium",
+    "name": "Subrata Roy Sahara Stadium",
+    "city": "Pune",
+    "matchCount": 16
+  },
+  {
+    "slug": "kingsmead",
+    "name": "Kingsmead",
+    "city": "Durban",
+    "matchCount": 15
+  },
+  {
+    "slug": "himachal-pradesh-cricket-association-stadium",
+    "name": "Himachal Pradesh Cricket Association Stadium",
+    "city": "Dharamsala",
+    "matchCount": 15
+  },
+  {
+    "slug": "mys-international-cricket-stadium",
+    "name": "MYS International Cricket Stadium",
+    "city": "Mullanpur",
+    "matchCount": 14
+  },
+  {
+    "slug": "dr-y-s-rajasekhara-reddy-aca-vdca-cricket-stadium",
+    "name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "city": "Visakhapatnam",
+    "matchCount": 13
+  },
+  {
+    "slug": "supersport-park",
+    "name": "SuperSport Park",
+    "city": "Centurion",
+    "matchCount": 12
+  },
+  {
+    "slug": "saurashtra-cricket-association-stadium",
+    "name": "Saurashtra Cricket Association Stadium",
+    "city": "Rajkot",
+    "matchCount": 10
+  },
+  {
+    "slug": "holkar-cricket-stadium",
+    "name": "Holkar Cricket Stadium",
+    "city": "Indore",
+    "matchCount": 9
+  },
+  {
+    "slug": "new-wanderers-stadium",
+    "name": "New Wanderers Stadium",
+    "city": "Johannesburg",
+    "matchCount": 8
+  },
+  {
+    "slug": "barsapara-cricket-stadium",
+    "name": "Barsapara Cricket Stadium",
+    "city": "Guwahati",
+    "matchCount": 8
+  },
+  {
+    "slug": "newlands",
+    "name": "Newlands",
+    "city": "Cape Town",
+    "matchCount": 7
+  },
+  {
+    "slug": "st-george-s-park",
+    "name": "St George's Park",
+    "city": "Port Elizabeth",
+    "matchCount": 7
+  },
+  {
+    "slug": "barabati-stadium",
+    "name": "Barabati Stadium",
+    "city": "Cuttack",
+    "matchCount": 7
+  },
+  {
+    "slug": "jsca-international-stadium-complex",
+    "name": "JSCA International Stadium Complex",
+    "city": "Ranchi",
+    "matchCount": 7
+  },
+  {
+    "slug": "shaheed-veer-narayan-singh-international-stadium",
+    "name": "Shaheed Veer Narayan Singh International Stadium",
+    "city": "Raipur",
+    "matchCount": 6
+  },
+  {
+    "slug": "nehru-stadium",
+    "name": "Nehru Stadium",
+    "city": "Kochi",
+    "matchCount": 5
+  },
+  {
+    "slug": "green-park",
+    "name": "Green Park",
+    "city": "Kanpur",
+    "matchCount": 4
+  },
+  {
+    "slug": "dr-y-s-rajasekhara-reddy-aca-vdca-cricket-stadium-visakhapatnam",
+    "name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+    "city": "Visakhapatnam",
+    "matchCount": 4
+  },
+  {
+    "slug": "buffalo-park",
+    "name": "Buffalo Park",
+    "city": "East London",
+    "matchCount": 3
+  },
+  {
+    "slug": "de-beers-diamond-oval",
+    "name": "De Beers Diamond Oval",
+    "city": "Kimberley",
+    "matchCount": 3
+  },
+  {
+    "slug": "vidarbha-cricket-association-stadium",
+    "name": "Vidarbha Cricket Association Stadium",
+    "city": "Nagpur",
+    "matchCount": 3
+  },
+  {
+    "slug": "outsurance-oval",
+    "name": "OUTsurance Oval",
+    "city": "Bloemfontein",
+    "matchCount": 2
+  }
+]

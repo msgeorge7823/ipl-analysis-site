@@ -1,0 +1,83 @@
+{
+  "id": "1c914163",
+  "name": "Yuvraj Singh",
+  "shortName": "Yuvraj Singh",
+  "nicknames": [
+    "Yuvi",
+    "Prince of Indian Cricket"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings",
+    "Pune Warriors",
+    "Sunrisers Hyderabad",
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2019-04-03",
+  "matchCount": 132,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    }
+  ]
+}

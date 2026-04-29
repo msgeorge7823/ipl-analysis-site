@@ -1,0 +1,28 @@
+{
+  "year": "2019",
+  "winner": "Mumbai Indians",
+  "runnerUp": "Chennai Super Kings",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "David Andrew Warner",
+    "shortName": "DA Warner",
+    "runs": 692
+  },
+  "purpleCap": {
+    "player": "Mohammad Imran Tahir",
+    "shortName": "Imran Tahir",
+    "wickets": 26
+  }
+}

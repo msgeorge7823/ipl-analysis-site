@@ -1,0 +1,25 @@
+{
+  "id": "64c34cd0",
+  "name": "Shoaib Malik",
+  "shortName": "Shoaib Malik",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-22",
+  "lastMatch": "2008-05-17",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    }
+  ]
+}

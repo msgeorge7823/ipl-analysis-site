@@ -1,0 +1,56 @@
+{
+  "id": "da934ee8",
+  "name": "MK Lomror",
+  "shortName": "MK Lomror",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2018-04-29",
+  "lastMatch": "2024-05-22",
+  "matchCount": 40,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

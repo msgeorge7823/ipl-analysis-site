@@ -1,0 +1,35 @@
+{
+  "season": "2022",
+  "players": [
+    {
+      "player": "Rahmanullah Gurbaz",
+      "team": "Gujarat Titans",
+      "replacing": "Jason Roy",
+      "reason": "Bubble fatigue withdrawal"
+    },
+    {
+      "player": "Aaron Finch",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Alex Hales",
+      "reason": "Bubble fatigue withdrawal"
+    },
+    {
+      "player": "Andrew Tye",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mark Wood",
+      "reason": "Elbow injury"
+    },
+    {
+      "player": "Rajat Patidar",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Luvnith Sisodia",
+      "reason": "Injury"
+    },
+    {
+      "player": "Matheesha Pathirana",
+      "team": "Chennai Super Kings",
+      "replacing": "Adam Milne",
+      "reason": "Hamstring injury"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ddb00822",
+  "name": "P Prasanth",
+  "shortName": "P Prasanth",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kochi Tuskers Kerala"
+  ],
+  "lastTeam": "Kochi Tuskers Kerala",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-15",
+  "lastMatch": "2011-05-15",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    }
+  ]
+}

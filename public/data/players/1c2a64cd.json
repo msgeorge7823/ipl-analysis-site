@@ -1,0 +1,41 @@
+{
+  "id": "1c2a64cd",
+  "name": "A Ashish Reddy",
+  "shortName": "A Ashish Reddy",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2012",
+    "2013",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2012-04-26",
+  "lastMatch": "2016-04-30",
+  "matchCount": 31,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    }
+  ]
+}

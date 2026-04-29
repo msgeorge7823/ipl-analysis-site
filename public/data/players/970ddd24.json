@@ -1,0 +1,33 @@
+{
+  "id": "970ddd24",
+  "name": "Suryansh Shedge",
+  "shortName": "Suryansh Shedge",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-03-25",
+  "lastMatch": "2025-04-30",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2023",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Jaydev Unadkat",
+      "reason": "Shoulder injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

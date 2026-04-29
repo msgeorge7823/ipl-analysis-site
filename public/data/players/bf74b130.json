@@ -1,0 +1,25 @@
+{
+  "id": "bf74b130",
+  "name": "FH Allen",
+  "shortName": "FH Allen",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-29",
+  "lastMatch": "2026-04-14",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

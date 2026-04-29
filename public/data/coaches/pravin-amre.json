@@ -1,0 +1,157 @@
+{
+  "id": "pravin-amre",
+  "name": "Pravin Amre",
+  "fullName": "Pravin Kalyan Amre",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "technical-coaching"
+  ],
+  "playingCareerSummary": "Former India middle-order batter: 11 Tests, 37 ODIs. One of the most respected technical batting coaches in India — long-standing mentor to Mumbai batters including Ajinkya Rahane and Rohit Sharma in their early careers.",
+  "bio": "Delhi Capitals' batting coach from 2021 to 2024 — four seasons under Ricky Ponting that included the 2020 runner-up and 2021 league-topper campaigns. Replaced by Matthew Mott in 2025.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "batting-coach",
+      "fromSeason": "2021",
+      "toSeason": "2024",
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 1st in league (20 pts, NRR 0.481) — franchise-best. Lost Qualifier 1 to CSK by 4 wickets; lost Qualifier 2 to KKR by 3 wickets. Season split between India and UAE due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points (NRR -0.808). Lost first five matches of the season. Captain: David Warner."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Ponting's final season at DC; he and the franchise parted ways ahead of the 2025 mega auction."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 29,
+          "losses": 27,
+          "noResults": 0,
+          "winPct": 51.79
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2023_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2024_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 29,
+      "losses": 27,
+      "noResults": 0,
+      "winPct": 51.79
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1968-08-14"
+}

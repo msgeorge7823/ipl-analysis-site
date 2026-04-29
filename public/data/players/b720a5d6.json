@@ -1,0 +1,46 @@
+{
+  "id": "b720a5d6",
+  "name": "DB Ravi Teja",
+  "shortName": "DB Ravi Teja",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2008",
+    "2009",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2008-05-09",
+  "lastMatch": "2013-04-14",
+  "matchCount": 32,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    }
+  ]
+}

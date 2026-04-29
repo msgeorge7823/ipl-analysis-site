@@ -1,0 +1,25 @@
+{
+  "id": "23ac69e6",
+  "name": "RJ Quiney",
+  "shortName": "RJ Quiney",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-23",
+  "lastMatch": "2009-05-20",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    }
+  ]
+}

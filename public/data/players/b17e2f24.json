@@ -1,0 +1,92 @@
+{
+  "id": "b17e2f24",
+  "name": "Kannur Lokesh Rahul",
+  "shortName": "KL Rahul",
+  "nicknames": [
+    "KL",
+    "Rahul"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Punjab Kings",
+    "Lucknow Super Giants",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-04-11",
+  "lastMatch": "2026-04-27",
+  "matchCount": 154,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

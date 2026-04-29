@@ -1,0 +1,30 @@
+{
+  "year": "2025",
+  "winner": "Royal Challengers Bengaluru",
+  "runnerUp": "Punjab Kings",
+  "isOngoing": false,
+  "matchCount": 74,
+  "matchesWithData": 74,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Sai Sudharsan",
+    "shortName": "B Sai Sudharsan",
+    "runs": 759
+  },
+  "purpleCap": {
+    "player": "Prasidh Krishna",
+    "shortName": "M Prasidh Krishna",
+    "wickets": 25
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "b2b23612",
+  "name": "RG More",
+  "shortName": "RG More",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2015"
+  ],
+  "firstMatch": "2015-04-30",
+  "lastMatch": "2015-05-02",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2015"
+    }
+  ]
+}

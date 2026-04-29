@@ -1,0 +1,56 @@
+{
+  "id": "6eb146d2",
+  "name": "Gurkeerat Singh",
+  "shortName": "Gurkeerat Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2012",
+    "2013",
+    "2015",
+    "2016",
+    "2017",
+    "2019",
+    "2020"
+  ],
+  "firstMatch": "2012-05-05",
+  "lastMatch": "2020-10-31",
+  "matchCount": 41,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    }
+  ]
+}

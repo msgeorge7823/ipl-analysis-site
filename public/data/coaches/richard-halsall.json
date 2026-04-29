@@ -1,0 +1,127 @@
+{
+  "id": "richard-halsall",
+  "name": "Richard Halsall",
+  "fullName": "Richard Halsall",
+  "nationality": "English",
+  "specialty": [
+    "fielding",
+    "player-development",
+    "assistant-coaching"
+  ],
+  "playingCareerSummary": "Former Sussex and Surrey first-class cricketer. Long coaching career including with Sri Lanka and England as a specialist fielding/assistant coach. Did not play in the IPL.",
+  "bio": "RCB's assistant coach from IPL 2025 under Andy Flower — part of the coaching staff that delivered the franchise's first IPL title in 2025. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "assistant-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (19 points, NRR 0.482). Beat Punjab Kings in Qualifier 1; beat Punjab Kings again in the final to win RCB's first-ever IPL title after 18 years of the franchise's existence."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — RCB enter as defending champions. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 4,
+          "noResults": 1,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru",
+        "https://en.wikipedia.org/wiki/2025_Royal_Challengers_Bengaluru_season",
+        "https://en.wikipedia.org/wiki/2026_Royal_Challengers_Bengaluru_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 9,
+      "losses": 4,
+      "noResults": 1,
+      "winPct": 64.29
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Sri Lanka (National)",
+      "role": "Fielding Coach / Assistant Coach",
+      "period": "2009-2014"
+    },
+    {
+      "team": "England (National)",
+      "role": "Fielding Coach",
+      "period": "2014-2015"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+  ],
+  "verified": true
+}

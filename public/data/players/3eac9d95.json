@@ -1,0 +1,42 @@
+{
+  "id": "3eac9d95",
+  "name": "JDP Oram",
+  "shortName": "JDP Oram",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Rajasthan Royals",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2009",
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2013-04-04",
+  "matchCount": 18,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    }
+  ]
+}

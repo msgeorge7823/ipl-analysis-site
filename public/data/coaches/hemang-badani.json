@@ -1,0 +1,259 @@
+{
+  "id": "hemang-badani",
+  "name": "Hemang Badani",
+  "fullName": "Hemang Kamal Badani",
+  "dob": "1976-11-14",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "T20-coaching",
+    "player-development"
+  ],
+  "playingCareerSummary": "Former India left-handed middle-order batter and slow left-arm orthodox bowler: 4 Tests and 40 ODIs (2000-2004). Scored 867 ODI runs at 33.34, highlighted by a century vs Australia at Pune in 2001-02. Represented Tamil Nadu in domestic cricket. Did not play in the IPL; his playing career predated the league.",
+  "bio": "Long coaching journey that began at Sunrisers Hyderabad as fielding coach (2022-2023) and batting coach (2024 — the final-reaching season), before being promoted to Delhi Capitals head coach for IPL 2025 (replacing Ricky Ponting). Retained for 2026 with Kevin Pietersen as mentor.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "fielding-coach",
+      "fromSeason": "2022",
+      "toSeason": "2023",
+      "seasons": [
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -0.379). Moody's second stint at SRH; he stepped down on 2 September 2022 after this season."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points (NRR -0.590). Lara's only IPL head-coaching season. Replaced by Daniel Vettori for IPL 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 10,
+          "losses": 18,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2022_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2023_Sunrisers_Hyderabad_season"
+      ],
+      "notes": "SRH fielding coach for two seasons under Tom Moody and Brian Lara."
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "batting-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (17 pts). Qualifier 1 loss to KKR; Qualifier 2 W vs Rajasthan Royals; lost final to KKR by 8 wickets. SRH's second IPL final after 2018. Vettori's first season replacing Brian Lara."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 5,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2024_Sunrisers_Hyderabad_season"
+      ],
+      "notes": "Promoted to batting coach for IPL 2024 under Daniel Vettori — part of the final-reaching squad. Left after this season to become Delhi Capitals head coach."
+    },
+    {
+      "team": "Delhi Capitals",
+      "role": "head-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group B with 15 points. Last team eliminated from IPL 2025. Kevin Pietersen served as team mentor."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete. Venugopal Rao is Director of Cricket; Kevin Pietersen continues as team mentor; Munaf Patel is bowling coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 6,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2026_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals",
+        "https://www.espncricinfo.com/story/ipl-2025-kevin-pietersen-joins-delhi-capitals-as-team-mentor-1475039",
+        "https://www.sportskeeda.com/cricket/news-who-hemang-badani-looking-career-records-delhi-capitals-head-coach-ipl-2025"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 56,
+      "wins": 25,
+      "losses": 29,
+      "noResults": 2,
+      "winPct": 44.64
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Chepauk Super Gillies (TNPL)",
+      "role": "Head Coach",
+      "period": "2016-present",
+      "notes": "Head coach since TNPL's inaugural season; multiple titles."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hemang_Badani",
+    "https://en.wikipedia.org/wiki/2025_Delhi_Capitals_season",
+    "https://en.wikipedia.org/wiki/2026_Delhi_Capitals_season"
+  ],
+  "verified": true
+}

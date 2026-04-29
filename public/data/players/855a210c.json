@@ -1,0 +1,52 @@
+{
+  "id": "855a210c",
+  "name": "AP Tare",
+  "shortName": "AP Tare",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Sunrisers Hyderabad",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2010",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2017-04-22",
+  "matchCount": 35,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    }
+  ]
+}

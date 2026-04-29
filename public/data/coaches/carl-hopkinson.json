@@ -1,0 +1,113 @@
+{
+  "id": "carl-hopkinson",
+  "name": "Carl Hopkinson",
+  "fullName": "Carl David Hopkinson",
+  "nationality": "English",
+  "specialty": [
+    "fielding"
+  ],
+  "playingCareerSummary": "Former Sussex county cricketer (England). Specialist fielding coach working across England Lions, IPL and other franchise setups. Did not play in the IPL.",
+  "bio": "Mumbai Indians' fielding coach from IPL 2025, replacing James Pamment as part of Mahela Jayawardene's new staff.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "fielding-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2026_Mumbai_Indians_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 6,
+      "noResults": 0,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

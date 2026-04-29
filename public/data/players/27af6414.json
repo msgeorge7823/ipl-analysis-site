@@ -1,0 +1,25 @@
+{
+  "id": "27af6414",
+  "name": "BJ Rohrer",
+  "shortName": "BJ Rohrer",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-04-16",
+  "lastMatch": "2013-05-19",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    }
+  ]
+}

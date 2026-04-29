@@ -1,0 +1,56 @@
+{
+  "id": "e4a0deae",
+  "name": "MJ Santner",
+  "shortName": "MJ Santner",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2019",
+    "2020",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-03-31",
+  "lastMatch": "2026-04-23",
+  "matchCount": 35,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

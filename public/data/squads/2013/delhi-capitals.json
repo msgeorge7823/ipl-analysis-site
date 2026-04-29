@@ -1,0 +1,168 @@
+{
+  "season": "2013",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5fa06777",
+      "name": "Irfan Khan Pathan",
+      "shortName": "IK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe763256",
+      "name": "Y Venugopal Rao",
+      "shortName": "Y Venugopal Rao",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5451a2c1",
+      "name": "B Chipli",
+      "shortName": "B Chipli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "27af6414",
+      "name": "BJ Rohrer",
+      "shortName": "BJ Rohrer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9868bc75",
+      "name": "BMAJ Mendis",
+      "shortName": "BMAJ Mendis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d18f9182",
+      "name": "DPMD Jayawardene",
+      "shortName": "DPMD Jayawardene",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "605b7efa",
+      "name": "MC Juneja",
+      "shortName": "MC Juneja",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0c94f480",
+      "name": "UBT Chand",
+      "shortName": "UBT Chand",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8ba8195d",
+      "name": "Virender Sehwag",
+      "shortName": "V Sehwag",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fa463154",
+      "name": "AB Agarkar",
+      "shortName": "AB Agarkar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "96fd40ae",
+      "name": "Ashish Nehra",
+      "shortName": "A Nehra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c503806",
+      "name": "J Botha",
+      "shortName": "J Botha",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb5a915",
+      "name": "Morne Morkel",
+      "shortName": "M Morkel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "05c2ca46",
+      "name": "RE van der Merwe",
+      "shortName": "RE van der Merwe",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dcf81436",
+      "name": "S Kaul",
+      "shortName": "S Kaul",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "30a2649b",
+      "name": "CM Gautam",
+      "shortName": "CM Gautam",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "99d63244",
+      "name": "Kedar Mahadev Jadhav",
+      "shortName": "KM Jadhav",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "890946a0",
+      "name": "Naman Vinaykumar Ojha",
+      "shortName": "NV Ojha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

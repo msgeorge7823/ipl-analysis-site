@@ -1,0 +1,30 @@
+{
+  "id": "030f3089",
+  "name": "K Yadav",
+  "shortName": "K Yadav",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2021",
+    "2023"
+  ],
+  "firstMatch": "2021-10-05",
+  "lastMatch": "2023-05-07",
+  "matchCount": 3,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    }
+  ]
+}

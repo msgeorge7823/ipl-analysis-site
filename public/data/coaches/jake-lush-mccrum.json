@@ -1,0 +1,172 @@
+{
+  "id": "jake-lush-mccrum",
+  "name": "Jake Lush McCrum",
+  "fullName": "Jake Lush McCrum",
+  "nationality": "English",
+  "specialty": [
+    "cricket-administration"
+  ],
+  "playingCareerSummary": "Sports business executive with international cricket management experience including with the ECB.",
+  "bio": "Rajasthan Royals' CEO from 2022 onwards — covering the 2022 runner-up run and subsequent seasons.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "team-manager",
+      "fromSeason": "2022",
+      "toSeason": "2026",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 28,
+          "losses": 27,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+      ],
+      "notes": "Role is CEO. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 28,
+      "losses": 27,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true
+}

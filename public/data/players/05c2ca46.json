@@ -1,0 +1,46 @@
+{
+  "id": "05c2ca46",
+  "name": "RE van der Merwe",
+  "shortName": "RE van der Merwe",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2009-04-29",
+  "lastMatch": "2013-05-14",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    }
+  ]
+}

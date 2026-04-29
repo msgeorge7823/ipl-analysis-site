@@ -1,0 +1,25 @@
+{
+  "id": "0dc00542",
+  "name": "Shahid Afridi",
+  "shortName": "Shahid Afridi",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-22",
+  "lastMatch": "2008-05-27",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

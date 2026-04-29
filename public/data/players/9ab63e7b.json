@@ -1,0 +1,25 @@
+{
+  "id": "9ab63e7b",
+  "name": "Mohammad Hafeez",
+  "shortName": "Mohammad Hafeez",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2008-05-20",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    }
+  ]
+}

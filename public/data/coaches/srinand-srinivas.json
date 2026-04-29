@@ -1,0 +1,92 @@
+{
+  "id": "srinand-srinivas",
+  "name": "Dr. Srinand Srinivas",
+  "fullName": "Srinand Srinivas",
+  "nationality": "Indian",
+  "specialty": [
+    "sports-medicine"
+  ],
+  "playingCareerSummary": "Sports medicine practitioner.",
+  "bio": "Kings XI Punjab's team doctor for IPL 2020.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "trainer",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kings_XI_Punjab"
+      ],
+      "notes": "Role is Team Doctor. Modelled as 'trainer' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kings_XI_Punjab"
+  ],
+  "verified": true
+}

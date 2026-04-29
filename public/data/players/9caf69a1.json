@@ -1,0 +1,31 @@
+{
+  "id": "9caf69a1",
+  "name": "WG Jacks",
+  "shortName": "WG Jacks",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-04-11",
+  "lastMatch": "2025-05-26",
+  "matchCount": 21,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ee3dfa89",
+  "name": "Sunny Gupta",
+  "shortName": "Sunny Gupta",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-05-25",
+  "lastMatch": "2012-05-25",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    }
+  ]
+}

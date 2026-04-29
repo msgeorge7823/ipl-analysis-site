@@ -1,0 +1,35 @@
+{
+  "id": "45c2196c",
+  "name": "DE Bollinger",
+  "shortName": "DE Bollinger",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2010-04-03",
+  "lastMatch": "2012-04-21",
+  "matchCount": 27,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "48a1d7b7",
+  "name": "Shimron Odilon Hetmyer",
+  "shortName": "SO Hetmyer",
+  "nicknames": [
+    "Hetmyer",
+    "Shimron"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-03-23",
+  "lastMatch": "2026-04-25",
+  "matchCount": 93,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2026"
+    }
+  ]
+}

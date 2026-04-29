@@ -1,0 +1,25 @@
+{
+  "id": "5748e866",
+  "name": "TD Paine",
+  "shortName": "TD Paine",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-20",
+  "lastMatch": "2011-04-29",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

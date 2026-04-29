@@ -1,0 +1,46 @@
+{
+  "id": "7c3b3b78",
+  "name": "VG Arora",
+  "shortName": "VG Arora",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-04-03",
+  "lastMatch": "2026-04-26",
+  "matchCount": 40,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2025"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

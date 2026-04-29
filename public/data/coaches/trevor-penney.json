@@ -1,0 +1,145 @@
+{
+  "id": "trevor-penney",
+  "name": "Trevor Penney",
+  "fullName": "Trevor Lionel Penney",
+  "nationality": "Zimbabwean / British",
+  "specialty": [
+    "batting",
+    "fielding",
+    "assistant-coaching"
+  ],
+  "playingCareerSummary": "Former Zimbabwe first-class cricketer and long-serving county player for Warwickshire. Widely respected specialist assistant / fielding coach across international and franchise cricket.",
+  "bio": "Multi-role Rajasthan Royals support staff member: Lead Assistant Coach (2021), Assistant Coach (2022), Batting Coach (2024). Widely regarded as the tactical glue of the Kumar Sangakkara era.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "assistant-coach",
+      "fromSeason": "2021",
+      "toSeason": "2024",
+      "seasons": [
+        "2021",
+        "2022",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 10 points. First season as DoC + acting head coach after McDonald was let go. Lead Assistant Coach: Trevor Penney."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (18 pts, NRR 0.298). Lost Q1 to GT by 7 wickets; beat RCB in Q2 by 7 wickets; lost final to GT by 7 wickets. Franchise's first final since winning the inaugural 2008 title — 14 years between finals. Captain: Sanju Samson."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd with 17 points. Beat RCB in Eliminator by 4 wickets; lost Qualifier 2 to SRH by 36 runs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 22,
+          "losses": 19,
+          "noResults": 1,
+          "winPct": 52.38
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://en.wikipedia.org/wiki/2021_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2022_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2024_Rajasthan_Royals_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 22,
+      "losses": 19,
+      "noResults": 1,
+      "winPct": 52.38
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true,
+  "dob": "1968-06-12",
+  "otherCoachingRoles": [
+    {
+      "team": "Sri Lanka (National)",
+      "role": "Assistant Coach",
+      "period": "2007-2014",
+      "notes": "Long-serving assistant coach under Trevor Bayliss with Sri Lanka."
+    }
+  ]
+}

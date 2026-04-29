@@ -1,0 +1,405 @@
+{
+  "id": "jonty-rhodes",
+  "name": "Jonty Rhodes",
+  "fullName": "Jonathan Neil Rhodes",
+  "dob": "1969-07-27",
+  "nationality": "South African",
+  "specialty": [
+    "fielding"
+  ],
+  "playingCareerSummary": "Former South Africa middle-order batter and the most iconic fielder in cricket history — revolutionised modern fielding standards. 52 Tests, 245 ODIs. Did not play in the IPL (retired in 2003).",
+  "bio": "The most travelled fielding coach in IPL history. Mumbai Indians 2013-2017 (5 of his 9 MI seasons captured in Phase 2), Kings XI Punjab / Punjab Kings 2020-2022, and Lucknow Super Giants 2023-2025. 11 captured IPL fielding-coach seasons across three active franchises, including four MI IPL titles during his MI tenure and the LSG playoff runs of 2022-2023 (his role started in 2023 though).",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "fielding-coach",
+      "fromSeason": "2013",
+      "toSeason": "2017",
+      "seasons": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 11,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 68.75
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (22 pts). Lost Q1 to CSK by 48 runs; beat RR in Q2 by 4 wickets; beat CSK in final by 23 runs. Franchise's first IPL title. Sachin Tendulkar's final IPL season."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th in league (14 pts, NRR 0.095). Lost Eliminator to CSK by 7 wickets."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (16 pts). Beat CSK in Q1 by 25 runs; beat CSK in final by 41 runs. Franchise's second IPL title."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Did not qualify for playoffs."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (20 pts). Lost Q1 to RPS by 20 runs; beat KKR in Q2 by 6 wickets; beat RPS in final by 1 run. Franchise's third IPL title."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 72,
+          "wins": 43,
+          "losses": 29,
+          "noResults": 0,
+          "winPct": 59.72
+        },
+        "playoffs": {
+          "matches": 9,
+          "wins": 6,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 3,
+        "finalsReached": 3,
+        "playoffAppearances": 4
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/Jonty_Rhodes",
+        "https://www.espncricinfo.com/story/jonty-rhodes-leaves-mumbai-indians-after-nine-seasons-1128799"
+      ],
+      "notes": "Rhodes was MI's fielding coach from 2009 through 2017 (9 seasons). Phase 2 scope captures 2013 onwards per project policy."
+    },
+    {
+      "team": "Kings XI Punjab",
+      "role": "fielding-coach",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "team": "Kings XI Punjab",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Final season under the 'Kings XI Punjab' name — the franchise rebranded to 'Punjab Kings' on 17 February 2021."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "fielding-coach",
+      "fromSeason": "2021",
+      "toSeason": "2022",
+      "seasons": [
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "team": "Punjab Kings",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season under the 'Punjab Kings' name. Finished 6th with 12 points."
+        },
+        {
+          "season": "2022",
+          "team": "Punjab Kings",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points (NRR 0.126). Missed playoffs. Kumble was replaced by Trevor Bayliss in September 2022."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/2022_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "role": "fielding-coach",
+      "fromSeason": "2023",
+      "toSeason": "2025",
+      "seasons": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in league (17 pts, NRR 0.284). Lost Eliminator to Mumbai Indians. Flower left after this season to join Royal Challengers Bengaluru for 2024."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season replacing Andy Flower. Finished 7th with 14 points (NRR -0.667). Franchise's first season missing the playoffs."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points (NRR -0.376). Fifth team eliminated from IPL 2025. Zaheer Khan joined as mentor ahead of the season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 21,
+          "losses": 20,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2024_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2025_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "Third IPL fielding coach stint after MI (2009-2017) and PBKS (2020-2022). Three seasons at LSG under Flower then Langer."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 11,
+    "franchisesCoached": 4,
+    "league": {
+      "matches": 156,
+      "wins": 83,
+      "losses": 72,
+      "noResults": 1,
+      "winPct": 53.21
+    },
+    "playoffs": {
+      "matches": 10,
+      "wins": 6,
+      "losses": 4,
+      "noResults": 0,
+      "winPct": 60.0
+    },
+    "titles": 3,
+    "finalsReached": 3,
+    "playoffAppearances": 5
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jonty_Rhodes",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

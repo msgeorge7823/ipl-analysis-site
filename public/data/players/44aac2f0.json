@@ -1,0 +1,30 @@
+{
+  "id": "44aac2f0",
+  "name": "Arjun Tendulkar",
+  "shortName": "Arjun Tendulkar",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2023-04-16",
+  "lastMatch": "2024-05-17",
+  "matchCount": 5,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    }
+  ]
+}

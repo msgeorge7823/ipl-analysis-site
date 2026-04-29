@@ -1,0 +1,25 @@
+{
+  "id": "f663ef00",
+  "name": "J Arunkumar",
+  "shortName": "J Arunkumar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-08",
+  "lastMatch": "2008-05-17",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1efb8a28",
+  "name": "AC Blizzard",
+  "shortName": "AC Blizzard",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-05-04",
+  "lastMatch": "2012-04-27",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    }
+  ]
+}

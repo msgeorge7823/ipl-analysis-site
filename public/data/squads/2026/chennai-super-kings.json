@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "chennai-super-kings",
+  "teamName": "Chennai Super Kings",
+  "captain": "Ruturaj Gaikwad",
+  "coach": "Stephen Fleming",
+  "players": [
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batter",
+      "overseas": false,
+      "price": "18 Cr",
+      "retained": true
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "4 Cr",
+      "retained": true
+    },
+    {
+      "name": "Sanju Samson",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Dewald Brevis",
+      "role": "Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ayush Mhatre",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Kartik Sharma",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Urvil Patel",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Jamie Overton",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Ramakrishna Ghosh",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Prashant Veer",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Matthew Short",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Aman Khan",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Zak Foulkes",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Khaleel Ahmed",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Noor Ahmad",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Anshul Kamboj",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shreyas Gopal",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Gurjapneet Singh",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Akeal Hosein",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Matt Henry",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Rahul Chahar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Spencer Johnson",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    }
+  ]
+}

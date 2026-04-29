@@ -1,0 +1,42 @@
+{
+  "id": "3d284ca3",
+  "name": "PD Salt",
+  "shortName": "PD Salt",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2023-04-20",
+  "lastMatch": "2026-04-18",
+  "matchCount": 40,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

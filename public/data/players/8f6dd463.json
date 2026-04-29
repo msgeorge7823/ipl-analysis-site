@@ -1,0 +1,31 @@
+{
+  "id": "8f6dd463",
+  "name": "Azmatullah Omarzai",
+  "shortName": "Azmatullah Omarzai",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Gujarat Titans",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-03-24",
+  "lastMatch": "2025-06-03",
+  "matchCount": 17,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    }
+  ]
+}

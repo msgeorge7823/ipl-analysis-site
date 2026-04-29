@@ -1,0 +1,25 @@
+{
+  "id": "21ac077a",
+  "name": "RR Bose",
+  "shortName": "RR Bose",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-24",
+  "lastMatch": "2009-04-24",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "c18496e1",
+  "name": "Bipul Sharma",
+  "shortName": "Bipul Sharma",
+  "nicknames": [
+    "Bipul"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2010-03-16",
+  "lastMatch": "2017-05-17",
+  "matchCount": 33,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    }
+  ]
+}

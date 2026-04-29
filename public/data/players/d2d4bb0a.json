@@ -1,0 +1,25 @@
+{
+  "id": "d2d4bb0a",
+  "name": "TR Birt",
+  "shortName": "TR Birt",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-28",
+  "lastMatch": "2011-05-15",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    }
+  ]
+}

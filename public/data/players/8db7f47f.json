@@ -1,0 +1,36 @@
+{
+  "id": "8db7f47f",
+  "name": "RJW Topley",
+  "shortName": "RJW Topley",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2023-04-02",
+  "lastMatch": "2025-06-01",
+  "matchCount": 6,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

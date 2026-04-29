@@ -1,0 +1,37 @@
+{
+  "id": "9a46c4e5",
+  "name": "GD Phillips",
+  "shortName": "GD Phillips",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2021",
+    "2023",
+    "2026"
+  ],
+  "firstMatch": "2021-10-02",
+  "lastMatch": "2026-04-20",
+  "matchCount": 14,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bae11797",
+  "name": "Y Gnaneswara Rao",
+  "shortName": "Y Gnaneswara Rao",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kochi Tuskers Kerala"
+  ],
+  "lastTeam": "Kochi Tuskers Kerala",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-15",
+  "lastMatch": "2011-05-18",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    }
+  ]
+}

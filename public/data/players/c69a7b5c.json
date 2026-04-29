@@ -1,0 +1,35 @@
+{
+  "id": "c69a7b5c",
+  "name": "AS Raut",
+  "shortName": "AS Raut",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2009-04-23",
+  "lastMatch": "2011-05-11",
+  "matchCount": 22,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    }
+  ]
+}

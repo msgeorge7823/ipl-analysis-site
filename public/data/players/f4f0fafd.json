@@ -1,0 +1,25 @@
+{
+  "id": "f4f0fafd",
+  "name": "B Sumanth",
+  "shortName": "B Sumanth",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-04-10",
+  "lastMatch": "2010-04-22",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "4d5a1617",
+  "name": "R Bishnoi",
+  "shortName": "R Bishnoi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-20",
+  "lastMatch": "2009-05-01",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    }
+  ]
+}

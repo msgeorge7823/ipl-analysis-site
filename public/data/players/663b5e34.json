@@ -1,0 +1,31 @@
+{
+  "id": "663b5e34",
+  "name": "PN Mankad",
+  "shortName": "PN Mankad",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2022-05-22",
+  "lastMatch": "2023-05-24",
+  "matchCount": 6,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    }
+  ]
+}

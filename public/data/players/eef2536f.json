@@ -1,0 +1,75 @@
+{
+  "id": "eef2536f",
+  "name": "Avesh Khan",
+  "shortName": "Avesh Khan",
+  "nicknames": [
+    "Avesh"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Lucknow Super Giants",
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2017-05-14",
+  "lastMatch": "2026-04-19",
+  "matchCount": 80,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

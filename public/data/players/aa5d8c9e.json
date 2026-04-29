@@ -1,0 +1,25 @@
+{
+  "id": "aa5d8c9e",
+  "name": "A Tomar",
+  "shortName": "A Tomar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2022"
+  ],
+  "firstMatch": "2022-05-18",
+  "lastMatch": "2022-05-18",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    }
+  ]
+}

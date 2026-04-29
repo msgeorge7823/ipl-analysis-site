@@ -1,0 +1,25 @@
+{
+  "id": "c695b423",
+  "name": "PH Solanki",
+  "shortName": "PH Solanki",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2022"
+  ],
+  "firstMatch": "2022-05-15",
+  "lastMatch": "2022-05-20",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    }
+  ]
+}

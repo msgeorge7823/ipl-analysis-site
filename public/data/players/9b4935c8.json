@@ -1,0 +1,30 @@
+{
+  "id": "9b4935c8",
+  "name": "CJ Ferguson",
+  "shortName": "CJ Ferguson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-05-08",
+  "lastMatch": "2012-05-19",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    }
+  ]
+}

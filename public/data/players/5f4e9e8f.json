@@ -1,0 +1,30 @@
+{
+  "id": "5f4e9e8f",
+  "name": "RR Raje",
+  "shortName": "RR Raje",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-05-04",
+  "lastMatch": "2009-05-12",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2009"
+    }
+  ]
+}

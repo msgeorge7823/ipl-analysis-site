@@ -1,0 +1,44 @@
+{
+  "id": "30df8c66",
+  "name": "Simarjeet Singh",
+  "shortName": "Simarjeet Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2022-05-01",
+  "lastMatch": "2025-04-06",
+  "matchCount": 14,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2021",
+      "team": "Mumbai Indians",
+      "replacing": "Arjun Tendulkar",
+      "reason": "Injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "1a0c3177",
+  "name": "P Awana",
+  "shortName": "P Awana",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2012-04-12",
+  "lastMatch": "2014-06-01",
+  "matchCount": 33,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    }
+  ]
+}

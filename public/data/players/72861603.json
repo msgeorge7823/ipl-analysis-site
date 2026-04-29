@@ -1,0 +1,41 @@
+{
+  "id": "72861603",
+  "name": "GC Smith",
+  "shortName": "GC Smith",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-24",
+  "lastMatch": "2011-05-04",
+  "matchCount": 29,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2008"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "john-wright",
+  "name": "John Wright",
+  "fullName": "John Geoffrey Wright",
+  "dob": "1954-07-05",
+  "nationality": "New Zealander",
+  "specialty": [
+    "batting",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former New Zealand opener and captain: 82 Tests (5334 runs), 149 ODIs. First foreign head coach of the India national team (2000-2005).",
+  "bio": "Mumbai Indians head coach from 2013 to 2014. Delivered the franchise's maiden IPL title in 2013, guiding a side captained by Rohit Sharma in his first year as full-time captain. Followed it up with a 4th-place finish and Eliminator exit in 2014, after which Ricky Ponting took over.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "head-coach",
+      "fromSeason": "2013",
+      "toSeason": "2014",
+      "seasons": [
+        "2013",
+        "2014"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 11,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 68.75
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (22 pts). Lost Q1 to CSK by 48 runs; beat RR in Q2 by 4 wickets; beat CSK in final by 23 runs. Franchise's first IPL title. Sachin Tendulkar's final IPL season."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th in league (14 pts, NRR 0.095). Lost Eliminator to CSK by 7 wickets."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 30,
+          "wins": 18,
+          "losses": 12,
+          "noResults": 0,
+          "winPct": 60.0
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 2,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2013_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2014_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "analyst",
+      "fromSeason": "2022",
+      "toSeason": "2022",
+      "seasons": [
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ],
+      "notes": "Head of Talent Scouting role under head coach Mahela Jayawardene."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 44,
+      "wins": 22,
+      "losses": 22,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Head Coach",
+      "period": "2000-2005",
+      "notes": "First foreign head coach of India; oversaw the 2003 World Cup final run."
+    },
+    {
+      "team": "New Zealand (National)",
+      "role": "Head Coach",
+      "period": "2010-2012"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/John_Wright_(cricketer)",
+    "https://en.wikipedia.org/wiki/2013_Mumbai_Indians_season",
+    "https://en.wikipedia.org/wiki/2014_Mumbai_Indians_season"
+  ],
+  "verified": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "94bc776b",
+  "name": "D Kalyankrishna",
+  "shortName": "D Kalyankrishna",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-24",
+  "lastMatch": "2008-05-01",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

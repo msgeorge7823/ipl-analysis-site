@@ -1,0 +1,31 @@
+{
+  "id": "ee1b6c27",
+  "name": "N Thushara",
+  "shortName": "N Thushara",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-04-22",
+  "lastMatch": "2025-05-27",
+  "matchCount": 8,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    }
+  ]
+}

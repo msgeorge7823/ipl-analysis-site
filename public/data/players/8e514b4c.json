@@ -1,0 +1,56 @@
+{
+  "id": "8e514b4c",
+  "name": "Abdul Samad",
+  "shortName": "Abdul Samad",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2020-09-29",
+  "lastMatch": "2026-04-15",
+  "matchCount": 68,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

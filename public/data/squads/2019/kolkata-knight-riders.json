@@ -1,0 +1,140 @@
+{
+  "season": "2019",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e342e5fb",
+      "name": "CR Brathwaite",
+      "shortName": "CR Brathwaite",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e412cb64",
+      "name": "HF Gurney",
+      "shortName": "HF Gurney",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "edb3d4f8",
+      "name": "KC Cariappa",
+      "shortName": "KC Cariappa",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "45eda7c8",
+      "name": "CA Lynn",
+      "shortName": "CA Lynn",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bdadf7da",
+      "name": "JL Denly",
+      "shortName": "JL Denly",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aedc3b7c",
+      "name": "NS Naik",
+      "shortName": "NS Naik",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a509d6b",
+      "name": "RK Singh",
+      "shortName": "RK Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4b99816",
+      "name": "Shubman Gill",
+      "shortName": "Shubman Gill",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cfa4bd2b",
+      "name": "Y Prithvi Raj",
+      "shortName": "Y Prithvi Raj",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8d2c70ad",
+      "name": "Kuldeep Yadav",
+      "shortName": "Kuldeep Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "98ae73b1",
+      "name": "Piyush Pramod Chawla",
+      "shortName": "PP Chawla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85e0cf10",
+      "name": "Prasidh Krishna",
+      "shortName": "M Prasidh Krishna",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cdc6bdba",
+      "name": "S Sandeep Warrier",
+      "shortName": "S Sandeep Warrier",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2049f3a0",
+  "name": "SJ Srivastava",
+  "shortName": "SJ Srivastava",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-03-19",
+  "lastMatch": "2011-05-17",
+  "matchCount": 14,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    }
+  ]
+}

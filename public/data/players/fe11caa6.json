@@ -1,0 +1,112 @@
+{
+  "id": "fe11caa6",
+  "name": "Wriddhiman Prasanta Saha",
+  "shortName": "WP Saha",
+  "nicknames": [
+    "Wriddhiman Saha",
+    "Wriddhi"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad",
+    "Kolkata Knight Riders",
+    "Chennai Super Kings",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2024-05-04",
+  "matchCount": 169,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    }
+  ]
+}

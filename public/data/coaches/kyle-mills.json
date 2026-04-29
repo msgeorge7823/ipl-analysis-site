@@ -1,0 +1,114 @@
+{
+  "id": "kyle-mills",
+  "name": "Kyle Mills",
+  "fullName": "Kyle David Mills",
+  "nationality": "New Zealander",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerSummary": "Former New Zealand right-arm fast-medium bowler: 19 Tests, 170 ODIs (240 wickets), 42 T20Is. Did not play in the IPL.",
+  "bio": "Kolkata Knight Riders' bowling coach for IPL 2020 and 2021 under head coach Brendon McCullum. Replaced by Bharat Arun for 2022.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "bowling-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.214). Missed playoffs on net run rate. Season played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th with 14 points. Beat RCB in Eliminator by 4 wickets; beat DC in Qualifier 2 by 3 wickets; lost final to CSK by 27 runs. Season split across India and UAE legs due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 14,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 14,
+      "losses": 14,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1979-03-15"
+}

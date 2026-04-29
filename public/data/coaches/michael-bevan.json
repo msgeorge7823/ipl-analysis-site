@@ -1,0 +1,103 @@
+{
+  "id": "michael-bevan",
+  "name": "Michael Bevan",
+  "fullName": "Michael Gwyl Bevan",
+  "dob": "1970-05-08",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "finishing",
+    "ODI-cricket"
+  ],
+  "playingCareerSummary": "Former Australia middle-order batter widely regarded as the best ODI 'finisher' of his era: 18 Tests, 232 ODIs (6912 runs at 53.58). Two-time ODI World Cup winner (1999, 2003). Did not play in the IPL.",
+  "bio": "Kings XI Punjab head coach for IPL 2011, a single-season tenure. Took over from Tom Moody and finished 5th, narrowly missing the playoffs. Was replaced by Adam Gilchrist the following year.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2011",
+      "toSeason": "2011",
+      "seasons": [
+        "2011"
+      ],
+      "perSeason": [
+        {
+          "season": "2011",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Missed playoffs. Single-season tenure replacing Tom Moody."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2011_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Sydney Sixers (BBL, Australia)",
+      "role": "Assistant Coach",
+      "period": "2011-2012"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Michael_Bevan",
+    "https://en.wikipedia.org/wiki/2011_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

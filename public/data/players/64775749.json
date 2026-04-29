@@ -1,0 +1,36 @@
+{
+  "id": "64775749",
+  "name": "RP Meredith",
+  "shortName": "RP Meredith",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2021-04-12",
+  "lastMatch": "2023-04-30",
+  "matchCount": 18,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    }
+  ]
+}

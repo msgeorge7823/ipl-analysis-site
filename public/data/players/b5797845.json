@@ -1,0 +1,30 @@
+{
+  "id": "b5797845",
+  "name": "Priyansh Arya",
+  "shortName": "Priyansh Arya",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-03-25",
+  "lastMatch": "2026-04-25",
+  "matchCount": 24,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

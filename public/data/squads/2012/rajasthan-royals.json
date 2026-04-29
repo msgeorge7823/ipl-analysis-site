@@ -1,0 +1,133 @@
+{
+  "season": "2012",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "29d72eb2",
+      "name": "AA Chavan",
+      "shortName": "AA Chavan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b57f8a9a",
+      "name": "BJ Hodge",
+      "shortName": "BJ Hodge",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4329fbb5",
+      "name": "Shane Robert Watson",
+      "shortName": "SR Watson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bd17b45f",
+      "name": "Stuart Terrance Roger Binny",
+      "shortName": "STR Binny",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "8291f939",
+      "name": "AL Menaria",
+      "shortName": "AL Menaria",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7bf96684",
+      "name": "OA Shah",
+      "shortName": "OA Shah",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0184dc35",
+      "name": "Rahul Sharad Dravid",
+      "shortName": "R Dravid",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "99b202b3",
+      "name": "A Chandila",
+      "shortName": "A Chandila",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5b040b81",
+      "name": "A Singh",
+      "shortName": "A Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f708a0bc",
+      "name": "GB Hogg",
+      "shortName": "GB Hogg",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c503806",
+      "name": "J Botha",
+      "shortName": "J Botha",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "557153ca",
+      "name": "KK Cooper",
+      "shortName": "KK Cooper",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e32d22f6",
+      "name": "Pankaj Singh",
+      "shortName": "Pankaj Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3d7e087f",
+      "name": "SK Trivedi",
+      "shortName": "SK Trivedi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "addfb70e",
+      "name": "SW Tait",
+      "shortName": "SW Tait",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "063b3673",
+      "name": "DH Yagnik",
+      "shortName": "DH Yagnik",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "541f85c9",
+      "name": "SP Goswami",
+      "shortName": "SP Goswami",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

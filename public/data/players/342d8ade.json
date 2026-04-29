@@ -1,0 +1,30 @@
+{
+  "id": "342d8ade",
+  "name": "CRD Fernando",
+  "shortName": "CRD Fernando",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008",
+    "2010"
+  ],
+  "firstMatch": "2008-04-29",
+  "lastMatch": "2010-04-25",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    }
+  ]
+}

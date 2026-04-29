@@ -1,0 +1,172 @@
+{
+  "_description": "IPL news feed. The Home page renders items with `featured: true` in a magazine-style hero layout — those should ALWAYS be ongoing-season stories with strong CTA headlines. The /news page renders every item, featured or not.",
+  "_instructions": [
+    "Required fields: id, headline, url, source, date (YYYY-MM-DD), category.",
+    "Optional: excerpt, ctaHeadline (short, click-compelling, used on the Home hero), kicker (BREAKING / FEATURE / EXCLUSIVE etc.), heroColor (hex — drives the hero gradient), featured (boolean — only set true for in-season headline stories).",
+    "Keep reverse-chronological order (newest first)."
+  ],
+  "_updated": "2026-04-11",
+  "items": [
+    {
+      "id": "news-2026-04-11-kohli-record",
+      "kicker": "IPL 2026 · FEATURE",
+      "ctaHeadline": "Kohli Just Rewrote His Biggest Rivalry With One Shot",
+      "headline": "Virat Kohli breaks Rohit Sharma's most-runs-against-a-single-team IPL record",
+      "excerpt": "With a 28 off 18 cameo against CSK at Chepauk, Kohli pushed his career total against the Super Kings to 1,174 runs in 36 matches — overtaking Rohit Sharma's 1,161 vs KKR and setting a new IPL rivalry benchmark.",
+      "source": "DNA India",
+      "url": "https://www.dnaindia.com/cricket/report-ipl-2026-virat-kohli-scripts-history-breaks-rohit-sharma-s-huge-record-during-rcb-vs-csk-match-3205259",
+      "date": "2026-04-11",
+      "category": "Feature",
+      "heroColor": "#EC1C24",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-11-sooryavanshi-teen",
+      "kicker": "IPL 2026 · RISING STAR",
+      "ctaHeadline": "The 14-Year-Old Tearing Through IPL 2026 — Meet Vaibhav Sooryavanshi",
+      "headline": "Vaibhav Sooryavanshi: 252 runs in 7 matches at a strike rate of 200+ — the teenager blowing IPL 2026 wide open",
+      "excerpt": "From a 15-ball half-century against CSK to another fireworks display against GT, the Bihar teenager is the story of the season so far. Rajasthan's boldest auction punt is paying off in style.",
+      "source": "Prokerala",
+      "url": "https://www.prokerala.com/news/articles/a1748133.html",
+      "date": "2026-04-11",
+      "category": "Feature",
+      "heroColor": "#1E3A8A",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-10-rr-beat-rcb",
+      "kicker": "IPL 2026 · MATCH REPORT",
+      "ctaHeadline": "Rajasthan Stun The Champions In Guwahati",
+      "headline": "Rajasthan Royals pull off last-over thriller against defending champions RCB",
+      "excerpt": "Riyan Parag's men chase down 200 with two balls to spare as RCB's title defence hits a speed bump on their away trip. The Royals climb to 4th on the table.",
+      "source": "myKhel",
+      "url": "https://www.mykhel.com/cricket/ipl-2026-points-table-updated-standings-results-april-8-latest-rcb-kkr-csk-mi-srh-rr-dc-gt-lsg-pbks-424303.html",
+      "date": "2026-04-10",
+      "category": "Match Report",
+      "heroColor": "#EC3EA5",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-10-lsg-linde-hasaranga",
+      "kicker": "IPL 2026 · BREAKING",
+      "ctaHeadline": "LSG Move Fast On Hasaranga's Replacement",
+      "headline": "Lucknow Super Giants sign George Linde as replacement for injured Wanindu Hasaranga",
+      "excerpt": "Justin Langer's side moves quickly to plug the spin gap left by Hasaranga's injury, signing the South African all-rounder on a direct replacement deal ahead of their next fixture.",
+      "source": "IPL Official",
+      "url": "https://www.iplt20.com/news",
+      "date": "2026-04-10",
+      "category": "Transfer",
+      "heroColor": "#00A0E1",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-08-rohit-fastest-50",
+      "kicker": "IPL 2026 · MILESTONE",
+      "ctaHeadline": "Rohit's Fastest IPL Fifty — 23 Balls Of Pure Fire",
+      "headline": "Rohit Sharma strikes 23-ball fifty — his fastest ever in the IPL — in MI's statement chase vs KKR",
+      "excerpt": "The Mumbai Indians opener brought up his 50th IPL half-century in the powerplay on the way to a 38-ball 78. A 'leaner, fitter, more savage' Rohit is on a mission in 2026.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/rohit-sharmas-ipl-2026-avatar-141700969.html",
+      "date": "2026-04-08",
+      "category": "Milestone",
+      "heroColor": "#006CB7",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-05-shami-lsg-debut",
+      "kicker": "IPL 2026 · MATCH REPORT",
+      "ctaHeadline": "Shami's LSG Debut: 2 For 9 And A Statement",
+      "headline": "Mohammed Shami's miserly 2/9 sets up LSG's win over former team SRH; Pant's 68* seals it",
+      "excerpt": "Shami's first outing in LSG colours after the off-season trade was a clinical one — four overs, two wickets, nine runs. Rishabh Pant's rare half-century steered the chase home.",
+      "source": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/sunrisers-hyderabad-vs-lucknow-super-giants-10th-match-1527683/match-report",
+      "date": "2026-04-05",
+      "category": "Match Report",
+      "heroColor": "#005BAC",
+      "featured": true
+    },
+    {
+      "id": "news-2026-04-09-kkr-lsg-highlights",
+      "kicker": "IPL 2026 · HIGHLIGHTS",
+      "ctaHeadline": "Inside KKR vs LSG — Eden Under The Lights",
+      "headline": "IPL 2026 Match 15 highlights: KKR vs LSG at Eden Gardens",
+      "excerpt": "Andre Russell's big-hitting cameo and a late-innings collapse — watch the full highlights from the Eden Gardens thriller.",
+      "source": "IPL Official",
+      "url": "https://www.iplt20.com/video/64994/ipl-2026-m15-kkr-vs-lsg---match-highlights?tagNames=2026",
+      "date": "2026-04-09",
+      "category": "Highlights",
+      "heroColor": "#4B0082",
+      "featured": false
+    },
+    {
+      "id": "news-2026-04-08-conduct-breaches",
+      "headline": "Code of Conduct breaches reported in DC vs GT Match 14",
+      "excerpt": "Match referee reports two Level-1 breaches; fines issued, no suspensions.",
+      "source": "IPL Official",
+      "url": "https://www.iplt20.com/news",
+      "date": "2026-04-08",
+      "category": "Disciplinary",
+      "featured": false
+    },
+    {
+      "id": "news-2026-04-03-csk-pbks-clash",
+      "headline": "CSK vs PBKS at Chepauk — blockbuster recap",
+      "excerpt": "Ricky Ponting's Punjab Kings steal a result in Chennai in a game featuring four sixes off the final over. CSK's bowling questions continue.",
+      "source": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/series/ipl-2026-1510719",
+      "date": "2026-04-03",
+      "category": "Match Report",
+      "featured": false
+    },
+    {
+      "id": "news-2026-03-28-season-begins",
+      "headline": "IPL 2026 begins: 10 teams, 74 matches, 13 venues",
+      "excerpt": "The 19th edition of the Indian Premier League gets underway with defending champions Royal Challengers Bengaluru kicking off the tournament on 28 March. The final is scheduled for 31 May.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Indian_Premier_League",
+      "date": "2026-03-28",
+      "category": "Season Preview",
+      "featured": false
+    },
+    {
+      "id": "news-2025-12-16-auction-wrap",
+      "headline": "IPL 2026 mini-auction: Cameron Green becomes most expensive overseas player at ₹25.20 crore",
+      "excerpt": "Kolkata Knight Riders splash out a record fee for the Australian all-rounder. Prashant Veer and Kartik Sharma become the most expensive uncapped players at ₹14.20 crore each, both going to CSK. Matheesha Pathirana joins KKR for ₹18 crore.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/cricket/story/_/id/47331627/ipl-2026-auction-kkr-spend-big-csk-break-tradition-mi-pbks-quiet-it",
+      "date": "2025-12-16",
+      "category": "Auction",
+      "featured": false
+    },
+    {
+      "id": "news-2025-12-10-jadeja-trade",
+      "headline": "Ravindra Jadeja moves to Rajasthan Royals after 12 seasons at CSK",
+      "excerpt": "The former CSK captain who played 12 seasons for the franchise will represent Rajasthan Royals in IPL 2026 following a successful trade deal — one of the most significant transfers in IPL history.",
+      "source": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/story/ipl-2026-auction-full-list-of-player-trades-1510970",
+      "date": "2025-12-10",
+      "category": "Transfer",
+      "featured": false
+    },
+    {
+      "id": "news-2025-12-10-samson-csk",
+      "headline": "Sanju Samson moves from Rajasthan Royals to Chennai Super Kings",
+      "excerpt": "The RR captain-wicketkeeper will don the CSK yellow in 2026 at his existing ₹18 crore league fee — part of a multi-player trade that also sends Sam Curran from CSK to RR.",
+      "source": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/story/ipl-2026-auction-full-list-of-player-trades-1510970",
+      "date": "2025-12-10",
+      "category": "Transfer",
+      "featured": false
+    },
+    {
+      "id": "news-2025-12-10-shami-lsg",
+      "headline": "Mohammed Shami traded from SRH to Lucknow Super Giants",
+      "excerpt": "The veteran India pacer will turn out for LSG under head coach Justin Langer after a successful trade from Sunrisers Hyderabad.",
+      "source": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/story/ipl-2026-auction-full-list-of-player-trades-1510970",
+      "date": "2025-12-10",
+      "category": "Transfer",
+      "featured": false
+    }
+  ]
+}

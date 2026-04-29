@@ -1,0 +1,39 @@
+{
+  "id": "0494fa6e",
+  "name": "Vishnu Vinod",
+  "shortName": "Vishnu Vinod",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2017",
+    "2023"
+  ],
+  "firstMatch": "2017-04-08",
+  "lastMatch": "2023-05-26",
+  "matchCount": 6,
+  "status": "inactive",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2017",
+      "team": "Royal Challengers Bengaluru",
+      "replacing": "KL Rahul",
+      "reason": "Shoulder injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    }
+  ]
+}

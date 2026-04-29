@@ -1,0 +1,36 @@
+{
+  "id": "aa8d28ae",
+  "name": "D Wiese",
+  "shortName": "D Wiese",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2015",
+    "2016",
+    "2023"
+  ],
+  "firstMatch": "2015-04-19",
+  "lastMatch": "2023-04-29",
+  "matchCount": 18,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "13c35c9e",
+  "name": "TG Southee",
+  "shortName": "TG Southee",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Rajasthan Royals",
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2011",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2011-04-08",
+  "lastMatch": "2023-04-06",
+  "matchCount": 54,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "sanjay-bangar",
+  "name": "Sanjay Bangar",
+  "fullName": "Sanjay Bapusaheb Bangar",
+  "dob": "1972-10-11",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "all-round",
+    "technical-coaching"
+  ],
+  "playingCareerPlayerId": "0604ef16",
+  "playingCareerSummary": "Former India all-rounder: 12 Tests, 15 ODIs (2001-2004). Played for Deccan Chargers (2008) and Kolkata Knight Riders (2009-2010) in the IPL. Widely respected technical batting coach post-retirement.",
+  "bio": "Long-serving Indian domestic coach and former India batting coach. First IPL head-coaching role was with Kings XI Punjab (2014-2016), where his 2014 side reached the franchise's first-ever IPL final under captain George Bailey — losing to KKR by 3 wickets in a 200-run chase. KXIP collapsed to back-to-back last-place finishes in 2015 and 2016 and Bangar stepped down. He later returned to IPL head-coaching with Royal Challengers Bangalore (2022-2023), taking RCB to the playoffs in 2022 before missing them in 2023.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2014",
+      "toSeason": "2016",
+      "seasons": [
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "perSeason": [
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 11,
+            "losses": 3,
+            "noResults": 0,
+            "winPct": 78.57
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (22 pts). Lost Q1 to KKR; beat CSK in Q2 by 28 runs; lost final to KKR by 3 wickets (KKR chased 200). Franchise's first-ever IPL final. KXIP's best-ever season."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 11,
+            "noResults": 0,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 6 points. Worst title defence in IPL history — went from champions-in-waiting to wooden spoon in 12 months. NRR -1.436."
+        },
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 8 points (NRR -0.646). Bangar stepped down in December 2016."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 18,
+          "losses": 24,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2014_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/2015_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/2016_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "batting-coach",
+      "fromSeason": "2021",
+      "toSeason": "2021",
+      "seasons": [
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd with 18 points. Katich stepped down mid-season citing personal reasons (August 21, 2021), after which Director of Cricket Mike Hesson took over as interim head coach for the UAE leg and the playoffs. Lost Eliminator to KKR by 4 wickets. Season split across India and UAE legs due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "Batting consultant role under head coach Mike Hesson. Promoted to head coach for 2022."
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "head-coach",
+      "fromSeason": "2022",
+      "toSeason": "2023",
+      "seasons": [
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th. Beat LSG in Eliminator by 14 runs; lost Qualifier 2 to Rajasthan Royals by 7 wickets."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Did not qualify for playoffs. Replaced by Andy Flower ahead of IPL 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 15,
+          "losses": 13,
+          "noResults": 0,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2023_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 6,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 84,
+      "wins": 42,
+      "losses": 42,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Batting Coach",
+      "period": "2014-2019",
+      "notes": "Long-serving India batting coach across multiple head coaches."
+    },
+    {
+      "team": "Royal Challengers Bangalore (IPL)",
+      "role": "Batting Coach",
+      "period": "2020-2021",
+      "notes": "Batting coach under Simon Katich / Mike Hesson before being promoted to head coach in 2022."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sanjay_Bangar",
+    "https://en.wikipedia.org/wiki/2022_Royal_Challengers_Bangalore_season",
+    "https://en.wikipedia.org/wiki/2023_Royal_Challengers_Bangalore_season",
+    "https://en.wikipedia.org/wiki/2014_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2015_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2016_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

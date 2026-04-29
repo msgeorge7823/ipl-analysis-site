@@ -1,0 +1,73 @@
+{
+  "season": "2026",
+  "players": [
+    {
+      "player": "Spencer Johnson",
+      "team": "Chennai Super Kings",
+      "replacing": "Nathan Ellis",
+      "reason": "Hamstring injury",
+      "price": "1.5 crore"
+    },
+    {
+      "player": "Saurabh Kumar",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Akash Deep",
+      "reason": "Lumbar stress injury",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Navdeep Saini",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Harshit Rana",
+      "reason": "Injury"
+    },
+    {
+      "player": "Blessing Muzarabani",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mustafizur Rahman",
+      "reason": "BCCI directive"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Rajasthan Royals",
+      "replacing": "Sam Curran",
+      "reason": "Groin injury",
+      "price": "2 crore"
+    },
+    {
+      "player": "David Payne",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Jack Edwards",
+      "reason": "Injury",
+      "price": "1.5 crore"
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "team": "Gujarat Titans",
+      "replacing": "Prithviraj Yarra",
+      "reason": "Injury",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Rehan Ahmed",
+      "team": "Delhi Capitals",
+      "replacing": "Ben Duckett",
+      "reason": "Withdrew to focus on Test cricket (Ashes prep)",
+      "price": "75 lakh"
+    },
+    {
+      "player": "Krish Bhagat",
+      "team": "Mumbai Indians",
+      "replacing": "Atharva Ankolekar",
+      "reason": "Meniscus tear (knee injury)",
+      "price": "30 lakh"
+    },
+    {
+      "player": "Dilshan Madushanka",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Brydon Carse",
+      "reason": "Hand injury",
+      "price": "75 lakh"
+    }
+  ]
+}

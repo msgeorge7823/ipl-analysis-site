@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — Home</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardHover: '#1a1a2e',
+        border: '#1e1e3a',
+        accent: '#6366f1',
+        accentLight: '#818cf8',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+        gold: '#FFD700',
+        purple: '#8B5CF6',
+        orange: '#F97316',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .glow { box-shadow: 0 0 30px rgba(99,102,241,0.15); }
+  .counter { font-variant-numeric: tabular-nums; }
+  .gradient-text { background: linear-gradient(135deg, #6366f1, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero-bg { background: linear-gradient(135deg, #0a0a0f 0%, #1a1a3e 50%, #0a0a0f 100%); }
+  .card-shine { background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 50%); }
+</style>
+</head>
+<body class="text-textPrimary min-h-screen">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm">IPL</div>
+      <span class="font-bold text-lg">Analytics</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-1 text-sm">
+      <a href="#" class="px-3 py-2 rounded-lg bg-accent/10 text-accent font-medium">Home</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Seasons</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Teams</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Players</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Matches</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Ratings</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Analytics Lab</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Auctions</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Venues</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Records</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">More ▾</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary cursor-pointer hover:bg-cardHover">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+      </div>
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-yellow-400 cursor-pointer hover:bg-cardHover">☀</div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-bg relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-20 left-20 w-96 h-96 bg-accent rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-20 w-96 h-96 bg-purple rounded-full blur-3xl"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 py-24 text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm mb-6">
+      <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+      IPL 2026 Season Live
+    </div>
+    <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tight">
+      <span class="gradient-text">IPL Analytics</span>
+    </h1>
+    <p class="text-xl text-textSecondary max-w-2xl mx-auto mb-10">The definitive analytics platform for the Indian Premier League. Every season. Every player. Every ball. Since 2008.</p>
+
+    <!-- Search Bar -->
+    <div class="max-w-2xl mx-auto relative">
+      <div class="flex items-center bg-card border border-border rounded-2xl px-5 py-4 glow">
+        <svg width="20" height="20" fill="none" stroke="#64748b" stroke-width="2" class="mr-3"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4"/></svg>
+        <input type="text" placeholder="Search players, teams, matches, venues..." class="bg-transparent flex-1 text-lg outline-none text-textPrimary placeholder-textSecondary/50" value="Virat Ko">
+        <div class="flex gap-2 ml-3">
+          <span class="px-2 py-1 bg-white/5 rounded text-xs text-textSecondary border border-border">⌘K</span>
+        </div>
+      </div>
+      <!-- Search Dropdown -->
+      <div class="absolute top-full left-0 right-0 mt-2 bg-card border border-border rounded-xl shadow-2xl overflow-hidden z-10">
+        <div class="p-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-accent/10 cursor-pointer">
+            <div class="w-10 h-10 bg-red-900/30 rounded-full flex items-center justify-center text-lg">VK</div>
+            <div class="flex-1">
+              <div class="font-medium">Virat Kohli</div>
+              <div class="text-xs text-textSecondary">Batter · Royal Challengers Bengaluru · India</div>
+            </div>
+            <span class="text-xs px-2 py-0.5 bg-blue-500/20 text-blue-400 rounded">Batter</span>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-white/5 cursor-pointer">
+            <div class="w-10 h-10 bg-yellow-900/30 rounded-full flex items-center justify-center text-lg">VK</div>
+            <div class="flex-1">
+              <div class="font-medium">Venkatesh Iyer</div>
+              <div class="text-xs text-textSecondary">All-rounder · Kolkata Knight Riders · India</div>
+            </div>
+            <span class="text-xs px-2 py-0.5 bg-orange-500/20 text-orange-400 rounded">All-rounder</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="flex flex-wrap justify-center gap-3 mt-8">
+      <span class="px-4 py-2 bg-card border border-border rounded-full text-sm text-textSecondary hover:bg-cardHover cursor-pointer">🏏 Top Batters</span>
+      <span class="px-4 py-2 bg-card border border-border rounded-full text-sm text-textSecondary hover:bg-cardHover cursor-pointer">🎯 Top Bowlers</span>
+      <span class="px-4 py-2 bg-card border border-border rounded-full text-sm text-textSecondary hover:bg-cardHover cursor-pointer">📊 Latest Season</span>
+      <span class="px-4 py-2 bg-card border border-border rounded-full text-sm text-textSecondary hover:bg-cardHover cursor-pointer">🏆 Records</span>
+    </div>
+  </div>
+</section>
+
+<!-- Counter Stats -->
+<section class="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="bg-card border border-border rounded-2xl p-6 text-center glow card-shine">
+      <div class="text-4xl font-black counter gradient-text">1,147</div>
+      <div class="text-sm text-textSecondary mt-1">Total Matches</div>
+    </div>
+    <div class="bg-card border border-border rounded-2xl p-6 text-center glow card-shine">
+      <div class="text-4xl font-black counter gradient-text">734</div>
+      <div class="text-sm text-textSecondary mt-1">Total Players</div>
+    </div>
+    <div class="bg-card border border-border rounded-2xl p-6 text-center glow card-shine">
+      <div class="text-4xl font-black counter gradient-text">16,427</div>
+      <div class="text-sm text-textSecondary mt-1">Total Sixes</div>
+    </div>
+    <div class="bg-card border border-border rounded-2xl p-6 text-center glow card-shine">
+      <div class="text-4xl font-black counter gradient-text">19</div>
+      <div class="text-sm text-textSecondary mt-1">Seasons</div>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Season Winner -->
+<section class="max-w-7xl mx-auto px-4 mt-16">
+  <h2 class="text-2xl font-bold mb-6">IPL 2025 Champion</h2>
+  <div class="bg-card border border-border rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 glow" style="background: linear-gradient(135deg, #3A225D15, #B3A12315);">
+    <div class="w-28 h-28 rounded-2xl bg-[#3A225D] flex items-center justify-center text-4xl font-black text-[#B3A123]">KKR</div>
+    <div class="flex-1 text-center md:text-left">
+      <div class="text-3xl font-black">Kolkata Knight Riders</div>
+      <p class="text-textSecondary mt-1">Champions — IPL 2025</p>
+      <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-4 text-sm">
+        <span class="px-3 py-1 bg-white/5 rounded-lg">🏆 3rd Title</span>
+        <span class="px-3 py-1 bg-white/5 rounded-lg">Captain: Shreyas Iyer</span>
+        <span class="px-3 py-1 bg-white/5 rounded-lg">Coach: Chandrakant Pandit</span>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="text-sm text-textSecondary mb-1">Runner-up</div>
+      <div class="w-16 h-16 rounded-xl bg-[#004C93] flex items-center justify-center font-bold text-white">DC</div>
+      <div class="text-sm mt-1">Delhi Capitals</div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Records -->
+<section class="max-w-7xl mx-auto px-4 mt-16">
+  <h2 class="text-2xl font-bold mb-6">IPL 2025 Highlights</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- Orange Cap -->
+    <div class="bg-card border border-border rounded-2xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-20 h-20 bg-orange/10 rounded-bl-full"></div>
+      <div class="text-orange font-bold text-sm mb-3 flex items-center gap-2">
+        <span class="w-6 h-6 bg-orange/20 rounded-full flex items-center justify-center text-xs">🧢</span>
+        Orange Cap
+      </div>
+      <div class="w-12 h-12 bg-orange-900/30 rounded-full flex items-center justify-center text-xl mb-3">VK</div>
+      <div class="font-bold text-lg">Virat Kohli</div>
+      <div class="text-textSecondary text-sm">Royal Challengers Bengaluru</div>
+      <div class="mt-3 text-2xl font-black text-orange counter">741 runs</div>
+      <div class="text-xs text-textSecondary">SR 151.2 · 15 matches</div>
+    </div>
+    <!-- Purple Cap -->
+    <div class="bg-card border border-border rounded-2xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-20 h-20 bg-purple/10 rounded-bl-full"></div>
+      <div class="text-purple font-bold text-sm mb-3 flex items-center gap-2">
+        <span class="w-6 h-6 bg-purple/20 rounded-full flex items-center justify-center text-xs">🧢</span>
+        Purple Cap
+      </div>
+      <div class="w-12 h-12 bg-purple-900/30 rounded-full flex items-center justify-center text-xl mb-3">JB</div>
+      <div class="font-bold text-lg">Jasprit Bumrah</div>
+      <div class="text-textSecondary text-sm">Mumbai Indians</div>
+      <div class="mt-3 text-2xl font-black text-purple counter">27 wickets</div>
+      <div class="text-xs text-textSecondary">Econ 6.2 · 14 matches</div>
+    </div>
+    <!-- Game Changer -->
+    <div class="bg-card border border-border rounded-2xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-20 h-20 bg-blue-500/10 rounded-bl-full"></div>
+      <div class="text-blue-400 font-bold text-sm mb-3 flex items-center gap-2">
+        <span class="w-6 h-6 bg-blue-500/20 rounded-full flex items-center justify-center text-xs">⚡</span>
+        Game Changer
+      </div>
+      <div class="w-12 h-12 bg-blue-900/30 rounded-full flex items-center justify-center text-xl mb-3">SG</div>
+      <div class="font-bold text-lg">Shubman Gill</div>
+      <div class="text-textSecondary text-sm">Gujarat Titans</div>
+      <div class="mt-3 text-2xl font-black text-blue-400 counter">129* (56)</div>
+      <div class="text-xs text-textSecondary">vs MI · Qualifier 2</div>
+    </div>
+    <!-- Thriller -->
+    <div class="bg-card border border-border rounded-2xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-20 h-20 bg-red-500/10 rounded-bl-full"></div>
+      <div class="text-red-400 font-bold text-sm mb-3 flex items-center gap-2">
+        <span class="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center text-xs">🔥</span>
+        Thriller Match
+      </div>
+      <div class="flex gap-2 items-center mb-3">
+        <div class="w-10 h-10 bg-[#FFCB05]/20 rounded-lg flex items-center justify-center text-sm font-bold text-[#FFCB05]">CSK</div>
+        <span class="text-textSecondary text-xs">vs</span>
+        <div class="w-10 h-10 bg-[#004BA0]/20 rounded-lg flex items-center justify-center text-sm font-bold text-[#4BA0FF]">MI</div>
+      </div>
+      <div class="font-bold">CSK vs MI</div>
+      <div class="mt-2 text-lg font-black text-red-400">Super Over</div>
+      <div class="text-xs text-textSecondary">Match 32 · Wankhede Stadium</div>
+    </div>
+  </div>
+</section>
+
+<!-- Season Grid -->
+<section class="max-w-7xl mx-auto px-4 mt-16 pb-20">
+  <div class="flex items-center justify-between mb-6">
+    <h2 class="text-2xl font-bold">All Seasons</h2>
+    <a href="#" class="text-accent text-sm hover:underline">View All →</a>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+    <!-- Season cards -->
+    <div class="bg-card border border-border rounded-xl p-4 hover:bg-cardHover cursor-pointer transition-all hover:-translate-y-1">
+      <div class="text-xl font-bold">IPL 2025</div>
+      <div class="text-sm text-textSecondary mt-1">🏆 KKR</div>
+      <div class="flex gap-1 mt-3 text-xs">
+        <span class="px-2 py-0.5 bg-orange/10 text-orange rounded">🧢 V. Kohli</span>
+      </div>
+      <div class="flex gap-1 mt-1 text-xs">
+        <span class="px-2 py-0.5 bg-purple/10 text-purple rounded">🧢 J. Bumrah</span>
+      </div>
+    </div>
+    <div class="bg-card border border-border rounded-xl p-4 hover:bg-cardHover cursor-pointer transition-all hover:-translate-y-1">
+      <div class="text-xl font-bold">IPL 2024</div>
+      <div class="text-sm text-textSecondary mt-1">🏆 KKR</div>
+      <div class="flex gap-1 mt-3 text-xs">
+        <span class="px-2 py-0.5 bg-orange/10 text-orange rounded">🧢 V. Kohli</span>
+      </div>
+      <div class="flex gap-1 mt-1 text-xs">
+        <span class="px-2 py-0.5 bg-purple/10 text-purple rounded">🧢 H. Patel</span>
+      </div>
+    </div>
+    <div class="bg-card border border-border rounded-xl p-4 hover:bg-cardHover cursor-pointer transition-all hover:-translate-y-1">
+      <div class="text-xl font-bold">IPL 2023</div>
+      <div class="text-sm text-textSecondary mt-1">🏆 CSK</div>
+      <div class="flex gap-1 mt-3 text-xs">
+        <span class="px-2 py-0.5 bg-orange/10 text-orange rounded">🧢 F. du Plessis</span>
+      </div>
+      <div class="flex gap-1 mt-1 text-xs">
+        <span class="px-2 py-0.5 bg-purple/10 text-purple rounded">🧢 M. Shami</span>
+      </div>
+    </div>
+    <div class="bg-card border border-border rounded-xl p-4 hover:bg-cardHover cursor-pointer transition-all hover:-translate-y-1">
+      <div class="text-xl font-bold">IPL 2022</div>
+      <div class="text-sm text-textSecondary mt-1">🏆 GT</div>
+      <div class="flex gap-1 mt-3 text-xs">
+        <span class="px-2 py-0.5 bg-orange/10 text-orange rounded">🧢 J. Buttler</span>
+      </div>
+      <div class="flex gap-1 mt-1 text-xs">
+        <span class="px-2 py-0.5 bg-purple/10 text-purple rounded">🧢 Y. Chahal</span>
+      </div>
+    </div>
+    <div class="bg-card border border-border rounded-xl p-4 hover:bg-cardHover cursor-pointer transition-all hover:-translate-y-1">
+      <div class="text-xl font-bold">IPL 2021</div>
+      <div class="text-sm text-textSecondary mt-1">🏆 CSK</div>
+      <div class="flex gap-1 mt-3 text-xs">
+        <span class="px-2 py-0.5 bg-orange/10 text-orange rounded">🧢 R. Gaikwad</span>
+      </div>
+      <div class="flex gap-1 mt-1 text-xs">
+        <span class="px-2 py-0.5 bg-purple/10 text-purple rounded">🧢 H. Patel</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-border bg-card/50 py-10">
+  <div class="max-w-7xl mx-auto px-4 text-center text-sm text-textSecondary">
+    <p>IPL Analytics Platform — Broadcast-Grade Cricket Intelligence</p>
+    <p class="mt-1">Data sourced from CricSheet (Open Data) · Ratings powered by ICC-Calibrated Algorithm</p>
+    <p class="mt-3 text-xs">© 2026 IPL Analytics. All statistics are factual public data.</p>
+  </div>
+</footer>
+
+</body>
+</html>

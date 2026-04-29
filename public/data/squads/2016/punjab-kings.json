@@ -1,0 +1,154 @@
+{
+  "season": "2016",
+  "teamId": "punjab-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "edb3d4f8",
+      "name": "KC Cariappa",
+      "shortName": "KC Cariappa",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d9273ee7",
+      "name": "Marcus Peter Stoinis",
+      "shortName": "MP Stoinis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "983f2f61",
+      "name": "Swapnil Singh",
+      "shortName": "Swapnil Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dce2019b",
+      "name": "F Behardien",
+      "shortName": "F Behardien",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6eb146d2",
+      "name": "Gurkeerat Singh",
+      "shortName": "Gurkeerat Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "e798611a",
+      "name": "HM Amla",
+      "shortName": "HM Amla",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a9da7784",
+      "name": "KJ Abbott",
+      "shortName": "KJ Abbott",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4b57e452",
+      "name": "M Vijay",
+      "shortName": "M Vijay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c03e2850",
+      "name": "M Vohra",
+      "shortName": "M Vohra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aedc3b7c",
+      "name": "NS Naik",
+      "shortName": "NS Naik",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9a0146b3",
+      "name": "P Sahu",
+      "shortName": "P Sahu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "508a1ea7",
+      "name": "Shaun Edward Marsh",
+      "shortName": "SE Marsh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "69be866a",
+      "name": "Anureet Singh",
+      "shortName": "Anureet Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f5180fe6",
+      "name": "MG Johnson",
+      "shortName": "MG Johnson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "26a85969",
+      "name": "R Dhawan",
+      "shortName": "R Dhawan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce820073",
+      "name": "Sandeep Sharma",
+      "shortName": "Sandeep Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

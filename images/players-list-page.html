@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — All Players</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardHover: '#1a1a2e',
+        border: '#1e1e3a',
+        accent: '#6366f1',
+        accentLight: '#818cf8',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+        gold: '#FFD700',
+        purple: '#8B5CF6',
+        orange: '#F97316',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .glow { box-shadow: 0 0 30px rgba(99,102,241,0.15); }
+  .gradient-text { background: linear-gradient(135deg, #6366f1, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .card-shine { background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 50%); }
+  .scrollbar-thin::-webkit-scrollbar { width: 4px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: #0a0a0f; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 4px; }
+  .filter-section summary { list-style: none; }
+  .filter-section summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="text-textPrimary min-h-screen">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+  <div class="max-w-[1440px] mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm">IPL</div>
+      <span class="font-bold text-lg">Analytics</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-1 text-sm">
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Home</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Seasons</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Teams</a>
+      <a href="#" class="px-3 py-2 rounded-lg bg-accent/10 text-accent font-medium">Players</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Matches</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Ratings</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Analytics Lab</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Auctions</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Venues</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Records</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">More &#9662;</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary cursor-pointer hover:bg-cardHover">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+      </div>
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-yellow-400 cursor-pointer hover:bg-cardHover">&#9788;</div>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="max-w-[1440px] mx-auto px-4 py-8">
+
+  <!-- Page Header -->
+  <div class="flex items-center justify-between mb-6">
+    <div>
+      <h1 class="text-3xl font-bold">All Players</h1>
+      <p class="text-textSecondary mt-1">734 players</p>
+    </div>
+    <div class="flex items-center gap-2">
+      <!-- Grid View Toggle -->
+      <button class="w-9 h-9 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center text-accent">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+      </button>
+      <!-- Table View Toggle -->
+      <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary hover:bg-cardHover">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><rect x="1" y="2" width="14" height="2" rx="0.5"/><rect x="1" y="7" width="14" height="2" rx="0.5"/><rect x="1" y="12" width="14" height="2" rx="0.5"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Active Filters Tags -->
+  <div class="flex items-center gap-2 mb-6 flex-wrap">
+    <span class="text-xs text-textSecondary font-medium uppercase tracking-wider">Active Filters:</span>
+    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium">
+      India <button class="ml-0.5 hover:text-white">&times;</button>
+    </span>
+    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium">
+      Batter <button class="ml-0.5 hover:text-white">&times;</button>
+    </span>
+    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-medium">
+      Active <button class="ml-0.5 hover:text-white">&times;</button>
+    </span>
+    <button class="text-sm text-red-400 hover:text-red-300 ml-2 font-medium">Clear All</button>
+  </div>
+
+  <div class="flex gap-6">
+
+    <!-- LEFT SIDEBAR: Filter Panel -->
+    <aside class="w-72 shrink-0">
+      <div class="bg-card border border-border rounded-2xl p-5 sticky top-24">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="font-semibold text-lg">Filters</h2>
+          <span class="px-2 py-0.5 rounded-full bg-accent/10 text-accent text-xs font-semibold">3 filters active</span>
+        </div>
+
+        <!-- Country -->
+        <details class="filter-section mb-4" open>
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Country</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="space-y-2.5 max-h-40 overflow-y-auto scrollbar-thin pr-1">
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" checked class="w-4 h-4 rounded bg-card border-border text-accent accent-accent">
+              <span class="text-accent font-medium">&#127470;&#127475; India</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127462;&#127482; Australia</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127468;&#127463; England</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127487;&#127462; South Africa</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127475;&#127487; New Zealand</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127484;&#127470; West Indies</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127462;&#127467; Afghanistan</span>
+            </label>
+            <label class="flex items-center gap-2.5 cursor-pointer text-sm">
+              <input type="checkbox" class="w-4 h-4 rounded bg-card border-border accent-accent">
+              <span class="text-textSecondary">&#127473;&#127472; Sri Lanka</span>
+            </label>
+          </div>
+        </details>
+
+        <!-- Player Role -->
+        <details class="filter-section mb-4" open>
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Player Role</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-500/15 text-blue-400 border border-blue-500/30">Batter</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border hover:border-green-500/30 hover:text-green-400">Bowler</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border hover:border-orange/30 hover:text-orange">All-rounder</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border hover:border-purple/30 hover:text-purple">WK</button>
+          </div>
+        </details>
+
+        <!-- Batting Style -->
+        <details class="filter-section mb-4">
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Batting Style</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex gap-2">
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border hover:border-accent/30">Right-hand</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border hover:border-accent/30">Left-hand</button>
+          </div>
+        </details>
+
+        <!-- Bowling Arm -->
+        <details class="filter-section mb-4">
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Bowling Arm</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex gap-2">
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Right</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Left</button>
+          </div>
+        </details>
+
+        <!-- Bowling Variety -->
+        <details class="filter-section mb-4">
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Bowling Variety</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Fast</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Medium</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Off-spin</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Leg-spin</button>
+          </div>
+        </details>
+
+        <!-- IPL Team -->
+        <details class="filter-section mb-4">
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">IPL Team</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-blue-900/30 text-blue-300 border border-blue-800/40">MI</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-red-900/30 text-red-300 border border-red-800/40">RCB</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-yellow-900/30 text-yellow-300 border border-yellow-800/40">CSK</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-indigo-900/30 text-indigo-300 border border-indigo-800/40">KKR</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-orange-900/30 text-orange-300 border border-orange-800/40">SRH</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-cyan-900/30 text-cyan-300 border border-cyan-800/40">GT</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-pink-900/30 text-pink-300 border border-pink-800/40">RR</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-red-900/30 text-red-200 border border-red-800/40">PBKS</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-blue-900/30 text-blue-200 border border-blue-800/40">DC</button>
+            <button class="px-2.5 py-1 rounded-md text-xs font-bold bg-violet-900/30 text-violet-300 border border-violet-800/40">LSG</button>
+          </div>
+        </details>
+
+        <!-- Status -->
+        <details class="filter-section" open>
+          <summary class="flex items-center justify-between cursor-pointer py-2 border-b border-border mb-3">
+            <span class="font-medium text-sm">Status</span>
+            <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Active</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Retired</button>
+            <button class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-card text-textSecondary border border-border">Unsold</button>
+          </div>
+        </details>
+
+      </div>
+    </aside>
+
+    <!-- RIGHT CONTENT -->
+    <main class="flex-1 min-w-0">
+
+      <!-- Search Bar -->
+      <div class="relative mb-6">
+        <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="text" placeholder="Search players..." class="w-full bg-card border border-border rounded-xl pl-12 pr-4 py-3 text-sm text-textPrimary placeholder-textSecondary/60 focus:outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20">
+      </div>
+
+      <!-- Player Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+
+        <!-- Virat Kohli -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">VK</div>
+            <h3 class="font-semibold text-base">Virat Kohli</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-500/15 text-blue-400">Batter</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-red-500/10 text-red-400">RCB</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">8,004</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rohit Sharma -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">RS</div>
+            <h3 class="font-semibold text-base">Rohit Sharma</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-500/15 text-blue-400">Batter</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-400/10 text-blue-300">MI</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">6,628</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jasprit Bumrah -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">JB</div>
+            <h3 class="font-semibold text-base">Jasprit Bumrah</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-emerald-500/15 text-emerald-400">Bowler</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-400/10 text-blue-300">MI</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">165</span>
+              <p class="text-textSecondary text-xs mt-0.5">Wickets</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ravindra Jadeja -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">RJ</div>
+            <h3 class="font-semibold text-base">Ravindra Jadeja</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-orange/15 text-orange">All-rounder</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-yellow-400/10 text-yellow-300">CSK</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">3,406</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs &middot; 157 Wkts</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MS Dhoni -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">MD</div>
+            <h3 class="font-semibold text-base">MS Dhoni</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-purple/15 text-purple">WK</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-yellow-400/10 text-yellow-300">CSK</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">5,243</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs &middot; 175 Ct</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shubman Gill -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-cyan-700 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">SG</div>
+            <h3 class="font-semibold text-base">Shubman Gill</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-500/15 text-blue-400">Batter</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-cyan-400/10 text-cyan-300">GT</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">2,640</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rashid Khan -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">RK</div>
+            <h3 class="font-semibold text-base">Rashid Khan</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127462;&#127467; Afghanistan</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-emerald-500/15 text-emerald-400">Bowler</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-cyan-400/10 text-cyan-300">GT</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">112</span>
+              <p class="text-textSecondary text-xs mt-0.5">Wickets</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Suryakumar Yadav -->
+        <div class="bg-card border border-border rounded-2xl p-5 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 cursor-pointer group">
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-indigo-700 flex items-center justify-center text-white font-bold text-xl mb-3 group-hover:scale-105 transition-transform">SY</div>
+            <h3 class="font-semibold text-base">Suryakumar Yadav</h3>
+            <p class="text-textSecondary text-xs mt-0.5">&#127470;&#127475; India</p>
+            <div class="flex items-center gap-2 mt-2.5">
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-500/15 text-blue-400">Batter</span>
+              <span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-blue-400/10 text-blue-300">MI</span>
+            </div>
+            <div class="mt-3 pt-3 border-t border-border w-full">
+              <span class="text-2xl font-bold gradient-text">3,228</span>
+              <p class="text-textSecondary text-xs mt-0.5">Runs</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="flex items-center justify-between mt-8 pt-6 border-t border-border">
+        <p class="text-sm text-textSecondary">Showing 1 &ndash; 8 of 734 players</p>
+        <div class="flex items-center gap-1">
+          <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary opacity-50 cursor-not-allowed">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+          </button>
+          <button class="w-9 h-9 rounded-lg bg-accent text-white flex items-center justify-center text-sm font-semibold">1</button>
+          <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary text-sm hover:bg-cardHover">2</button>
+          <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary text-sm hover:bg-cardHover">3</button>
+          <span class="px-2 text-textSecondary text-sm">&hellip;</span>
+          <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary text-sm hover:bg-cardHover">37</button>
+          <button class="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary hover:bg-cardHover">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <p class="text-sm text-textSecondary">Page 1 of 37</p>
+      </div>
+
+    </main>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="border-t border-border mt-16">
+  <div class="max-w-[1440px] mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-xs">IPL</div>
+        <span class="font-semibold">Analytics Platform</span>
+      </div>
+      <p class="text-textSecondary text-sm">Comprehensive IPL statistics, analytics, and insights from 2008 to present.</p>
+      <p class="text-textSecondary text-xs">&copy; 2026 IPL Analytics. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+{
+  "season": "2018",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "7f048519",
+      "name": "DJ Willey",
+      "shortName": "DJ Willey",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "798cc28e",
+      "name": "KM Asif",
+      "shortName": "KM Asif",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4329fbb5",
+      "name": "Shane Robert Watson",
+      "shortName": "SR Watson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "70d205c9",
+      "name": "Ambati Thirupathi Rayudu",
+      "shortName": "AT Rayudu",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "faa7365d",
+      "name": "DR Shorey",
+      "shortName": "DR Shorey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4b57e452",
+      "name": "M Vijay",
+      "shortName": "M Vijay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c16d4035",
+      "name": "SW Billings",
+      "shortName": "SW Billings",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "23eeb873",
+      "name": "Deepak Lokendrasingh Chahar",
+      "shortName": "DL Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "119678fd",
+      "name": "Karn Veer Sharma",
+      "shortName": "KV Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f834dcfc",
+      "name": "L Ngidi",
+      "shortName": "L Ngidi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8d92a2c3",
+      "name": "MA Wood",
+      "shortName": "MA Wood",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "acee4cc4",
+      "name": "Mohammad Imran Tahir",
+      "shortName": "Imran Tahir",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99d63244",
+      "name": "Kedar Mahadev Jadhav",
+      "shortName": "KM Jadhav",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

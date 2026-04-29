@@ -1,0 +1,132 @@
+{
+  "id": "prathamesh-mishra",
+  "name": "Prathamesh Mishra",
+  "fullName": "Prathamesh Mishra",
+  "nationality": "Indian",
+  "specialty": [
+    "cricket-administration"
+  ],
+  "playingCareerSummary": "Cricket franchise administrator.",
+  "bio": "Royal Challengers Bengaluru's CEO from 2024, including the 2025 maiden IPL title year.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "team-manager",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 16,
+          "losses": 11,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "Role is CEO. Modelled as 'team-manager' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 16,
+      "losses": 11,
+      "noResults": 1,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+  ],
+  "verified": true
+}

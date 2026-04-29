@@ -1,0 +1,229 @@
+{
+  "id": "kumar-sangakkara",
+  "name": "Kumar Sangakkara",
+  "fullName": "Kumar Chokshanada Sangakkara",
+  "dob": "1977-10-27",
+  "nationality": "Sri Lankan",
+  "specialty": [
+    "batting",
+    "wicket-keeping",
+    "leadership",
+    "strategy"
+  ],
+  "playingCareerPlayerId": "6b71e6cf",
+  "playingCareerSummary": "Former Sri Lanka captain and one of the greatest batters of the modern era: 134 Tests (12,400 runs at 57.40), 404 ODIs (14,234 runs). Four consecutive World Cup centuries in 2015. Played for Kings XI Punjab (2008-2010), Deccan Chargers (2011-2012) and Sunrisers Hyderabad (2013-2015) in the IPL.",
+  "bio": "Rajasthan Royals' most successful post-2008 coach. Initially joined as Director of Cricket Operations in 2021, then doubled as acting head coach after Andrew McDonald was let go. Took RR to the 2022 IPL final (their first in 14 years, lost to Gujarat Titans) and back to the playoffs in 2024. Made way for Rahul Dravid for IPL 2025 but returned for 2026 after Dravid's single-season stint — his second tenure. Working partnership with Trevor Penney, Shane Bond and Vikram Rathour defines the current RR coaching setup.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "head-coach",
+      "fromSeason": "2021",
+      "toSeason": "2024",
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 10 points. First season as DoC + acting head coach after McDonald was let go. Lead Assistant Coach: Trevor Penney."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (18 pts, NRR 0.298). Lost Q1 to GT by 7 wickets; beat RCB in Q2 by 7 wickets; lost final to GT by 7 wickets. Franchise's first final since winning the inaugural 2008 title — 14 years between finals. Captain: Sanju Samson."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR 0.148)."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd with 17 points. Beat RCB in Eliminator by 4 wickets; lost Qualifier 2 to SRH by 36 runs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 29,
+          "losses": 26,
+          "noResults": 1,
+          "winPct": 51.79
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2022_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2023_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2024_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://www.espncricinfo.com/story/ipl-2021-rajasthan-royals-part-ways-with-head-coach-andrew-mcdonald-1252530"
+      ],
+      "notes": "First stint. Title 'Director of Cricket' across this period, but also functioned as head coach after McDonald's exit in early 2021."
+    },
+    {
+      "team": "Rajasthan Royals",
+      "role": "head-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Sangakkara returned as HC + Director of Cricket after Dravid's single-season stint. Assistant: Vikram Rathour (promoted from batting coach). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://www.espncricinfo.com/story/ipl-2026-kumar-sangakkara-confirmed-as-rajasthan-royals-head-coach-and-director-of-cricket-1511562",
+        "https://www.rajasthanroyals.com/latest-news/kumar-sangakkara-rr-new-head-coach-ipl-2026"
+      ],
+      "notes": "Second stint. Replaced Rahul Dravid after Dravid's single-season 2025 tenure. Officially Head Coach + Director of Cricket for 2026."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 29,
+      "losses": 26,
+      "noResults": 1,
+      "winPct": 51.79
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "MCC (Marylebone Cricket Club)",
+      "role": "President",
+      "period": "2019-2021",
+      "notes": "First non-British president in MCC history."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kumar_Sangakkara",
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+    "https://www.espncricinfo.com/story/ipl-2026-kumar-sangakkara-confirmed-as-rajasthan-royals-head-coach-and-director-of-cricket-1511562"
+  ],
+  "verified": true
+}

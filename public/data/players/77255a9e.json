@@ -1,0 +1,71 @@
+{
+  "id": "77255a9e",
+  "name": "Rahul Amarnath Tripathi",
+  "shortName": "RA Tripathi",
+  "nicknames": [
+    "Rahul Tripathi"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals",
+    "Kolkata Knight Riders",
+    "Rising Pune Supergiant",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2017-04-11",
+  "lastMatch": "2025-04-14",
+  "matchCount": 100,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

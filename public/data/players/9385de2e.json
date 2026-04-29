@@ -1,0 +1,35 @@
+{
+  "id": "9385de2e",
+  "name": "SS Prabhudessai",
+  "shortName": "SS Prabhudessai",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2022-04-12",
+  "lastMatch": "2024-04-21",
+  "matchCount": 11,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "season": "2025",
+  "teamId": "delhi-capitals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "84d9c311",
+      "name": "Ashutosh Sharma",
+      "shortName": "Ashutosh Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2e171977",
+      "name": "Axar Rajeshbhai Patel",
+      "shortName": "AR Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f89d3b11",
+      "name": "Sameer Rizvi",
+      "shortName": "Sameer Rizvi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5ffc0565",
+      "name": "V Nigam",
+      "shortName": "V Nigam",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f0af99a7",
+      "name": "D Ferreira",
+      "shortName": "D Ferreira",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9b6e1b3f",
+      "name": "J Fraser-McGurk",
+      "shortName": "J Fraser-McGurk",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "944533a5",
+      "name": "Karun Kaladharan Nair",
+      "shortName": "KK Nair",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fb5f69e4",
+      "name": "M Tiwari",
+      "shortName": "M Tiwari",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3c28853f",
+      "name": "Sediqullah Atal",
+      "shortName": "Sediqullah Atal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "85b3fab2",
+      "name": "T Stubbs",
+      "shortName": "T Stubbs",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8d2c70ad",
+      "name": "Kuldeep Yadav",
+      "shortName": "Kuldeep Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3fb19989",
+      "name": "MA Starc",
+      "shortName": "MA Starc",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2cffab74",
+      "name": "Mukesh Kumar",
+      "shortName": "Mukesh Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a8fce53",
+      "name": "Mustafizur Rahman",
+      "shortName": "Mustafizur Rahman",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "327b58d3",
+      "name": "PVD Chameera",
+      "shortName": "PVD Chameera",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce794613",
+      "name": "Thangarasu Natarajan",
+      "shortName": "T Natarajan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ad3b6e95",
+      "name": "Abishek Porel",
+      "shortName": "Abishek Porel",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "b17e2f24",
+      "name": "Kannur Lokesh Rahul",
+      "shortName": "KL Rahul",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

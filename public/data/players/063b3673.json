@@ -1,0 +1,40 @@
+{
+  "id": "063b3673",
+  "name": "DH Yagnik",
+  "shortName": "DH Yagnik",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2011-04-21",
+  "lastMatch": "2014-05-13",
+  "matchCount": 25,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    }
+  ]
+}

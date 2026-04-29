@@ -1,0 +1,35 @@
+{
+  "id": "0c2730df",
+  "name": "A Kumble",
+  "shortName": "A Kumble",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-26",
+  "lastMatch": "2010-04-24",
+  "matchCount": 42,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    }
+  ]
+}

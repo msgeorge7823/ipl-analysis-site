@@ -1,0 +1,42 @@
+{
+  "id": "dfc4d8b5",
+  "name": "KW Richardson",
+  "shortName": "KW Richardson",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Pune Warriors",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2013",
+    "2014",
+    "2016",
+    "2021"
+  ],
+  "firstMatch": "2013-04-28",
+  "lastMatch": "2021-04-22",
+  "matchCount": 15,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    }
+  ]
+}

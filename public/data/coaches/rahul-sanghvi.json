@@ -1,0 +1,227 @@
+{
+  "id": "rahul-sanghvi",
+  "name": "Rahul Sanghvi",
+  "fullName": "Rahul Lalit Sanghvi",
+  "nationality": "Indian",
+  "specialty": [
+    "team-management",
+    "cricket-operations"
+  ],
+  "playingCareerSummary": "Former India left-arm spinner: 1 Test, 10 ODIs (2001). Played domestic cricket for Delhi. Did not play in the IPL.",
+  "bio": "Long-serving Mumbai Indians administrator: Team Manager from 2019 to 2022 (part of 2019 and 2020 title-winning support staffs) and then Director of Cricket from 2025 onwards under Mahela Jayawardene's second stint.",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "team-manager",
+      "fromSeason": "2019",
+      "toSeason": "2022",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 29,
+          "losses": 27,
+          "noResults": 0,
+          "winPct": 51.79
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 4,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 2,
+        "finalsReached": 2,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ]
+    },
+    {
+      "team": "Mumbai Indians",
+      "role": "director-of-cricket",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": ""
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians"
+      ],
+      "notes": "Promoted to Director of Cricket from IPL 2025."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 70,
+      "wins": 37,
+      "losses": 33,
+      "noResults": 0,
+      "winPct": 52.86
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 5,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 83.33
+    },
+    "titles": 2,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mumbai_Indians",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

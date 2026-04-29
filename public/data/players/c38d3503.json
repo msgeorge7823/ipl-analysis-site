@@ -1,0 +1,40 @@
+{
+  "id": "c38d3503",
+  "name": "Shivam Mavi",
+  "shortName": "Shivam Mavi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2018",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2018-04-14",
+  "lastMatch": "2022-05-07",
+  "matchCount": 32,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    }
+  ]
+}

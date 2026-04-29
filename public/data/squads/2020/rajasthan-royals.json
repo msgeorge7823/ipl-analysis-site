@@ -1,0 +1,133 @@
+{
+  "season": "2020",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "e087956b",
+      "name": "BA Stokes",
+      "shortName": "BA Stokes",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39a2dfa8",
+      "name": "Rahul Tewatia",
+      "shortName": "R Tewatia",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "04a418e8",
+      "name": "Riyan Parag",
+      "shortName": "R Parag",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "da934ee8",
+      "name": "MK Lomror",
+      "shortName": "MK Lomror",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "30a45b23",
+      "name": "Steven Peter Devereux Smith",
+      "shortName": "SPD Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6c19c6e5",
+      "name": "Yashasvi Jaiswal",
+      "shortName": "YBK Jaiswal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db31895a",
+      "name": "AS Rajpoot",
+      "shortName": "AS Rajpoot",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c7d63a2",
+      "name": "Andrew James Tye",
+      "shortName": "AJ Tye",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5574750c",
+      "name": "JC Archer",
+      "shortName": "JC Archer",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d2eea49",
+      "name": "Kartik Tyagi",
+      "shortName": "Kartik Tyagi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7a8bd078",
+      "name": "S Gopal",
+      "shortName": "S Gopal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e86754b2",
+      "name": "TK Curran",
+      "shortName": "TK Curran",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a3d54b9",
+      "name": "VR Aaron",
+      "shortName": "VR Aaron",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "99b75528",
+      "name": "Joseph Charles Buttler",
+      "shortName": "JC Buttler",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

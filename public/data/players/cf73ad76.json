@@ -1,0 +1,30 @@
+{
+  "id": "cf73ad76",
+  "name": "JEC Franklin",
+  "shortName": "JEC Franklin",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-04-10",
+  "lastMatch": "2012-05-23",
+  "matchCount": 20,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    }
+  ]
+}

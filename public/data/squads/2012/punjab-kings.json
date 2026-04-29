@@ -1,0 +1,161 @@
+{
+  "season": "2012",
+  "teamId": "punjab-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "a45a5e8d",
+      "name": "AM Nayar",
+      "shortName": "AM Nayar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fd835ab3",
+      "name": "DJ Hussey",
+      "shortName": "DJ Hussey",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "808f425a",
+      "name": "JP Faulkner",
+      "shortName": "JP Faulkner",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "25eeb281",
+      "name": "PC Valthaty",
+      "shortName": "PC Valthaty",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6eb146d2",
+      "name": "Gurkeerat Singh",
+      "shortName": "Gurkeerat Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c3a96caf",
+      "name": "Mandeep Singh",
+      "shortName": "Mandeep Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2728e7e9",
+      "name": "P Dogra",
+      "shortName": "P Dogra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "facb9086",
+      "name": "SD Chitnis",
+      "shortName": "SD Chitnis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "508a1ea7",
+      "name": "Shaun Edward Marsh",
+      "shortName": "SE Marsh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3edb58fc",
+      "name": "AD Mascarenhas",
+      "shortName": "AD Mascarenhas",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9a158001",
+      "name": "Azhar Mahmood",
+      "shortName": "Azhar Mahmood",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dc4686e6",
+      "name": "BA Bhatt",
+      "shortName": "BA Bhatt",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c18496e1",
+      "name": "Bipul Sharma",
+      "shortName": "Bipul Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2a72fd4f",
+      "name": "Harmeet Singh",
+      "shortName": "Harmeet Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "addbde6c",
+      "name": "N Saini",
+      "shortName": "N Saini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1a0c3177",
+      "name": "P Awana",
+      "shortName": "P Awana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "98ae73b1",
+      "name": "Piyush Pramod Chawla",
+      "shortName": "PP Chawla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e938e1bc",
+      "name": "Praveen Kumar",
+      "shortName": "P Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "12eddf28",
+      "name": "RJ Harris",
+      "shortName": "RJ Harris",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d096f3d",
+      "name": "RR Powar",
+      "shortName": "RR Powar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2b6e6dec",
+      "name": "AC Gilchrist",
+      "shortName": "AC Gilchrist",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

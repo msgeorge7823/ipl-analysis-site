@@ -1,0 +1,25 @@
+{
+  "id": "1558d83b",
+  "name": "GS Sandhu",
+  "shortName": "GS Sandhu",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2015"
+  ],
+  "firstMatch": "2015-05-03",
+  "lastMatch": "2015-05-17",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    }
+  ]
+}

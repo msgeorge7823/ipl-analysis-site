@@ -1,0 +1,95 @@
+{
+  "id": "lance-klusener",
+  "name": "Lance Klusener",
+  "fullName": "Lance Klusener",
+  "nationality": "South African",
+  "specialty": [
+    "all-round",
+    "pace-bowling",
+    "finishing"
+  ],
+  "playingCareerSummary": "Former South Africa all-rounder and ICC Cricketer of the Tournament at the 1999 World Cup: 49 Tests, 171 ODIs, 2 T20Is. Did not play in the IPL.",
+  "bio": "Lucknow Super Giants' assistant coach from IPL 2025 under Justin Langer — joined alongside Vijay Dahiya.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "assistant-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points (NRR -0.376). Fifth team eliminated from IPL 2025. Zaheer Khan joined as mentor ahead of the season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants",
+        "https://en.wikipedia.org/wiki/2025_Lucknow_Super_Giants_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true,
+  "dob": "1971-09-04"
+}

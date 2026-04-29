@@ -1,0 +1,111 @@
+{
+  "id": "kepler-wessels",
+  "name": "Kepler Wessels",
+  "fullName": "Kepler Christoffel Wessels",
+  "dob": "1957-09-14",
+  "nationality": "South African",
+  "specialty": [
+    "batting",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former international batter for Australia (1982-85, 24 Tests, 54 ODIs) and South Africa (1991-94, 16 Tests, 55 ODIs). Captained South Africa on their post-isolation return. Did not play in the IPL.",
+  "bio": "The inaugural head coach of Chennai Super Kings, appointed before the 2008 IPL season after a distinguished playing career for both Australia and South Africa. Led CSK to the final of the very first IPL under captain MS Dhoni, where they narrowly lost to Rajasthan Royals. He was replaced by Stephen Fleming after a single season.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2008",
+      "seasons": [
+        "2008"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 3rd in league (16 pts). Beat Kings XI Punjab by 9 wickets in semi-final. Lost final to Rajasthan Royals by 3 wickets."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 6,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2008_Indian_Premier_League_final",
+        "https://www.sportskeeda.com/cricket/not-stephen-fleming-first-head-coach-chennai-super-kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 6,
+      "noResults": 0,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 1,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "South Africa (National)",
+      "role": "Head Coach",
+      "period": "1999-2003",
+      "notes": "Head coach of the Proteas senior men's team."
+    },
+    {
+      "team": "Northerns / Titans (SA Domestic)",
+      "role": "Head Coach",
+      "period": "2005-2013",
+      "notes": "Multiple domestic T20 and first-class titles in South Africa."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kepler_Wessels",
+    "https://en.wikipedia.org/wiki/2008_Chennai_Super_Kings_season",
+    "https://www.sportskeeda.com/cricket/not-stephen-fleming-first-head-coach-chennai-super-kings"
+  ],
+  "verified": true
+}

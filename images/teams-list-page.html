@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — Teams</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardHover: '#1a1a2e',
+        border: '#1e1e3a',
+        accent: '#6366f1',
+        accentLight: '#818cf8',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .glow { box-shadow: 0 0 30px rgba(99,102,241,0.15); }
+  .gradient-text { background: linear-gradient(135deg, #6366f1, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .team-card { transition: all 0.3s ease; }
+  .team-card:hover { transform: translateY(-6px); }
+  .team-card:hover .team-abbr { transform: scale(1.05); }
+  .team-abbr { transition: transform 0.3s ease; }
+</style>
+</head>
+<body class="text-textPrimary min-h-screen">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm">IPL</div>
+      <span class="font-bold text-lg">Analytics</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-1 text-sm">
+      <a href="home-page.html" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Home</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Seasons</a>
+      <a href="teams-list-page.html" class="px-3 py-2 rounded-lg bg-accent/10 text-accent font-medium">Teams</a>
+      <a href="players-list-page.html" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Players</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Matches</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Ratings</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Analytics Lab</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Auctions</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Venues</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Records</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">More &#9662;</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary cursor-pointer hover:bg-cardHover">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+      </div>
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-yellow-400 cursor-pointer hover:bg-cardHover">&#9788;</div>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="relative overflow-hidden border-b border-border">
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-10 left-20 w-72 h-72 bg-accent rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 py-16 text-center">
+    <h1 class="text-5xl font-extrabold mb-3 gradient-text">IPL Franchises</h1>
+    <p class="text-textSecondary text-lg max-w-xl mx-auto">10 teams competing in the world's premier T20 league</p>
+  </div>
+</section>
+
+<!-- Teams Grid -->
+<section class="max-w-7xl mx-auto px-4 py-12">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+
+    <!-- CSK -->
+    <a href="chennai-super-kings.html" class="team-card group block rounded-2xl border border-border overflow-hidden" style="background: linear-gradient(145deg, #131320 0%, rgba(255,203,5,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #FFCB05, #0081E9);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #FFCB05, #0081E9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">CSK</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Chennai Super Kings</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>MA Chidambaram Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #FFCB05;" class="font-semibold">5 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>N. Srinivasan</div>
+        </div>
+      </div>
+    </a>
+
+    <!-- MI -->
+    <a href="mumbai-indians.html" class="team-card group block rounded-2xl border border-border overflow-hidden" style="background: linear-gradient(145deg, #131320 0%, rgba(0,75,160,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #004BA0, #D1AB3E);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #004BA0, #D1AB3E); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">MI</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Mumbai Indians</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Wankhede Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #D1AB3E;" class="font-semibold">5 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Nita Ambani</div>
+        </div>
+      </div>
+    </a>
+
+    <!-- RCB -->
+    <a href="royal-challengers-bengaluru.html" class="team-card group block rounded-2xl border border-border overflow-hidden" style="background: linear-gradient(145deg, #131320 0%, rgba(236,28,36,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #EC1C24, #2B2A29);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #EC1C24, #2B2A29); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">RCB</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Royal Challengers Bengaluru</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>M Chinnaswamy Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span class="text-textSecondary">0 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Pratik Patel</div>
+        </div>
+      </div>
+    </a>
+
+    <!-- KKR -->
+    <a href="kolkata-knight-riders.html" class="team-card group block rounded-2xl border border-border overflow-hidden" style="background: linear-gradient(145deg, #131320 0%, rgba(58,34,93,0.12) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #3A225D, #B3A123);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #B3A123, #3A225D); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">KKR</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Kolkata Knight Riders</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Eden Gardens</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #B3A123;" class="font-semibold">3 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Shah Rukh Khan</div>
+        </div>
+      </div>
+    </a>
+
+    <!-- DC -->
+    <a href="delhi-capitals.html" class="team-card group block rounded-2xl border border-border overflow-hidden" style="background: linear-gradient(145deg, #131320 0%, rgba(0,76,147,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #004C93, #EF1B23);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #004C93, #EF1B23); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DC</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Delhi Capitals</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Arun Jaitley Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span class="text-textSecondary">0 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>JSW-GMR Consortium</div>
+        </div>
+      </div>
+    </a>
+
+    <!-- PBKS -->
+    <div class="team-card group block rounded-2xl border border-border overflow-hidden cursor-pointer" style="background: linear-gradient(145deg, #131320 0%, rgba(237,27,36,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #ED1B24, #A7A9AC);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #ED1B24, #A7A9AC); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">PBKS</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Punjab Kings</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>IS Bindra Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span class="text-textSecondary">0 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Mohit Burman</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RR -->
+    <div class="team-card group block rounded-2xl border border-border overflow-hidden cursor-pointer" style="background: linear-gradient(145deg, #131320 0%, rgba(234,26,133,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #EA1A85, #254AA5);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #EA1A85, #254AA5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">RR</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Rajasthan Royals</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Sawai Mansingh Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #EA1A85;" class="font-semibold">1 Title</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Manoj Badale</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SRH -->
+    <div class="team-card group block rounded-2xl border border-border overflow-hidden cursor-pointer" style="background: linear-gradient(145deg, #131320 0%, rgba(255,130,42,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #FF822A, #000000);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #FF822A, #FF5500); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SRH</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Sunrisers Hyderabad</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Rajiv Gandhi Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #FF822A;" class="font-semibold">1 Title</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Kaviya Maran</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GT -->
+    <div class="team-card group block rounded-2xl border border-border overflow-hidden cursor-pointer" style="background: linear-gradient(145deg, #131320 0%, rgba(179,196,203,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #1C1C1C, #B3C4CB);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #B3C4CB, #5A7A8A); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">GT</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Gujarat Titans</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Narendra Modi Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span style="color: #B3C4CB;" class="font-semibold">1 Title</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>CVC Capital Partners</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LSG -->
+    <div class="team-card group block rounded-2xl border border-border overflow-hidden cursor-pointer" style="background: linear-gradient(145deg, #131320 0%, rgba(167,32,86,0.08) 100%);">
+      <div class="h-2 w-full" style="background: linear-gradient(90deg, #A72056, #FFCC00);"></div>
+      <div class="p-5">
+        <div class="team-abbr text-4xl font-black mb-2" style="background: linear-gradient(135deg, #A72056, #FFCC00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">LSG</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-3">Lucknow Super Giants</h3>
+        <div class="space-y-2 text-xs text-textSecondary">
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>BRSABV Ekana Stadium</div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15l-3-3h6l-3 3z"/><circle cx="12" cy="12" r="10"/></svg><span class="text-textSecondary">0 Titles</span></div>
+          <div class="flex items-center gap-2"><svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>Sanjiv Goenka</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Stats Bar -->
+<section class="max-w-7xl mx-auto px-4 pb-12">
+  <div class="rounded-2xl border border-border bg-card p-6 grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+    <div>
+      <div class="text-3xl font-extrabold gradient-text">10</div>
+      <div class="text-textSecondary text-sm mt-1">Active Franchises</div>
+    </div>
+    <div>
+      <div class="text-3xl font-extrabold gradient-text">5</div>
+      <div class="text-textSecondary text-sm mt-1">Defunct Franchises</div>
+    </div>
+    <div>
+      <div class="text-3xl font-extrabold gradient-text">19</div>
+      <div class="text-textSecondary text-sm mt-1">Seasons Played</div>
+    </div>
+    <div>
+      <div class="text-3xl font-extrabold gradient-text">6</div>
+      <div class="text-textSecondary text-sm mt-1">Different Champions</div>
+    </div>
+    <div>
+      <div class="text-3xl font-extrabold gradient-text">15</div>
+      <div class="text-textSecondary text-sm mt-1">Total Franchises (All Time)</div>
+    </div>
+  </div>
+</section>
+
+<!-- Defunct / Former Franchises -->
+<section class="max-w-7xl mx-auto px-4 mt-16 pb-16">
+  <div class="flex items-center gap-3 mb-2">
+    <h2 class="text-2xl font-bold">Former & Defunct Franchises</h2>
+    <span class="px-3 py-1 bg-amber-500/10 text-amber-400 text-xs font-semibold rounded-full border border-amber-500/20">DEFUNCT</span>
+  </div>
+  <p class="text-textSecondary text-sm mb-8">Teams that played in the IPL but are no longer active — either terminated, withdrew, or were temporary replacement franchises.</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+
+    <!-- Deccan Chargers -->
+    <a href="deccan-chargers.html" class="team-card block rounded-2xl border border-border bg-card overflow-hidden cursor-pointer relative">
+      <div class="absolute top-3 right-3 px-2 py-0.5 bg-red-500/20 text-red-400 text-[10px] font-bold rounded-full border border-red-500/30">TERMINATED</div>
+      <div class="h-2" style="background: linear-gradient(90deg, #1C6EA4, #E8292A);"></div>
+      <div class="p-5">
+        <div class="team-abbr w-14 h-14 rounded-xl flex items-center justify-center text-xl font-black mb-3" style="background: linear-gradient(135deg, #1C6EA415, #E8292A15); color: #1C6EA4;">DC</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-1">Deccan Chargers</h3>
+        <div class="text-xs text-textSecondary mb-2">Hyderabad · 2008–2012</div>
+        <div class="flex items-center gap-2 text-xs">
+          <span class="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300">🏆 1 Title (2009)</span>
+        </div>
+        <div class="text-[10px] text-red-400/70 mt-2">Replaced by Sunrisers Hyderabad</div>
+      </div>
+    </a>
+
+    <!-- Kochi Tuskers Kerala -->
+    <a href="kochi-tuskers-kerala.html" class="team-card block rounded-2xl border border-border bg-card overflow-hidden cursor-pointer relative">
+      <div class="absolute top-3 right-3 px-2 py-0.5 bg-red-500/20 text-red-400 text-[10px] font-bold rounded-full border border-red-500/30">TERMINATED</div>
+      <div class="h-2" style="background: linear-gradient(90deg, #7B2D8E, #F5A623);"></div>
+      <div class="p-5">
+        <div class="team-abbr w-14 h-14 rounded-xl flex items-center justify-center text-xl font-black mb-3" style="background: linear-gradient(135deg, #7B2D8E15, #F5A62315); color: #7B2D8E;">KTK</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-1">Kochi Tuskers Kerala</h3>
+        <div class="text-xs text-textSecondary mb-2">Kochi · 2011 only</div>
+        <div class="flex items-center gap-2 text-xs">
+          <span class="px-2 py-0.5 rounded-full bg-zinc-500/10 text-zinc-400">0 Titles</span>
+        </div>
+        <div class="text-[10px] text-red-400/70 mt-2">1 season · Shortest-lived franchise</div>
+      </div>
+    </a>
+
+    <!-- Pune Warriors India -->
+    <a href="pune-warriors-india.html" class="team-card block rounded-2xl border border-border bg-card overflow-hidden cursor-pointer relative">
+      <div class="absolute top-3 right-3 px-2 py-0.5 bg-amber-500/20 text-amber-400 text-[10px] font-bold rounded-full border border-amber-500/30">WITHDREW</div>
+      <div class="h-2" style="background: linear-gradient(90deg, #00AEEF, #6D2C91);"></div>
+      <div class="p-5">
+        <div class="team-abbr w-14 h-14 rounded-xl flex items-center justify-center text-xl font-black mb-3" style="background: linear-gradient(135deg, #00AEEF15, #6D2C9115); color: #00AEEF;">PWI</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-1">Pune Warriors India</h3>
+        <div class="text-xs text-textSecondary mb-2">Pune · 2011–2013</div>
+        <div class="flex items-center gap-2 text-xs">
+          <span class="px-2 py-0.5 rounded-full bg-zinc-500/10 text-zinc-400">0 Titles</span>
+        </div>
+        <div class="text-[10px] text-amber-400/70 mt-2">Withdrew after BCCI fee dispute</div>
+      </div>
+    </a>
+
+    <!-- Gujarat Lions -->
+    <a href="gujarat-lions.html" class="team-card block rounded-2xl border border-border bg-card overflow-hidden cursor-pointer relative">
+      <div class="absolute top-3 right-3 px-2 py-0.5 bg-blue-500/20 text-blue-400 text-[10px] font-bold rounded-full border border-blue-500/30">TEMPORARY</div>
+      <div class="h-2" style="background: linear-gradient(90deg, #E04F16, #1A2B4A);"></div>
+      <div class="p-5">
+        <div class="team-abbr w-14 h-14 rounded-xl flex items-center justify-center text-xl font-black mb-3" style="background: linear-gradient(135deg, #E04F1615, #1A2B4A15); color: #E04F16;">GL</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-1">Gujarat Lions</h3>
+        <div class="text-xs text-textSecondary mb-2">Rajkot · 2016–2017</div>
+        <div class="flex items-center gap-2 text-xs">
+          <span class="px-2 py-0.5 rounded-full bg-zinc-500/10 text-zinc-400">0 Titles</span>
+        </div>
+        <div class="text-[10px] text-blue-400/70 mt-2">Replacement for suspended RR</div>
+      </div>
+    </a>
+
+    <!-- Rising Pune Supergiant -->
+    <a href="rising-pune-supergiant.html" class="team-card block rounded-2xl border border-border bg-card overflow-hidden cursor-pointer relative">
+      <div class="absolute top-3 right-3 px-2 py-0.5 bg-blue-500/20 text-blue-400 text-[10px] font-bold rounded-full border border-blue-500/30">TEMPORARY</div>
+      <div class="h-2" style="background: linear-gradient(90deg, #6A1B9A, #E91E63);"></div>
+      <div class="p-5">
+        <div class="team-abbr w-14 h-14 rounded-xl flex items-center justify-center text-xl font-black mb-3" style="background: linear-gradient(135deg, #6A1B9A15, #E91E6315); color: #6A1B9A;">RPS</div>
+        <h3 class="font-semibold text-sm text-textPrimary mb-1">Rising Pune Supergiant</h3>
+        <div class="text-xs text-textSecondary mb-2">Pune · 2016–2017</div>
+        <div class="flex items-center gap-2 text-xs">
+          <span class="px-2 py-0.5 rounded-full bg-zinc-500/10 text-zinc-400">Runner-up 2017</span>
+        </div>
+        <div class="text-[10px] text-blue-400/70 mt-2">Replacement for suspended CSK</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-border bg-card/50">
+  <div class="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <div class="w-6 h-6 bg-accent rounded flex items-center justify-center font-bold text-white text-xs">IPL</div>
+      <span class="text-sm text-textSecondary">IPL Analytics Platform &copy; 2026</span>
+    </div>
+    <div class="flex gap-6 text-sm text-textSecondary">
+      <a href="#" class="hover:text-textPrimary">About</a>
+      <a href="#" class="hover:text-textPrimary">API</a>
+      <a href="#" class="hover:text-textPrimary">Privacy</a>
+      <a href="#" class="hover:text-textPrimary">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

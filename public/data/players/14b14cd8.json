@@ -1,0 +1,25 @@
+{
+  "id": "14b14cd8",
+  "name": "DM Bravo",
+  "shortName": "DM Bravo",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-26",
+  "lastMatch": "2017-04-26",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    }
+  ]
+}

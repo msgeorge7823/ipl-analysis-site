@@ -1,0 +1,30 @@
+{
+  "id": "a76d10ba",
+  "name": "TM Srivastava",
+  "shortName": "TM Srivastava",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-04-27",
+  "lastMatch": "2009-05-03",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    }
+  ]
+}

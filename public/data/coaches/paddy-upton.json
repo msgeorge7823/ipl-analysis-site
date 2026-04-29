@@ -1,0 +1,321 @@
+{
+  "id": "paddy-upton",
+  "name": "Paddy Upton",
+  "fullName": "Patrick Upton",
+  "dob": "1968-05-31",
+  "nationality": "South African",
+  "specialty": [
+    "mental-conditioning",
+    "player-development",
+    "sports-psychology"
+  ],
+  "playingCareerSummary": "Did not play first-class or international cricket. Pioneer in mental conditioning and sports psychology; published author on coaching.",
+  "bio": "One of the IPL's most widely-travelled head coaches, with two distinct stints at Rajasthan Royals (2013-2015, 2018-2019) sandwiching a spell at Delhi Daredevils (2016-2017). Replaced Monty Desai at RR for 2013 and immediately took the side to the Qualifier 2 playoffs, including a franchise-record 13 straight home wins. Returned to RR in 2018 after their 2016-17 suspension ended, taking them back to the Eliminator playoffs. Previously best known as mental conditioning coach of the 2011 ODI World Cup winning India side under Gary Kirsten.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "head-coach",
+      "fromSeason": "2013",
+      "toSeason": "2015",
+      "seasons": [
+        "2013",
+        "2014",
+        "2015"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 10,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 62.5
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd in league (20 pts). Beat Sunrisers Hyderabad in Eliminator by 4 wickets; lost Qualifier 2 to Mumbai Indians by 4 wickets. Upton's first season after replacing Monty Desai. Also set a record of 13 straight home wins."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR 0.060). Did not qualify for playoffs."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 5,
+            "noResults": 2,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 16 points. Lost Eliminator to Royal Challengers Bangalore by 72 runs. Final season of Upton's first stint — RR was then suspended for 2016-2017."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 44,
+          "wins": 24,
+          "losses": 18,
+          "noResults": 2,
+          "winPct": 54.55
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2013_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2014_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2015_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://www.espncricinfo.com/story/rajasthan-royals-appoint-paddy-upton-as-head-coach-602090"
+      ],
+      "notes": "First stint at RR. Took over from Monty Desai and led RR from consecutive bottom-half finishes to a playoff appearance in 2013 (including a franchise-record 13 straight home wins). 2016-2017 RR suspension ended the first stint."
+    },
+    {
+      "team": "Delhi Daredevils",
+      "role": "head-coach",
+      "fromSeason": "2016",
+      "toSeason": "2017",
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "perSeason": [
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points (NRR -0.155). Missed playoffs on net run rate — tied on points with Mumbai Indians. Rahul Dravid was appointed as batting mentor this year."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points (NRR -0.512). Upton and TA Sekar were replaced at the end of the season; Ricky Ponting was appointed for 2018."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2016_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/2017_Delhi_Daredevils_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals",
+        "https://www.espncricinfo.com/story/rahul-dravid-mentor-paddy-upton-head-coach-for-delhi-daredevils-977445",
+        "https://www.espncricinfo.com/story/delhi-daredevils-part-ways-with-paddy-upton-ta-sekar-1126218"
+      ]
+    },
+    {
+      "team": "Rajasthan Royals",
+      "role": "head-coach",
+      "fromSeason": "2018",
+      "toSeason": "2019",
+      "seasons": [
+        "2018",
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Return from suspension. Finished 4th with 14 points (NRR -0.250). Lost Eliminator to Kolkata Knight Riders by 25 runs."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 11 points (NRR -0.449). Upton left after this season; Andrew McDonald replaced him."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 12,
+          "losses": 15,
+          "noResults": 1,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2019_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://www.espncricinfo.com/story/paddy-upton-set-to-return-as-rajasthan-royals-head-coach-1171077",
+        "https://www.espncricinfo.com/story/paddy-upton-appointed-rajasthan-royals-coach-1171625"
+      ],
+      "notes": "Second stint at RR, after the franchise's return from the 2016-2017 suspension. Replaced by Andrew McDonald for 2020."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 100,
+      "wins": 49,
+      "losses": 48,
+      "noResults": 3,
+      "winPct": 49.0
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 1,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 25.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Mental Conditioning Coach",
+      "period": "2008-2011",
+      "notes": "Part of the Gary Kirsten era that won the 2011 ODI World Cup."
+    },
+    {
+      "team": "Sydney Thunder (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2014-2016",
+      "notes": "Won the BBL|05 title (2015-16)."
+    },
+    {
+      "team": "Rajasthan Royals (IPL)",
+      "role": "Head Coach",
+      "period": "2018-2019",
+      "notes": "RR head coach stint — to be tracked separately under RR research."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Paddy_Upton",
+    "https://www.espncricinfo.com/story/rahul-dravid-mentor-paddy-upton-head-coach-for-delhi-daredevils-977445",
+    "https://en.wikipedia.org/wiki/2013_Rajasthan_Royals_season",
+    "https://en.wikipedia.org/wiki/2014_Rajasthan_Royals_season",
+    "https://en.wikipedia.org/wiki/2015_Rajasthan_Royals_season",
+    "https://en.wikipedia.org/wiki/2018_Rajasthan_Royals_season",
+    "https://en.wikipedia.org/wiki/2019_Rajasthan_Royals_season",
+    "https://www.espncricinfo.com/story/rajasthan-royals-appoint-paddy-upton-as-head-coach-602090"
+  ],
+  "verified": true
+}

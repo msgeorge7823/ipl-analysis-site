@@ -1,0 +1,107 @@
+{
+  "id": "trent-woodhill",
+  "name": "Trent Woodhill",
+  "fullName": "Trent Woodhill",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "player-development",
+    "T20-analysis"
+  ],
+  "playingCareerSummary": "Former Australian first-class cricketer. Highly regarded specialist batting / player-development coach who has worked across T20 leagues globally.",
+  "bio": "RCB's fielding coach in 2018 under Daniel Vettori. Single-season tenure.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "fielding-coach",
+      "fromSeason": "2018",
+      "toSeason": "2018",
+      "seasons": [
+        "2018"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Gary Kirsten was promoted to head coach in August 2018 (after the season), replacing Vettori for 2019."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Delhi Daredevils (IPL)",
+      "role": "Batting Consultant",
+      "period": "2016-2017"
+    },
+    {
+      "team": "Multiple T20 franchises (global)",
+      "role": "Batting Consultant",
+      "period": "2010-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru",
+    "https://en.wikipedia.org/wiki/2018_Royal_Challengers_Bangalore_season"
+  ],
+  "verified": true
+}

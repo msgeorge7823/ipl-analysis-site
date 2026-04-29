@@ -1,0 +1,74 @@
+{
+  "id": "5f547c8b",
+  "name": "Rashid Khan Arman",
+  "shortName": "Rashid Khan",
+  "nicknames": [
+    "Afghan Spin Wizard",
+    "Rashid"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2017-04-05",
+  "lastMatch": "2026-04-26",
+  "matchCount": 144,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

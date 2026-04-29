@@ -1,0 +1,17 @@
+{
+  "id": "lucknow-super-giants",
+  "name": "Lucknow Super Giants",
+  "shortName": "LSG",
+  "primaryColor": "#D94070",
+  "secondaryColor": "#FFD700",
+  "homeVenue": "Wankhede Stadium",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "isDefunct": false,
+  "aliases": []
+}

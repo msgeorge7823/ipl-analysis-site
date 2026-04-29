@@ -1,0 +1,173 @@
+{
+  "id": "mohammad-kaif",
+  "name": "Mohammad Kaif",
+  "fullName": "Mohammad Kaif",
+  "dob": "1980-12-01",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "fielding"
+  ],
+  "playingCareerPlayerId": "d84378a4",
+  "playingCareerSummary": "Former India middle-order batter and one of India's finest fielders of his era: 13 Tests, 125 ODIs. Played for Rajasthan Royals, Kings XI Punjab and Andhra Pradesh in the IPL.",
+  "bio": "Delhi Capitals' assistant coach from 2019 to 2020, then fielding coach for 2021 — three seasons under Ricky Ponting that included DC's runner-up 2020 campaign.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "assistant-coach",
+      "fromSeason": "2019",
+      "toSeason": "2020",
+      "seasons": [
+        "2019",
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Franchise reborn as Delhi Capitals. Finished 3rd (18 pts). Beat SRH in Eliminator by 2 wickets (first-ever franchise playoff win); lost Qualifier 2 to CSK by 6 wickets."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (16 pts). Lost Qualifier 1 to MI by 57 runs; beat SRH in Qualifier 2 by 17 runs; lost final to MI by 5 wickets. Franchise's first-ever IPL final, 12 years after their 2008 debut. Played in UAE due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 17,
+          "losses": 11,
+          "noResults": 0,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2020_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ],
+      "notes": "Assistant coach under Ricky Ponting for 2019 and 2020."
+    },
+    {
+      "team": "Delhi Capitals",
+      "role": "fielding-coach",
+      "fromSeason": "2021",
+      "toSeason": "2021",
+      "seasons": [
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 1st in league (20 pts, NRR 0.481) — franchise-best. Lost Qualifier 1 to CSK by 4 wickets; lost Qualifier 2 to KKR by 3 wickets. Season split between India and UAE due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 10,
+          "losses": 4,
+          "noResults": 0,
+          "winPct": 71.43
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ],
+      "notes": "Transitioned to fielding coach for 2021 before leaving ahead of 2022."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 27,
+      "losses": 15,
+      "noResults": 0,
+      "winPct": 64.29
+    },
+    "playoffs": {
+      "matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "noResults": 0,
+      "winPct": 28.57
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mohammad_Kaif",
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true
+}

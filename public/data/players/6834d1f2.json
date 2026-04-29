@@ -1,0 +1,31 @@
+{
+  "id": "6834d1f2",
+  "name": "B Stanlake",
+  "shortName": "B Stanlake",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2017",
+    "2018"
+  ],
+  "firstMatch": "2017-04-08",
+  "lastMatch": "2018-04-22",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    }
+  ]
+}

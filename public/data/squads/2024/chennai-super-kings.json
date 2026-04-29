@@ -1,0 +1,140 @@
+{
+  "season": "2024",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "eade4650",
+      "name": "DJ Mitchell",
+      "shortName": "DJ Mitchell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e4a0deae",
+      "name": "MJ Santner",
+      "shortName": "MJ Santner",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bb351c23",
+      "name": "MM Ali",
+      "shortName": "MM Ali",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ba5e1069",
+      "name": "R Ravindra",
+      "shortName": "R Ravindra",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a4e37e47",
+      "name": "S Dube",
+      "shortName": "S Dube",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f89d3b11",
+      "name": "Sameer Rizvi",
+      "shortName": "Sameer Rizvi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1abb78f8",
+      "name": "Shardul Narendra Thakur",
+      "shortName": "SN Thakur",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "402f8494",
+      "name": "RJ Gleeson",
+      "shortName": "RJ Gleeson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "45a43fe2",
+      "name": "Ruturaj Dhananjay Gaikwad",
+      "shortName": "RD Gaikwad",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "23eeb873",
+      "name": "Deepak Lokendrasingh Chahar",
+      "shortName": "DL Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "64839cb3",
+      "name": "M Pathirana",
+      "shortName": "M Pathirana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f24c6701",
+      "name": "M Theekshana",
+      "shortName": "M Theekshana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "765a4731",
+      "name": "Mukesh Choudhary",
+      "shortName": "Mukesh Choudhary",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a8fce53",
+      "name": "Mustafizur Rahman",
+      "shortName": "Mustafizur Rahman",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "30df8c66",
+      "name": "Simarjeet Singh",
+      "shortName": "Simarjeet Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "46a9bea1",
+      "name": "TU Deshpande",
+      "shortName": "TU Deshpande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

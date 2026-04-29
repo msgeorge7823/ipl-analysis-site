@@ -1,0 +1,62 @@
+{
+  "id": "244048f6",
+  "name": "Arshdeep Singh",
+  "shortName": "Arshdeep Singh",
+  "nicknames": [
+    "Arsh"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-04-16",
+  "lastMatch": "2026-04-25",
+  "matchCount": 90,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

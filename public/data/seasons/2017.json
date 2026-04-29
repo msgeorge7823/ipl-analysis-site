@@ -1,0 +1,28 @@
+{
+  "year": "2017",
+  "winner": "Mumbai Indians",
+  "runnerUp": "Rising Pune Supergiant",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 59,
+  "teams": [
+    "Delhi Capitals",
+    "Gujarat Lions",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rising Pune Supergiant",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "David Andrew Warner",
+    "shortName": "DA Warner",
+    "runs": 641
+  },
+  "purpleCap": {
+    "player": "Bhuvneshwar Kumar",
+    "shortName": "B Kumar",
+    "wickets": 26
+  }
+}

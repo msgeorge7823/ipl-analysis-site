@@ -1,0 +1,79 @@
+{
+  "id": "752f7486",
+  "name": "Ishan Kishan",
+  "shortName": "Ishan Kishan",
+  "nicknames": [
+    "Ishan"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Gujarat Lions",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2016-04-11",
+  "lastMatch": "2026-04-25",
+  "matchCount": 127,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2020"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2e8994e7",
+  "name": "Jean-Paul Duminy",
+  "shortName": "JP Duminy",
+  "nicknames": [
+    "JP"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians",
+    "Delhi Capitals",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2014",
+    "2015",
+    "2016",
+    "2018"
+  ],
+  "firstMatch": "2009-04-18",
+  "lastMatch": "2018-05-13",
+  "matchCount": 83,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2009"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    }
+  ]
+}

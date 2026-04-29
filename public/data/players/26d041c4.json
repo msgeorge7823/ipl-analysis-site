@@ -1,0 +1,30 @@
+{
+  "id": "26d041c4",
+  "name": "Sikandar Raza",
+  "shortName": "Sikandar Raza",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2023-04-01",
+  "lastMatch": "2024-04-09",
+  "matchCount": 9,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    }
+  ]
+}

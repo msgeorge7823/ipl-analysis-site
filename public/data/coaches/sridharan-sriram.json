@@ -1,0 +1,261 @@
+{
+  "id": "sridharan-sriram",
+  "name": "Sridharan Sriram",
+  "fullName": "Sridharan Sriram",
+  "dob": "1976-02-21",
+  "nationality": "Indian",
+  "specialty": [
+    "spin-bowling",
+    "T20-strategy"
+  ],
+  "playingCareerPlayerId": "64a4c383",
+  "playingCareerSummary": "Former India left-arm spinner: 8 ODIs (2000-2004). Played for Royal Challengers Bangalore and Delhi Daredevils in the early IPL. Long second career as an international coaching consultant including as Australia's spin bowling consultant and Bangladesh's T20 head coach.",
+  "bio": "Chennai Super Kings' assistant bowling coach from IPL 2025, paired with Eric Simons as the lead bowling coach. Previously Bangladesh's T20 head coach (2022-2023) and Australia's spin bowling consultant under Justin Langer and Andrew McDonald. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "batting-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points (NRR -0.172). Lost Eliminator to Sunrisers Hyderabad by 6 wickets. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd with 18 points. Katich stepped down mid-season citing personal reasons (August 21, 2021), after which Director of Cricket Mike Hesson took over as interim head coach for the UAE leg and the playoffs. Lost Eliminator to KKR by 4 wickets. Season split across India and UAE legs due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 16,
+          "losses": 12,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "Combined 'Batting and Spin Bowling Coach' role under Simon Katich / Mike Hesson."
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "role": "batting-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season replacing Andy Flower. Finished 7th with 14 points (NRR -0.667). Franchise's first season missing the playoffs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "LSG batting coach for IPL 2024 under Justin Langer — one-season stint between RCB (2020-2021) and CSK (2025-2026)."
+    },
+    {
+      "team": "Chennai Super Kings",
+      "role": "bowling-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Franchise-worst: finished 10th (last) with 8 pts — the first time CSK ended at the bottom of the table."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2026_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ],
+      "notes": "Joined as assistant bowling coach when Dwayne Bravo left for KKR."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 3,
+    "league": {
+      "matches": 56,
+      "wins": 27,
+      "losses": 29,
+      "noResults": 0,
+      "winPct": 48.21
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Australia (National)",
+      "role": "Spin Bowling Consultant",
+      "period": "2016-2022"
+    },
+    {
+      "team": "Bangladesh (National)",
+      "role": "T20I Head Coach / Technical Consultant",
+      "period": "2022-2023"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sridharan_Sriram",
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

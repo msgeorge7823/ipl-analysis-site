@@ -1,0 +1,87 @@
+{
+  "id": "8cf9814c",
+  "name": "Mohammed Shami Ahmed",
+  "shortName": "Mohammed Shami",
+  "nicknames": [
+    "Shami"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Punjab Kings",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2013",
+    "2014",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-04-08",
+  "lastMatch": "2026-04-26",
+  "matchCount": 127,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ce4cc4d5",
+  "name": "R Ninan",
+  "shortName": "R Ninan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-14",
+  "lastMatch": "2011-04-16",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    }
+  ]
+}

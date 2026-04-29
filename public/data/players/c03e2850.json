@@ -1,0 +1,68 @@
+{
+  "id": "c03e2850",
+  "name": "M Vohra",
+  "shortName": "M Vohra",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Lucknow Super Giants",
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2013-04-07",
+  "lastMatch": "2023-05-03",
+  "matchCount": 56,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    }
+  ]
+}

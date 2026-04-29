@@ -1,0 +1,46 @@
+{
+  "id": "9eb1455b",
+  "name": "NT Ellis",
+  "shortName": "NT Ellis",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2021-09-25",
+  "lastMatch": "2025-03-23",
+  "matchCount": 17,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "8d2c70ad",
+  "name": "Kuldeep Yadav",
+  "shortName": "Kuldeep Yadav",
+  "nicknames": [
+    "Kuldeep"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2016-04-13",
+  "lastMatch": "2026-04-27",
+  "matchCount": 107,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2026"
+    }
+  ]
+}

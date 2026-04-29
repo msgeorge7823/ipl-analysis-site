@@ -1,0 +1,92 @@
+{
+  "id": "trevor-gonsalves",
+  "name": "Trevor Gonsalves",
+  "fullName": "Trevor Gonsalves",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling"
+  ],
+  "playingCareerSummary": "Indian first-class cricketer and long-standing coach with experience across domestic and franchise sides.",
+  "bio": "Punjab Kings' bowling coach for IPL 2024 under Trevor Bayliss.",
+  "tenures": [
+    {
+      "team": "Punjab Kings",
+      "role": "bowling-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points. Bayliss left after this season; Ricky Ponting replaced him for IPL 2025."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 9,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 5,
+      "losses": 9,
+      "noResults": 0,
+      "winPct": 35.71
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Punjab_Kings"
+  ],
+  "verified": true
+}

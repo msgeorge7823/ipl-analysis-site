@@ -1,0 +1,74 @@
+{
+  "id": "bd17b45f",
+  "name": "Stuart Terrance Roger Binny",
+  "shortName": "STR Binny",
+  "nicknames": [
+    "Stuart Binny"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2010-04-19",
+  "lastMatch": "2019-05-04",
+  "matchCount": 95,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    }
+  ]
+}

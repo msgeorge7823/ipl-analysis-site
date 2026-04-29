@@ -1,0 +1,35 @@
+{
+  "id": "cf0ccafa",
+  "name": "M Siddharth",
+  "shortName": "M Siddharth",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2024-03-30",
+  "lastMatch": "2026-04-19",
+  "matchCount": 8,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

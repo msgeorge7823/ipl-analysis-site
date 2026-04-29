@@ -1,0 +1,25 @@
+{
+  "id": "6ad3a659",
+  "name": "P Amarnath",
+  "shortName": "P Amarnath",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2008-05-10",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    }
+  ]
+}

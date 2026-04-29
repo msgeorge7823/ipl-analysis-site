@@ -1,0 +1,102 @@
+{
+  "id": "ce820073",
+  "name": "Sandeep Sharma",
+  "shortName": "Sandeep Sharma",
+  "nicknames": [
+    "Sandy"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2013-05-11",
+  "lastMatch": "2026-04-13",
+  "matchCount": 141,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2023",
+      "team": "Rajasthan Royals",
+      "replacing": "Prasidh Krishna",
+      "reason": "Lumbar stress fracture"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2026"
+    }
+  ]
+}

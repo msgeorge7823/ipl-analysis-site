@@ -1,0 +1,47 @@
+{
+  "id": "c16d4035",
+  "name": "SW Billings",
+  "shortName": "SW Billings",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Chennai Super Kings",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2022"
+  ],
+  "firstMatch": "2016-04-30",
+  "lastMatch": "2022-05-18",
+  "matchCount": 30,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "parthiv-patel",
+  "name": "Parthiv Patel",
+  "fullName": "Parthiv Ajay Patel",
+  "nationality": "Indian",
+  "specialty": [
+    "wicket-keeping",
+    "batting",
+    "opening"
+  ],
+  "playingCareerSummary": "Former India wicket-keeper batter: 25 Tests, 38 ODIs. Played for Chennai Super Kings, Kochi Tuskers Kerala, Kings XI Punjab, Deccan Chargers, Sunrisers Hyderabad, Mumbai Indians and Royal Challengers Bangalore in the IPL.",
+  "bio": "Gujarat Titans' batting coach and mentor from IPL 2025, replacing Gary Kirsten in the dual role. Retained for 2026.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "batting-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in Group B. Lost Eliminator to Mumbai Indians by 20 runs (208/6 vs 228/5) at Mullanpur on 30 May. Sai Sudharsan top-scored across the IPL with 759 runs; Prasidh Krishna most wickets with 25."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Nehra retained as HC alongside Vikram Solanki (DoC). Matthew Hayden joined as mentor and Parthiv Patel as batting coach. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans",
+        "https://en.wikipedia.org/wiki/2025_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2026_Gujarat_Titans_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 9,
+      "losses": 5,
+      "noResults": 0,
+      "winPct": 64.29
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true,
+  "dob": "1985-03-09",
+  "playingCareerPlayerId": "b5da6c24"
+}

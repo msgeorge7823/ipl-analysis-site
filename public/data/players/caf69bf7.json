@@ -1,0 +1,37 @@
+{
+  "id": "caf69bf7",
+  "name": "DR Sams",
+  "shortName": "DR Sams",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2020-10-20",
+  "lastMatch": "2022-05-21",
+  "matchCount": 16,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    }
+  ]
+}

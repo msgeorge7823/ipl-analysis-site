@@ -1,0 +1,31 @@
+{
+  "id": "1ee08e9a",
+  "name": "JA Richardson",
+  "shortName": "JA Richardson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2021",
+    "2024"
+  ],
+  "firstMatch": "2021-04-12",
+  "lastMatch": "2024-04-07",
+  "matchCount": 4,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "d2a6c0e6",
+  "name": "EJG Morgan",
+  "shortName": "EJG Morgan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Sunrisers Hyderabad",
+    "Royal Challengers Bengaluru",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2010",
+    "2011",
+    "2013",
+    "2015",
+    "2016",
+    "2017",
+    "2020",
+    "2021"
+  ],
+  "firstMatch": "2010-03-14",
+  "lastMatch": "2021-10-15",
+  "matchCount": 83,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2011"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    }
+  ]
+}

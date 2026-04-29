@@ -1,0 +1,41 @@
+{
+  "id": "af7dadf7",
+  "name": "B Akhil",
+  "shortName": "B Akhil",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kochi Tuskers Kerala"
+  ],
+  "lastTeam": "Kochi Tuskers Kerala",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2011-04-30",
+  "matchCount": 15,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    }
+  ]
+}

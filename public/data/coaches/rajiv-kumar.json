@@ -1,0 +1,295 @@
+{
+  "id": "rajiv-kumar",
+  "name": "Rajiv Kumar",
+  "fullName": "Rajiv Kumar",
+  "nationality": "Indian",
+  "specialty": [
+    "fielding",
+    "man-management"
+  ],
+  "playingCareerSummary": "Indian first-class player from Jharkhand and former Ranji Trophy cricketer. Captained MS Dhoni during Dhoni's early first-class career — a relationship that brought him into CSK's coaching setup. Did not play in the IPL.",
+  "bio": "Chennai Super Kings' fielding coach from 2018 to 2025 — eight consecutive seasons that included three IPL titles (2018, 2021, 2023). His appointment traces back to his captaincy of a young MS Dhoni in Jharkhand's first-class setup. Transitioned to a general assistant coach role for IPL 2026 when James Foster joined as the dedicated fielding coach.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "fielding-coach",
+      "fromSeason": "2018",
+      "toSeason": "2025",
+      "seasons": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Return from 2016-17 suspension. Finished 2nd in league (18 pts). Qualifier 1 W vs SRH by 2 wickets, final W vs SRH by 8 wickets (Shane Watson 117* Player of the Match). Third IPL title."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (18 pts, tied with MI and DC on NRR). Qualifier 1 L vs MI by 6 wkts, Qualifier 2 W vs DC by 6 wkts, lost final to MI by 1 run."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "First season CSK failed to qualify for playoffs. Finished 7th (12 pts). Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (18 pts). Qualifier 1 W vs DC by 4 wickets, final W vs KKR by 27 runs in Dubai. Fourth IPL title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th of 10 (8 pts). Jadeja stepped down as captain mid-season; Dhoni resumed leadership."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd (17 pts). Qualifier 1 W vs GT by 15 runs, final W vs GT by 5 wickets (DLS) in rain-affected three-day final. Fifth IPL title, equalling MI."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Missed playoffs on NRR tie-breaker. Finished 5th (14 pts). Dhoni handed captaincy to Ruturaj Gaikwad before the season."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Franchise-worst: finished 10th (last) with 8 pts — the first time CSK ended at the bottom of the table."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 112,
+          "wins": 56,
+          "losses": 55,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 9,
+          "wins": 7,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 77.78
+        },
+        "titles": 3,
+        "finalsReached": 4,
+        "playoffAppearances": 4
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2019_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2020_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2021_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2022_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2023_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2024_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2025_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ]
+    },
+    {
+      "team": "Chennai Super Kings",
+      "role": "assistant-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ],
+      "notes": "Transitioned from fielding coach to general assistant coach role for 2026; James Foster took over as dedicated fielding coach."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 8,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 112,
+      "wins": 56,
+      "losses": 55,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 9,
+      "wins": 7,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 77.78
+    },
+    "titles": 3,
+    "finalsReached": 4,
+    "playoffAppearances": 4
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

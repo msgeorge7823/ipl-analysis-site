@@ -1,0 +1,25 @@
+{
+  "id": "449f4e3c",
+  "name": "B Muzarabani",
+  "shortName": "B Muzarabani",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-29",
+  "lastMatch": "2026-04-02",
+  "matchCount": 2,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

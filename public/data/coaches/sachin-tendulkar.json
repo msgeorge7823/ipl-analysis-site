@@ -1,0 +1,244 @@
+{
+  "id": "sachin-tendulkar",
+  "name": "Sachin Tendulkar",
+  "fullName": "Sachin Ramesh Tendulkar",
+  "dob": "1973-04-24",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "mentoring"
+  ],
+  "playingCareerPlayerId": "d2c2b2d5",
+  "playingCareerSummary": "Universally regarded as one of the greatest batters in the history of cricket and the 'Bharat Ratna' — India's highest civilian honour. 200 Tests (15,921 runs at 53.78 with 51 centuries), 463 ODIs (18,426 runs at 44.83 with 49 centuries). Played for Mumbai Indians (2008-2013) in the IPL as player then captain, winning the 2013 title before retiring. First ever double-centurion in ODI cricket.",
+  "bio": "Mumbai Indians' mentor / icon since his playing retirement in 2013. Transitioned officially into the batting mentor / team mentor role from around 2019 onwards and continues through IPL 2026. A permanent cultural fixture at the franchise — a five-time IPL champion across his playing + mentor roles (2013, 2015, 2017, 2019, 2020).",
+  "tenures": [
+    {
+      "team": "Mumbai Indians",
+      "role": "mentor",
+      "fromSeason": "2019",
+      "toSeason": "2026",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts, NRR 0.421). Beat CSK in Q1 by 6 wickets; beat CSK in final by 1 run. Franchise's fourth IPL title."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (18 pts). Beat DC in Q1 by 57 runs; beat DC in final by 5 wickets. Fifth IPL title. Season played in UAE due to COVID-19. Became 2nd team after CSK to defend an IPL title."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points. Could not defend their title."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points and NRR -0.506. Franchise-worst season to that point."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league. Beat LSG in Eliminator; lost Q2 to GT."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points. First team eliminated from IPL 2024."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th in league (16 pts, NRR 1.142). Beat GT in Eliminator by 20 runs; lost Q2 to PBKS by 5 wickets."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 98,
+          "wins": 49,
+          "losses": 49,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 8,
+          "wins": 6,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 75.0
+        },
+        "titles": 2,
+        "finalsReached": 2,
+        "playoffAppearances": 4
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mumbai_Indians",
+        "https://en.wikipedia.org/wiki/2019_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2020_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2021_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2022_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2023_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2024_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2025_Mumbai_Indians_season",
+        "https://en.wikipedia.org/wiki/2026_Mumbai_Indians_season"
+      ],
+      "notes": "Mentor role explicitly documented in Wikipedia season pages for 2019, 2020, 2022 and 2026. Tendulkar has been informally associated with MI since his player retirement in 2013."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 98,
+      "wins": 49,
+      "losses": 49,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 8,
+      "wins": 6,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 75.0
+    },
+    "titles": 2,
+    "finalsReached": 2,
+    "playoffAppearances": 4
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sachin_Tendulkar",
+    "https://en.wikipedia.org/wiki/Mumbai_Indians"
+  ],
+  "verified": true
+}

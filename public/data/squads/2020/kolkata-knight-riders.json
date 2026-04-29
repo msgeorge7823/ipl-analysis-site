@@ -1,0 +1,140 @@
+{
+  "season": "2020",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "19b9f399",
+      "name": "CJ Green",
+      "shortName": "CJ Green",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2a6c0e6",
+      "name": "EJG Morgan",
+      "shortName": "EJG Morgan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4f5c2d9",
+      "name": "KL Nagarkoti",
+      "shortName": "KL Nagarkoti",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aedc3b7c",
+      "name": "NS Naik",
+      "shortName": "NS Naik",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a509d6b",
+      "name": "RK Singh",
+      "shortName": "RK Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4b99816",
+      "name": "Shubman Gill",
+      "shortName": "Shubman Gill",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "5b7ab5a9",
+      "name": "Chakravarthy Varun",
+      "shortName": "CV Varun",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8d2c70ad",
+      "name": "Kuldeep Yadav",
+      "shortName": "Kuldeep Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ded9240e",
+      "name": "PJ Cummins",
+      "shortName": "PJ Cummins",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85e0cf10",
+      "name": "Prasidh Krishna",
+      "shortName": "M Prasidh Krishna",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cdc6bdba",
+      "name": "S Sandeep Warrier",
+      "shortName": "S Sandeep Warrier",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c38d3503",
+      "name": "Shivam Mavi",
+      "shortName": "Shivam Mavi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "25f7b7d6",
+      "name": "T Banton",
+      "shortName": "T Banton",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

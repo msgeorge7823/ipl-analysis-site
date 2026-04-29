@@ -1,0 +1,25 @@
+{
+  "id": "2c76b512",
+  "name": "DJ Muthuswami",
+  "shortName": "DJ Muthuswami",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2015"
+  ],
+  "firstMatch": "2015-04-09",
+  "lastMatch": "2015-04-26",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "season": "2026",
+  "teamId": "sunrisers-hyderabad",
+  "teamName": "Sunrisers Hyderabad",
+  "captain": "Pat Cummins",
+  "coach": "Daniel Vettori",
+  "players": [
+    {
+      "name": "Ishan Kishan",
+      "role": "WK-Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Aniket Verma",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "R Smaran",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Salil Arora",
+      "role": "Batter",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "role": "WK-Batter",
+      "overseas": true,
+      "price": "23 Cr",
+      "retained": true
+    },
+    {
+      "name": "Travis Head",
+      "role": "Batter",
+      "overseas": true,
+      "price": "N/A",
+      "retained": true
+    },
+    {
+      "name": "Harshal Patel",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Kamindu Mendis",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Harsh Dubey",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Brydon Carse",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shivang Kumar",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Krains Fuletra",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Liam Livingstone",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "David Payne",
+      "role": "All-Rounder",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Abhishek Sharma",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "14 Cr",
+      "retained": true
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "role": "All-Rounder",
+      "overseas": false,
+      "price": "6 Cr",
+      "retained": true
+    },
+    {
+      "name": "Pat Cummins",
+      "role": "Bowler",
+      "overseas": true,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Zeeshan Ansari",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Eshan Malinga",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Sakib Hussain",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Onkar Tarmale",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Amit Kumar",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Praful Hinge",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    },
+    {
+      "name": "Shivam Mavi",
+      "role": "Bowler",
+      "overseas": false,
+      "price": "N/A",
+      "retained": false
+    }
+  ]
+}

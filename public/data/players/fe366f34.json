@@ -1,0 +1,25 @@
+{
+  "id": "fe366f34",
+  "name": "C Connolly",
+  "shortName": "C Connolly",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-31",
+  "lastMatch": "2026-04-25",
+  "matchCount": 7,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

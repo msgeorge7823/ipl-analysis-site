@@ -1,0 +1,113 @@
+{
+  "id": "c03f1114",
+  "name": "Krishna Dinesh Karthik",
+  "shortName": "KD Karthik",
+  "nicknames": [
+    "DK",
+    "Dinesh Karthik"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Gujarat Lions",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2024-05-22",
+  "matchCount": 257,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2018"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

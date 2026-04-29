@@ -1,0 +1,160 @@
+{
+  "id": "brendon-mccullum",
+  "name": "Brendon McCullum",
+  "fullName": "Brendon Barrie McCullum",
+  "dob": "1981-09-27",
+  "nationality": "New Zealander",
+  "specialty": [
+    "batting",
+    "aggressive-cricket",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "b8a55852",
+  "playingCareerSummary": "Former New Zealand captain and one of T20 cricket's original superstars: 101 Tests, 260 ODIs, 71 T20Is. Famously scored the first IPL century (158* for KKR vs RCB in the 2008 opening match). Played for KKR, Kochi, CSK, Gujarat Lions and RCB in the IPL.",
+  "bio": "KKR head coach from 2020 to 2022, returning to the franchise where he announced himself as a T20 icon with that 158* on the IPL's opening night. Took KKR to the 2021 final (lost to CSK) but couldn't qualify for playoffs in 2020 or 2022. Left after 2022 to become England's Test head coach, where his 'Bazball' philosophy transformed England's red-ball cricket.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2020",
+      "toSeason": "2022",
+      "seasons": [
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.214). Missed playoffs on net run rate. Season played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th with 14 points. Beat RCB in Eliminator by 4 wickets; beat DC in Qualifier 2 by 3 wickets; lost final to CSK by 27 runs. Season split across India and UAE legs due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. McCullum left after this season to become England's Test head coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 20,
+          "losses": 22,
+          "noResults": 0,
+          "winPct": 47.62
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 20,
+      "losses": 22,
+      "noResults": 0,
+      "winPct": 47.62
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Trinbago Knight Riders (CPL)",
+      "role": "Head Coach",
+      "period": "2019-2022"
+    },
+    {
+      "team": "England (National, Tests)",
+      "role": "Head Coach",
+      "period": "2022-present",
+      "notes": "Originator of the 'Bazball' approach; revolutionised England's Test cricket."
+    },
+    {
+      "team": "England (National, White-ball)",
+      "role": "Head Coach",
+      "period": "2025-present",
+      "notes": "Took over as all-format England head coach in 2025 after Matthew Mott's departure."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brendon_McCullum",
+    "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season"
+  ],
+  "verified": true
+}

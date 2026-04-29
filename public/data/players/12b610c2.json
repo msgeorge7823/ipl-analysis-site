@@ -1,0 +1,49 @@
+{
+  "id": "12b610c2",
+  "name": "Travis Michael Head",
+  "shortName": "TM Head",
+  "nicknames": [
+    "Travis Head",
+    "Trav"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2016",
+    "2017",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2016-04-20",
+  "lastMatch": "2026-04-25",
+  "matchCount": 46,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2026"
+    }
+  ]
+}

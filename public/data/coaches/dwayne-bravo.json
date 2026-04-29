@@ -1,0 +1,223 @@
+{
+  "id": "dwayne-bravo",
+  "name": "Dwayne Bravo",
+  "fullName": "Dwayne John Bravo",
+  "dob": "1983-10-07",
+  "nationality": "Trinidadian (West Indian)",
+  "specialty": [
+    "death-bowling",
+    "all-round",
+    "T20-cricket"
+  ],
+  "playingCareerPlayerId": "87e562a9",
+  "playingCareerSummary": "Former West Indies all-rounder and two-time T20 World Cup winner: 40 Tests, 164 ODIs, 91 T20Is (highest wicket-taker in international T20 cricket at the time of retirement). Played for Mumbai Indians (2008), Chennai Super Kings (2011-2015, 2018-2022) and Gujarat Lions (2016-2017) in the IPL. Four-time IPL champion with CSK (2011, 2018, 2021, 2023 — the last one as a player-coach hybrid).",
+  "bio": "Transitioned from CSK's talismanic death bowler to bowling coach role in 2022, effectively a player-coach for his first season before fully retiring. Coached CSK through their 2023 title campaign (his 4th as a CSK insider) and the 2024 campaign before leaving to become Kolkata Knight Riders' mentor for IPL 2025.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "bowling-coach",
+      "fromSeason": "2022",
+      "toSeason": "2024",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th of 10 (8 pts). Jadeja stepped down as captain mid-season; Dhoni resumed leadership."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd (17 pts). Qualifier 1 W vs GT by 15 runs, final W vs GT by 5 wickets (DLS) in rain-affected three-day final. Fifth IPL title, equalling MI."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": "Missed playoffs on NRR tie-breaker. Finished 5th (14 pts). Dhoni handed captaincy to Ruturaj Gaikwad before the season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 19,
+          "losses": 22,
+          "noResults": 1,
+          "winPct": 45.24
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2023_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/2024_Chennai_Super_Kings_season",
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ],
+      "notes": "Acted as player-coach in 2022 before fully retiring as a player at the end of that season."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "mentor",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points. Eliminated when the RCB match was abandoned. Mentor: Dwayne Bravo. Pandit's three-year contract ended after this season."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "First season as head coach. Stats will update as matches complete. Taking over after Chandrakant Pandit's three-year contract ended."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 7,
+          "noResults": 2,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season"
+      ],
+      "notes": "Joined KKR as mentor after three seasons as CSK bowling coach. Retained for IPL 2026."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 56,
+      "wins": 24,
+      "losses": 29,
+      "noResults": 3,
+      "winPct": 42.86
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Afghanistan (National)",
+      "role": "T20I Bowling Consultant",
+      "period": "2023-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dwayne_Bravo",
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

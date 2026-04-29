@@ -1,0 +1,25 @@
+{
+  "id": "53fe6ee4",
+  "name": "DS Lehmann",
+  "shortName": "DS Lehmann",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2008-04-21",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2008"
+    }
+  ]
+}

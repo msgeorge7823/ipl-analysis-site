@@ -1,0 +1,80 @@
+{
+  "id": "759ac88f",
+  "name": "Mohit Mohan Sharma",
+  "shortName": "MM Sharma",
+  "nicknames": [
+    "Mohit Sharma"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Punjab Kings",
+    "Delhi Capitals",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2013-04-13",
+  "lastMatch": "2025-05-24",
+  "matchCount": 120,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    }
+  ]
+}

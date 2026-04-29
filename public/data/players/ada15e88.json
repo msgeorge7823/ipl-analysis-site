@@ -1,0 +1,25 @@
+{
+  "id": "ada15e88",
+  "name": "PSP Handscomb",
+  "shortName": "PSP Handscomb",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rising Pune Supergiant"
+  ],
+  "lastTeam": "Rising Pune Supergiant",
+  "seasons": [
+    "2016"
+  ],
+  "firstMatch": "2016-04-29",
+  "lastMatch": "2016-05-01",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    }
+  ]
+}

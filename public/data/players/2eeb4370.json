@@ -1,0 +1,25 @@
+{
+  "id": "2eeb4370",
+  "name": "C Madan",
+  "shortName": "C Madan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-04-13",
+  "lastMatch": "2010-04-13",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    }
+  ]
+}

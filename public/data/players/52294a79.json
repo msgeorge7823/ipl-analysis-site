@@ -1,0 +1,30 @@
+{
+  "id": "52294a79",
+  "name": "H Sharma",
+  "shortName": "H Sharma",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2023-05-21",
+  "lastMatch": "2024-04-06",
+  "matchCount": 2,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

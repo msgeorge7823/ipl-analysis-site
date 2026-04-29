@@ -1,0 +1,42 @@
+{
+  "id": "9170ff49",
+  "name": "Parvez Rasool",
+  "shortName": "Parvez Rasool",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Pune Warriors",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2013-05-09",
+  "lastMatch": "2016-05-07",
+  "matchCount": 11,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    }
+  ]
+}

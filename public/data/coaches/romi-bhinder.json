@@ -1,0 +1,131 @@
+{
+  "id": "romi-bhinder",
+  "name": "Romi Bhinder",
+  "fullName": "Romi Bhinder",
+  "nationality": "Indian",
+  "specialty": [
+    "team-management"
+  ],
+  "playingCareerSummary": "Cricket team management specialist.",
+  "bio": "Rajasthan Royals' team manager — part of the 2022 runner-up support staff.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "team-manager",
+      "fromSeason": "2022",
+      "toSeason": "2024",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 24,
+          "losses": 17,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 24,
+      "losses": 17,
+      "noResults": 1,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true
+}

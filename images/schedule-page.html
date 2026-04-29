@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2026 Schedule — IPL Analytics Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                    colors: {
+                        surface: { DEFAULT: '#0a0a0f', card: '#131320', cardAlt: '#181830', border: '#1e1e3a', borderLight: '#2a2a4a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5', glow: 'rgba(99,102,241,0.15)' },
+                        ipl: {
+                            rcb: '#d91c1f', mi: '#004ba0', csk: '#f9cd05', kkr: '#3a225d',
+                            dc: '#004c93', pbks: '#dd1f2d', rr: '#ea1a85', srh: '#ff822a',
+                            gt: '#1c1c2b', lsg: '#004d9f'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        body { background: #0a0a0f; }
+        ::-webkit-scrollbar { height: 6px; width: 6px; }
+        ::-webkit-scrollbar-track { background: #131320; }
+        ::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #6366f1; }
+        .glow-border { box-shadow: 0 0 0 1px rgba(99,102,241,0.3), 0 0 20px rgba(99,102,241,0.08); }
+        .home-badge { animation: homePulse 2.5s ease-in-out infinite; }
+        @keyframes homePulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(34,197,94,0.4); }
+            50% { box-shadow: 0 0 0 4px rgba(34,197,94,0); }
+        }
+        .season-scroll { scroll-behavior: smooth; -ms-overflow-style: none; scrollbar-width: none; }
+        .season-scroll::-webkit-scrollbar { display: none; }
+        .match-card { transition: all 0.2s ease; }
+        .match-card:hover { background: #181830; transform: translateX(4px); }
+        .double-header-line { background: linear-gradient(90deg, rgba(251,191,36,0.15) 0%, transparent 100%); }
+        .venue-card:hover { border-color: #6366f1; background: #181830; }
+    </style>
+</head>
+<body class="min-h-screen text-white antialiased">
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="sticky top-0 z-50 border-b border-surface-border bg-surface/80 backdrop-blur-xl">
+        <div class="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-6">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-accent font-bold text-sm text-white">IPL</div>
+                <span class="text-lg font-semibold text-white">Analytics</span>
+            </div>
+            <!-- Nav Links -->
+            <div class="hidden lg:flex items-center gap-1">
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Home</a>
+                <a href="#" class="px-3 py-2 text-sm text-white font-medium rounded-lg bg-white/5">Seasons</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Teams</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Players</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Matches</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Ratings</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Analytics Lab</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Auctions</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Venues</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">Records</a>
+                <a href="#" class="px-3 py-2 text-sm text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition">More</a>
+            </div>
+            <!-- Right Actions -->
+            <div class="flex items-center gap-3">
+                <button class="flex h-9 w-9 items-center justify-center rounded-lg border border-surface-border text-gray-400 hover:text-white hover:border-accent transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="flex h-9 w-9 items-center justify-center rounded-lg border border-surface-border text-gray-400 hover:text-white hover:border-accent transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mx-auto max-w-[1440px] px-6 py-8">
+
+        <!-- ==================== PAGE HEADER ==================== -->
+        <section class="mb-8">
+            <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-6">
+                <div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-sm font-medium text-accent">Seasons &rsaquo; IPL 2026</span>
+                    </div>
+                    <h1 class="text-4xl font-extrabold text-white mb-2">IPL 2026 Schedule</h1>
+                    <p class="text-gray-400 text-lg">74 Matches &middot; 10 Teams &middot; 13 Venues &middot; March 28 &ndash; May 31, 2026</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <!-- Season Selector -->
+                    <div class="relative">
+                        <select class="appearance-none bg-surface-card border border-surface-border rounded-xl px-4 py-2.5 pr-10 text-sm font-semibold text-white focus:outline-none focus:border-accent cursor-pointer">
+                            <option selected>IPL 2026</option>
+                            <option>IPL 2025</option>
+                            <option>IPL 2024</option>
+                            <option>IPL 2023</option>
+                            <option>IPL 2022</option>
+                            <option>IPL 2021</option>
+                            <option>IPL 2020</option>
+                            <option>IPL 2019</option>
+                            <option>IPL 2018</option>
+                            <option>IPL 2017</option>
+                            <option>IPL 2016</option>
+                            <option>IPL 2015</option>
+                            <option>IPL 2014</option>
+                            <option>IPL 2013</option>
+                            <option>IPL 2012</option>
+                            <option>IPL 2011</option>
+                            <option>IPL 2010</option>
+                            <option>IPL 2009</option>
+                            <option>IPL 2008</option>
+                        </select>
+                        <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== ALL SEASONS ARCHIVE ==================== -->
+            <div class="mb-8">
+                <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">All Seasons Schedule Archive</h3>
+                <div class="season-scroll flex gap-2 overflow-x-auto pb-2">
+                    <!-- Active Season -->
+                    <div class="flex-shrink-0 rounded-xl bg-accent/20 border border-accent px-4 py-2.5 cursor-pointer">
+                        <div class="text-sm font-bold text-accent-light whitespace-nowrap">IPL 2026</div>
+                        <div class="text-xs text-gray-400 whitespace-nowrap">Mar 28 &ndash; May 31</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2025 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 22 &ndash; Jun 3 &middot; RCB won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2024 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 22 &ndash; May 26 &middot; KKR won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2023 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 31 &ndash; May 28 &middot; CSK won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2022 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 26 &ndash; May 29 &middot; GT won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2021 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 9 &ndash; Oct 15 &middot; CSK won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2020 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Sep 19 &ndash; Nov 10 &middot; MI won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2019 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 23 &ndash; May 12 &middot; MI won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2018 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 7 &ndash; May 27 &middot; CSK won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2017 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 5 &ndash; May 21 &middot; MI won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2016 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 9 &ndash; May 29 &middot; SRH won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2015 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 8 &ndash; May 24 &middot; MI won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2014 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 16 &ndash; Jun 1 &middot; KKR won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2013 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 3 &ndash; May 26 &middot; MI won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2012 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 4 &ndash; May 27 &middot; KKR won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2011 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 8 &ndash; May 28 &middot; CSK won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2010 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Mar 12 &ndash; Apr 25 &middot; CSK won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2009 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 18 &ndash; May 24 &middot; DC won</div>
+                    </div>
+                    <div class="flex-shrink-0 rounded-xl bg-surface-card border border-surface-border px-4 py-2.5 cursor-pointer hover:border-accent/50 transition">
+                        <div class="text-sm font-semibold text-white whitespace-nowrap">IPL 2008 <span class="text-yellow-400">&#127942;</span></div>
+                        <div class="text-xs text-gray-500 whitespace-nowrap">Apr 18 &ndash; Jun 1 &middot; RR won</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== FILTER BAR ==================== -->
+            <div class="flex flex-wrap items-center gap-3 p-4 bg-surface-card border border-surface-border rounded-2xl">
+                <!-- Team Filter -->
+                <div class="relative">
+                    <select class="appearance-none bg-surface border border-surface-border rounded-lg px-4 py-2 pr-9 text-sm text-white focus:outline-none focus:border-accent cursor-pointer">
+                        <option>All Teams</option>
+                        <option>CSK</option><option>MI</option><option>RCB</option><option>KKR</option><option>DC</option>
+                        <option>PBKS</option><option>RR</option><option>SRH</option><option>GT</option><option>LSG</option>
+                    </select>
+                    <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <!-- Venue Filter -->
+                <div class="relative">
+                    <select class="appearance-none bg-surface border border-surface-border rounded-lg px-4 py-2 pr-9 text-sm text-white focus:outline-none focus:border-accent cursor-pointer">
+                        <option>All Venues</option>
+                        <option>M Chinnaswamy Stadium</option><option>Wankhede Stadium</option><option>MA Chidambaram Stadium</option>
+                        <option>Eden Gardens</option><option>Arun Jaitley Stadium</option><option>IS Bindra Stadium</option>
+                        <option>Sawai Mansingh Stadium</option><option>Rajiv Gandhi Intl Stadium</option><option>Narendra Modi Stadium</option>
+                        <option>BRSABV Ekana Stadium</option><option>HPCA Stadium</option><option>ACA-VDCA Stadium</option><option>Barsapara Stadium</option>
+                    </select>
+                    <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <!-- Divider -->
+                <div class="w-px h-8 bg-surface-border hidden sm:block"></div>
+                <!-- Month Chips -->
+                <div class="flex items-center gap-1">
+                    <span class="text-xs text-gray-500 mr-1 font-medium">Month:</span>
+                    <button class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-accent/20 text-accent-light border border-accent/40">Mar</button>
+                    <button class="px-3 py-1.5 text-xs font-semibold rounded-lg text-gray-400 border border-surface-border hover:border-accent/40 hover:text-white transition">Apr</button>
+                    <button class="px-3 py-1.5 text-xs font-semibold rounded-lg text-gray-400 border border-surface-border hover:border-accent/40 hover:text-white transition">May</button>
+                </div>
+                <!-- Divider -->
+                <div class="w-px h-8 bg-surface-border hidden sm:block"></div>
+                <!-- View Toggle -->
+                <div class="flex items-center gap-1 ml-auto">
+                    <button class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-accent text-white">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                        List
+                    </button>
+                    <button class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg text-gray-400 border border-surface-border hover:text-white transition">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        Calendar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SCHEDULE LIST ==================== -->
+        <section class="mb-16">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-xl font-bold text-white">Match Schedule</h2>
+                <span class="text-sm text-gray-500">Showing 12 of 74 matches</span>
+            </div>
+
+            <div class="space-y-2">
+
+                <!-- ========== DATE GROUP: FRIDAY, MAR 28 ========== -->
+                <div class="flex items-center gap-3 pt-4 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Friday, March 28, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                    <span class="text-xs font-medium text-emerald-400 bg-emerald-400/10 px-2.5 py-1 rounded-full">Opening Day</span>
+                </div>
+
+                <!-- Match 1 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">1</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <!-- Teams -->
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- Team 1 - RCB (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#d91c1f;">RCB</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">RCB</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- Team 2 - SRH (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 border-gray-600 text-gray-400" style="border-color:#ff822a; color:#ff822a;">SRH</div>
+                            <span class="text-sm font-medium text-gray-400">SRH</span>
+                        </div>
+                    </div>
+                    <!-- Venue -->
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">M Chinnaswamy Stadium</span>
+                            <span class="text-xs text-gray-500">Bengaluru</span>
+                        </div>
+                    </div>
+                    <!-- Status -->
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: SATURDAY, MAR 29 (DOUBLE HEADER) ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Saturday, March 29, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                    <span class="text-xs font-bold text-amber-300 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-500/20">&#9876;&#65039; DOUBLE HEADER</span>
+                </div>
+
+                <!-- Match 2 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">2</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">3:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- KKR (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#3a225d; color:#a78bfa;">KKR</div>
+                            <span class="text-sm font-medium text-gray-400">KKR</span>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- PBKS (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#dd1f2d;">PBK</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">PBKS</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">IS Bindra Stadium</span>
+                            <span class="text-xs text-gray-500">Mohali</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- Match 3 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">3</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- CSK (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-black" style="background:#f9cd05;">CSK</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">CSK</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- MI (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#004ba0; color:#60a5fa;">MI</div>
+                            <span class="text-sm font-medium text-gray-400">MI</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">MA Chidambaram Stadium</span>
+                            <span class="text-xs text-gray-500">Chennai</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: SUNDAY, MAR 30 (DOUBLE HEADER) ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Sunday, March 30, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                    <span class="text-xs font-bold text-amber-300 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-500/20">&#9876;&#65039; DOUBLE HEADER</span>
+                </div>
+
+                <!-- Match 4 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">4</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">3:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- DC (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#004c93;">DC</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">DC</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- LSG (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#004d9f; color:#60a5fa;">LSG</div>
+                            <span class="text-sm font-medium text-gray-400">LSG</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Arun Jaitley Stadium</span>
+                            <span class="text-xs text-gray-500">Delhi</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- Match 5 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">5</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- GT (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#1c1c2b; border: 2px solid #5b6abf;">GT</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">GT</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- RR (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#ea1a85; color:#f472b6;">RR</div>
+                            <span class="text-sm font-medium text-gray-400">RR</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Narendra Modi Stadium</span>
+                            <span class="text-xs text-gray-500">Ahmedabad</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: MONDAY, MAR 31 ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Monday, March 31, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                </div>
+
+                <!-- Match 6 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">6</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- SRH (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#ff822a;">SRH</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">SRH</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- MI (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#004ba0; color:#60a5fa;">MI</div>
+                            <span class="text-sm font-medium text-gray-400">MI</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Rajiv Gandhi Intl Stadium</span>
+                            <span class="text-xs text-gray-500">Hyderabad</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: TUESDAY, APR 1 ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Tuesday, April 1, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                    <span class="text-xs font-medium text-accent bg-accent/10 px-2.5 py-1 rounded-full">Today</span>
+                </div>
+
+                <!-- Match 7 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-accent/30 rounded-xl cursor-pointer glow-border">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">7</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- RR (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#ea1a85;">RR</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">RR</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- DC (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#004c93; color:#60a5fa;">DC</div>
+                            <span class="text-sm font-medium text-gray-400">DC</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Sawai Mansingh Stadium</span>
+                            <span class="text-xs text-gray-500">Jaipur</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-green-500/20 text-green-400 border border-green-500/30 animate-pulse">&#9679; Live</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: WEDNESDAY, APR 2 ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Wednesday, April 2, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                </div>
+
+                <!-- Match 8 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">8</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- PBKS (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#dd1f2d; color:#f87171;">PBK</div>
+                            <span class="text-sm font-medium text-gray-400">PBKS</span>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- CSK (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-black" style="background:#f9cd05;">CSK</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">CSK</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">MA Chidambaram Stadium</span>
+                            <span class="text-xs text-gray-500">Chennai</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: THURSDAY, APR 3 ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Thursday, April 3, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                </div>
+
+                <!-- Match 9 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">9</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- MI (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#004ba0;">MI</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">MI</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- KKR (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#3a225d; color:#a78bfa;">KKR</div>
+                            <span class="text-sm font-medium text-gray-400">KKR</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Wankhede Stadium</span>
+                            <span class="text-xs text-gray-500">Mumbai</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: FRIDAY, APR 4 ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Friday, April 4, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                </div>
+
+                <!-- Match 10 -->
+                <div class="match-card flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">10</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- LSG (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#004d9f;">LSG</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">LSG</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- GT (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#5b6abf; color:#818cf8;">GT</div>
+                            <span class="text-sm font-medium text-gray-400">GT</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">BRSABV Ekana Stadium</span>
+                            <span class="text-xs text-gray-500">Lucknow</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- ========== DATE GROUP: SATURDAY, APR 5 (DOUBLE HEADER) ========== -->
+                <div class="flex items-center gap-3 pt-6 pb-2">
+                    <div class="text-sm font-bold text-white bg-surface-card border border-surface-border px-4 py-1.5 rounded-lg">Saturday, April 5, 2026</div>
+                    <div class="flex-1 h-px bg-surface-border"></div>
+                    <span class="text-xs font-bold text-amber-300 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-500/20">&#9876;&#65039; DOUBLE HEADER</span>
+                </div>
+
+                <!-- Match 11 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">11</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">3:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- RCB (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#d91c1f;">RCB</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">RCB</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- DC (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#004c93; color:#60a5fa;">DC</div>
+                            <span class="text-sm font-medium text-gray-400">DC</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">M Chinnaswamy Stadium</span>
+                            <span class="text-xs text-gray-500">Bengaluru</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+                <!-- Match 12 -->
+                <div class="match-card double-header-line flex items-center gap-4 p-4 bg-surface-card border border-surface-border rounded-xl cursor-pointer">
+                    <div class="flex flex-col items-center w-16 flex-shrink-0">
+                        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Match</span>
+                        <span class="text-xl font-extrabold text-white">12</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex flex-col items-center w-24 flex-shrink-0">
+                        <span class="text-sm font-semibold text-white">7:30 PM</span>
+                        <span class="text-[11px] text-gray-500">IST</span>
+                    </div>
+                    <div class="w-px h-12 bg-surface-border flex-shrink-0"></div>
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <!-- SRH (Away) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm border-2 text-gray-400" style="border-color:#ff822a; color:#ff822a;">SRH</div>
+                            <span class="text-sm font-medium text-gray-400">SRH</span>
+                        </div>
+                        <span class="text-lg font-black text-gray-600 mx-2">VS</span>
+                        <!-- RR (HOME) -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center font-extrabold text-sm text-white" style="background:#ea1a85;">RR</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold text-white">RR</span>
+                                <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit mt-0.5">
+                                    <span>&#127968;</span> HOME
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 text-right flex-shrink-0 max-w-[280px]">
+                        <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-300">Sawai Mansingh Stadium</span>
+                            <span class="text-xs text-gray-500">Jaipur</span>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Load More -->
+            <div class="flex justify-center mt-8">
+                <button class="px-8 py-3 rounded-xl bg-surface-card border border-surface-border text-sm font-semibold text-gray-400 hover:text-white hover:border-accent transition">
+                    Load More Matches (13 &ndash; 74)
+                    <svg class="inline w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- ==================== HOME ADVANTAGE LEGEND ==================== -->
+        <section class="mb-16">
+            <div class="p-5 bg-surface-card border border-surface-border rounded-2xl">
+                <h3 class="text-sm font-bold text-white mb-3">Schedule Legend</h3>
+                <div class="flex flex-wrap items-center gap-6 text-sm">
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center text-[10px] font-bold text-white">TM</div>
+                        <span class="text-gray-400">Solid color = Home team</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg border-2 border-blue-500 flex items-center justify-center text-[10px] font-bold text-blue-400">TM</div>
+                        <span class="text-gray-400">Outline = Away team</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="home-badge inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">&#127968; HOME</span>
+                        <span class="text-gray-400">Home ground indicator</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-xs font-bold text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded-full border border-amber-500/20">&#9876;&#65039; DOUBLE HEADER</span>
+                        <span class="text-gray-400">Two matches on same day</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-green-500/20 text-green-400 border border-green-500/30">&#9679; Live</span>
+                        <span class="text-gray-400">Match in progress</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20">Upcoming</span>
+                        <span class="text-gray-400">Scheduled match</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-gray-500/15 text-gray-400 border border-gray-500/20">Completed</span>
+                        <span class="text-gray-400">Finished match</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== VENUE DIRECTORY ==================== -->
+        <section class="mb-16">
+            <div class="flex items-center justify-between mb-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-1">Venue Directory</h2>
+                    <p class="text-gray-500 text-sm">All 13 venues hosting IPL 2026 matches</p>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <span class="flex items-center gap-1.5 text-emerald-400"><span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>Home Ground</span>
+                    <span class="flex items-center gap-1.5 text-gray-500 ml-4"><span class="w-2.5 h-2.5 rounded-full bg-gray-600"></span>Neutral</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+
+                <!-- Venue 1: Chinnaswamy -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">M Chinnaswamy Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Bengaluru</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#d91c1f;">R</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; RCB Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 2: Wankhede -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Wankhede Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Mumbai</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#004ba0;">M</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; MI Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 3: Chepauk -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">MA Chidambaram Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Chennai</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-black" style="background:#f9cd05;">C</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; CSK Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 4: Eden Gardens -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Eden Gardens</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Kolkata</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#3a225d;">K</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; KKR Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 5: Arun Jaitley -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Arun Jaitley Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Delhi</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#004c93;">D</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; DC Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 6: IS Bindra -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">IS Bindra Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Mohali</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#dd1f2d;">P</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; PBKS Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 7: Sawai Mansingh -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Sawai Mansingh Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Jaipur</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#ea1a85;">R</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; RR Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 8: Rajiv Gandhi -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Rajiv Gandhi Intl Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Hyderabad</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#ff822a;">S</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; SRH Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 9: Narendra Modi -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Narendra Modi Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Ahmedabad</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#1c1c2b; border:1px solid #5b6abf;">G</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; GT Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 10: Ekana -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">BRSABV Ekana Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Lucknow</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-4 h-4 rounded flex items-center justify-center text-[7px] font-bold text-white" style="background:#004d9f;">L</div>
+                                <span class="text-xs font-semibold text-emerald-400">&#127968; LSG Home</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 11: HPCA Dharamsala (Neutral) -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gray-800/50 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">HPCA Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Dharamsala</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <span class="text-xs font-medium text-gray-500">Neutral Venue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 12: ACA-VDCA Vizag (Neutral) -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gray-800/50 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">ACA-VDCA Cricket Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Visakhapatnam</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <span class="text-xs font-medium text-gray-500">Neutral Venue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue 13: Barsapara Guwahati (Neutral) -->
+                <div class="venue-card p-5 bg-surface-card border border-surface-border rounded-xl transition cursor-pointer">
+                    <div class="flex items-start gap-3">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gray-800/50 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="text-sm font-bold text-white truncate">Barsapara Cricket Stadium</h4>
+                            <p class="text-xs text-gray-500 mt-0.5">Guwahati</p>
+                            <div class="flex items-center gap-2 mt-2">
+                                <span class="text-xs font-medium text-gray-500">Neutral Venue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="border-t border-surface-border bg-surface-card/50">
+        <div class="mx-auto max-w-[1440px] px-6 py-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-accent font-bold text-xs text-white">IPL</div>
+                    <span class="text-sm font-semibold text-white">Analytics Platform</span>
+                </div>
+                <p class="text-sm text-gray-500">Broadcast-Grade Cricket Intelligence</p>
+                <p class="text-xs text-gray-600">&copy; 2026 IPL Analytics. For authorized officials only.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

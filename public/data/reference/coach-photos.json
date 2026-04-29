@@ -1,0 +1,27 @@
+{
+  "_description": "Coach ID to profile photo URL mapping. Photos sourced from Wikipedia / Wikimedia Commons. IDs correspond to coaches.json.",
+  "_updated": "2026-04-11",
+  "photos": {
+    "stephen-fleming": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Stephen_Fleming_ONZM_%28cropped%29.jpg/250px-Stephen_Fleming_ONZM_%28cropped%29.jpg",
+    "ricky-ponting": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ricky_Ponting_2015.jpg/250px-Ricky_Ponting_2015.jpg",
+    "mahela-jayawardene": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mahela_Jayawardene_3.JPG/250px-Mahela_Jayawardene_3.JPG",
+    "kumar-sangakkara": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kumar_Sangakkara_bat_in_hand.JPG/250px-Kumar_Sangakkara_bat_in_hand.JPG",
+    "rahul-dravid": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Rahul_Dravid_in_2024.jpg/250px-Rahul_Dravid_in_2024.jpg",
+    "gautam-gambhir": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Padma_Shri_Gautam_Gambhir_%28cropped%29.jpg/250px-Padma_Shri_Gautam_Gambhir_%28cropped%29.jpg",
+    "andy-flower": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Andy_Flower.png/250px-Andy_Flower.png",
+    "brendon-mccullum": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendon_McCullum_ONZM_%28cropped%29.jpg/250px-Brendon_McCullum_ONZM_%28cropped%29.jpg",
+    "jacques-kallis": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Jacques_Kallis_6.jpg/250px-Jacques_Kallis_6.jpg",
+    "shane-warne": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Shane_Warne_February_2015.jpg/250px-Shane_Warne_February_2015.jpg",
+    "mike-hussey": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mike_Hussey_2010.jpg/250px-Mike_Hussey_2010.jpg",
+    "dwayne-bravo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dwayne_Bravo_%28cropped%29.jpg/250px-Dwayne_Bravo_%28cropped%29.jpg",
+    "lasith-malinga": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg/250px-Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg",
+    "sachin-tendulkar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg/250px-The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg",
+    "zaheer-khan": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Zaheer_Khan_in_2008.jpg/250px-Zaheer_Khan_in_2008.jpg",
+    "kieron-pollard": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kieron_Pollard.jpg/250px-Kieron_Pollard.jpg",
+    "anil-kumble": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Anil_Kumble.jpg/250px-Anil_Kumble.jpg",
+    "virender-sehwag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Virender_Sehwag_at_The_Great_India_Place%2C_Noida.jpg/250px-Virender_Sehwag_at_The_Great_India_Place%2C_Noida.jpg",
+    "ashish-nehra": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ashish_Nehra.jpg/250px-Ashish_Nehra.jpg",
+    "dinesh-karthik": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dinesh_Karthik.jpg/250px-Dinesh_Karthik.jpg",
+    "adam-gilchrist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Adam_Gilchrist_at_the_MCG%2C_2010-11.jpg/250px-Adam_Gilchrist_at_the_MCG%2C_2010-11.jpg"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "e38bce7a",
+  "name": "MG Bracewell",
+  "shortName": "MG Bracewell",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-02",
+  "lastMatch": "2023-05-21",
+  "matchCount": 5,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    }
+  ]
+}

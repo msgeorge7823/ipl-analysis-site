@@ -1,0 +1,189 @@
+{
+  "season": "2013",
+  "teamId": "pune-warriors",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "896d78ad",
+      "name": "AD Mathews",
+      "shortName": "AD Mathews",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ef5da05c",
+      "name": "AG Murtaza",
+      "shortName": "AG Murtaza",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a45a5e8d",
+      "name": "AM Nayar",
+      "shortName": "AM Nayar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ea0cdc12",
+      "name": "BAW Mendis",
+      "shortName": "BAW Mendis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f846de6a",
+      "name": "MN Samuels",
+      "shortName": "MN Samuels",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3d8feaf8",
+      "name": "MR Marsh",
+      "shortName": "MR Marsh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1c914163",
+      "name": "Yuvraj Singh",
+      "shortName": "Yuvraj Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8d490fd",
+      "name": "Aaron James Finch",
+      "shortName": "AJ Finch",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "27e71d47",
+      "name": "K Upadhyay",
+      "shortName": "K Upadhyay",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cca50cd6",
+      "name": "LJ Wright",
+      "shortName": "LJ Wright",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b61a3e1a",
+      "name": "LRPL Taylor",
+      "shortName": "LRPL Taylor",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c42aaf71",
+      "name": "M Manhas",
+      "shortName": "M Manhas",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "de8d3876",
+      "name": "M Rawat",
+      "shortName": "M Rawat",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9170ff49",
+      "name": "Parvez Rasool",
+      "shortName": "Parvez Rasool",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b2570b38",
+      "name": "RV Gomez",
+      "shortName": "RV Gomez",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "30a45b23",
+      "name": "Steven Peter Devereux Smith",
+      "shortName": "SPD Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aaa1b522",
+      "name": "TL Suman",
+      "shortName": "TL Suman",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "91b9300b",
+      "name": "UA Birla",
+      "shortName": "UA Birla",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "66b30f71",
+      "name": "AB Dinda",
+      "shortName": "AB Dinda",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e0407c01",
+      "name": "IC Pandey",
+      "shortName": "IC Pandey",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dfc4d8b5",
+      "name": "KW Richardson",
+      "shortName": "KW Richardson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d9a1a73",
+      "name": "R Sharma",
+      "shortName": "R Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3a60e0b5",
+      "name": "WD Parnell",
+      "shortName": "WD Parnell",
+      "role": "Bowler",
+      "country": null
+    }
+  ]
+}

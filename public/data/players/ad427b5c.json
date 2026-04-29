@@ -1,0 +1,40 @@
+{
+  "id": "ad427b5c",
+  "name": "Lalit Yadav",
+  "shortName": "Lalit Yadav",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2021-04-15",
+  "lastMatch": "2024-04-20",
+  "matchCount": 27,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2022"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    }
+  ]
+}

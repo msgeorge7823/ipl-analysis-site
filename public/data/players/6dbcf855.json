@@ -1,0 +1,25 @@
+{
+  "id": "6dbcf855",
+  "name": "VH Zol",
+  "shortName": "VH Zol",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2014"
+  ],
+  "firstMatch": "2014-05-11",
+  "lastMatch": "2014-05-24",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    }
+  ]
+}

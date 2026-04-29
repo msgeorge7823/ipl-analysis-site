@@ -1,0 +1,30 @@
+{
+  "id": "f3171936",
+  "name": "BW Hilfenhaus",
+  "shortName": "BW Hilfenhaus",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2012",
+    "2014"
+  ],
+  "firstMatch": "2012-05-04",
+  "lastMatch": "2014-05-20",
+  "matchCount": 17,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    }
+  ]
+}

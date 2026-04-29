@@ -1,0 +1,161 @@
+{
+  "season": "2019",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e11c706",
+      "name": "Benjamin Colin James Cutting",
+      "shortName": "BCJ Cutting",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dbe50b21",
+      "name": "Hardik Himanshu Pandya",
+      "shortName": "HH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "81049310",
+      "name": "J Yadav",
+      "shortName": "J Yadav",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5b8c830e",
+      "name": "Krunal Himanshu Pandya",
+      "shortName": "KH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "1c914163",
+      "name": "Yuvraj Singh",
+      "shortName": "Yuvraj Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0ebfb1ad",
+      "name": "E Lewis",
+      "shortName": "E Lewis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9601c534",
+      "name": "SD Lad",
+      "shortName": "SD Lad",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "271f83cd",
+      "name": "Suryakumar Ashok Yadav",
+      "shortName": "SA Yadav",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0946605",
+      "name": "AS Joseph",
+      "shortName": "AS Joseph",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e4cdf230",
+      "name": "AS Roy",
+      "shortName": "AS Roy",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d8b2f218",
+      "name": "BB Sran",
+      "shortName": "BB Sran",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4933f499",
+      "name": "JP Behrendorff",
+      "shortName": "JP Behrendorff",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "462411b3",
+      "name": "Jasprit Jasbirsingh Bumrah",
+      "shortName": "JJ Bumrah",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "51a3c5ef",
+      "name": "MJ McClenaghan",
+      "shortName": "MJ McClenaghan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2ed569a0",
+      "name": "RD Chahar",
+      "shortName": "RD Chahar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b8527c3d",
+      "name": "Rasikh Salam",
+      "shortName": "Rasikh Salam",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a12e1d51",
+      "name": "Separamadu Lasith Malinga",
+      "shortName": "SL Malinga",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "752f7486",
+      "name": "Ishan Kishan",
+      "shortName": "Ishan Kishan",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "372455c4",
+      "name": "Quinton de Kock",
+      "shortName": "Q de Kock",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

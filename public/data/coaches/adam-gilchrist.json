@@ -1,0 +1,98 @@
+{
+  "id": "adam-gilchrist",
+  "name": "Adam Gilchrist",
+  "fullName": "Adam Craig Gilchrist",
+  "dob": "1971-11-14",
+  "nationality": "Australian",
+  "specialty": [
+    "wicket-keeping",
+    "batting",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "2b6e6dec",
+  "playingCareerSummary": "Former Australia wicket-keeper batter and three-time ODI World Cup winner (1999, 2003, 2007): 96 Tests (5570 runs at 47.60, 379 dismissals), 287 ODIs. Played for Deccan Chargers (2008-2010, winning the 2009 IPL title as captain) and Kings XI Punjab (2011-2013).",
+  "bio": "Took on the unusual dual role of captain-cum-head-coach at Kings XI Punjab for IPL 2012. The experiment was short — KXIP finished 6th and Gilchrist was replaced as coach by Darren Lehmann for 2013 (though Gilchrist continued as captain). His only IPL head-coaching stint.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2012",
+      "toSeason": "2012",
+      "seasons": [
+        "2012"
+      ],
+      "perSeason": [
+        {
+          "season": "2012",
+          "league": {
+            "matches": 16,
+            "wins": 8,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 16 points. Player-coach role: Gilchrist was simultaneously KXIP captain and head coach. Did not qualify for playoffs."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 16,
+          "wins": 8,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2012_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Player-coach role. Gilchrist was the KXIP captain simultaneously."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 16,
+      "wins": 8,
+      "losses": 8,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Gilchrist",
+    "https://en.wikipedia.org/wiki/2012_Kings_XI_Punjab_season"
+  ],
+  "verified": true
+}

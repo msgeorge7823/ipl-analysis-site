@@ -1,0 +1,35 @@
+{
+  "id": "034b4b7d",
+  "name": "VRV Singh",
+  "shortName": "VRV Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-25",
+  "lastMatch": "2010-04-18",
+  "matchCount": 19,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    }
+  ]
+}

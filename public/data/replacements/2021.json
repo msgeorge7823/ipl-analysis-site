@@ -1,0 +1,107 @@
+{
+  "season": "2021",
+  "players": [
+    {
+      "player": "Wanindu Hasaranga",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Adam Zampa",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Daniel Sams",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Tim David",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Finn Allen",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "George Garton",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Kane Richardson",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Akash Deep",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Washington Sundar",
+      "reason": "Injury"
+    },
+    {
+      "player": "Tim Southee",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Pat Cummins",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Nathan Ellis",
+      "team": "Punjab Kings",
+      "replacing": "Riley Meredith",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Adil Rashid",
+      "team": "Punjab Kings",
+      "replacing": "Jhye Richardson",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Aiden Markram",
+      "team": "Punjab Kings",
+      "replacing": "Dawid Malan",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Glenn Phillips",
+      "team": "Rajasthan Royals",
+      "replacing": "Jofra Archer",
+      "reason": "Injury"
+    },
+    {
+      "player": "Tabraiz Shamsi",
+      "team": "Rajasthan Royals",
+      "replacing": "Andrew Tye",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Evin Lewis",
+      "team": "Rajasthan Royals",
+      "replacing": "Jos Buttler",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Ben Dwarshuis",
+      "team": "Delhi Capitals",
+      "replacing": "Chris Woakes",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Kulwant Khejroliya",
+      "team": "Delhi Capitals",
+      "replacing": "Siddharth Manimaran",
+      "reason": "Injury"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Jonny Bairstow",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Simarjeet Singh",
+      "team": "Mumbai Indians",
+      "replacing": "Arjun Tendulkar",
+      "reason": "Injury"
+    },
+    {
+      "player": "Dominic Drakes",
+      "team": "Chennai Super Kings",
+      "replacing": "Sam Curran",
+      "reason": "Injury"
+    }
+  ]
+}

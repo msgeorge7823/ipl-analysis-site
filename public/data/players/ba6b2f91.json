@@ -1,0 +1,31 @@
+{
+  "id": "ba6b2f91",
+  "name": "RA Bawa",
+  "shortName": "RA Bawa",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2022",
+    "2025"
+  ],
+  "firstMatch": "2022-03-27",
+  "lastMatch": "2025-06-01",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

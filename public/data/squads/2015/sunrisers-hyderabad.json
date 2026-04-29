@@ -1,0 +1,133 @@
+{
+  "season": "2015",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "32198ae0",
+      "name": "Moises Constantino Henriques",
+      "shortName": "MC Henriques",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "7ca5e05d",
+      "name": "RS Bopara",
+      "shortName": "RS Bopara",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2a6c0e6",
+      "name": "EJG Morgan",
+      "shortName": "EJG Morgan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "94253925",
+      "name": "GH Vihari",
+      "shortName": "GH Vihari",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d027ba9f",
+      "name": "Kane Stuart Williamson",
+      "shortName": "KS Williamson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9170ff49",
+      "name": "Parvez Rasool",
+      "shortName": "Parvez Rasool",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a476045",
+      "name": "Shikhar Dhawan",
+      "shortName": "S Dhawan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c2a64cd",
+      "name": "A Ashish Reddy",
+      "shortName": "A Ashish Reddy",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c18496e1",
+      "name": "Bipul Sharma",
+      "shortName": "Bipul Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8fd1a8f5",
+      "name": "Dale Willem Steyn",
+      "shortName": "DW Steyn",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb1a1c4",
+      "name": "Ishant Sharma",
+      "shortName": "I Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "119678fd",
+      "name": "Karn Veer Sharma",
+      "shortName": "KV Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e938e1bc",
+      "name": "Praveen Kumar",
+      "shortName": "P Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a818c1be",
+      "name": "Trent Alexander Boult",
+      "shortName": "TA Boult",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b17e2f24",
+      "name": "Kannur Lokesh Rahul",
+      "shortName": "KL Rahul",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "890946a0",
+      "name": "Naman Vinaykumar Ojha",
+      "shortName": "NV Ojha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d7a57f75",
+  "name": "D du Preez",
+  "shortName": "D du Preez",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-05-03",
+  "lastMatch": "2009-05-07",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2009"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cd8d2859",
+  "name": "DG Nalkande",
+  "shortName": "DG Nalkande",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2022-04-08",
+  "lastMatch": "2024-04-07",
+  "matchCount": 6,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    }
+  ]
+}

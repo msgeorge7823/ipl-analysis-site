@@ -1,0 +1,58 @@
+{
+  "id": "6c19c6e5",
+  "name": "Yashasvi Jaiswal",
+  "shortName": "YBK Jaiswal",
+  "nicknames": [
+    "Jaiswal",
+    "Yashasvi"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2020-09-22",
+  "lastMatch": "2026-04-25",
+  "matchCount": 74,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2024"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2026"
+    }
+  ]
+}

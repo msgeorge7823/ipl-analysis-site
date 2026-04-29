@@ -1,0 +1,25 @@
+{
+  "id": "c27b5a0e",
+  "name": "PVSN Raju",
+  "shortName": "PVSN Raju",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-03-23",
+  "lastMatch": "2025-03-29",
+  "matchCount": 2,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

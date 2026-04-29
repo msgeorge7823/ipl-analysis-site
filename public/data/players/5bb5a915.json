@@ -1,0 +1,64 @@
+{
+  "id": "5bb5a915",
+  "name": "Morne Morkel",
+  "shortName": "M Morkel",
+  "nicknames": [
+    "Morne"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2009-05-07",
+  "lastMatch": "2016-05-25",
+  "matchCount": 70,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2014"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2015"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "70d205c9",
+  "name": "Ambati Thirupathi Rayudu",
+  "shortName": "AT Rayudu",
+  "nicknames": [
+    "Rayudu"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2010-03-13",
+  "lastMatch": "2023-05-29",
+  "matchCount": 204,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2014"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2017"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    }
+  ]
+}

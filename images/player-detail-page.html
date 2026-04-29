@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — Virat Kohli</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardHover: '#1a1a2e',
+        border: '#1e1e3a',
+        accent: '#6366f1',
+        accentLight: '#818cf8',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+        gold: '#FFD700',
+        purple: '#8B5CF6',
+        orange: '#F97316',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .glow { box-shadow: 0 0 30px rgba(99,102,241,0.15); }
+  .gradient-text { background: linear-gradient(135deg, #6366f1, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .card-shine { background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 50%); }
+  .hexagon-badge {
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  }
+  .tab-active {
+    color: #6366f1;
+    border-bottom: 2px solid #6366f1;
+  }
+</style>
+</head>
+<body class="text-textPrimary min-h-screen">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+  <div class="max-w-[1440px] mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm">IPL</div>
+      <span class="font-bold text-lg">Analytics</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-1 text-sm">
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Home</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Seasons</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Teams</a>
+      <a href="#" class="px-3 py-2 rounded-lg bg-accent/10 text-accent font-medium">Players</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Matches</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Ratings</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Analytics Lab</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Auctions</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Venues</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Records</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">More &#9662;</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary cursor-pointer hover:bg-cardHover">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+      </div>
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-yellow-400 cursor-pointer hover:bg-cardHover">&#9788;</div>
+    </div>
+  </div>
+</nav>
+
+<!-- Breadcrumb -->
+<div class="max-w-[1440px] mx-auto px-4 pt-5 pb-2">
+  <nav class="flex items-center gap-2 text-sm text-textSecondary">
+    <a href="#" class="hover:text-accent">Home</a>
+    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+    <a href="#" class="hover:text-accent">Players</a>
+    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+    <span class="text-textPrimary font-medium">Virat Kohli</span>
+  </nav>
+</div>
+
+<!-- Player Header -->
+<div class="max-w-[1440px] mx-auto px-4 py-6">
+  <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+
+      <!-- Left: Avatar + Info -->
+      <div class="flex items-center gap-6">
+        <div class="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white font-bold text-4xl shadow-lg shadow-red-500/20 shrink-0">VK</div>
+        <div>
+          <div class="flex items-center gap-3 mb-1">
+            <h1 class="text-3xl md:text-4xl font-bold">Virat Kohli</h1>
+            <span class="text-2xl" title="India">&#127470;&#127475;</span>
+          </div>
+          <div class="flex items-center gap-2 mt-2 flex-wrap">
+            <span class="px-3 py-1 rounded-lg text-xs font-semibold bg-blue-500/15 text-blue-400 border border-blue-500/20">Batter</span>
+            <span class="px-3 py-1 rounded-lg text-xs font-semibold bg-white/5 text-textSecondary border border-border">Right-hand bat</span>
+            <span class="px-3 py-1 rounded-lg text-xs font-bold bg-red-500/10 text-red-400 border border-red-500/20">RCB</span>
+          </div>
+          <p class="text-textSecondary text-sm mt-2.5">IPL Debut: 2008 &middot; Last Match: 2025</p>
+        </div>
+      </div>
+
+      <!-- Right: Rating Badge -->
+      <div class="flex items-center gap-5">
+        <!-- Sparkline -->
+        <div class="hidden md:block">
+          <p class="text-xs text-textSecondary mb-1.5 text-right">Rating Trend</p>
+          <svg width="100" height="36" viewBox="0 0 100 36">
+            <polyline fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              points="0,28 12,26 24,22 36,24 48,18 60,20 72,14 84,10 96,6"/>
+            <circle cx="96" cy="6" r="3" fill="#22c55e"/>
+          </svg>
+        </div>
+        <!-- Hexagonal Rating -->
+        <div class="relative flex flex-col items-center">
+          <div class="hexagon-badge w-28 h-32 bg-gradient-to-b from-purple/30 to-accent/30 flex items-center justify-center">
+            <div class="hexagon-badge w-[104px] h-[120px] bg-card flex flex-col items-center justify-center">
+              <span class="text-3xl font-black gradient-text leading-none">892</span>
+              <span class="text-[10px] font-bold text-purple mt-1 uppercase tracking-widest">World Class</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-1.5 mt-2">
+            <span class="text-xs text-textSecondary font-medium">Rank</span>
+            <span class="text-sm font-bold text-textPrimary">#2</span>
+            <span class="text-xs font-semibold text-emerald-400">&#9650;3</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Dual-Role Toggle -->
+<div class="max-w-[1440px] mx-auto px-4 mb-4">
+  <div class="inline-flex bg-card border border-border rounded-xl p-1">
+    <button class="px-5 py-2 rounded-lg bg-accent text-white text-sm font-semibold">Player Profile</button>
+    <button class="px-5 py-2 rounded-lg text-textSecondary text-sm font-medium hover:text-textPrimary">Coach Profile</button>
+  </div>
+</div>
+
+<!-- Global Filter Bar -->
+<div class="max-w-[1440px] mx-auto px-4 mb-4">
+  <div class="bg-card/60 backdrop-blur-sm border border-border rounded-xl px-5 py-3 flex items-center gap-4 flex-wrap">
+    <span class="text-xs text-textSecondary font-semibold uppercase tracking-wider">Filters</span>
+    <div class="flex items-center gap-2">
+      <label class="text-sm text-textSecondary">Team:</label>
+      <select class="bg-bg border border-border rounded-lg px-3 py-1.5 text-sm text-textPrimary focus:outline-none focus:border-accent/50 cursor-pointer">
+        <option>All Teams</option>
+        <option>RCB</option>
+      </select>
+    </div>
+    <div class="flex items-center gap-2">
+      <label class="text-sm text-textSecondary">Season:</label>
+      <select class="bg-bg border border-border rounded-lg px-3 py-1.5 text-sm text-textPrimary focus:outline-none focus:border-accent/50 cursor-pointer">
+        <option>Overall</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+      </select>
+    </div>
+    <button class="px-3 py-1.5 rounded-lg text-xs font-semibold text-red-400 hover:bg-red-500/10 border border-red-500/20">Reset</button>
+  </div>
+</div>
+
+<!-- Tab Bar -->
+<div class="max-w-[1440px] mx-auto px-4 mb-8">
+  <div class="border-b border-border flex items-center gap-0 overflow-x-auto">
+    <button class="tab-active px-4 py-3 text-sm font-semibold whitespace-nowrap">Overview</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Batting</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Bowling</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Fielding</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">All-Rounder</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Impact</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">H2H</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Ratings</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Auction</button>
+    <button class="px-4 py-3 text-sm font-medium text-textSecondary hover:text-textPrimary whitespace-nowrap border-b-2 border-transparent">Team-wise</button>
+  </div>
+</div>
+
+<!-- OVERVIEW CONTENT -->
+<div class="max-w-[1440px] mx-auto px-4 pb-16 space-y-8">
+
+  <!-- Bio Section -->
+  <section>
+    <h2 class="text-xl font-bold mb-4">Player Bio</h2>
+    <div class="bg-card border border-border rounded-2xl p-6">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">Full Name</p>
+          <p class="text-sm font-semibold">Virat Kohli</p>
+        </div>
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">Date of Birth</p>
+          <p class="text-sm font-semibold">5 Nov 1988</p>
+        </div>
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">Age</p>
+          <p class="text-sm font-semibold">37</p>
+        </div>
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">Nationality</p>
+          <p class="text-sm font-semibold">&#127470;&#127475; India</p>
+        </div>
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">Playing Role</p>
+          <p class="text-sm font-semibold">Right-hand Batter</p>
+        </div>
+        <div>
+          <p class="text-xs text-textSecondary uppercase tracking-wider mb-1">IPL Debut</p>
+          <p class="text-sm font-semibold">2008 (RCB vs KKR)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strengths & Weaknesses -->
+  <section class="grid md:grid-cols-2 gap-6">
+    <!-- Strengths -->
+    <div>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+        Strengths
+      </h2>
+      <div class="space-y-3">
+        <div class="bg-emerald-500/5 border border-emerald-500/15 rounded-xl px-5 py-4">
+          <p class="text-sm font-semibold text-emerald-300">Elite run-chaser</p>
+          <p class="text-xs text-textSecondary mt-1">Unmatched record in successful run chases across IPL seasons</p>
+        </div>
+        <div class="bg-emerald-500/5 border border-emerald-500/15 rounded-xl px-5 py-4">
+          <p class="text-sm font-semibold text-emerald-300">Anchor innings under pressure</p>
+          <p class="text-xs text-textSecondary mt-1">Consistently delivers match-winning knocks in high-stakes encounters</p>
+        </div>
+        <div class="bg-emerald-500/5 border border-emerald-500/15 rounded-xl px-5 py-4">
+          <p class="text-sm font-semibold text-emerald-300">Consistent across seasons</p>
+          <p class="text-xs text-textSecondary mt-1">Maintains a high baseline average across 17 IPL seasons</p>
+        </div>
+      </div>
+    </div>
+    <!-- Weaknesses -->
+    <div>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Weaknesses
+      </h2>
+      <div class="space-y-3">
+        <div class="bg-amber-500/5 border border-amber-500/15 rounded-xl px-5 py-4">
+          <p class="text-sm font-semibold text-amber-300">Vulnerable to left-arm pace early</p>
+          <p class="text-xs text-textSecondary mt-1">SR drops to ~105 in first 10 balls against left-arm seamers</p>
+        </div>
+        <div class="bg-amber-500/5 border border-amber-500/15 rounded-xl px-5 py-4">
+          <p class="text-sm font-semibold text-amber-300">Slower starts in powerplay vs spin</p>
+          <p class="text-xs text-textSecondary mt-1">Takes time to accelerate when spinners are used early in PP overs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Stats Dashboard -->
+  <section>
+    <h2 class="text-xl font-bold mb-4">Core Stats</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <!-- Matches -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">252</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Matches</p>
+      </div>
+      <!-- Runs -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">8,004</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Runs</p>
+      </div>
+      <!-- Average -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">37.25</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Average</p>
+      </div>
+      <!-- Strike Rate -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">131.6</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Strike Rate</p>
+      </div>
+      <!-- 50s -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">55</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Fifties</p>
+      </div>
+      <!-- 100s -->
+      <div class="bg-card border border-border rounded-2xl p-5 text-center hover:border-accent/30 transition-colors">
+        <p class="text-3xl font-black gradient-text">8</p>
+        <p class="text-xs text-textSecondary mt-1 font-medium uppercase tracking-wider">Centuries</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Radar Chart -->
+  <section>
+    <h2 class="text-xl font-bold mb-4">Performance Radar</h2>
+    <div class="bg-card border border-border rounded-2xl p-6 md:p-8 flex justify-center">
+      <div class="relative">
+        <svg width="400" height="380" viewBox="0 0 400 380">
+          <!-- Pentagon grid rings -->
+          <!-- Outer ring (100%) -->
+          <polygon fill="none" stroke="#1e1e3a" stroke-width="1"
+            points="200,30 362,148 300,330 100,330 38,148"/>
+          <!-- 75% ring -->
+          <polygon fill="none" stroke="#1e1e3a" stroke-width="0.7"
+            points="200,72.5 321.5,160.5 275,285 125,285 78.5,160.5"/>
+          <!-- 50% ring -->
+          <polygon fill="none" stroke="#1e1e3a" stroke-width="0.5"
+            points="200,115 281,173 250,240 150,240 119,173"/>
+          <!-- 25% ring -->
+          <polygon fill="none" stroke="#1e1e3a" stroke-width="0.3"
+            points="200,157.5 240.5,185.5 225,195 175,195 159.5,185.5"/>
+
+          <!-- Axis lines -->
+          <line x1="200" y1="180" x2="200" y2="30" stroke="#1e1e3a" stroke-width="0.5"/>
+          <line x1="200" y1="180" x2="362" y2="148" stroke="#1e1e3a" stroke-width="0.5"/>
+          <line x1="200" y1="180" x2="300" y2="330" stroke="#1e1e3a" stroke-width="0.5"/>
+          <line x1="200" y1="180" x2="100" y2="330" stroke="#1e1e3a" stroke-width="0.5"/>
+          <line x1="200" y1="180" x2="38" y2="148" stroke="#1e1e3a" stroke-width="0.5"/>
+
+          <!-- Data polygon (VK stats: Power=72%, Consistency=92%, Death=65%, Powerplay=78%, Clutch=88%) -->
+          <polygon
+            fill="rgba(220, 38, 38, 0.15)"
+            stroke="#dc2626"
+            stroke-width="2"
+            points="200,57.6  330,153.6  265,310.5  120,310.5  64.2,153.6"
+            style="filter: drop-shadow(0 0 8px rgba(220,38,38,0.3));"
+          />
+          <!-- Recalculated for realistic shape: Power=72, Consistency=92, Death=65, Powerplay=78, Clutch=88 -->
+          <!-- Power Hitting (top): 72% -->
+          <!-- 200, 180 - (0, 150*0.72) = 200, 72 -->
+          <!-- Consistency (top-right): 92% -->
+          <!-- 200 + 162*0.92, 148 + (180-148)*0.92*(-1)... simplified -->
+          <!-- Using pre-calculated pentagon coordinates -->
+          <polygon
+            fill="rgba(220, 38, 38, 0.12)"
+            stroke="#ef4444"
+            stroke-width="2.5"
+            stroke-linejoin="round"
+            points="200,72  348,151  235,308  112,308  55,155"
+          />
+
+          <!-- Data points -->
+          <circle cx="200" cy="72" r="4" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="348" cy="151" r="4" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="235" cy="308" r="4" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="112" cy="308" r="4" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="55" cy="155" r="4" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+
+          <!-- Labels -->
+          <text x="200" y="18" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600" font-family="Inter, sans-serif">Power Hitting</text>
+          <text x="380" y="148" text-anchor="start" fill="#e2e8f0" font-size="12" font-weight="600" font-family="Inter, sans-serif">Consistency</text>
+          <text x="312" y="350" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600" font-family="Inter, sans-serif">Death Batting</text>
+          <text x="88" y="350" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600" font-family="Inter, sans-serif">Powerplay</text>
+          <text x="20" y="148" text-anchor="end" fill="#e2e8f0" font-size="12" font-weight="600" font-family="Inter, sans-serif">Clutch</text>
+
+          <!-- Percentage labels near data points -->
+          <text x="200" y="64" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="Inter, sans-serif">72%</text>
+          <text x="356" y="143" text-anchor="start" fill="#94a3b8" font-size="10" font-family="Inter, sans-serif">92%</text>
+          <text x="240" y="322" text-anchor="start" fill="#94a3b8" font-size="10" font-family="Inter, sans-serif">65%</text>
+          <text x="100" y="322" text-anchor="end" fill="#94a3b8" font-size="10" font-family="Inter, sans-serif">78%</text>
+          <text x="48" y="168" text-anchor="end" fill="#94a3b8" font-size="10" font-family="Inter, sans-serif">88%</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="border-t border-border">
+  <div class="max-w-[1440px] mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-xs">IPL</div>
+        <span class="font-semibold">Analytics Platform</span>
+      </div>
+      <p class="text-textSecondary text-sm">Comprehensive IPL statistics, analytics, and insights from 2008 to present.</p>
+      <p class="text-textSecondary text-xs">&copy; 2026 IPL Analytics. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

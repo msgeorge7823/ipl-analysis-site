@@ -1,0 +1,169 @@
+{
+  "id": "adam-griffith",
+  "name": "Adam Griffith",
+  "fullName": "Adam Griffith",
+  "nationality": "Australian",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerSummary": "Former Tasmania first-class bowler. Long coaching career with Australia A, Melbourne Stars and in franchise cricket. Did not play in the IPL.",
+  "bio": "RCB's bowling coach across two separate stints: 2020-2021 (under Simon Katich and Mike Hesson) and 2024 (under Andy Flower's first season).",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "bowling-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points (NRR -0.172). Lost Eliminator to Sunrisers Hyderabad by 6 wickets. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd with 18 points. Katich stepped down mid-season citing personal reasons (August 21, 2021), after which Director of Cricket Mike Hesson took over as interim head coach for the UAE leg and the playoffs. Lost Eliminator to KKR by 4 wickets. Season split across India and UAE legs due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 16,
+          "losses": 12,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "First stint. Replaced for 2022 when Bangar became head coach."
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "bowling-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points. Lost Eliminator to Rajasthan Royals by 4 wickets at Ahmedabad. Flower's first season, replacing Sanjay Bangar."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Royal_Challengers_Bengaluru_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "Second stint under Andy Flower. Replaced by Omkar Salvi for 2025."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 23,
+      "losses": 19,
+      "noResults": 0,
+      "winPct": 54.76
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+  ],
+  "verified": true
+}

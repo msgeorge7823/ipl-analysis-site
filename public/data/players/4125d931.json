@@ -1,0 +1,47 @@
+{
+  "id": "4125d931",
+  "name": "J Suchith",
+  "shortName": "J Suchith",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Sunrisers Hyderabad",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2015",
+    "2016",
+    "2019",
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2015-04-12",
+  "lastMatch": "2022-05-22",
+  "matchCount": 22,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2015"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    }
+  ]
+}

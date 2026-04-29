@@ -1,0 +1,36 @@
+{
+  "id": "dded65e7",
+  "name": "IR Jaggi",
+  "shortName": "IR Jaggi",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2011",
+    "2012",
+    "2017"
+  ],
+  "firstMatch": "2011-04-09",
+  "lastMatch": "2017-05-19",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    }
+  ]
+}

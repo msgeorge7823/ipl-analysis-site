@@ -1,0 +1,25 @@
+{
+  "id": "f48cf4da",
+  "name": "DT Patil",
+  "shortName": "DT Patil",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-05",
+  "lastMatch": "2008-05-17",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    }
+  ]
+}

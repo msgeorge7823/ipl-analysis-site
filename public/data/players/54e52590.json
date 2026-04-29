@@ -1,0 +1,49 @@
+{
+  "id": "54e52590",
+  "name": "Vijaykumar Vyshak",
+  "shortName": "Vijaykumar Vyshak",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2023-04-15",
+  "lastMatch": "2026-04-25",
+  "matchCount": 23,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2023",
+      "team": "Royal Challengers Bengaluru",
+      "replacing": "Rajat Patidar",
+      "reason": "Heel injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2026"
+    }
+  ]
+}

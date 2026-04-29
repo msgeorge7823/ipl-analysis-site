@@ -1,0 +1,51 @@
+{
+  "id": "03806cf8",
+  "name": "JR Hazlewood",
+  "shortName": "JR Hazlewood",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2020-09-25",
+  "lastMatch": "2026-04-27",
+  "matchCount": 44,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2025"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

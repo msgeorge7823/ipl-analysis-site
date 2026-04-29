@@ -1,0 +1,25 @@
+{
+  "id": "710dd98c",
+  "name": "MN van Wyk",
+  "shortName": "MN van Wyk",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-29",
+  "lastMatch": "2009-05-10",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    }
+  ]
+}

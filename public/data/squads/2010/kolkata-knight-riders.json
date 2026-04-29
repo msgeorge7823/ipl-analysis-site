@@ -1,0 +1,175 @@
+{
+  "season": "2010",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "896d78ad",
+      "name": "AD Mathews",
+      "shortName": "AD Mathews",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "ea0cdc12",
+      "name": "BAW Mendis",
+      "shortName": "BAW Mendis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b57f8a9a",
+      "name": "BJ Hodge",
+      "shortName": "BJ Hodge",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fd835ab3",
+      "name": "DJ Hussey",
+      "shortName": "DJ Hussey",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4f629497",
+      "name": "SE Bond",
+      "shortName": "SE Bond",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8a55852",
+      "name": "Brendon Barrie McCullum",
+      "shortName": "BB McCullum",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d4f9dbd4",
+      "name": "CA Pujara",
+      "shortName": "CA Pujara",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "db584dad",
+      "name": "Christopher Henry Gayle",
+      "shortName": "CH Gayle",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "28c78fb3",
+      "name": "Harpreet Singh",
+      "shortName": "Harpreet Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "86ae8ef2",
+      "name": "MB Parmar",
+      "shortName": "MB Parmar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c3a96caf",
+      "name": "Mandeep Singh",
+      "shortName": "Mandeep Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7bf96684",
+      "name": "OA Shah",
+      "shortName": "OA Shah",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9ff100a6",
+      "name": "RS Gavaskar",
+      "shortName": "RS Gavaskar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "725529bc",
+      "name": "SC Ganguly",
+      "shortName": "SC Ganguly",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "fa463154",
+      "name": "AB Agarkar",
+      "shortName": "AB Agarkar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "66b30f71",
+      "name": "AB Dinda",
+      "shortName": "AB Dinda",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "d1c94b25",
+      "name": "CK Langeveldt",
+      "shortName": "CK Langeveldt",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85aae393",
+      "name": "Iqbal Abdulla",
+      "shortName": "Iqbal Abdulla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5bb1a1c4",
+      "name": "Ishant Sharma",
+      "shortName": "I Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b1451597",
+      "name": "LR Shukla",
+      "shortName": "LR Shukla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "abfeb126",
+      "name": "M Kartik",
+      "shortName": "M Kartik",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

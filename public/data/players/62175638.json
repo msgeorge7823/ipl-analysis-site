@@ -1,0 +1,25 @@
+{
+  "id": "62175638",
+  "name": "Karim Janat",
+  "shortName": "Karim Janat",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-04-28",
+  "lastMatch": "2025-04-28",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

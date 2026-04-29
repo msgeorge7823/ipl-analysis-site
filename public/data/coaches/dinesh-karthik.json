@@ -1,0 +1,119 @@
+{
+  "id": "dinesh-karthik",
+  "name": "Dinesh Karthik",
+  "fullName": "Krishna Kumar Dinesh Karthik",
+  "dob": "1985-06-01",
+  "nationality": "Indian",
+  "specialty": [
+    "wicket-keeping",
+    "finishing",
+    "batting"
+  ],
+  "playingCareerPlayerId": "c03f1114",
+  "playingCareerSummary": "Former India wicket-keeper batter: 26 Tests, 94 ODIs, 60 T20Is. Iconic for his last-ball six to win the 2018 Nidahas Trophy final for India. One of the most-travelled IPL players, representing 7 franchises: Delhi Daredevils, KKR, Mumbai Indians, KXIP, RCB, Gujarat Lions and Royal Challengers Bangalore/Bengaluru.",
+  "bio": "Retired from playing after IPL 2024 and transitioned immediately into RCB's coaching staff from IPL 2025 as both batting coach and mentor. Was part of the RCB squad that won their first-ever IPL title in 2025 under Andy Flower — now a title-winner in his first season as coach.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "batting-coach",
+      "fromSeason": "2025",
+      "toSeason": "2026",
+      "seasons": [
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (19 points, NRR 0.482). Beat Punjab Kings in Qualifier 1; beat Punjab Kings again in the final to win RCB's first-ever IPL title after 18 years of the franchise's existence."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress — RCB enter as defending champions. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 4,
+          "noResults": 1,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru",
+        "https://en.wikipedia.org/wiki/2025_Royal_Challengers_Bengaluru_season",
+        "https://en.wikipedia.org/wiki/2026_Royal_Challengers_Bengaluru_season"
+      ],
+      "notes": "Dual role: Batting Coach and Mentor. Replaced Neil McKenzie in the batting coach position."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 9,
+      "losses": 4,
+      "noResults": 1,
+      "winPct": 64.29
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dinesh_Karthik",
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+  ],
+  "verified": true
+}

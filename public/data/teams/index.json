@@ -1,0 +1,288 @@
+[
+  {
+    "id": "royal-challengers-bengaluru",
+    "name": "Royal Challengers Bengaluru",
+    "shortName": "RCB",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "kolkata-knight-riders",
+    "name": "Kolkata Knight Riders",
+    "shortName": "KKR",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "punjab-kings",
+    "name": "Punjab Kings",
+    "shortName": "PBKS",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "chennai-super-kings",
+    "name": "Chennai Super Kings",
+    "shortName": "CSK",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "delhi-capitals",
+    "name": "Delhi Capitals",
+    "shortName": "DC",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "rajasthan-royals",
+    "name": "Rajasthan Royals",
+    "shortName": "RR",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "mumbai-indians",
+    "name": "Mumbai Indians",
+    "shortName": "MI",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "deccan-chargers",
+    "name": "Deccan Chargers",
+    "shortName": "DCH",
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "isDefunct": true
+  },
+  {
+    "id": "kochi-tuskers-kerala",
+    "name": "Kochi Tuskers Kerala",
+    "shortName": "KTK",
+    "seasons": [
+      "2011"
+    ],
+    "isDefunct": true
+  },
+  {
+    "id": "pune-warriors",
+    "name": "Pune Warriors",
+    "shortName": "PW",
+    "seasons": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "isDefunct": true
+  },
+  {
+    "id": "sunrisers-hyderabad",
+    "name": "Sunrisers Hyderabad",
+    "shortName": "SRH",
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "rising-pune-supergiant",
+    "name": "Rising Pune Supergiant",
+    "shortName": "RPS",
+    "seasons": [
+      "2016",
+      "2017"
+    ],
+    "isDefunct": true
+  },
+  {
+    "id": "gujarat-lions",
+    "name": "Gujarat Lions",
+    "shortName": "GL",
+    "seasons": [
+      "2016",
+      "2017"
+    ],
+    "isDefunct": true
+  },
+  {
+    "id": "lucknow-super-giants",
+    "name": "Lucknow Super Giants",
+    "shortName": "LSG",
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  },
+  {
+    "id": "gujarat-titans",
+    "name": "Gujarat Titans",
+    "shortName": "GT",
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "isDefunct": false
+  }
+]

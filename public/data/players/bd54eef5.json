@@ -1,0 +1,36 @@
+{
+  "id": "bd54eef5",
+  "name": "N Jagadeesan",
+  "shortName": "N Jagadeesan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2020",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2020-10-10",
+  "lastMatch": "2023-04-29",
+  "matchCount": 13,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    }
+  ]
+}

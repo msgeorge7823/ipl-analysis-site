@@ -1,0 +1,222 @@
+{
+  "id": "bharat-arun",
+  "name": "Bharat Arun",
+  "fullName": "Bharathi Arun",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling",
+    "spin-bowling",
+    "coaching"
+  ],
+  "playingCareerSummary": "Former India right-arm medium-pacer: 2 Tests, 4 ODIs (1986-87). Long coaching career including multiple stints as India senior team bowling coach under Ravi Shastri — overseeing India's pace revolution.",
+  "bio": "KKR's bowling coach from 2022 to 2025 — four seasons including the 2024 IPL title under head coach Chandrakant Pandit and mentor Gautam Gambhir. Also long-serving India bowling coach across multiple head coaches.",
+  "tenures": [
+    {
+      "team": "Punjab Kings",
+      "role": "assistant-coach",
+      "fromSeason": "2021",
+      "toSeason": "2021",
+      "seasons": [
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "team": "Punjab Kings",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season under the 'Punjab Kings' name. Finished 6th with 12 points."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Assistant coach under Anil Kumble for IPL 2021, before his India senior men's team bowling coach role continued."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "bowling-coach",
+      "fromSeason": "2022",
+      "toSeason": "2025",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. McCullum left after this season to become England's Test head coach."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. First season replacing Brendon McCullum."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 3,
+            "noResults": 2,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st with 20 points. Lost just 3 matches all season (a joint record for fewest losses in a full IPL). Beat SRH in Qualifier 1 by 8 wickets; beat SRH in final by 8 wickets — the fastest IPL final chase (57 balls remaining). KKR's third IPL title. Mentor: Gautam Gambhir."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points. Eliminated when the RCB match was abandoned. Mentor: Dwayne Bravo. Pandit's three-year contract ended after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 26,
+          "losses": 26,
+          "noResults": 4,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 5,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 70,
+      "wins": 32,
+      "losses": 34,
+      "noResults": 4,
+      "winPct": 45.71
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 2,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 100.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1962-12-14",
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Bowling Coach",
+      "period": "2014-2016, 2017-2021",
+      "notes": "Long stint as India men's bowling coach under Ravi Shastri."
+    }
+  ]
+}

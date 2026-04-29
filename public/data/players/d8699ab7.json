@@ -1,0 +1,38 @@
+{
+  "id": "d8699ab7",
+  "name": "Matthew Lawrence Hayden",
+  "shortName": "ML Hayden",
+  "nicknames": [
+    "Haydos",
+    "Matthew Hayden"
+  ],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2010-04-25",
+  "matchCount": 32,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    }
+  ]
+}

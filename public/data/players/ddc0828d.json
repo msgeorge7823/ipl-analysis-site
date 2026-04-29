@@ -1,0 +1,25 @@
+{
+  "id": "ddc0828d",
+  "name": "A Flintoff",
+  "shortName": "A Flintoff",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-18",
+  "lastMatch": "2009-04-23",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    }
+  ]
+}

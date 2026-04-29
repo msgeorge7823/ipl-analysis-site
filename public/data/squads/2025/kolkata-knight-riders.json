@@ -1,0 +1,140 @@
+{
+  "season": "2025",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bb351c23",
+      "name": "MM Ali",
+      "shortName": "MM Ali",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "be24ead0",
+      "name": "Ramandeep Singh",
+      "shortName": "Ramandeep Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "29e95537",
+      "name": "Ajinkya Madhukar Rahane",
+      "shortName": "AM Rahane",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d7017798",
+      "name": "Angkrish Raghuvanshi",
+      "shortName": "A Raghuvanshi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "650d5e49",
+      "name": "R Powell",
+      "shortName": "R Powell",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0a509d6b",
+      "name": "RK Singh",
+      "shortName": "RK Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0bacade8",
+      "name": "Rahmanullah Gurbaz",
+      "shortName": "Rahmanullah Gurbaz",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "83c3e8e3",
+      "name": "SH Johnson",
+      "shortName": "SH Johnson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a24be938",
+      "name": "VR Iyer",
+      "shortName": "VR Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "acdc62f5",
+      "name": "A Nortje",
+      "shortName": "A Nortje",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e4cdf230",
+      "name": "AS Roy",
+      "shortName": "AS Roy",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2cdce1be",
+      "name": "C Sakariya",
+      "shortName": "C Sakariya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5b7ab5a9",
+      "name": "Chakravarthy Varun",
+      "shortName": "CV Varun",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "77b1aa15",
+      "name": "Harshit Rana",
+      "shortName": "Harshit Rana",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7c3b3b78",
+      "name": "VG Arora",
+      "shortName": "VG Arora",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "372455c4",
+      "name": "Quinton de Kock",
+      "shortName": "Q de Kock",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

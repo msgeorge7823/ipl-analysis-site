@@ -1,0 +1,36 @@
+{
+  "id": "f846de6a",
+  "name": "MN Samuels",
+  "shortName": "MN Samuels",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Pune Warriors",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2012",
+    "2013",
+    "2017"
+  ],
+  "firstMatch": "2012-04-06",
+  "lastMatch": "2017-05-14",
+  "matchCount": 15,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "matthew-mott",
+  "name": "Matthew Mott",
+  "fullName": "Matthew Peter Mott",
+  "nationality": "Australian",
+  "specialty": [
+    "strategy",
+    "white-ball-cricket"
+  ],
+  "playingCareerSummary": "Former Australian first-class cricketer and one of T20 cricket's most successful franchise coaches. Did not play in the IPL.",
+  "bio": "Delhi Capitals' assistant coach for IPL 2025 under Hemang Badani. Previously Australia women's head coach (2015-2022, multiple World Cup titles) and England white-ball head coach (2022-2024, won the 2022 T20 World Cup).",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "assistant-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group B with 15 points. Last team eliminated from IPL 2025. Kevin Pietersen served as team mentor."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 6,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 6,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1973-10-03",
+  "otherCoachingRoles": [
+    {
+      "team": "Australia Women (National)",
+      "role": "Head Coach",
+      "period": "2015-2022",
+      "notes": "Led Australia Women to multiple World Cup titles (T20 WC 2018, 2020, 2023; ODI WC 2022)."
+    },
+    {
+      "team": "England (National, White-ball)",
+      "role": "Head Coach",
+      "period": "2022-2024",
+      "notes": "Won the 2022 T20 World Cup."
+    }
+  ]
+}

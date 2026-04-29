@@ -1,0 +1,30 @@
+{
+  "year": "2024",
+  "winner": "Kolkata Knight Riders",
+  "runnerUp": "Sunrisers Hyderabad",
+  "isOngoing": false,
+  "matchCount": 74,
+  "matchesWithData": 71,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Virat Kohli",
+    "shortName": "V Kohli",
+    "runs": 741
+  },
+  "purpleCap": {
+    "player": "Harshal Vinod Patel",
+    "shortName": "HV Patel",
+    "wickets": 24
+  }
+}

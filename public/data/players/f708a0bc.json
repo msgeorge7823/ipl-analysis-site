@@ -1,0 +1,41 @@
+{
+  "id": "f708a0bc",
+  "name": "GB Hogg",
+  "shortName": "GB Hogg",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2012",
+    "2013",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2012-04-11",
+  "lastMatch": "2016-05-08",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2015"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2016"
+    }
+  ]
+}

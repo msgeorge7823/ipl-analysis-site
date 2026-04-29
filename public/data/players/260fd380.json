@@ -1,0 +1,30 @@
+{
+  "id": "260fd380",
+  "name": "AM Salvi",
+  "shortName": "AM Salvi",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2009",
+    "2011"
+  ],
+  "firstMatch": "2009-04-19",
+  "lastMatch": "2011-05-15",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    }
+  ]
+}

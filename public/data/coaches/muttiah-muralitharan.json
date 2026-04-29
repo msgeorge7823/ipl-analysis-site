@@ -1,0 +1,242 @@
+{
+  "id": "muttiah-muralitharan",
+  "name": "Muttiah Muralitharan",
+  "fullName": "Muthiah Muralidaran",
+  "nationality": "Sri Lankan",
+  "specialty": [
+    "spin-bowling",
+    "off-spin"
+  ],
+  "playingCareerSummary": "The all-time highest wicket-taker in international cricket: 800 Test wickets in 133 Tests, 534 ODI wickets in 350 ODIs. Arguably the greatest spinner in cricket history. Played for Chennai Super Kings, Kochi Tuskers Kerala and Royal Challengers Bangalore in the IPL.",
+  "bio": "Sunrisers Hyderabad's bowling coach (titled 'Spin Bowling Coach' in some seasons) since 2019 — eight-season tenure spanning the Moody, Bayliss, Lara and Vettori eras including multiple playoff runs and the 2024 final appearance.",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "spin-bowling-coach",
+      "fromSeason": "2019",
+      "toSeason": "2026",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 12 points (NRR +0.577). Lost Eliminator to Delhi Capitals by 2 wickets."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd (14 pts). Beat RCB in Eliminator; lost Qualifier 2 to Delhi Capitals by 17 runs. Replaced Tom Moody for IPL 2020."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 11,
+            "noResults": 0,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 6 points. Franchise-worst season at that time. Bayliss was replaced by Tom Moody for 2022."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -0.379). Moody's second stint at SRH; he stepped down on 2 September 2022 after this season."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points (NRR -0.590). Lara's only IPL head-coaching season. Replaced by Daniel Vettori for IPL 2024."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (17 pts). Qualifier 1 loss to KKR; Qualifier 2 W vs Rajasthan Royals; lost final to KKR by 8 wickets. SRH's second IPL final after 2018. Vettori's first season replacing Brian Lara."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 13 points. Third team eliminated from IPL 2025. Pat Cummins continued as captain."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Vettori retained; new spin bowling coach Muttiah Muralitharan added to the support staff alongside Hemang Badani as batting coach (his second IPL role alongside Delhi Capitals). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 98,
+          "wins": 40,
+          "losses": 56,
+          "noResults": 2,
+          "winPct": 40.82
+        },
+        "playoffs": {
+          "matches": 6,
+          "wins": 2,
+          "losses": 4,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2019_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2020_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2021_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2022_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2023_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2024_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2025_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2026_Sunrisers_Hyderabad_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 98,
+      "wins": 40,
+      "losses": 56,
+      "noResults": 2,
+      "winPct": 40.82
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 2,
+      "losses": 4,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true,
+  "dob": "1972-04-17",
+  "playingCareerPlayerId": "4ba44e19"
+}

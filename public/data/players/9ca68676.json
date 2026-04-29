@@ -1,0 +1,25 @@
+{
+  "id": "9ca68676",
+  "name": "AM Ghazanfar",
+  "shortName": "AM Ghazanfar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-29",
+  "lastMatch": "2026-04-23",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

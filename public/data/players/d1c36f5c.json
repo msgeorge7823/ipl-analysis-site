@@ -1,0 +1,43 @@
+{
+  "id": "d1c36f5c",
+  "name": "JJ Roy",
+  "shortName": "JJ Roy",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions",
+    "Delhi Capitals",
+    "Sunrisers Hyderabad",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2017",
+    "2018",
+    "2021",
+    "2023"
+  ],
+  "firstMatch": "2017-04-07",
+  "lastMatch": "2023-05-20",
+  "matchCount": 21,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    }
+  ]
+}

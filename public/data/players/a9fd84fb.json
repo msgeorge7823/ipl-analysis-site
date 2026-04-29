@@ -1,0 +1,57 @@
+{
+  "id": "a9fd84fb",
+  "name": "M Markande",
+  "shortName": "M Markande",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2018",
+    "2019",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2026"
+  ],
+  "firstMatch": "2018-04-07",
+  "lastMatch": "2026-04-12",
+  "matchCount": 40,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

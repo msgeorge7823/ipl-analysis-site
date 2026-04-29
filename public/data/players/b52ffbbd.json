@@ -1,0 +1,31 @@
+{
+  "id": "b52ffbbd",
+  "name": "FA Allen",
+  "shortName": "FA Allen",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2021-04-21",
+  "lastMatch": "2022-04-16",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    }
+  ]
+}

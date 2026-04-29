@@ -1,0 +1,25 @@
+{
+  "id": "2e9fdf9b",
+  "name": "DAJ Bracewell",
+  "shortName": "DAJ Bracewell",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-07",
+  "lastMatch": "2012-04-07",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    }
+  ]
+}

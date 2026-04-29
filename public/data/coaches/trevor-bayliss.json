@@ -1,0 +1,342 @@
+{
+  "id": "trevor-bayliss",
+  "name": "Trevor Bayliss",
+  "fullName": "Trevor Harry Bayliss",
+  "dob": "1962-12-21",
+  "nationality": "Australian",
+  "specialty": [
+    "strategy",
+    "white-ball-cricket",
+    "man-management"
+  ],
+  "playingCareerSummary": "Former New South Wales first-class batter (1985-1995). Did not play international or IPL cricket. One of the most successful T20 coaches of his generation.",
+  "bio": "One of the most successful head coaches in IPL history by titles won (2 — KKR 2012 and 2014). Took KKR from Dav Whatmore and delivered the franchise's first two IPL titles, including a record 200-run chase in the 2014 final. Left after 2015 to become England's head coach, leading them to their 2019 ODI World Cup triumph. Returned to the IPL in 2020 with Sunrisers Hyderabad (2020-2021) and Punjab Kings (2023-2024), but neither stint produced a playoff appearance after the 2020 SRH Qualifier 2 run.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2012",
+      "toSeason": "2015",
+      "seasons": [
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ],
+      "perSeason": [
+        {
+          "season": "2012",
+          "league": {
+            "matches": 16,
+            "wins": 10,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 62.5
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (21 pts). Beat Delhi Daredevils in Qualifier 1 by 18 runs; beat CSK in final by 5 wickets. KKR's first IPL title. Manvinder Bisla's 89 in the final."
+        },
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 6,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 37.5
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th of 9. Title defence collapsed — did not qualify for playoffs."
+        },
+        {
+          "season": "2014",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 2nd in league (20 pts, NRR 0.418). Beat Kings XI Punjab in Qualifier 1; beat KXIP in final by 3 wickets chasing 200 (Manish Pandey 94). KKR's second IPL title."
+        },
+        {
+          "season": "2015",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 6,
+            "noResults": 1,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 15 points. Did not qualify for playoffs. Bayliss left after this season to become England head coach."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 60,
+          "wins": 33,
+          "losses": 25,
+          "noResults": 2,
+          "winPct": 55.0
+        },
+        "playoffs": {
+          "matches": 4,
+          "wins": 4,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 2,
+        "finalsReached": 2,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2012_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2013_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2014_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2015_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "head-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd (14 pts). Beat RCB in Eliminator; lost Qualifier 2 to Delhi Capitals by 17 runs. Replaced Tom Moody for IPL 2020."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 11,
+            "noResults": 0,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 6 points. Franchise-worst season at that time. Bayliss was replaced by Tom Moody for 2022."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 10,
+          "losses": 18,
+          "noResults": 0,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 1,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2021_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+      ],
+      "notes": "Sandwiched between Tom Moody's two SRH stints. Took the team to the playoffs in 2020 before a franchise-worst last-place finish in 2021."
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "head-coach",
+      "fromSeason": "2023",
+      "toSeason": "2024",
+      "seasons": [
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th in Group B with 12 points (NRR -0.304). First season after replacing Anil Kumble in September 2022."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points. Bayliss left after this season; Ricky Ponting replaced him for IPL 2025."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 11,
+          "losses": 17,
+          "noResults": 0,
+          "winPct": 39.29
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/2024_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 8,
+    "franchisesCoached": 3,
+    "league": {
+      "matches": 116,
+      "wins": 54,
+      "losses": 60,
+      "noResults": 2,
+      "winPct": 46.55
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 5,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 83.33
+    },
+    "titles": 2,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Sri Lanka (National)",
+      "role": "Head Coach",
+      "period": "2007-2011",
+      "notes": "Led Sri Lanka to the 2011 ODI World Cup final."
+    },
+    {
+      "team": "New South Wales (Domestic, Australia)",
+      "role": "Head Coach",
+      "period": "2004-2008, 2011-2015"
+    },
+    {
+      "team": "Sydney Sixers (BBL, Australia)",
+      "role": "Head Coach",
+      "period": "2011-2015",
+      "notes": "Won BBL/01 (2011-12) and Champions League T20 2012."
+    },
+    {
+      "team": "England (National)",
+      "role": "Head Coach",
+      "period": "2015-2019",
+      "notes": "Led England to their first-ever ODI World Cup title in 2019."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Trevor_Bayliss",
+    "https://en.wikipedia.org/wiki/2012_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2013_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2014_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2015_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2023_Punjab_Kings_season",
+    "https://en.wikipedia.org/wiki/2024_Punjab_Kings_season",
+    "https://en.wikipedia.org/wiki/2020_Sunrisers_Hyderabad_season",
+    "https://en.wikipedia.org/wiki/2021_Sunrisers_Hyderabad_season"
+  ],
+  "verified": true
+}

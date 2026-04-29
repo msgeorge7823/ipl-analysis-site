@@ -1,0 +1,184 @@
+{
+  "id": "jacques-kallis",
+  "name": "Jacques Kallis",
+  "fullName": "Jacques Henry Kallis",
+  "dob": "1975-10-16",
+  "nationality": "South African",
+  "specialty": [
+    "batting",
+    "all-round",
+    "technical-coaching"
+  ],
+  "playingCareerPlayerId": "86dc8f2e",
+  "playingCareerSummary": "Arguably the greatest all-rounder in cricket history: 166 Tests (13,289 runs at 55.37, 292 wickets), 328 ODIs (11,579 runs, 273 wickets). Played for Royal Challengers Bangalore (2008-2010) and Kolkata Knight Riders (2011-2015) in the IPL — won the 2012 and 2014 titles as a player.",
+  "bio": "Stepped up from KKR's batting coach to head coach in 2016 after Trevor Bayliss's departure. Took KKR to the playoffs in three of his four seasons (2016, 2017, 2018) but couldn't take them past Qualifier 2. Left after 2019 and later became South Africa's men's Test team batting consultant.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2016",
+      "toSeason": "2019",
+      "seasons": [
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2016",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th (16 pts, NRR 0.106). Lost Eliminator to Sunrisers Hyderabad by 22 runs."
+        },
+        {
+          "season": "2017",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 4th (16 pts). Beat SRH in Eliminator by 7 wickets (DLS); lost Qualifier 2 to Mumbai Indians by 6 wickets."
+        },
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 3rd (16 pts, NRR -0.070). Beat Rajasthan Royals in Eliminator by 25 runs; lost Qualifier 2 to Sunrisers Hyderabad by 14 runs."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 13 points. Did not qualify for playoffs. Kallis was replaced by Brendon McCullum after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 30,
+          "losses": 25,
+          "noResults": 1,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 5,
+          "wins": 2,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 40.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2016_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2017_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2018_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2019_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2017_Indian_Premier_League_final",
+        "https://www.espn.in/cricket/series/8048/game/1082648/kolkata-knight-riders-vs-sunrisers-hyderabad-eliminator-indian-premier-league-2017"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 30,
+      "losses": 25,
+      "noResults": 1,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 5,
+      "wins": 2,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 40.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Kolkata Knight Riders (IPL)",
+      "role": "Batting Coach",
+      "period": "2015",
+      "notes": "KKR batting coach under Trevor Bayliss before being promoted to head coach."
+    },
+    {
+      "team": "South Africa (National, Tests)",
+      "role": "Batting Consultant",
+      "period": "2020-2021"
+    },
+    {
+      "team": "England (National, Tests)",
+      "role": "Batting Consultant",
+      "period": "2021-2022",
+      "notes": "Worked under Chris Silverwood during the Ashes series."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jacques_Kallis",
+    "https://en.wikipedia.org/wiki/2016_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2017_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2018_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2019_Kolkata_Knight_Riders_season"
+  ],
+  "verified": true
+}

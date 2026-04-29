@@ -1,0 +1,81 @@
+{
+  "_description": "Official IPL sponsors data from iplt20.com, ESPNCricinfo, and verified media reports",
+  "_updated": "2026-04-09",
+
+  "titleSponsors": [
+    { "name": "DLF", "years": "2008–2012", "startYear": 2008, "endYear": 2012, "deal": "₹200 Cr (5 years)", "perYear": "₹40 Cr/year", "industry": "Real Estate", "tournamentName": "DLF Indian Premier League" },
+    { "name": "Pepsi", "years": "2013–2015", "startYear": 2013, "endYear": 2015, "deal": "₹397 Cr (5 years, exited after 3)", "perYear": "₹79 Cr/year", "industry": "Beverages", "tournamentName": "Pepsi Indian Premier League", "note": "Terminated deal 2 years early due to CSK/RR suspension" },
+    { "name": "Vivo", "years": "2016–2017", "startYear": 2016, "endYear": 2017, "deal": "₹200 Cr (2 years)", "perYear": "₹100 Cr/year", "industry": "Smartphones", "tournamentName": "Vivo Indian Premier League" },
+    { "name": "Vivo", "years": "2018–2019", "startYear": 2018, "endYear": 2019, "deal": "₹2,199 Cr (5 years)", "perYear": "₹440 Cr/year", "industry": "Smartphones", "tournamentName": "Vivo Indian Premier League" },
+    { "name": "Dream11", "years": "2020", "startYear": 2020, "endYear": 2020, "deal": "₹222 Cr (1 year)", "perYear": "₹222 Cr/year", "industry": "Fantasy Sports", "tournamentName": "Dream11 Indian Premier League", "note": "Vivo stepped aside due to India-China tensions" },
+    { "name": "Vivo", "years": "2021", "startYear": 2021, "endYear": 2021, "deal": "Part of 2018 deal", "perYear": "₹440 Cr/year", "industry": "Smartphones", "tournamentName": "Vivo Indian Premier League", "note": "Returned after 1-year gap" },
+    { "name": "Tata", "years": "2022–present", "startYear": 2022, "endYear": 2028, "deal": "₹2,500 Cr (2022-2028)", "perYear": "₹357 Cr/year", "industry": "Conglomerate", "tournamentName": "Tata Indian Premier League" }
+  ],
+
+  "officialPartners": {
+    "2024": {
+      "title": "Tata",
+      "associatePartners": ["My11Circle", "Angel One", "RuPay"],
+      "officialPartners": ["Dream11", "CEAT", "Aramco"],
+      "strategicTimeout": "CEAT",
+      "umpirePartner": "PayTM",
+      "broadcast": { "tv": "Star Sports", "digital": "JioCinema" }
+    },
+    "2025": {
+      "title": "Tata",
+      "associatePartners": ["My11Circle", "Angel One", "RuPay"],
+      "officialPartners": ["Dream11", "Poornima", "BKT", "Amul"],
+      "strategicTimeout": "CEAT",
+      "umpirePartner": "Wonder Cement",
+      "broadcast": { "tv": "Star Sports", "digital": "JioHotstar" }
+    },
+    "2026": {
+      "title": "Tata",
+      "associatePartners": ["Angel One", "RuPay"],
+      "officialPartners": ["Poornima", "BKT", "Olio Pizza", "Amul Protein", "Bisleri"],
+      "strategicTimeout": "CEAT",
+      "umpirePartner": "Wonder Cement",
+      "aiPartner": "Google Gemini",
+      "broadcast": { "tv": "Star Sports", "digital": "JioHotstar" },
+      "note": "Dream11 and My11Circle exited due to regulatory pressure on fantasy gaming"
+    }
+  },
+
+  "broadcastHistory": [
+    { "years": "2008–2017", "tv": "Sony SET Max / Sony Six", "digital": "Sony LIV" },
+    { "years": "2018–2022", "tv": "Star Sports", "digital": "Hotstar (Disney+)" },
+    { "years": "2023–2024", "tv": "Star Sports", "digital": "JioCinema (Free)" },
+    { "years": "2025–present", "tv": "Star Sports", "digital": "JioHotstar" }
+  ],
+
+  "mediaRightsDeal": {
+    "2023-2027": {
+      "total": "₹48,390 Cr (~$6.2 billion)",
+      "tvRights": { "holder": "Star India (Disney)", "amount": "₹23,575 Cr" },
+      "digitalRights": { "holder": "Viacom18 (Reliance)", "amount": "₹20,500 Cr" },
+      "note": "Most expensive cricket broadcast deal in history"
+    }
+  },
+
+  "seasonWiseSponsorSummary": {
+    "2008": { "title": "DLF", "name": "DLF IPL", "broadcast": "Sony SET Max" },
+    "2009": { "title": "DLF", "name": "DLF IPL", "broadcast": "Sony SET Max", "note": "Held in South Africa" },
+    "2010": { "title": "DLF", "name": "DLF IPL", "broadcast": "Sony SET Max" },
+    "2011": { "title": "DLF", "name": "DLF IPL", "broadcast": "Sony SET Max" },
+    "2012": { "title": "DLF", "name": "DLF IPL", "broadcast": "Sony SET Max" },
+    "2013": { "title": "Pepsi", "name": "Pepsi IPL", "broadcast": "Sony SET Max" },
+    "2014": { "title": "Pepsi", "name": "Pepsi IPL", "broadcast": "Sony SET Max", "note": "Held partly in UAE" },
+    "2015": { "title": "Pepsi", "name": "Pepsi IPL", "broadcast": "Sony SET Max", "note": "Pepsi exited mid-contract" },
+    "2016": { "title": "Vivo", "name": "Vivo IPL", "broadcast": "Sony SET Max" },
+    "2017": { "title": "Vivo", "name": "Vivo IPL", "broadcast": "Sony SET Max" },
+    "2018": { "title": "Vivo", "name": "Vivo IPL", "broadcast": "Star Sports / Hotstar" },
+    "2019": { "title": "Vivo", "name": "Vivo IPL", "broadcast": "Star Sports / Hotstar" },
+    "2020": { "title": "Dream11", "name": "Dream11 IPL", "broadcast": "Star Sports / Disney+ Hotstar", "note": "Held in UAE due to COVID-19" },
+    "2021": { "title": "Vivo", "name": "Vivo IPL", "broadcast": "Star Sports / Disney+ Hotstar", "note": "Split into 2 phases (India + UAE)" },
+    "2022": { "title": "Tata", "name": "Tata IPL", "broadcast": "Star Sports / Disney+ Hotstar", "note": "10 teams, mega auction" },
+    "2023": { "title": "Tata", "name": "Tata IPL", "broadcast": "Star Sports / JioCinema" },
+    "2024": { "title": "Tata", "name": "Tata IPL", "broadcast": "Star Sports / JioCinema" },
+    "2025": { "title": "Tata", "name": "Tata IPL", "broadcast": "Star Sports / JioHotstar", "note": "Mega auction in Jeddah" },
+    "2026": { "title": "Tata", "name": "Tata IPL", "broadcast": "Star Sports / JioHotstar" }
+  }
+}

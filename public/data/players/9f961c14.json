@@ -1,0 +1,40 @@
+{
+  "id": "9f961c14",
+  "name": "Joginder Sharma",
+  "shortName": "Joginder Sharma",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2011-04-22",
+  "matchCount": 16,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    }
+  ]
+}

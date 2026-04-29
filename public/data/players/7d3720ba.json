@@ -1,0 +1,25 @@
+{
+  "id": "7d3720ba",
+  "name": "RR Bhatkal",
+  "shortName": "RR Bhatkal",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-12",
+  "lastMatch": "2012-04-12",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    }
+  ]
+}

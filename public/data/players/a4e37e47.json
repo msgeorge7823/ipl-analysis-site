@@ -1,0 +1,62 @@
+{
+  "id": "a4e37e47",
+  "name": "S Dube",
+  "shortName": "S Dube",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2019-03-23",
+  "lastMatch": "2026-04-26",
+  "matchCount": 87,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

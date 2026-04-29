@@ -1,0 +1,25 @@
+{
+  "id": "4c4fa80b",
+  "name": "SMSM Senanayake",
+  "shortName": "SMSM Senanayake",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-04-14",
+  "lastMatch": "2013-05-15",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2013"
+    }
+  ]
+}

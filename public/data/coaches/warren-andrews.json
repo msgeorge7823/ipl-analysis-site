@@ -1,0 +1,91 @@
+{
+  "id": "warren-andrews",
+  "name": "Warren Andrews",
+  "fullName": "Warren Andrews",
+  "nationality": "Australian",
+  "specialty": [
+    "strength-and-conditioning"
+  ],
+  "playingCareerSummary": "Specialist strength and conditioning coach with franchise cricket experience.",
+  "bio": "Lucknow Super Giants' strength and conditioning coach in 2023 under head coach Andy Flower.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "strength-conditioning",
+      "fromSeason": "2023",
+      "toSeason": "2023",
+      "seasons": [
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 8,
+          "losses": 5,
+          "noResults": 1,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 8,
+      "losses": 5,
+      "noResults": 1,
+      "winPct": 57.14
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+  ],
+  "verified": true
+}

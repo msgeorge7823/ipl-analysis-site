@@ -1,0 +1,36 @@
+{
+  "id": "4885bbe6",
+  "name": "Yudhvir Singh",
+  "shortName": "Yudhvir Singh",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Lucknow Super Giants",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2023-04-15",
+  "lastMatch": "2025-05-20",
+  "matchCount": 9,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "aedc3b7c",
+  "name": "NS Naik",
+  "shortName": "NS Naik",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2016",
+    "2019",
+    "2020"
+  ],
+  "firstMatch": "2016-04-23",
+  "lastMatch": "2020-09-23",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2019"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    }
+  ]
+}

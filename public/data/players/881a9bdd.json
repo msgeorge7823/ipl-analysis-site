@@ -1,0 +1,25 @@
+{
+  "id": "881a9bdd",
+  "name": "S Chanderpaul",
+  "shortName": "S Chanderpaul",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-20",
+  "lastMatch": "2008-05-08",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2008"
+    }
+  ]
+}

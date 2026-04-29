@@ -1,0 +1,83 @@
+{
+  "season": "2024",
+  "players": [
+    {
+      "player": "Sandeep Warrier",
+      "team": "Gujarat Titans",
+      "replacing": "Mohammed Shami",
+      "reason": "Ankle injury"
+    },
+    {
+      "player": "BR Sharath",
+      "team": "Gujarat Titans",
+      "replacing": "Robin Minz",
+      "reason": "Bike accident injury"
+    },
+    {
+      "player": "Tanush Kotian",
+      "team": "Rajasthan Royals",
+      "replacing": "Adam Zampa",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Keshav Maharaj",
+      "team": "Rajasthan Royals",
+      "replacing": "Prasidh Krishna",
+      "reason": "Quadriceps injury"
+    },
+    {
+      "player": "Phil Salt",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Jason Roy",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Allah Ghazanfar",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Mujeeb Ur Rahman",
+      "reason": "Injury"
+    },
+    {
+      "player": "Shamar Joseph",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mark Wood",
+      "reason": "ECB workload management"
+    },
+    {
+      "player": "Matt Henry",
+      "team": "Lucknow Super Giants",
+      "replacing": "David Willey",
+      "reason": "Personal reasons"
+    },
+    {
+      "player": "Luke Wood",
+      "team": "Mumbai Indians",
+      "replacing": "Jason Behrendorff",
+      "reason": "Leg injury"
+    },
+    {
+      "player": "Kwena Maphaka",
+      "team": "Mumbai Indians",
+      "replacing": "Dilshan Madushanka",
+      "reason": "Hamstring tear"
+    },
+    {
+      "player": "Harvik Desai",
+      "team": "Mumbai Indians",
+      "replacing": "Vishnu Vinod",
+      "reason": "Forearm injury"
+    },
+    {
+      "player": "Jake Fraser-McGurk",
+      "team": "Delhi Capitals",
+      "replacing": "Lungi Ngidi",
+      "reason": "Lower back injury"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Gus Atkinson",
+      "reason": "ECB workload management"
+    }
+  ]
+}

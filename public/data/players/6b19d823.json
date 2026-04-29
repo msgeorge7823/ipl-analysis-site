@@ -1,0 +1,105 @@
+{
+  "id": "6b19d823",
+  "name": "Amit Mishra",
+  "shortName": "A Mishra",
+  "nicknames": [
+    "Mishi"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Deccan Chargers",
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2008-05-11",
+  "lastMatch": "2024-04-27",
+  "matchCount": 162,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2016"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

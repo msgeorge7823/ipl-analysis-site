@@ -1,0 +1,28 @@
+{
+  "year": "2014",
+  "winner": "Kolkata Knight Riders",
+  "runnerUp": "Punjab Kings",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Robin Venu Uthappa",
+    "shortName": "RV Uthappa",
+    "runs": 660
+  },
+  "purpleCap": {
+    "player": "Mohit Mohan Sharma",
+    "shortName": "MM Sharma",
+    "wickets": 23
+  }
+}

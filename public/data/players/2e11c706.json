@@ -1,0 +1,49 @@
+{
+  "id": "2e11c706",
+  "name": "Benjamin Colin James Cutting",
+  "shortName": "BCJ Cutting",
+  "nicknames": [
+    "Ben Cutting"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Mumbai Indians",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2014",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2014-05-15",
+  "lastMatch": "2019-04-20",
+  "matchCount": 21,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    }
+  ]
+}

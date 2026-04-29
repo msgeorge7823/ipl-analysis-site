@@ -1,0 +1,95 @@
+{
+  "id": "matthew-wade",
+  "name": "Matthew Wade",
+  "fullName": "Matthew Scott Wade",
+  "nationality": "Australian",
+  "specialty": [
+    "wicket-keeping",
+    "batting"
+  ],
+  "playingCareerSummary": "Former Australia wicket-keeper batter: 36 Tests, 97 ODIs, 92 T20Is. Played for Delhi Daredevils and Gujarat Lions in the IPL.",
+  "bio": "Gujarat Titans' assistant coach for IPL 2025, replacing Mithun Manhas.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "assistant-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in Group B. Lost Eliminator to Mumbai Indians by 20 runs (208/6 vs 228/5) at Mullanpur on 30 May. Sai Sudharsan top-scored across the IPL with 759 runs; Prasidh Krishna most wickets with 25."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans",
+        "https://en.wikipedia.org/wiki/2025_Gujarat_Titans_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 9,
+      "losses": 5,
+      "noResults": 0,
+      "winPct": 64.29
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true,
+  "dob": "1987-12-26",
+  "playingCareerPlayerId": "afa7e784"
+}

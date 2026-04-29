@@ -1,0 +1,188 @@
+{
+  "id": "simon-katich",
+  "name": "Simon Katich",
+  "fullName": "Simon Matthew Katich",
+  "dob": "1975-08-21",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "man-management"
+  ],
+  "playingCareerPlayerId": "fdedb37c",
+  "playingCareerSummary": "Former Australia Test opener: 56 Tests (4188 runs), 45 ODIs. Played for Kings XI Punjab in the inaugural 2008 IPL season.",
+  "bio": "RCB head coach from 2020 to 2021. Took over from Gary Kirsten and led a Kohli-led RCB back to consecutive playoff appearances — their first back-to-back playoff run since 2010-2011. Stepped down mid-2021 season citing personal reasons on his 46th birthday; Mike Hesson, the franchise's Director of Cricket, took over as interim head coach for the UAE leg.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "assistant-coach",
+      "fromSeason": "2019",
+      "toSeason": "2019",
+      "seasons": [
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 13 points. Did not qualify for playoffs. Kallis was replaced by Brendon McCullum after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 7,
+          "noResults": 1,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ],
+      "notes": "Assistant coach to Jacques Kallis at KKR for one season before becoming Royal Challengers Bangalore head coach in 2020."
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "head-coach",
+      "fromSeason": "2020",
+      "toSeason": "2021",
+      "seasons": [
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 14 points (NRR -0.172). Lost Eliminator to Sunrisers Hyderabad by 6 wickets. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd with 18 points. Katich stepped down mid-season citing personal reasons (August 21, 2021), after which Director of Cricket Mike Hesson took over as interim head coach for the UAE leg and the playoffs. Lost Eliminator to KKR by 4 wickets. Season split across India and UAE legs due to COVID-19."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 16,
+          "losses": 12,
+          "noResults": 0,
+          "winPct": 57.14
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season",
+        "https://www.thequint.com/sports/mike-hesson-replaces-simon-katich-as-head-coach-of-rcb",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "2021 stats credited to Katich as he was head coach at the start of the season and through the suspended India leg. Hesson took over as interim HC for the UAE leg — Hesson's DoC role across 2020-2023 will be captured in Phase 2/3 (support staff)."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 42,
+      "wins": 22,
+      "losses": 19,
+      "noResults": 1,
+      "winPct": 52.38
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Perth Scorchers (BBL, Australia)",
+      "role": "Assistant Coach",
+      "period": "2018-2019"
+    },
+    {
+      "team": "Manchester Originals (The Hundred, England)",
+      "role": "Head Coach",
+      "period": "2021-present"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Simon_Katich",
+    "https://www.thequint.com/sports/mike-hesson-replaces-simon-katich-as-head-coach-of-rcb",
+    "https://en.wikipedia.org/wiki/2020_Royal_Challengers_Bangalore_season",
+    "https://en.wikipedia.org/wiki/2021_Royal_Challengers_Bangalore_season"
+  ],
+  "verified": true
+}

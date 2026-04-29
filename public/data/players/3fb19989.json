@@ -1,0 +1,42 @@
+{
+  "id": "3fb19989",
+  "name": "MA Starc",
+  "shortName": "MA Starc",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2014",
+    "2015",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2014-04-17",
+  "lastMatch": "2025-05-08",
+  "matchCount": 52,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2024"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2025"
+    }
+  ]
+}

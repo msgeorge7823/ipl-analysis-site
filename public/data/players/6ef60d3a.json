@@ -1,0 +1,36 @@
+{
+  "id": "6ef60d3a",
+  "name": "Kamran Khan",
+  "shortName": "Kamran Khan",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Rajasthan Royals",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2009-04-18",
+  "lastMatch": "2011-04-29",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

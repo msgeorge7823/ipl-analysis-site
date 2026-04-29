@@ -1,0 +1,25 @@
+{
+  "id": "97290faf",
+  "name": "S Joseph",
+  "shortName": "S Joseph",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-14",
+  "lastMatch": "2024-04-14",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

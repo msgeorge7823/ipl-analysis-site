@@ -1,0 +1,154 @@
+{
+  "id": "justin-langer",
+  "name": "Justin Langer",
+  "fullName": "Justin Lee Langer",
+  "dob": "1970-11-21",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "strategy",
+    "team-culture"
+  ],
+  "playingCareerSummary": "Former Australia Test opener: 105 Tests (7696 runs at 45.27), 8 ODIs. Part of Australia's 1999, 2003 and 2007 ODI World Cup winning squads. Did not play in the IPL (retired before the league began).",
+  "bio": "Lucknow Super Giants head coach from 2024 onwards, replacing Andy Flower after Flower moved to RCB. Two successive 7th-place finishes in 2024 and 2025 have not yet threatened his position — the franchise retained him for 2026 with Kane Williamson joining as strategic advisor. Best known for his time as Australia's head coach (2018-2022), taking them to the 2021 T20 World Cup title.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "head-coach",
+      "fromSeason": "2024",
+      "toSeason": "2026",
+      "seasons": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season replacing Andy Flower. Finished 7th with 14 points (NRR -0.667). Franchise's first season missing the playoffs."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points (NRR -0.376). Fifth team eliminated from IPL 2025. Zaheer Khan joined as mentor ahead of the season."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Langer retained as head coach despite back-to-back 7th-place finishes, reflecting management's backing for long-term development. Kane Williamson joined as strategic advisor; Carl Crowe as spin bowling coach. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2025_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2026_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants",
+        "https://www.crictracker.com/cricket-news/justin-langer-retained-as-lucknow-super-giants-head-coach-ahead-of-ipl-2026-2848/"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 13,
+      "losses": 15,
+      "noResults": 0,
+      "winPct": 46.43
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Western Australia + Perth Scorchers (Australia, Domestic + BBL)",
+      "role": "Head Coach",
+      "period": "2012-2018",
+      "notes": "Multiple BBL titles with the Perth Scorchers during this period."
+    },
+    {
+      "team": "Australia (National)",
+      "role": "Head Coach",
+      "period": "2018-2022",
+      "notes": "Took over after the Sandpaper-gate scandal; won the 2021 T20 World Cup. Departed in early 2022 after well-publicised player-coach tensions."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Justin_Langer",
+    "https://en.wikipedia.org/wiki/Lucknow_Super_Giants",
+    "https://www.crictracker.com/cricket-news/justin-langer-retained-as-lucknow-super-giants-head-coach-ahead-of-ipl-2026-2848/"
+  ],
+  "verified": true
+}

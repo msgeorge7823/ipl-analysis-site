@@ -1,0 +1,59 @@
+{
+  "id": "ffe699c0",
+  "name": "CJ Jordan",
+  "shortName": "CJ Jordan",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Punjab Kings",
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2016-05-07",
+  "lastMatch": "2023-05-26",
+  "matchCount": 34,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    }
+  ]
+}

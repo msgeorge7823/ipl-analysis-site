@@ -1,0 +1,30 @@
+{
+  "id": "ba5e1069",
+  "name": "R Ravindra",
+  "shortName": "R Ravindra",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-03-22",
+  "lastMatch": "2025-04-20",
+  "matchCount": 18,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

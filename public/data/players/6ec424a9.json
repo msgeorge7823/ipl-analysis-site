@@ -1,0 +1,31 @@
+{
+  "id": "6ec424a9",
+  "name": "ND Doshi",
+  "shortName": "ND Doshi",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-04-24",
+  "lastMatch": "2011-05-15",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2010"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    }
+  ]
+}

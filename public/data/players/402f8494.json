@@ -1,0 +1,31 @@
+{
+  "id": "402f8494",
+  "name": "RJ Gleeson",
+  "shortName": "RJ Gleeson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-05-01",
+  "lastMatch": "2025-05-30",
+  "matchCount": 3,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

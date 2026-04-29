@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — Chennai Super Kings</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardHover: '#1a1a2e',
+        border: '#1e1e3a',
+        accent: '#FFCB05',
+        accentSecondary: '#0081E9',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; background: #0a0a0f; }
+  .team-gradient { background: linear-gradient(135deg, #FFCB05, #0081E9); }
+  .team-gradient-subtle { background: linear-gradient(135deg, rgba(255,203,5,0.15), rgba(0,129,233,0.08)); }
+  .team-text { background: linear-gradient(135deg, #FFCB05, #0081E9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .tab-active { border-bottom: 2px solid #FFCB05; color: #FFCB05; }
+  .stat-glow { box-shadow: 0 0 20px rgba(255,203,5,0.1); }
+</style>
+</head>
+<body class="text-textPrimary min-h-screen">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-black text-sm">IPL</div>
+      <span class="font-bold text-lg">Analytics</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-1 text-sm">
+      <a href="home-page.html" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Home</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Seasons</a>
+      <a href="teams-list-page.html" class="px-3 py-2 rounded-lg bg-accent/10 text-accent font-medium">Teams</a>
+      <a href="players-list-page.html" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Players</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Matches</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Ratings</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Analytics Lab</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Auctions</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Venues</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">Records</a>
+      <a href="#" class="px-3 py-2 rounded-lg hover:bg-white/5 text-textSecondary">More &#9662;</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary cursor-pointer hover:bg-cardHover">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+      </div>
+      <div class="w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-yellow-400 cursor-pointer hover:bg-cardHover">&#9788;</div>
+    </div>
+  </div>
+</nav>
+
+<!-- Team Banner -->
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0 team-gradient opacity-10"></div>
+  <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 60%, #0a0a0f 100%);"></div>
+  <div class="relative max-w-7xl mx-auto px-4 py-16 flex items-center gap-8">
+    <div class="w-28 h-28 rounded-2xl team-gradient flex items-center justify-center shadow-lg shadow-yellow-500/20">
+      <span class="text-5xl font-black text-black">CSK</span>
+    </div>
+    <div>
+      <h1 class="text-4xl font-extrabold team-text">Chennai Super Kings</h1>
+      <p class="text-textSecondary mt-2 text-lg">The Yellow Army &middot; Founded 2008</p>
+      <div class="flex gap-3 mt-4">
+        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-accent/20 text-accent border border-accent/30">5x Champions</span>
+        <span class="px-3 py-1 rounded-full text-xs font-medium bg-card border border-border text-textSecondary">IPL 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tabs -->
+<div class="border-b border-border sticky top-16 z-40 bg-bg/90 backdrop-blur-xl">
+  <div class="max-w-7xl mx-auto px-4 flex gap-0 overflow-x-auto">
+    <button class="px-5 py-3.5 text-sm font-semibold tab-active whitespace-nowrap">Overview</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Squad</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Management</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Coaches</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Sponsors</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Stats</button>
+    <button class="px-5 py-3.5 text-sm text-textSecondary hover:text-textPrimary whitespace-nowrap">Matches</button>
+  </div>
+</div>
+
+<!-- Season Selector -->
+<div class="max-w-7xl mx-auto px-4 pt-6 pb-2 flex justify-end">
+  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border text-sm cursor-pointer hover:bg-cardHover">
+    <span class="text-textSecondary">Season:</span>
+    <span class="font-semibold text-accent">IPL 2025</span>
+    <svg class="w-4 h-4 text-textSecondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</div>
+
+<!-- Overview Content -->
+<section class="max-w-7xl mx-auto px-4 py-6 space-y-8">
+
+  <!-- Key Info Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+    <!-- Franchise Info -->
+    <div class="md:col-span-2 rounded-2xl border border-border bg-card p-6 stat-glow">
+      <h2 class="text-lg font-bold mb-5 flex items-center gap-2">
+        <div class="w-1 h-5 rounded-full bg-accent"></div>
+        Franchise Information
+      </h2>
+      <div class="grid grid-cols-2 gap-y-5 gap-x-8">
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Founded</div>
+          <div class="font-semibold">2008</div>
+        </div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Owner</div>
+          <div class="font-semibold">N. Srinivasan</div>
+        </div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Parent Company</div>
+          <div class="font-semibold">Chennai Super Kings Cricket Ltd</div>
+        </div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Captain</div>
+          <div class="font-semibold text-accent">Ruturaj Gaikwad</div>
+        </div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Home Ground</div>
+          <div class="font-semibold">MA Chidambaram Stadium, Chennai</div>
+        </div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Capacity</div>
+          <div class="font-semibold">50,000</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Titles Card -->
+    <div class="rounded-2xl border border-border bg-card p-6 stat-glow text-center flex flex-col justify-center">
+      <div class="text-6xl font-black team-text mb-2">5</div>
+      <div class="text-textSecondary text-sm font-medium mb-4">IPL Titles Won</div>
+      <div class="flex flex-wrap justify-center gap-2">
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-accent/15 text-accent border border-accent/25">2010</span>
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-accent/15 text-accent border border-accent/25">2011</span>
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-accent/15 text-accent border border-accent/25">2018</span>
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-accent/15 text-accent border border-accent/25">2021</span>
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-accent/15 text-accent border border-accent/25">2023</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Squad Section -->
+  <div>
+    <h2 class="text-lg font-bold mb-5 flex items-center gap-2">
+      <div class="w-1 h-5 rounded-full bg-accent"></div>
+      Key Players
+    </h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+      <!-- Player Card Template -->
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">RG</span>
+        </div>
+        <div class="font-semibold text-sm">Ruturaj Gaikwad</div>
+        <div class="text-xs text-accent font-medium mt-1">Captain</div>
+        <div class="text-xs text-textSecondary mt-1">Batter</div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">DC</span>
+        </div>
+        <div class="font-semibold text-sm">Devon Conway</div>
+        <div class="text-xs text-textSecondary mt-1">Batter</div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">MA</span>
+        </div>
+        <div class="font-semibold text-sm">Moeen Ali</div>
+        <div class="text-xs text-textSecondary mt-1">All-rounder</div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">RJ</span>
+        </div>
+        <div class="font-semibold text-sm">Ravindra Jadeja</div>
+        <div class="text-xs text-textSecondary mt-1">All-rounder</div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">MS</span>
+        </div>
+        <div class="font-semibold text-sm">MS Dhoni</div>
+        <div class="text-xs text-accent font-medium mt-1">Wicketkeeper</div>
+        <div class="text-xs text-textSecondary">WK-Batter</div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center hover:bg-cardHover transition group">
+        <div class="w-16 h-16 mx-auto rounded-full team-gradient-subtle border-2 border-accent/30 flex items-center justify-center mb-3">
+          <span class="text-2xl font-bold text-accent">DC</span>
+        </div>
+        <div class="font-semibold text-sm">Deepak Chahar</div>
+        <div class="text-xs text-textSecondary mt-1">Bowler</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Coaching Staff -->
+  <div>
+    <h2 class="text-lg font-bold mb-5 flex items-center gap-2">
+      <div class="w-1 h-5 rounded-full bg-accent"></div>
+      Coaching Staff
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div class="rounded-xl border border-border bg-card p-5 flex items-center gap-4 hover:bg-cardHover transition">
+        <div class="w-14 h-14 rounded-full team-gradient flex items-center justify-center flex-shrink-0">
+          <span class="text-xl font-bold text-black">SF</span>
+        </div>
+        <div>
+          <div class="font-semibold">Stephen Fleming</div>
+          <div class="text-xs text-accent font-medium">Head Coach</div>
+          <div class="text-xs text-textSecondary mt-1">New Zealand</div>
+        </div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-5 flex items-center gap-4 hover:bg-cardHover transition">
+        <div class="w-14 h-14 rounded-full team-gradient flex items-center justify-center flex-shrink-0">
+          <span class="text-xl font-bold text-black">ES</span>
+        </div>
+        <div>
+          <div class="font-semibold">Eric Simons</div>
+          <div class="text-xs text-accent font-medium">Bowling Coach</div>
+          <div class="text-xs text-textSecondary mt-1">South Africa</div>
+        </div>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-5 flex items-center gap-4 hover:bg-cardHover transition">
+        <div class="w-14 h-14 rounded-full team-gradient flex items-center justify-center flex-shrink-0">
+          <span class="text-xl font-bold text-black">MH</span>
+        </div>
+        <div>
+          <div class="font-semibold">Mike Hussey</div>
+          <div class="text-xs text-accent font-medium">Batting Coach</div>
+          <div class="text-xs text-textSecondary mt-1">Australia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-border bg-card/50 mt-12">
+  <div class="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <div class="w-6 h-6 bg-accent rounded flex items-center justify-center font-bold text-black text-xs">IPL</div>
+      <span class="text-sm text-textSecondary">IPL Analytics Platform &copy; 2026</span>
+    </div>
+    <div class="flex gap-6 text-sm text-textSecondary">
+      <a href="#" class="hover:text-textPrimary">About</a>
+      <a href="#" class="hover:text-textPrimary">API</a>
+      <a href="#" class="hover:text-textPrimary">Privacy</a>
+      <a href="#" class="hover:text-textPrimary">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

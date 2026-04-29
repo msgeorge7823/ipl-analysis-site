@@ -1,0 +1,566 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-09T17:09:26.307Z",
+  "files": {
+    "bbb/season-2008.json": {
+      "size": 1284940,
+      "modified": "2026-04-09T17:09:25.110Z"
+    },
+    "bbb/season-2009.json": {
+      "size": 1295287,
+      "modified": "2026-04-09T17:09:25.152Z"
+    },
+    "bbb/season-2010.json": {
+      "size": 1375764,
+      "modified": "2026-04-09T17:09:25.191Z"
+    },
+    "bbb/season-2011.json": {
+      "size": 1612119,
+      "modified": "2026-04-09T17:09:25.236Z"
+    },
+    "bbb/season-2012.json": {
+      "size": 1683304,
+      "modified": "2026-04-09T17:09:25.284Z"
+    },
+    "bbb/season-2013.json": {
+      "size": 1720650,
+      "modified": "2026-04-09T17:09:25.329Z"
+    },
+    "bbb/season-2014.json": {
+      "size": 1352398,
+      "modified": "2026-04-09T17:09:25.360Z"
+    },
+    "bbb/season-2015.json": {
+      "size": 1295899,
+      "modified": "2026-04-09T17:09:25.390Z"
+    },
+    "bbb/season-2016.json": {
+      "size": 1334127,
+      "modified": "2026-04-09T17:09:25.422Z"
+    },
+    "bbb/season-2017.json": {
+      "size": 1330715,
+      "modified": "2026-04-09T17:09:25.456Z"
+    },
+    "bbb/season-2018.json": {
+      "size": 1372465,
+      "modified": "2026-04-09T17:09:25.494Z"
+    },
+    "bbb/season-2019.json": {
+      "size": 1369331,
+      "modified": "2026-04-09T17:09:25.538Z"
+    },
+    "bbb/season-2020.json": {
+      "size": 1397636,
+      "modified": "2026-04-09T17:09:25.580Z"
+    },
+    "bbb/season-2021.json": {
+      "size": 1390310,
+      "modified": "2026-04-09T17:09:25.625Z"
+    },
+    "bbb/season-2022.json": {
+      "size": 1740941,
+      "modified": "2026-04-09T17:09:25.674Z"
+    },
+    "bbb/season-2023.json": {
+      "size": 1735150,
+      "modified": "2026-04-09T17:09:25.719Z"
+    },
+    "bbb/season-2024.json": {
+      "size": 1667470,
+      "modified": "2026-04-09T17:09:25.762Z"
+    },
+    "bbb/season-2025.json": {
+      "size": 1690899,
+      "modified": "2026-04-09T17:09:25.804Z"
+    },
+    "bbb/season-2026.json": {
+      "size": 298110,
+      "modified": "2026-04-09T17:09:25.819Z"
+    },
+    "cap-race/season-2008.json": {
+      "size": 5120,
+      "modified": "2026-04-09T17:09:25.987Z"
+    },
+    "cap-race/season-2009.json": {
+      "size": 5122,
+      "modified": "2026-04-09T17:09:25.999Z"
+    },
+    "cap-race/season-2010.json": {
+      "size": 5270,
+      "modified": "2026-04-09T17:09:26.011Z"
+    },
+    "cap-race/season-2011.json": {
+      "size": 6242,
+      "modified": "2026-04-09T17:09:26.022Z"
+    },
+    "cap-race/season-2012.json": {
+      "size": 6343,
+      "modified": "2026-04-09T17:09:26.033Z"
+    },
+    "cap-race/season-2013.json": {
+      "size": 6603,
+      "modified": "2026-04-09T17:09:26.044Z"
+    },
+    "cap-race/season-2014.json": {
+      "size": 5386,
+      "modified": "2026-04-09T17:09:26.054Z"
+    },
+    "cap-race/season-2015.json": {
+      "size": 5247,
+      "modified": "2026-04-09T17:09:26.064Z"
+    },
+    "cap-race/season-2016.json": {
+      "size": 5360,
+      "modified": "2026-04-09T17:09:26.075Z"
+    },
+    "cap-race/season-2017.json": {
+      "size": 5286,
+      "modified": "2026-04-09T17:09:26.087Z"
+    },
+    "cap-race/season-2018.json": {
+      "size": 5333,
+      "modified": "2026-04-09T17:09:26.097Z"
+    },
+    "cap-race/season-2019.json": {
+      "size": 5348,
+      "modified": "2026-04-09T17:09:26.107Z"
+    },
+    "cap-race/season-2020.json": {
+      "size": 5385,
+      "modified": "2026-04-09T17:09:26.119Z"
+    },
+    "cap-race/season-2021.json": {
+      "size": 5343,
+      "modified": "2026-04-09T17:09:26.132Z"
+    },
+    "cap-race/season-2022.json": {
+      "size": 6464,
+      "modified": "2026-04-09T17:09:26.147Z"
+    },
+    "cap-race/season-2023.json": {
+      "size": 6496,
+      "modified": "2026-04-09T17:09:26.161Z"
+    },
+    "cap-race/season-2024.json": {
+      "size": 6180,
+      "modified": "2026-04-09T17:09:26.173Z"
+    },
+    "cap-race/season-2025.json": {
+      "size": 6458,
+      "modified": "2026-04-09T17:09:26.186Z"
+    },
+    "cap-race/season-2026.json": {
+      "size": 1763,
+      "modified": "2026-04-09T17:09:26.199Z"
+    },
+    "ipl-sponsors.json": {
+      "size": 5632,
+      "modified": "2026-04-09T16:33:19.618Z"
+    },
+    "manifest.json": {
+      "size": 15068,
+      "modified": "2026-04-09T14:54:43.054Z"
+    },
+    "matches/season-2008.json": {
+      "size": 29544,
+      "modified": "2026-04-09T17:09:24.421Z"
+    },
+    "matches/season-2009.json": {
+      "size": 28822,
+      "modified": "2026-04-09T17:09:24.432Z"
+    },
+    "matches/season-2010.json": {
+      "size": 30728,
+      "modified": "2026-04-09T17:09:24.443Z"
+    },
+    "matches/season-2011.json": {
+      "size": 37038,
+      "modified": "2026-04-09T17:09:24.453Z"
+    },
+    "matches/season-2012.json": {
+      "size": 37502,
+      "modified": "2026-04-09T17:09:24.464Z"
+    },
+    "matches/season-2013.json": {
+      "size": 38957,
+      "modified": "2026-04-09T17:09:24.477Z"
+    },
+    "matches/season-2014.json": {
+      "size": 31027,
+      "modified": "2026-04-09T17:09:24.487Z"
+    },
+    "matches/season-2015.json": {
+      "size": 30440,
+      "modified": "2026-04-09T17:09:24.498Z"
+    },
+    "matches/season-2016.json": {
+      "size": 31365,
+      "modified": "2026-04-09T17:09:24.508Z"
+    },
+    "matches/season-2017.json": {
+      "size": 30652,
+      "modified": "2026-04-09T17:09:24.517Z"
+    },
+    "matches/season-2018.json": {
+      "size": 31024,
+      "modified": "2026-04-09T17:09:24.527Z"
+    },
+    "matches/season-2019.json": {
+      "size": 31072,
+      "modified": "2026-04-09T17:09:24.536Z"
+    },
+    "matches/season-2020.json": {
+      "size": 31723,
+      "modified": "2026-04-09T17:09:24.547Z"
+    },
+    "matches/season-2021.json": {
+      "size": 31227,
+      "modified": "2026-04-09T17:09:24.556Z"
+    },
+    "matches/season-2022.json": {
+      "size": 38269,
+      "modified": "2026-04-09T17:09:24.564Z"
+    },
+    "matches/season-2023.json": {
+      "size": 38129,
+      "modified": "2026-04-09T17:09:24.577Z"
+    },
+    "matches/season-2024.json": {
+      "size": 36989,
+      "modified": "2026-04-09T17:09:24.587Z"
+    },
+    "matches/season-2025.json": {
+      "size": 38180,
+      "modified": "2026-04-09T17:09:24.596Z"
+    },
+    "matches/season-2026.json": {
+      "size": 7164,
+      "modified": "2026-04-09T17:09:24.606Z"
+    },
+    "partnerships/season-2008.json": {
+      "size": 85161,
+      "modified": "2026-04-09T17:09:25.831Z"
+    },
+    "partnerships/season-2009.json": {
+      "size": 86357,
+      "modified": "2026-04-09T17:09:25.839Z"
+    },
+    "partnerships/season-2010.json": {
+      "size": 89595,
+      "modified": "2026-04-09T17:09:25.846Z"
+    },
+    "partnerships/season-2011.json": {
+      "size": 101878,
+      "modified": "2026-04-09T17:09:25.853Z"
+    },
+    "partnerships/season-2012.json": {
+      "size": 106473,
+      "modified": "2026-04-09T17:09:25.862Z"
+    },
+    "partnerships/season-2013.json": {
+      "size": 113044,
+      "modified": "2026-04-09T17:09:25.870Z"
+    },
+    "partnerships/season-2014.json": {
+      "size": 84259,
+      "modified": "2026-04-09T17:09:25.879Z"
+    },
+    "partnerships/season-2015.json": {
+      "size": 85545,
+      "modified": "2026-04-09T17:09:25.888Z"
+    },
+    "partnerships/season-2016.json": {
+      "size": 82970,
+      "modified": "2026-04-09T17:09:25.897Z"
+    },
+    "partnerships/season-2017.json": {
+      "size": 87609,
+      "modified": "2026-04-09T17:09:25.905Z"
+    },
+    "partnerships/season-2018.json": {
+      "size": 89279,
+      "modified": "2026-04-09T17:09:25.915Z"
+    },
+    "partnerships/season-2019.json": {
+      "size": 86587,
+      "modified": "2026-04-09T17:09:25.924Z"
+    },
+    "partnerships/season-2020.json": {
+      "size": 85797,
+      "modified": "2026-04-09T17:09:25.932Z"
+    },
+    "partnerships/season-2021.json": {
+      "size": 90040,
+      "modified": "2026-04-09T17:09:25.941Z"
+    },
+    "partnerships/season-2022.json": {
+      "size": 113613,
+      "modified": "2026-04-09T17:09:25.949Z"
+    },
+    "partnerships/season-2023.json": {
+      "size": 114689,
+      "modified": "2026-04-09T17:09:25.959Z"
+    },
+    "partnerships/season-2024.json": {
+      "size": 109721,
+      "modified": "2026-04-09T17:09:25.967Z"
+    },
+    "partnerships/season-2025.json": {
+      "size": 110249,
+      "modified": "2026-04-09T17:09:25.975Z"
+    },
+    "partnerships/season-2026.json": {
+      "size": 20635,
+      "modified": "2026-04-09T17:09:25.981Z"
+    },
+    "player-stats.json": {
+      "size": 418790,
+      "modified": "2026-04-09T17:09:26.232Z"
+    },
+    "player-teams.json": {
+      "size": 159672,
+      "modified": "2026-04-09T17:09:26.245Z"
+    },
+    "players-index.json": {
+      "size": 157110,
+      "modified": "2026-04-09T17:09:24.403Z"
+    },
+    "players.json": {
+      "size": 261329,
+      "modified": "2026-04-09T17:09:24.387Z"
+    },
+    "replacement-players.json": {
+      "size": 12555,
+      "modified": "2026-04-09T05:52:10.221Z"
+    },
+    "scorecards/batting-2008.json": {
+      "size": 175573,
+      "modified": "2026-04-09T17:09:24.619Z"
+    },
+    "scorecards/batting-2009.json": {
+      "size": 176650,
+      "modified": "2026-04-09T17:09:24.633Z"
+    },
+    "scorecards/batting-2010.json": {
+      "size": 184039,
+      "modified": "2026-04-09T17:09:24.644Z"
+    },
+    "scorecards/batting-2011.json": {
+      "size": 209741,
+      "modified": "2026-04-09T17:09:24.657Z"
+    },
+    "scorecards/batting-2012.json": {
+      "size": 220550,
+      "modified": "2026-04-09T17:09:24.669Z"
+    },
+    "scorecards/batting-2013.json": {
+      "size": 233396,
+      "modified": "2026-04-09T17:09:24.684Z"
+    },
+    "scorecards/batting-2014.json": {
+      "size": 173992,
+      "modified": "2026-04-09T17:09:24.697Z"
+    },
+    "scorecards/batting-2015.json": {
+      "size": 176878,
+      "modified": "2026-04-09T17:09:24.708Z"
+    },
+    "scorecards/batting-2016.json": {
+      "size": 171766,
+      "modified": "2026-04-09T17:09:24.719Z"
+    },
+    "scorecards/batting-2017.json": {
+      "size": 180419,
+      "modified": "2026-04-09T17:09:24.735Z"
+    },
+    "scorecards/batting-2018.json": {
+      "size": 181059,
+      "modified": "2026-04-09T17:09:24.748Z"
+    },
+    "scorecards/batting-2019.json": {
+      "size": 176773,
+      "modified": "2026-04-09T17:09:24.761Z"
+    },
+    "scorecards/batting-2020.json": {
+      "size": 176618,
+      "modified": "2026-04-09T17:09:24.773Z"
+    },
+    "scorecards/batting-2021.json": {
+      "size": 183211,
+      "modified": "2026-04-09T17:09:24.786Z"
+    },
+    "scorecards/batting-2022.json": {
+      "size": 234406,
+      "modified": "2026-04-09T17:09:24.799Z"
+    },
+    "scorecards/batting-2023.json": {
+      "size": 235904,
+      "modified": "2026-04-09T17:09:24.811Z"
+    },
+    "scorecards/batting-2024.json": {
+      "size": 226299,
+      "modified": "2026-04-09T17:09:24.824Z"
+    },
+    "scorecards/batting-2025.json": {
+      "size": 227987,
+      "modified": "2026-04-09T17:09:24.837Z"
+    },
+    "scorecards/batting-2026.json": {
+      "size": 43189,
+      "modified": "2026-04-09T17:09:24.847Z"
+    },
+    "scorecards/bowling-2008.json": {
+      "size": 127274,
+      "modified": "2026-04-09T17:09:24.858Z"
+    },
+    "scorecards/bowling-2009.json": {
+      "size": 132036,
+      "modified": "2026-04-09T17:09:24.870Z"
+    },
+    "scorecards/bowling-2010.json": {
+      "size": 135103,
+      "modified": "2026-04-09T17:09:24.883Z"
+    },
+    "scorecards/bowling-2011.json": {
+      "size": 162408,
+      "modified": "2026-04-09T17:09:24.897Z"
+    },
+    "scorecards/bowling-2012.json": {
+      "size": 162070,
+      "modified": "2026-04-09T17:09:24.908Z"
+    },
+    "scorecards/bowling-2013.json": {
+      "size": 166014,
+      "modified": "2026-04-09T17:09:24.921Z"
+    },
+    "scorecards/bowling-2014.json": {
+      "size": 129046,
+      "modified": "2026-04-09T17:09:24.932Z"
+    },
+    "scorecards/bowling-2015.json": {
+      "size": 128556,
+      "modified": "2026-04-09T17:09:24.943Z"
+    },
+    "scorecards/bowling-2016.json": {
+      "size": 134574,
+      "modified": "2026-04-09T17:09:24.954Z"
+    },
+    "scorecards/bowling-2017.json": {
+      "size": 132291,
+      "modified": "2026-04-09T17:09:24.965Z"
+    },
+    "scorecards/bowling-2018.json": {
+      "size": 134214,
+      "modified": "2026-04-09T17:09:24.978Z"
+    },
+    "scorecards/bowling-2019.json": {
+      "size": 129997,
+      "modified": "2026-04-09T17:09:24.989Z"
+    },
+    "scorecards/bowling-2020.json": {
+      "size": 131083,
+      "modified": "2026-04-09T17:09:25.004Z"
+    },
+    "scorecards/bowling-2021.json": {
+      "size": 131357,
+      "modified": "2026-04-09T17:09:25.016Z"
+    },
+    "scorecards/bowling-2022.json": {
+      "size": 160936,
+      "modified": "2026-04-09T17:09:25.028Z"
+    },
+    "scorecards/bowling-2023.json": {
+      "size": 168357,
+      "modified": "2026-04-09T17:09:25.041Z"
+    },
+    "scorecards/bowling-2024.json": {
+      "size": 160874,
+      "modified": "2026-04-09T17:09:25.052Z"
+    },
+    "scorecards/bowling-2025.json": {
+      "size": 163519,
+      "modified": "2026-04-09T17:09:25.064Z"
+    },
+    "scorecards/bowling-2026.json": {
+      "size": 29336,
+      "modified": "2026-04-09T17:09:25.073Z"
+    },
+    "scouting/all-players.json": {
+      "size": 2409928,
+      "modified": "2026-04-09T09:23:05.361Z"
+    },
+    "scouting/bbl.json": {
+      "size": 435856,
+      "modified": "2026-04-09T09:23:05.378Z"
+    },
+    "scouting/bpl.json": {
+      "size": 449011,
+      "modified": "2026-04-09T09:23:05.435Z"
+    },
+    "scouting/cpl.json": {
+      "size": 353642,
+      "modified": "2026-04-09T09:23:05.402Z"
+    },
+    "scouting/hnd.json": {
+      "size": 386512,
+      "modified": "2026-04-09T09:23:05.422Z"
+    },
+    "scouting/ilt20.json": {
+      "size": 255280,
+      "modified": "2026-04-09T09:23:05.455Z"
+    },
+    "scouting/ipl-crossover.json": {
+      "size": 544039,
+      "modified": "2026-04-09T09:23:05.539Z"
+    },
+    "scouting/lpl.json": {
+      "size": 184234,
+      "modified": "2026-04-09T09:23:05.445Z"
+    },
+    "scouting/mlc.json": {
+      "size": 147998,
+      "modified": "2026-04-09T09:23:05.462Z"
+    },
+    "scouting/ntb.json": {
+      "size": 749867,
+      "modified": "2026-04-09T09:23:05.480Z"
+    },
+    "scouting/psl.json": {
+      "size": 373280,
+      "modified": "2026-04-09T09:23:05.390Z"
+    },
+    "scouting/sa20.json": {
+      "size": 182241,
+      "modified": "2026-04-09T09:23:05.410Z"
+    },
+    "scouting/scout-targets.json": {
+      "size": 1393873,
+      "modified": "2026-04-09T09:23:05.524Z"
+    },
+    "scouting/smat.json": {
+      "size": 752321,
+      "modified": "2026-04-09T09:23:05.496Z"
+    },
+    "seasons.json": {
+      "size": 8551,
+      "modified": "2026-04-09T17:09:26.211Z"
+    },
+    "squad-name-mapping.json": {
+      "size": 5850,
+      "modified": "2026-04-09T14:17:58.881Z"
+    },
+    "squads-2026.json": {
+      "size": 23387,
+      "modified": "2026-04-09T17:09:26.250Z"
+    },
+    "teams.json": {
+      "size": 4335,
+      "modified": "2026-04-09T17:09:24.413Z"
+    },
+    "venues.json": {
+      "size": 4755,
+      "modified": "2026-04-09T17:09:26.217Z"
+    }
+  }
+}

@@ -1,0 +1,339 @@
+[
+  {
+    "year": "2008",
+    "winner": "Rajasthan Royals",
+    "runnerUp": "Chennai Super Kings",
+    "isOngoing": false,
+    "matchCount": 59,
+    "teams": [
+      "Chennai Super Kings",
+      "Deccan Chargers",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "year": "2009",
+    "winner": "Deccan Chargers",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "isOngoing": false,
+    "matchCount": 57,
+    "teams": [
+      "Chennai Super Kings",
+      "Deccan Chargers",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "year": "2010",
+    "winner": "Chennai Super Kings",
+    "runnerUp": "Mumbai Indians",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Deccan Chargers",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "year": "2011",
+    "winner": "Chennai Super Kings",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "isOngoing": false,
+    "matchCount": 74,
+    "teams": [
+      "Chennai Super Kings",
+      "Deccan Chargers",
+      "Delhi Capitals",
+      "Kochi Tuskers Kerala",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Pune Warriors",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "year": "2012",
+    "winner": "Kolkata Knight Riders",
+    "runnerUp": "Chennai Super Kings",
+    "isOngoing": false,
+    "matchCount": 76,
+    "teams": [
+      "Chennai Super Kings",
+      "Deccan Chargers",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Pune Warriors",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "year": "2013",
+    "winner": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "isOngoing": false,
+    "matchCount": 76,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Pune Warriors",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2014",
+    "winner": "Kolkata Knight Riders",
+    "runnerUp": "Punjab Kings",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2015",
+    "winner": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2016",
+    "winner": "Sunrisers Hyderabad",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Delhi Capitals",
+      "Gujarat Lions",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rising Pune Supergiant",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2017",
+    "winner": "Mumbai Indians",
+    "runnerUp": "Rising Pune Supergiant",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Delhi Capitals",
+      "Gujarat Lions",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rising Pune Supergiant",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2018",
+    "winner": "Chennai Super Kings",
+    "runnerUp": "Sunrisers Hyderabad",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2019",
+    "winner": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2020",
+    "winner": "Mumbai Indians",
+    "runnerUp": "Delhi Capitals",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2021",
+    "winner": "Chennai Super Kings",
+    "runnerUp": "Kolkata Knight Riders",
+    "isOngoing": false,
+    "matchCount": 60,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2022",
+    "winner": "Gujarat Titans",
+    "runnerUp": "Rajasthan Royals",
+    "isOngoing": false,
+    "matchCount": 74,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders",
+      "Lucknow Super Giants",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2023",
+    "winner": "Chennai Super Kings",
+    "runnerUp": "Gujarat Titans",
+    "isOngoing": false,
+    "matchCount": 74,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders",
+      "Lucknow Super Giants",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2024",
+    "winner": "Kolkata Knight Riders",
+    "runnerUp": "Sunrisers Hyderabad",
+    "isOngoing": false,
+    "matchCount": 74,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders",
+      "Lucknow Super Giants",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2025",
+    "winner": "Royal Challengers Bengaluru",
+    "runnerUp": "Punjab Kings",
+    "isOngoing": false,
+    "matchCount": 74,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders",
+      "Lucknow Super Giants",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "year": "2026",
+    "winner": null,
+    "runnerUp": null,
+    "isOngoing": true,
+    "matchCount": 39,
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders",
+      "Lucknow Super Giants",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ]
+  }
+]

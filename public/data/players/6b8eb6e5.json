@@ -1,0 +1,47 @@
+{
+  "id": "6b8eb6e5",
+  "name": "S Sreesanth",
+  "shortName": "S Sreesanth",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Kochi Tuskers Kerala",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2013-05-09",
+  "matchCount": 44,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    }
+  ]
+}

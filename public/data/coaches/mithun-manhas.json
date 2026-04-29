@@ -1,0 +1,116 @@
+{
+  "id": "mithun-manhas",
+  "name": "Mithun Manhas",
+  "fullName": "Mithun Manhas",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "leadership"
+  ],
+  "playingCareerSummary": "Former Delhi first-class batter and captain — one of the all-time run scorers in Ranji Trophy history. Played for Delhi Daredevils, Rajasthan Royals, Pune Warriors and Chennai Super Kings in the IPL.",
+  "bio": "Gujarat Titans' assistant coach for 2023 and 2024 under Ashish Nehra.",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "assistant-coach",
+      "fromSeason": "2023",
+      "toSeason": "2024",
+      "seasons": [
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (20 pts). Lost Qualifier 1 to CSK by 15 runs; beat Mumbai Indians in Qualifier 2 by 62 runs; lost final to CSK by 5 wickets (DLS). The 'longest-ever IPL final' — spanned 3 calendar days due to rain, ending at 01:35 IST on 30 May."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -1.063). First season GT missed the playoffs. Captain Shubman Gill took over from Hardik Pandya who returned to MI."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 15,
+          "losses": 11,
+          "noResults": 2,
+          "winPct": 53.57
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat_Titans",
+        "https://en.wikipedia.org/wiki/2023_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2024_Gujarat_Titans_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 15,
+      "losses": 11,
+      "noResults": 2,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true,
+  "dob": "1979-10-12",
+  "playingCareerPlayerId": "c42aaf71"
+}

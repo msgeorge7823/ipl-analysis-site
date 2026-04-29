@@ -1,0 +1,25 @@
+{
+  "id": "6581d753",
+  "name": "JM Kemp",
+  "shortName": "JM Kemp",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-14",
+  "lastMatch": "2010-04-18",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    }
+  ]
+}

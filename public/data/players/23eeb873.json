@@ -1,0 +1,74 @@
+{
+  "id": "23eeb873",
+  "name": "Deepak Lokendrasingh Chahar",
+  "shortName": "DL Chahar",
+  "nicknames": [
+    "Deepak Chahar"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Rising Pune Supergiant",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2016-05-17",
+  "lastMatch": "2026-04-16",
+  "matchCount": 98,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

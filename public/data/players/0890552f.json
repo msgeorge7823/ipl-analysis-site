@@ -1,0 +1,41 @@
+{
+  "id": "0890552f",
+  "name": "A Manohar",
+  "shortName": "A Manohar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Titans",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2022-03-28",
+  "lastMatch": "2025-05-25",
+  "matchCount": 27,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2022"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "35f173a0",
+  "name": "MP Breetzke",
+  "shortName": "MP Breetzke",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-05-27",
+  "lastMatch": "2025-05-27",
+  "matchCount": 1,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    }
+  ]
+}

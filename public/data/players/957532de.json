@@ -1,0 +1,47 @@
+{
+  "id": "957532de",
+  "name": "Sreenath Aravind",
+  "shortName": "S Aravind",
+  "nicknames": [
+    "Aravind"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2011",
+    "2012",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2011-04-14",
+  "lastMatch": "2017-05-07",
+  "matchCount": 38,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    }
+  ]
+}

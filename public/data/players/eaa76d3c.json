@@ -1,0 +1,37 @@
+{
+  "id": "eaa76d3c",
+  "name": "C Green",
+  "shortName": "C Green",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2023",
+    "2024",
+    "2026"
+  ],
+  "firstMatch": "2023-04-02",
+  "lastMatch": "2026-04-26",
+  "matchCount": 37,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2026"
+    }
+  ]
+}

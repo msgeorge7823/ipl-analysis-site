@@ -1,0 +1,40 @@
+{
+  "id": "662c47a6",
+  "name": "Y Nagar",
+  "shortName": "Y Nagar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2009-05-19",
+  "lastMatch": "2012-05-12",
+  "matchCount": 26,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2011"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2012"
+    }
+  ]
+}

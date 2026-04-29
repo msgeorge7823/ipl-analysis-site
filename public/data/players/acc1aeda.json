@@ -1,0 +1,30 @@
+{
+  "id": "acc1aeda",
+  "name": "SP Jackson",
+  "shortName": "SP Jackson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2017",
+    "2022"
+  ],
+  "firstMatch": "2017-04-28",
+  "lastMatch": "2022-05-09",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    }
+  ]
+}

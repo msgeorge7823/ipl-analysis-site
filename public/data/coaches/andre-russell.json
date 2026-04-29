@@ -1,0 +1,97 @@
+{
+  "id": "andre-russell",
+  "name": "Andre Russell",
+  "fullName": "Andre Dwayne Russell",
+  "nationality": "Jamaican (West Indian)",
+  "specialty": [
+    "power-hitting",
+    "fast-bowling",
+    "all-round"
+  ],
+  "playingCareerSummary": "One of T20 cricket's most explosive all-rounders and two-time T20 World Cup winner with West Indies: 1 Test, 56 ODIs, 84 T20Is. Played for Delhi Daredevils and Kolkata Knight Riders (2014-2025) in the IPL, winning the 2014 and 2024 titles with KKR as a central figure.",
+  "bio": "Transitioned into the first-ever franchise 'Power Coach' role at KKR for IPL 2026 after retiring as a player — a unique specialist role focused on power-hitting development. Remains with the franchise where he spent most of his playing career.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "assistant-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "First season as head coach. Stats will update as matches complete. Taking over after Chandrakant Pandit's three-year contract ended."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season"
+      ],
+      "notes": "'Power Coach' — a unique specialist role created by KKR after Russell's retirement, focused on power-hitting development. Modelled as 'assistant-coach' in the schema."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 0,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1988-04-29",
+  "playingCareerPlayerId": "bbd41817"
+}

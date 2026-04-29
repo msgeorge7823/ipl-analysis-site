@@ -1,0 +1,147 @@
+{
+  "id": "narender-negi",
+  "name": "Narender Negi",
+  "fullName": "Narender Singh Negi",
+  "nationality": "Indian",
+  "specialty": [
+    "assistant-coaching",
+    "fielding"
+  ],
+  "playingCareerSummary": "Indian first-class cricketer. Did not play in the IPL.",
+  "bio": "Gujarat Titans support staff member in 2023 (assistant coach) and 2024 (fielding coach).",
+  "tenures": [
+    {
+      "team": "Gujarat Titans",
+      "role": "assistant-coach",
+      "fromSeason": "2023",
+      "toSeason": "2023",
+      "seasons": [
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (20 pts). Lost Qualifier 1 to CSK by 15 runs; beat Mumbai Indians in Qualifier 2 by 62 runs; lost final to CSK by 5 wickets (DLS). The 'longest-ever IPL final' — spanned 3 calendar days due to rain, ending at 01:35 IST on 30 May."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 10,
+          "losses": 4,
+          "noResults": 0,
+          "winPct": 71.43
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2023_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/Gujarat_Titans"
+      ]
+    },
+    {
+      "team": "Gujarat Titans",
+      "role": "fielding-coach",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -1.063). First season GT missed the playoffs. Captain Shubman Gill took over from Hardik Pandya who returned to MI."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 7,
+          "noResults": 2,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2024_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/Gujarat_Titans"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 15,
+      "losses": 11,
+      "noResults": 2,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true
+}

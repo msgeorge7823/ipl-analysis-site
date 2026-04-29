@@ -1,0 +1,140 @@
+{
+  "season": "2009",
+  "teamId": "deccan-chargers",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bd77eb62",
+      "name": "A Symonds",
+      "shortName": "A Symonds",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "35205dfc",
+      "name": "Dwayne Romel Smith",
+      "shortName": "DR Smith",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d7b3a420",
+      "name": "Jaskaran Singh",
+      "shortName": "Jaskaran Singh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "57efa3be",
+      "name": "SB Styris",
+      "shortName": "SB Styris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe763256",
+      "name": "Y Venugopal Rao",
+      "shortName": "Y Venugopal Rao",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bff458c6",
+      "name": "AA Bilakhia",
+      "shortName": "AA Bilakhia",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b720a5d6",
+      "name": "DB Ravi Teja",
+      "shortName": "DB Ravi Teja",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "e1d1b294",
+      "name": "HH Gibbs",
+      "shortName": "HH Gibbs",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "aaa1b522",
+      "name": "TL Suman",
+      "shortName": "TL Suman",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "de8cce37",
+      "name": "VVS Laxman",
+      "shortName": "VVS Laxman",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a7c226e1",
+      "name": "FH Edwards",
+      "shortName": "FH Edwards",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2a72fd4f",
+      "name": "Harmeet Singh",
+      "shortName": "Harmeet Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6c6591ab",
+      "name": "Pragyan Pramod Ojha",
+      "shortName": "PP Ojha",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "12eddf28",
+      "name": "RJ Harris",
+      "shortName": "RJ Harris",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c3d1402f",
+      "name": "Rudra Pratap Singh",
+      "shortName": "RP Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8a668774",
+      "name": "Shoaib Ahmed",
+      "shortName": "Shoaib Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "bcce309e",
+      "name": "WPUJC Vaas",
+      "shortName": "WPUJC Vaas",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2b6e6dec",
+      "name": "AC Gilchrist",
+      "shortName": "AC Gilchrist",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

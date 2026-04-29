@@ -1,0 +1,25 @@
+{
+  "id": "acd4f5dc",
+  "name": "DP Vijaykumar",
+  "shortName": "DP Vijaykumar",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-03",
+  "lastMatch": "2008-05-27",
+  "matchCount": 9,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

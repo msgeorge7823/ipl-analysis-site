@@ -1,0 +1,35 @@
+{
+  "id": "ab89348d",
+  "name": "MF Maharoof",
+  "shortName": "MF Maharoof",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2010-04-11",
+  "matchCount": 20,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2008"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    }
+  ]
+}

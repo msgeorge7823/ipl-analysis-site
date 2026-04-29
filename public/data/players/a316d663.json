@@ -1,0 +1,25 @@
+{
+  "id": "a316d663",
+  "name": "GC Viljoen",
+  "shortName": "GC Viljoen",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2019"
+  ],
+  "firstMatch": "2019-03-27",
+  "lastMatch": "2019-04-24",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    }
+  ]
+}

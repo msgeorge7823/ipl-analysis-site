@@ -1,0 +1,104 @@
+{
+  "id": "5bb1a1c4",
+  "name": "Ishant Sharma",
+  "shortName": "I Sharma",
+  "nicknames": [
+    "Ishant",
+    "Lambu"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Sunrisers Hyderabad",
+    "Deccan Chargers",
+    "Rising Pune Supergiant",
+    "Punjab Kings",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2019",
+    "2020",
+    "2021",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2008-04-18",
+  "lastMatch": "2025-05-02",
+  "matchCount": 117,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2019"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2020"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2021"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

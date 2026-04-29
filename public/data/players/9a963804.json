@@ -1,0 +1,25 @@
+{
+  "id": "9a963804",
+  "name": "LE Plunkett",
+  "shortName": "LE Plunkett",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2018"
+  ],
+  "firstMatch": "2018-04-23",
+  "lastMatch": "2018-05-20",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2018"
+    }
+  ]
+}

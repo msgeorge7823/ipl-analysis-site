@@ -1,0 +1,25 @@
+{
+  "id": "b51f72a5",
+  "name": "SS Agarwal",
+  "shortName": "SS Agarwal",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-23",
+  "lastMatch": "2017-04-23",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

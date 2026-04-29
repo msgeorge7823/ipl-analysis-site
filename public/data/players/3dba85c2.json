@@ -1,0 +1,30 @@
+{
+  "id": "3dba85c2",
+  "name": "WA Mota",
+  "shortName": "WA Mota",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-04-19",
+  "lastMatch": "2009-05-20",
+  "matchCount": 12,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    }
+  ]
+}

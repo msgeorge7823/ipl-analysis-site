@@ -1,0 +1,25 @@
+{
+  "id": "7bb62642",
+  "name": "Anirudh Singh",
+  "shortName": "Anirudh Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-03-12",
+  "lastMatch": "2010-04-24",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

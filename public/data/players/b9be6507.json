@@ -1,0 +1,25 @@
+{
+  "id": "b9be6507",
+  "name": "AS Yadav",
+  "shortName": "AS Yadav",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-20",
+  "lastMatch": "2008-05-27",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

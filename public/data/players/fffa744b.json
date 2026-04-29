@@ -1,0 +1,35 @@
+{
+  "id": "fffa744b",
+  "name": "Naman Dhir",
+  "shortName": "Naman Dhir",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2024-03-24",
+  "lastMatch": "2026-04-23",
+  "matchCount": 30,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

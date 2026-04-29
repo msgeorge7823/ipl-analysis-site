@@ -1,0 +1,31 @@
+{
+  "id": "11df3dc8",
+  "name": "MJ Lumb",
+  "shortName": "MJ Lumb",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2010",
+    "2011"
+  ],
+  "firstMatch": "2010-03-18",
+  "lastMatch": "2011-05-14",
+  "matchCount": 12,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2010"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    }
+  ]
+}

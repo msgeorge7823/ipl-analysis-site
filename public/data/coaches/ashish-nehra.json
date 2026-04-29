@@ -1,0 +1,259 @@
+{
+  "id": "ashish-nehra",
+  "name": "Ashish Nehra",
+  "fullName": "Ashish Diwan Nehra",
+  "dob": "1979-04-29",
+  "nationality": "Indian",
+  "specialty": [
+    "pace-bowling",
+    "player-development",
+    "man-management"
+  ],
+  "playingCareerPlayerId": "96fd40ae",
+  "playingCareerSummary": "Former India left-arm fast bowler: 17 Tests, 120 ODIs (157 wickets), 27 T20Is. One of the all-time feel-good stories of Indian cricket — made multiple comebacks from injuries. Played for Mumbai Indians, Delhi Daredevils, Pune Warriors, Chennai Super Kings and Sunrisers Hyderabad in the IPL.",
+  "bio": "Gujarat Titans' inaugural and only head coach since their founding in 2022. Delivered the franchise its maiden IPL title in its debut season (2022) — making GT only the second team after the inaugural Rajasthan Royals (2008) to win the IPL in their first-ever campaign. Followed it up with a runner-up finish in 2023 (the 'longest final' — lost to CSK via DLS across three days). Missed playoffs in 2024 but returned to the Eliminator in 2025. Retained for 2026 with Matthew Hayden joining as mentor and Parthiv Patel as batting coach.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "bowling-coach",
+      "fromSeason": "2018",
+      "toSeason": "2019",
+      "seasons": [
+        "2018",
+        "2019"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Gary Kirsten was promoted to head coach in August 2018 (after the season), replacing Vettori for 2019."
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 11 points. Kirsten had been appointed batting coach in January 2018, promoted to head coach in August 2018 ahead of this season. Single season in charge before Simon Katich replaced him."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 11,
+          "losses": 16,
+          "noResults": 1,
+          "winPct": 39.29
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/2019_Royal_Challengers_Bangalore_season",
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ],
+      "notes": "First coaching role in the IPL — bowling mentor in 2018 (under Vettori), then bowling coach in 2019 (under Kirsten). Later became GT's inaugural head coach in 2022."
+    },
+    {
+      "team": "Gujarat Titans",
+      "role": "head-coach",
+      "fromSeason": "2022",
+      "toSeason": "2026",
+      "seasons": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st in league (20 pts, NRR 0.316). Beat Rajasthan Royals in Qualifier 1 by 7 wickets; beat RR in final by 7 wickets at Narendra Modi Stadium, Ahmedabad. Inaugural season title — GT became only the second team (after CSK in 2008) to win the IPL in their debut season. Captain: Hardik Pandya. Gary Kirsten: batting coach/mentor."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (20 pts). Lost Qualifier 1 to CSK by 15 runs; beat Mumbai Indians in Qualifier 2 by 62 runs; lost final to CSK by 5 wickets (DLS). The 'longest-ever IPL final' — spanned 3 calendar days due to rain, ending at 01:35 IST on 30 May."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -1.063). First season GT missed the playoffs. Captain Shubman Gill took over from Hardik Pandya who returned to MI."
+        },
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in Group B. Lost Eliminator to Mumbai Indians by 20 runs (208/6 vs 228/5) at Mullanpur on 30 May. Sai Sudharsan top-scored across the IPL with 759 runs; Prasidh Krishna most wickets with 25."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Nehra retained as HC alongside Vikram Solanki (DoC). Matthew Hayden joined as mentor and Parthiv Patel as batting coach. Stats will update as matches complete."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 34,
+          "losses": 20,
+          "noResults": 2,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 6,
+          "wins": 3,
+          "losses": 3,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "titles": 1,
+        "finalsReached": 2,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2023_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2024_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2025_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/2026_Gujarat_Titans_season",
+        "https://en.wikipedia.org/wiki/Gujarat_Titans"
+      ],
+      "notes": "GT's inaugural and only head coach. 2026 placeholder excluded from aggregate until the season completes."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 6,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 84,
+      "wins": 45,
+      "losses": 36,
+      "noResults": 3,
+      "winPct": 53.57
+    },
+    "playoffs": {
+      "matches": 6,
+      "wins": 3,
+      "losses": 3,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 2,
+    "playoffAppearances": 3
+  },
+  "otherCoachingRoles": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ashish_Nehra",
+    "https://en.wikipedia.org/wiki/Gujarat_Titans"
+  ],
+  "verified": true
+}

@@ -1,0 +1,193 @@
+{
+  "id": "anil-kumble",
+  "name": "Anil Kumble",
+  "fullName": "Anil Kumble",
+  "dob": "1970-10-17",
+  "nationality": "Indian",
+  "specialty": [
+    "spin-bowling",
+    "strategy",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "0c2730df",
+  "playingCareerSummary": "India's highest wicket-taker in Tests: 132 Tests (619 wickets) and 271 ODIs (337 wickets). Former India captain. Played for Royal Challengers Bangalore in the IPL (2008-2010), captaining them to the 2009 final.",
+  "bio": "Head coach and Director of Cricket Operations of the Punjab franchise from 2020 to 2022 — a tenure that spanned the franchise's rebrand from Kings XI Punjab to Punjab Kings in February 2021. All three of his seasons ended in a 6th-place finish without a playoff berth, and he was replaced by Trevor Bayliss in September 2022. Previously head coach of the India national team (2016-2017), a stint that ended after a publicised rift with captain Virat Kohli.",
+  "tenures": [
+    {
+      "team": "Kings XI Punjab",
+      "role": "head-coach",
+      "fromSeason": "2020",
+      "toSeason": "2020",
+      "seasons": [
+        "2020"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 12 points. Final season under the 'Kings XI Punjab' name — the franchise rebranded to 'Punjab Kings' on 17 February 2021."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 6,
+          "losses": 8,
+          "noResults": 0,
+          "winPct": 42.86
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2020_Kings_XI_Punjab_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings",
+        "https://www.outlookindia.com/sports/sports-news-indian-premier-league-anil-kumble-named-head-coach-of-kings-xi-punjab-news-340350"
+      ],
+      "notes": "Final season under the 'Kings XI Punjab' name. Kumble also served as Director of Cricket Operations."
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "head-coach",
+      "fromSeason": "2021",
+      "toSeason": "2022",
+      "seasons": [
+        "2021",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "First season under the 'Punjab Kings' name. Finished 6th with 12 points."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points (NRR 0.126). Missed playoffs. Kumble was replaced by Trevor Bayliss in September 2022."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 13,
+          "losses": 15,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/2022_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "First two seasons under the rebranded 'Punjab Kings' name. Kumble continued as Director of Cricket Operations alongside head-coaching duties across both stints."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 19,
+      "losses": 23,
+      "noResults": 0,
+      "winPct": 45.24
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Head Coach",
+      "period": "2016-2017",
+      "notes": "One-year tenure; stepped down after the 2017 ICC Champions Trophy amid reports of a rift with captain Virat Kohli."
+    },
+    {
+      "team": "Mumbai Indians (IPL)",
+      "role": "Mentor / Chief Mentor",
+      "period": "2013",
+      "notes": "MI's 'chief mentor' during their first IPL title win; to be added as a support-staff entry in Phase 2."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anil_Kumble",
+    "https://www.outlookindia.com/sports/sports-news-indian-premier-league-anil-kumble-named-head-coach-of-kings-xi-punjab-news-340350",
+    "https://www.espncricinfo.com/story/anil-kumble-appointed-kings-xi-punjab-head-coach-1203132",
+    "https://en.wikipedia.org/wiki/2020_Kings_XI_Punjab_season",
+    "https://en.wikipedia.org/wiki/2021_Punjab_Kings_season",
+    "https://en.wikipedia.org/wiki/2022_Punjab_Kings_season"
+  ],
+  "verified": true
+}

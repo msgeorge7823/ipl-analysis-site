@@ -1,0 +1,77 @@
+{
+  "season": "2025",
+  "players": [
+    {
+      "player": "Chetan Sakariya",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Umran Malik",
+      "reason": "Injury"
+    },
+    {
+      "player": "Corbin Bosch",
+      "team": "Mumbai Indians",
+      "replacing": "Lizaad Williams",
+      "reason": "Knee injury"
+    },
+    {
+      "player": "Wiaan Mulder",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Brydon Carse",
+      "reason": "Injury"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Gujarat Titans",
+      "replacing": "Glenn Phillips",
+      "reason": "Injury"
+    },
+    {
+      "player": "Kyle Jamieson",
+      "team": "Punjab Kings",
+      "replacing": "Lockie Ferguson",
+      "reason": "Injury"
+    },
+    {
+      "player": "Will O'Rourke",
+      "team": "Lucknow Super Giants",
+      "replacing": "Mayank Yadav",
+      "reason": "Injury"
+    },
+    {
+      "player": "Kusal Mendis",
+      "team": "Gujarat Titans",
+      "replacing": "Temporary playoff replacement",
+      "reason": "Playoffs reinforcement"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "team": "Delhi Capitals",
+      "replacing": "Jake Fraser-McGurk",
+      "reason": "Withdrawal"
+    },
+    {
+      "player": "Sediqullah Atal",
+      "team": "Delhi Capitals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Mayank Agarwal",
+      "team": "Royal Challengers Bengaluru",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Lhuan-dre Pretorius",
+      "team": "Rajasthan Royals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    },
+    {
+      "player": "Nandre Burger",
+      "team": "Rajasthan Royals",
+      "replacing": "Pre-suspension signing",
+      "reason": "Squad reinforcement"
+    }
+  ]
+}

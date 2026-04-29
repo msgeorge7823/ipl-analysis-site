@@ -1,0 +1,175 @@
+{
+  "season": "2021",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "e087956b",
+      "name": "BA Stokes",
+      "shortName": "BA Stokes",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb66ce1f",
+      "name": "CH Morris",
+      "shortName": "CH Morris",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "50c6bc2b",
+      "name": "LS Livingstone",
+      "shortName": "LS Livingstone",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "39a2dfa8",
+      "name": "Rahul Tewatia",
+      "shortName": "R Tewatia",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "04a418e8",
+      "name": "Riyan Parag",
+      "shortName": "R Parag",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a4e37e47",
+      "name": "S Dube",
+      "shortName": "S Dube",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d67d5f00",
+      "name": "David Andrew Miller",
+      "shortName": "DA Miller",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0ebfb1ad",
+      "name": "E Lewis",
+      "shortName": "E Lewis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9a46c4e5",
+      "name": "GD Phillips",
+      "shortName": "GD Phillips",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c03e2850",
+      "name": "M Vohra",
+      "shortName": "M Vohra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "da934ee8",
+      "name": "MK Lomror",
+      "shortName": "MK Lomror",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a03bba42",
+      "name": "T Shamsi",
+      "shortName": "T Shamsi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6c19c6e5",
+      "name": "Yashasvi Jaiswal",
+      "shortName": "YBK Jaiswal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b483905d",
+      "name": "Akash Singh",
+      "shortName": "Akash Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2cdce1be",
+      "name": "C Sakariya",
+      "shortName": "C Sakariya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "1e66c162",
+      "name": "Jaydev Unadkat",
+      "shortName": "JD Unadkat",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "030f3089",
+      "name": "K Yadav",
+      "shortName": "K Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d2eea49",
+      "name": "Kartik Tyagi",
+      "shortName": "Kartik Tyagi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a8fce53",
+      "name": "Mustafizur Rahman",
+      "shortName": "Mustafizur Rahman",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7a8bd078",
+      "name": "S Gopal",
+      "shortName": "S Gopal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c8f5f961",
+      "name": "Anuj Rawat",
+      "shortName": "Anuj Rawat",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "99b75528",
+      "name": "Joseph Charles Buttler",
+      "shortName": "JC Buttler",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "a4cc73aa",
+      "name": "Sanju Viswanath Samson",
+      "shortName": "SV Samson",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

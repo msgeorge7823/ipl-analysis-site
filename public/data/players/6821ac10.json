@@ -1,0 +1,25 @@
+{
+  "id": "6821ac10",
+  "name": "JJ van der Wath",
+  "shortName": "JJ van der Wath",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-14",
+  "lastMatch": "2011-05-17",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "e0351c86",
+  "name": "DNT Zoysa",
+  "shortName": "DNT Zoysa",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-04-27",
+  "lastMatch": "2008-05-18",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    }
+  ]
+}

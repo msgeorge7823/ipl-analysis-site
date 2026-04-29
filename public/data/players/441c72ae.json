@@ -1,0 +1,25 @@
+{
+  "id": "441c72ae",
+  "name": "P Ray Barman",
+  "shortName": "P Ray Barman",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2019"
+  ],
+  "firstMatch": "2019-03-31",
+  "lastMatch": "2019-03-31",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    }
+  ]
+}

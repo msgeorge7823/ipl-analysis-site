@@ -1,0 +1,30 @@
+{
+  "id": "6c882e9a",
+  "name": "PBB Rajapaksa",
+  "shortName": "PBB Rajapaksa",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2022-03-27",
+  "lastMatch": "2023-05-08",
+  "matchCount": 13,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    }
+  ]
+}

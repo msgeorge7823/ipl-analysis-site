@@ -1,0 +1,25 @@
+{
+  "id": "62e07f92",
+  "name": "KH Devdhar",
+  "shortName": "KH Devdhar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-05-21",
+  "lastMatch": "2011-05-21",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2011"
+    }
+  ]
+}

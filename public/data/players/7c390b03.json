@@ -1,0 +1,25 @@
+{
+  "id": "7c390b03",
+  "name": "RA Shaikh",
+  "shortName": "RA Shaikh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-05-21",
+  "lastMatch": "2009-05-21",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2009"
+    }
+  ]
+}

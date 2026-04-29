@@ -1,0 +1,37 @@
+{
+  "id": "2be41edb",
+  "name": "MJ Guptill",
+  "shortName": "MJ Guptill",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2016",
+    "2017",
+    "2019"
+  ],
+  "firstMatch": "2016-04-18",
+  "lastMatch": "2019-05-08",
+  "matchCount": 13,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    }
+  ]
+}

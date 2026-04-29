@@ -1,0 +1,30 @@
+{
+  "id": "e249fdaa",
+  "name": "A Chopra",
+  "shortName": "A Chopra",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2008",
+    "2009"
+  ],
+  "firstMatch": "2008-05-08",
+  "lastMatch": "2009-04-21",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2008"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    }
+  ]
+}

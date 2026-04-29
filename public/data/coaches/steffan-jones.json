@@ -1,0 +1,116 @@
+{
+  "id": "steffan-jones",
+  "name": "Steffan Jones",
+  "fullName": "Steffan Peter Jones",
+  "nationality": "Welsh / British",
+  "specialty": [
+    "fast-bowling",
+    "biomechanics",
+    "high-performance"
+  ],
+  "playingCareerSummary": "Former Somerset and Kent county fast bowler. Specialist pace-bowling / biomechanics consultant across franchise cricket.",
+  "bio": "Rajasthan Royals' fast bowling coach (2019) and later High Performance Fast Bowling Coach (2022).",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "fast-bowling-coach",
+      "fromSeason": "2019",
+      "toSeason": "2022",
+      "seasons": [
+        "2019",
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 11 points (NRR -0.449). Upton left after this season; Andrew McDonald replaced him."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd in league (18 pts, NRR 0.298). Lost Q1 to GT by 7 wickets; beat RCB in Q2 by 7 wickets; lost final to GT by 7 wickets. Franchise's first final since winning the inaugural 2008 title — 14 years between finals. Captain: Sanju Samson."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 14,
+          "losses": 13,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://en.wikipedia.org/wiki/2019_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/2022_Rajasthan_Royals_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 14,
+      "losses": 13,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 1,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 33.33
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajasthan_Royals"
+  ],
+  "verified": true,
+  "dob": "1974-03-09"
+}

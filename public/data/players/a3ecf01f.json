@@ -1,0 +1,25 @@
+{
+  "id": "a3ecf01f",
+  "name": "RS Sodhi",
+  "shortName": "RS Sodhi",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010"
+  ],
+  "firstMatch": "2010-04-09",
+  "lastMatch": "2010-04-16",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    }
+  ]
+}

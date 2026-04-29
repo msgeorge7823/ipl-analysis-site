@@ -1,0 +1,31 @@
+{
+  "id": "0c432afb",
+  "name": "P Parameswaran",
+  "shortName": "P Parameswaran",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Kochi Tuskers Kerala",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-05-02",
+  "lastMatch": "2012-05-20",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "year": "2021",
+  "winner": "Chennai Super Kings",
+  "runnerUp": "Kolkata Knight Riders",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "orangeCap": {
+    "player": "Ruturaj Dhananjay Gaikwad",
+    "shortName": "RD Gaikwad",
+    "runs": 635
+  },
+  "purpleCap": {
+    "player": "Harshal Vinod Patel",
+    "shortName": "HV Patel",
+    "wickets": 32
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "allan-donald",
+  "name": "Allan Donald",
+  "fullName": "Allan Anthony Donald",
+  "dob": "1966-10-20",
+  "nationality": "South African",
+  "specialty": [
+    "fast-bowling"
+  ],
+  "playingCareerSummary": "Former South Africa right-arm fast bowler: 72 Tests (330 wickets at 22.25), 164 ODIs (272 wickets). One of the greatest fast bowlers of his era. Did not play in the IPL.",
+  "bio": "Pune Warriors India's head coach in 2012 and 2013 — two seasons before the franchise's termination in 2013. Had previously been the team's bowling coach before being elevated to head coach.",
+  "tenures": [
+    {
+      "team": "Pune Warriors",
+      "role": "head-coach",
+      "fromSeason": "2013",
+      "toSeason": "2013",
+      "seasons": [
+        "2013"
+      ],
+      "perSeason": [
+        {
+          "season": "2013",
+          "league": {
+            "matches": 16,
+            "wins": 4,
+            "losses": 12,
+            "noResults": 0,
+            "winPct": 25.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th of 9 with 8 points. Franchise withdrew in May 2013 citing financial differences with BCCI; formally terminated later."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 32,
+          "wins": 8,
+          "losses": 24,
+          "noResults": 0,
+          "winPct": 25.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pune_Warriors_India"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 32,
+      "wins": 8,
+      "losses": 24,
+      "noResults": 0,
+      "winPct": 25.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "South Africa (National)",
+      "role": "Bowling Coach",
+      "period": "2011-2014, 2015-2016"
+    },
+    {
+      "team": "England (National)",
+      "role": "Bowling Consultant",
+      "period": "2017-2018"
+    },
+    {
+      "team": "Bangladesh (National)",
+      "role": "Bowling Consultant",
+      "period": "2022-2024"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Allan_Donald"
+  ],
+  "verified": true
+}

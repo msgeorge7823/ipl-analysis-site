@@ -1,0 +1,28 @@
+{
+  "year": "2009",
+  "winner": "Deccan Chargers",
+  "runnerUp": "Royal Challengers Bengaluru",
+  "isOngoing": false,
+  "matchCount": 57,
+  "matchesWithData": 57,
+  "teams": [
+    "Chennai Super Kings",
+    "Deccan Chargers",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "orangeCap": {
+    "player": "Matthew Lawrence Hayden",
+    "shortName": "ML Hayden",
+    "runs": 572
+  },
+  "purpleCap": {
+    "player": "Rudra Pratap Singh",
+    "shortName": "RP Singh",
+    "wickets": 23
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "season": "2023",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "4d7f517e",
+      "name": "AJ Hosein",
+      "shortName": "AJ Hosein",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "8e514b4c",
+      "name": "Abdul Samad",
+      "shortName": "Abdul Samad",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e9c7f0d0",
+      "name": "Fazalhaq Farooqi",
+      "shortName": "Fazalhaq Farooqi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "81c36ee9",
+      "name": "M Jansen",
+      "shortName": "M Jansen",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "aad0c365",
+      "name": "Nithish Kumar Reddy",
+      "shortName": "Nithish Kumar Reddy",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "6a26221c",
+      "name": "AK Markram",
+      "shortName": "AK Markram",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1399b39c",
+      "name": "Anmolpreet Singh",
+      "shortName": "Anmolpreet Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9a46c4e5",
+      "name": "GD Phillips",
+      "shortName": "GD Phillips",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4ae1755b",
+      "name": "HC Brook",
+      "shortName": "HC Brook",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "00ea847a",
+      "name": "Mayank Arun Agarwal",
+      "shortName": "MA Agarwal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b0f2baf4",
+      "name": "Sanvir Singh",
+      "shortName": "Sanvir Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1b7b0fa7",
+      "name": "Vivrant Sharma",
+      "shortName": "Vivrant Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "249d60c9",
+      "name": "AU Rashid",
+      "shortName": "AU Rashid",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d2eea49",
+      "name": "Kartik Tyagi",
+      "shortName": "Kartik Tyagi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a457cfb5",
+      "name": "Mayank Dagar",
+      "shortName": "Mayank Dagar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce794613",
+      "name": "Thangarasu Natarajan",
+      "shortName": "T Natarajan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "81c08fa3",
+      "name": "Umran Malik",
+      "shortName": "Umran Malik",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "235c2bb6",
+      "name": "H Klaasen",
+      "shortName": "H Klaasen",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

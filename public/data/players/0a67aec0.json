@@ -1,0 +1,49 @@
+{
+  "id": "0a67aec0",
+  "name": "Akash Deep",
+  "shortName": "Akash Deep",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2022-03-27",
+  "lastMatch": "2025-05-22",
+  "matchCount": 14,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2021",
+      "team": "Royal Challengers Bengaluru",
+      "replacing": "Washington Sundar",
+      "reason": "Injury"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2022"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    }
+  ]
+}

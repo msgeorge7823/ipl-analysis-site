@@ -1,0 +1,25 @@
+{
+  "id": "fb24e76c",
+  "name": "Monu Kumar",
+  "shortName": "Monu Kumar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-10-25",
+  "lastMatch": "2020-10-25",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    }
+  ]
+}

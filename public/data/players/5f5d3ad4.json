@@ -1,0 +1,25 @@
+{
+  "id": "5f5d3ad4",
+  "name": "SS Shaikh",
+  "shortName": "SS Shaikh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-05-16",
+  "lastMatch": "2009-05-20",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    }
+  ]
+}

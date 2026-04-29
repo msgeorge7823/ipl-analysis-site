@@ -1,0 +1,140 @@
+{
+  "season": "2021",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fb2d1dda",
+      "name": "Nitish Rana",
+      "shortName": "N Rana",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "7dc35884",
+      "name": "Shakib Al Hasan",
+      "shortName": "Shakib Al Hasan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d2a6c0e6",
+      "name": "EJG Morgan",
+      "shortName": "EJG Morgan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4f5c2d9",
+      "name": "KL Nagarkoti",
+      "shortName": "KL Nagarkoti",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "b4b99816",
+      "name": "Shubman Gill",
+      "shortName": "Shubman Gill",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a24be938",
+      "name": "VR Iyer",
+      "shortName": "VR Iyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "5b7ab5a9",
+      "name": "Chakravarthy Varun",
+      "shortName": "CV Varun",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8b5b6769",
+      "name": "Harbhajan Singh Plaha",
+      "shortName": "Harbhajan Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f9d0389",
+      "name": "LH Ferguson",
+      "shortName": "LH Ferguson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ded9240e",
+      "name": "PJ Cummins",
+      "shortName": "PJ Cummins",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85e0cf10",
+      "name": "Prasidh Krishna",
+      "shortName": "M Prasidh Krishna",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cdc6bdba",
+      "name": "S Sandeep Warrier",
+      "shortName": "S Sandeep Warrier",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c38d3503",
+      "name": "Shivam Mavi",
+      "shortName": "Shivam Mavi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "13c35c9e",
+      "name": "TG Southee",
+      "shortName": "TG Southee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c03f1114",
+      "name": "Krishna Dinesh Karthik",
+      "shortName": "KD Karthik",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "4663bd23",
+      "name": "TL Seifert",
+      "shortName": "TL Seifert",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

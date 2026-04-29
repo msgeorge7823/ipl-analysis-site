@@ -1,0 +1,161 @@
+{
+  "season": "2013",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "86dc8f2e",
+      "name": "Jacques Henry Kallis",
+      "shortName": "JH Kallis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4c4fa80b",
+      "name": "SMSM Senanayake",
+      "shortName": "SMSM Senanayake",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3c6ffae8",
+      "name": "Yusuf Khan Pathan",
+      "shortName": "YK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8a55852",
+      "name": "Brendon Barrie McCullum",
+      "shortName": "BB McCullum",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "7050a1e7",
+      "name": "DB Das",
+      "shortName": "DB Das",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d2a6c0e6",
+      "name": "EJG Morgan",
+      "shortName": "EJG Morgan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb345e0b",
+      "name": "Gautam Gambhir",
+      "shortName": "G Gambhir",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26e5cabf",
+      "name": "Manoj Kumar Tiwary",
+      "shortName": "MK Tiwary",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2728e7e9",
+      "name": "P Dogra",
+      "shortName": "P Dogra",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4ec07775",
+      "name": "RN ten Doeschate",
+      "shortName": "RN ten Doeschate",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dd09ff8e",
+      "name": "B Lee",
+      "shortName": "B Lee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "85aae393",
+      "name": "Iqbal Abdulla",
+      "shortName": "Iqbal Abdulla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b2b50355",
+      "name": "L Balaji",
+      "shortName": "L Balaji",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b1451597",
+      "name": "LR Shukla",
+      "shortName": "LR Shukla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "8cf9814c",
+      "name": "Mohammed Shami Ahmed",
+      "shortName": "Mohammed Shami",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9fc0ef64",
+      "name": "PJ Sangwan",
+      "shortName": "PJ Sangwan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "c654af19",
+      "name": "R McLaren",
+      "shortName": "R McLaren",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "33a364a6",
+      "name": "Rajat Bhatia",
+      "shortName": "R Bhatia",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fb693839",
+      "name": "S Ladda",
+      "shortName": "S Ladda",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "287686fd",
+      "name": "S Narwal",
+      "shortName": "S Narwal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5afd4539",
+      "name": "MS Bisla",
+      "shortName": "MS Bisla",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

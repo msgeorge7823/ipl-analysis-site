@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2024 Mega Auction | IPL Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0a0a0f', card: '#131320', border: '#1e1e3a', surface: '#0f0f1a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+                    },
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0a0a0f; color: #e2e8f0; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0f; }
+        ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+        .fire-row { background: rgba(239, 68, 68, 0.04); }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-xl border-b border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="#" class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-xs">IPL</span>
+                    </div>
+                    <span class="text-white font-semibold text-sm tracking-tight">Analytics</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Home</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Seasons</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Teams</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Players</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Matches</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Ratings</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Analytics Lab</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-accent font-medium bg-accent/10 rounded-lg">Auctions</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Venues</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Records</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">More</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-emerald-900/10"></div>
+        <div class="absolute top-0 right-0 w-[400px] h-[300px] bg-accent/5 rounded-full blur-3xl"></div>
+        <div class="relative max-w-7xl mx-auto px-4 pt-16 pb-12">
+            <div class="flex items-center gap-2 text-sm text-gray-500 mb-4">
+                <a href="#" class="hover:text-accent transition">Auctions</a>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                <span class="text-gray-400">IPL 2024</span>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">IPL 2024 Mega Auction</h1>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-gray-400 mt-4">
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    Dubai, UAE
+                </span>
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                    Dec 19&ndash;20, 2023
+                </span>
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                    Auctioneer: Hugh Edmeades
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Stats -->
+    <section class="max-w-7xl mx-auto px-4 -mt-2 mb-12">
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center">
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Total Players Sold</p>
+                <p class="text-4xl font-extrabold text-white">72</p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center">
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Total Spend</p>
+                <p class="text-4xl font-extrabold text-emerald-400">&rupee;551.7 Cr</p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center glow">
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Most Expensive</p>
+                <p class="text-2xl font-extrabold text-white">Mitchell Starc</p>
+                <p class="text-xl font-bold text-accent mt-1">&rupee;24.75 Cr <span class="text-sm text-gray-500 font-medium">&middot; KKR</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Table -->
+    <section class="max-w-7xl mx-auto px-4 mb-12">
+        <h2 class="text-2xl font-bold text-white mb-6">Auction Results</h2>
+        <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-dark-border text-gray-500 text-xs uppercase tracking-wider">
+                            <th class="text-left py-4 px-6 font-semibold">Player</th>
+                            <th class="text-center py-4 px-4 font-semibold">Base Price</th>
+                            <th class="text-center py-4 px-4 font-semibold">Sold Price</th>
+                            <th class="text-center py-4 px-4 font-semibold">Team</th>
+                            <th class="text-center py-4 px-6 font-semibold">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="fire-row border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-blue-500/20 to-blue-600/10 border border-blue-500/20 flex items-center justify-center text-xs font-bold text-blue-400">MS</div>
+                                    <div>
+                                        <p class="font-semibold text-white">Mitchell Starc</p>
+                                        <p class="text-xs text-gray-500">AUS &middot; Fast Bowler</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-4 text-gray-400">&rupee;2 Cr</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">&rupee;24.75 Cr</td>
+                            <td class="text-center py-4 px-4">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/20">KKR</span>
+                            </td>
+                            <td class="text-center py-4 px-6">
+                                <span class="text-emerald-400 font-semibold">Sold</span> <span class="ml-1">&#x1F525;</span>
+                            </td>
+                        </tr>
+                        <tr class="fire-row border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-orange-500/20 to-orange-600/10 border border-orange-500/20 flex items-center justify-center text-xs font-bold text-orange-400">PC</div>
+                                    <div>
+                                        <p class="font-semibold text-white">Pat Cummins</p>
+                                        <p class="text-xs text-gray-500">AUS &middot; Fast Bowler</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-4 text-gray-400">&rupee;2 Cr</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">&rupee;20.50 Cr</td>
+                            <td class="text-center py-4 px-4">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-orange-500/10 text-orange-400 border border-orange-500/20">SRH</span>
+                            </td>
+                            <td class="text-center py-4 px-6">
+                                <span class="text-emerald-400 font-semibold">Sold</span> <span class="ml-1">&#x1F525;</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-yellow-500/20 to-yellow-600/10 border border-yellow-500/20 flex items-center justify-center text-xs font-bold text-yellow-400">DM</div>
+                                    <div>
+                                        <p class="font-semibold text-white">Daryl Mitchell</p>
+                                        <p class="text-xs text-gray-500">NZ &middot; All-rounder</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-4 text-gray-400">&rupee;2 Cr</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">&rupee;14 Cr</td>
+                            <td class="text-center py-4 px-4">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">CSK</span>
+                            </td>
+                            <td class="text-center py-4 px-6">
+                                <span class="text-emerald-400 font-semibold">Sold</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-dark-border hover:bg-white/[0.02] transition">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-red-500/20 to-red-600/10 border border-red-500/20 flex items-center justify-center text-xs font-bold text-red-400">HP</div>
+                                    <div>
+                                        <p class="font-semibold text-white">Harshal Patel</p>
+                                        <p class="text-xs text-gray-500">IND &middot; Medium Fast</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-4 text-gray-400">&rupee;2 Cr</td>
+                            <td class="text-center py-4 px-4 text-white font-bold text-base">&rupee;11.50 Cr</td>
+                            <td class="text-center py-4 px-4">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-500/10 text-red-400 border border-red-500/20">PBKS</span>
+                            </td>
+                            <td class="text-center py-4 px-6">
+                                <span class="text-emerald-400 font-semibold">Sold</span>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-white/[0.02] transition opacity-50">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-gray-500/20 to-gray-600/10 border border-gray-500/20 flex items-center justify-center text-xs font-bold text-gray-500">WH</div>
+                                    <div>
+                                        <p class="font-semibold text-gray-500">Wanindu Hasaranga</p>
+                                        <p class="text-xs text-gray-600">SL &middot; Leg Spinner</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-4 text-gray-600">&rupee;2 Cr</td>
+                            <td class="text-center py-4 px-4 text-gray-600">&mdash;</td>
+                            <td class="text-center py-4 px-4 text-gray-600">&mdash;</td>
+                            <td class="text-center py-4 px-6">
+                                <span class="text-red-400/60 font-semibold">Unsold</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="max-w-7xl mx-auto px-4 mb-20">
+        <h2 class="text-2xl font-bold text-white mb-6">Auction Highlights</h2>
+        <div class="bg-dark-card border border-dark-border rounded-2xl p-8">
+            <div class="space-y-4">
+                <div class="flex items-start gap-4">
+                    <div class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <span class="text-accent text-sm">&#x1F525;</span>
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Mitchell Starc became the most expensive IPL buy ever at &rupee;24.75 Cr</p>
+                        <p class="text-sm text-gray-500 mt-1">Kolkata Knight Riders won an intense bidding war to secure the Australian fast bowler, breaking the previous record.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <span class="text-accent text-sm">&#x1F4B0;</span>
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Pat Cummins fetched &rupee;20.50 Cr, becoming 2nd most expensive buy</p>
+                        <p class="text-sm text-gray-500 mt-1">SRH invested heavily in the Australian captain to lead their pace attack for IPL 2024.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <span class="text-accent text-sm">&#x1F4CA;</span>
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">72 players sold across 2 days with a total spend of &rupee;551.7 Crore</p>
+                        <p class="text-sm text-gray-500 mt-1">Teams strategically filled their squads with a mix of experienced internationals and promising domestic talent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-border bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-[10px]">IPL</span>
+                    </div>
+                    <span class="text-gray-400 text-sm font-medium">Analytics Platform</span>
+                </div>
+                <p class="text-gray-600 text-xs">&copy; 2026 IPL Analytics. For educational and analytical purposes only. Not affiliated with BCCI or IPL.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+  "season": "2018",
+  "teamId": "mumbai-indians",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2e11c706",
+      "name": "Benjamin Colin James Cutting",
+      "shortName": "BCJ Cutting",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dbe50b21",
+      "name": "Hardik Himanshu Pandya",
+      "shortName": "HH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "2e8994e7",
+      "name": "Jean-Paul Duminy",
+      "shortName": "JP Duminy",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a757b0d8",
+      "name": "Kieron Adrian Pollard",
+      "shortName": "KA Pollard",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5b8c830e",
+      "name": "Krunal Himanshu Pandya",
+      "shortName": "KH Pandya",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "5b16a806",
+      "name": "A Dananjaya",
+      "shortName": "A Dananjaya",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "0ebfb1ad",
+      "name": "E Lewis",
+      "shortName": "E Lewis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "740742ef",
+      "name": "Rohit Gurunath Sharma",
+      "shortName": "RG Sharma",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "271f83cd",
+      "name": "Suryakumar Ashok Yadav",
+      "shortName": "SA Yadav",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "462411b3",
+      "name": "Jasprit Jasbirsingh Bumrah",
+      "shortName": "JJ Bumrah",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a9fd84fb",
+      "name": "M Markande",
+      "shortName": "M Markande",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "51a3c5ef",
+      "name": "MJ McClenaghan",
+      "shortName": "MJ McClenaghan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "0a8fce53",
+      "name": "Mustafizur Rahman",
+      "shortName": "Mustafizur Rahman",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9fc0ef64",
+      "name": "PJ Sangwan",
+      "shortName": "PJ Sangwan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "752f7486",
+      "name": "Ishan Kishan",
+      "shortName": "Ishan Kishan",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

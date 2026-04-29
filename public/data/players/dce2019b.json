@@ -1,0 +1,25 @@
+{
+  "id": "dce2019b",
+  "name": "F Behardien",
+  "shortName": "F Behardien",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2016"
+  ],
+  "firstMatch": "2016-05-09",
+  "lastMatch": "2016-05-21",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    }
+  ]
+}

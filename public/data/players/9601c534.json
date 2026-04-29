@@ -1,0 +1,25 @@
+{
+  "id": "9601c534",
+  "name": "SD Lad",
+  "shortName": "SD Lad",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2019"
+  ],
+  "firstMatch": "2019-04-10",
+  "lastMatch": "2019-04-10",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    }
+  ]
+}

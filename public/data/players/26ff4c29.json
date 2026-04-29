@@ -1,0 +1,25 @@
+{
+  "id": "26ff4c29",
+  "name": "RJ Peterson",
+  "shortName": "RJ Peterson",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-25",
+  "lastMatch": "2012-05-06",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    }
+  ]
+}

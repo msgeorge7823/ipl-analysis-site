@@ -1,0 +1,47 @@
+{
+  "id": "aaa1b522",
+  "name": "TL Suman",
+  "shortName": "TL Suman",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers",
+    "Mumbai Indians",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2009-04-30",
+  "lastMatch": "2013-05-02",
+  "matchCount": 43,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2011"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    }
+  ]
+}

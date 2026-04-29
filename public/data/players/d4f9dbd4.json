@@ -1,0 +1,47 @@
+{
+  "id": "d4f9dbd4",
+  "name": "CA Pujara",
+  "shortName": "CA Pujara",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Kolkata Knight Riders",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2010-03-12",
+  "lastMatch": "2014-05-03",
+  "matchCount": 30,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    }
+  ]
+}

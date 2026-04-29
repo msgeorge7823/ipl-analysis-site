@@ -1,0 +1,31 @@
+{
+  "id": "ff1e12a0",
+  "name": "AJ Turner",
+  "shortName": "AJ Turner",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2019",
+    "2024"
+  ],
+  "firstMatch": "2019-04-16",
+  "lastMatch": "2024-05-05",
+  "matchCount": 6,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "9e7225b0",
+  "name": "Saurav Chauhan",
+  "shortName": "Saurav Chauhan",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2024"
+  ],
+  "firstMatch": "2024-04-06",
+  "lastMatch": "2024-04-15",
+  "matchCount": 3,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2024"
+    }
+  ]
+}

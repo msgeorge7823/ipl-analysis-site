@@ -1,0 +1,36 @@
+{
+  "id": "1ac746c8",
+  "name": "Atharva Taide",
+  "shortName": "Atharva Taide",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2023-04-15",
+  "lastMatch": "2025-05-19",
+  "matchCount": 10,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    }
+  ]
+}

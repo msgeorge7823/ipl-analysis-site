@@ -1,0 +1,147 @@
+{
+  "season": "2021",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "2a2e6343",
+      "name": "DT Christian",
+      "shortName": "DT Christian",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b681e71e",
+      "name": "Glenn James Maxwell",
+      "shortName": "GJ Maxwell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f986ca1a",
+      "name": "Harshal Vinod Patel",
+      "shortName": "HV Patel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f9e6e7ef",
+      "name": "Shahbaz Ahmed",
+      "shortName": "Shahbaz Ahmed",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2c25d4f5",
+      "name": "D Padikkal",
+      "shortName": "D Padikkal",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "be869ccf",
+      "name": "GHS Garton",
+      "shortName": "GHS Garton",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c740ea83",
+      "name": "RM Patidar",
+      "shortName": "RM Patidar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "dc9dd038",
+      "name": "Sachin Baby",
+      "shortName": "Sachin Baby",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "f1f99156",
+      "name": "TH David",
+      "shortName": "TH David",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "caf69bf7",
+      "name": "DR Sams",
+      "shortName": "DR Sams",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "68c56d09",
+      "name": "KA Jamieson",
+      "shortName": "KA Jamieson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dfc4d8b5",
+      "name": "KW Richardson",
+      "shortName": "KW Richardson",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f49c897",
+      "name": "Mohammed Siraj",
+      "shortName": "Mohammed Siraj",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "21d4e29b",
+      "name": "Navdeep Saini",
+      "shortName": "Navdeep Saini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a97c8ec2",
+      "name": "PWH de Silva",
+      "shortName": "PWH de Silva",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "44a89551",
+      "name": "KS Bharat",
+      "shortName": "KS Bharat",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

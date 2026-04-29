@@ -1,0 +1,47 @@
+{
+  "id": "7d92277a",
+  "name": "Mujeeb Ur Rahman",
+  "shortName": "Mujeeb Ur Rahman",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2025"
+  ],
+  "firstMatch": "2018-04-08",
+  "lastMatch": "2025-03-29",
+  "matchCount": 20,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    }
+  ]
+}

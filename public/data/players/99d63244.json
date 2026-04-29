@@ -1,0 +1,86 @@
+{
+  "id": "99d63244",
+  "name": "Kedar Mahadev Jadhav",
+  "shortName": "KM Jadhav",
+  "nicknames": [
+    "Kedar Jadhav"
+  ],
+  "role": "WK-Batter",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings",
+    "Kochi Tuskers Kerala",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2010",
+    "2011",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2023"
+  ],
+  "firstMatch": "2010-03-25",
+  "lastMatch": "2023-05-09",
+  "matchCount": 95,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2014"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2015"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2019"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2023"
+    }
+  ]
+}

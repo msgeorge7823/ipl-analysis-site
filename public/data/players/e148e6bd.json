@@ -1,0 +1,25 @@
+{
+  "id": "e148e6bd",
+  "name": "PR Veer",
+  "shortName": "PR Veer",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-04-03",
+  "lastMatch": "2026-04-05",
+  "matchCount": 2,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "c28e9f12",
+  "name": "Tejas Baroka",
+  "shortName": "Tejas Baroka",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2017"
+  ],
+  "firstMatch": "2017-04-09",
+  "lastMatch": "2017-04-09",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

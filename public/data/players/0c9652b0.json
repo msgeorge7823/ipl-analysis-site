@@ -1,0 +1,30 @@
+{
+  "id": "0c9652b0",
+  "name": "HR Shokeen",
+  "shortName": "HR Shokeen",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2022-04-21",
+  "lastMatch": "2023-05-24",
+  "matchCount": 13,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2023"
+    }
+  ]
+}

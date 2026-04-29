@@ -1,0 +1,25 @@
+{
+  "id": "dd7e9b3b",
+  "name": "YV Dhull",
+  "shortName": "YV Dhull",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-11",
+  "lastMatch": "2023-05-20",
+  "matchCount": 4,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    }
+  ]
+}

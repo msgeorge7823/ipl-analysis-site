@@ -1,0 +1,47 @@
+{
+  "id": "5056011d",
+  "name": "GJ Bailey",
+  "shortName": "GJ Bailey",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Punjab Kings",
+    "Rising Pune Supergiant"
+  ],
+  "lastTeam": "Rising Pune Supergiant",
+  "seasons": [
+    "2009",
+    "2010",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "firstMatch": "2009-05-07",
+  "lastMatch": "2016-05-21",
+  "matchCount": 40,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2016"
+    }
+  ]
+}

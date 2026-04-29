@@ -1,0 +1,156 @@
+{
+  "id": "simon-helmot",
+  "name": "Simon Helmot",
+  "fullName": "Simon Peter Helmot",
+  "nationality": "Australian",
+  "specialty": [
+    "T20-strategy",
+    "assistant-coaching"
+  ],
+  "playingCareerSummary": "Australian coach with a long career in T20 leagues including the Melbourne Renegades and various IPL franchises. Did not play international cricket.",
+  "bio": "Long-tenured Sunrisers Hyderabad assistant coach across multiple eras: 2019 (Moody era), 2022-2023 (Moody/Lara era), and 2026 (Vettori era).",
+  "tenures": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "role": "assistant-coach",
+      "fromSeason": "2019",
+      "toSeason": "2026",
+      "seasons": [
+        "2019",
+        "2022",
+        "2023",
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 4th with 12 points (NRR +0.577). Lost Eliminator to Delhi Capitals by 2 wickets."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points (NRR -0.379). Moody's second stint at SRH; he stepped down on 2 September 2022 after this season."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 10th (last) with 8 points (NRR -0.590). Lara's only IPL head-coaching season. Replaced by Daniel Vettori for IPL 2024."
+        },
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "2026 season in progress. Vettori retained; new spin bowling coach Muttiah Muralitharan added to the support staff alongside Hemang Badani as batting coach (his second IPL role alongside Delhi Capitals). Stats will update as the season progresses."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 16,
+          "losses": 26,
+          "noResults": 0,
+          "winPct": 38.1
+        },
+        "playoffs": {
+          "matches": 1,
+          "wins": 0,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad",
+        "https://en.wikipedia.org/wiki/2019_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2022_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2023_Sunrisers_Hyderabad_season",
+        "https://en.wikipedia.org/wiki/2026_Sunrisers_Hyderabad_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 16,
+      "losses": 26,
+      "noResults": 0,
+      "winPct": 38.1
+    },
+    "playoffs": {
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sunrisers_Hyderabad"
+  ],
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8ac93ca2",
+  "name": "P Chopra",
+  "shortName": "P Chopra",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2018-05-11",
+  "lastMatch": "2019-04-07",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dadbdb68",
+  "name": "JA Duffy",
+  "shortName": "JA Duffy",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-28",
+  "lastMatch": "2026-04-12",
+  "matchCount": 3,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2026"
+    }
+  ]
+}

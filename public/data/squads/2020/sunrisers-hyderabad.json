@@ -1,0 +1,154 @@
+{
+  "season": "2020",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "8e514b4c",
+      "name": "Abdul Samad",
+      "shortName": "Abdul Samad",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0f721006",
+      "name": "JO Holder",
+      "shortName": "JO Holder",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3d8feaf8",
+      "name": "MR Marsh",
+      "shortName": "MR Marsh",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "62af8546",
+      "name": "Mohammad Nabi",
+      "shortName": "Mohammad Nabi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "dcce6f09",
+      "name": "David Andrew Warner",
+      "shortName": "DA Warner",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d027ba9f",
+      "name": "Kane Stuart Williamson",
+      "shortName": "KS Williamson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb965e9a",
+      "name": "PK Garg",
+      "shortName": "PK Garg",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "871e9faf",
+      "name": "Basil Thampi",
+      "shortName": "Basil Thampi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "a2f46292",
+      "name": "KK Ahmed",
+      "shortName": "KK Ahmed",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5f547c8b",
+      "name": "Rashid Khan Arman",
+      "shortName": "Rashid Khan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "dcf81436",
+      "name": "S Kaul",
+      "shortName": "S Kaul",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "9d80c5e1",
+      "name": "S Nadeem",
+      "shortName": "S Nadeem",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce820073",
+      "name": "Sandeep Sharma",
+      "shortName": "Sandeep Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce794613",
+      "name": "Thangarasu Natarajan",
+      "shortName": "T Natarajan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "abb83e27",
+      "name": "JM Bairstow",
+      "shortName": "JM Bairstow",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "541f85c9",
+      "name": "SP Goswami",
+      "shortName": "SP Goswami",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "fe11caa6",
+      "name": "Wriddhiman Prasanta Saha",
+      "shortName": "WP Saha",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

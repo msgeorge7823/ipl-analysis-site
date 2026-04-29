@@ -1,0 +1,30 @@
+{
+  "year": "2011",
+  "winner": "Chennai Super Kings",
+  "runnerUp": "Royal Challengers Bengaluru",
+  "isOngoing": false,
+  "matchCount": 74,
+  "matchesWithData": 73,
+  "teams": [
+    "Chennai Super Kings",
+    "Deccan Chargers",
+    "Delhi Capitals",
+    "Kochi Tuskers Kerala",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Pune Warriors",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "orangeCap": {
+    "player": "Christopher Henry Gayle",
+    "shortName": "CH Gayle",
+    "runs": 608
+  },
+  "purpleCap": {
+    "player": "Separamadu Lasith Malinga",
+    "shortName": "SL Malinga",
+    "wickets": 28
+  }
+}

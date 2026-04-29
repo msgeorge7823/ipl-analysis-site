@@ -1,0 +1,35 @@
+{
+  "id": "df5a6881",
+  "name": "DP Conway",
+  "shortName": "DP Conway",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2022",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2022-03-26",
+  "lastMatch": "2025-05-25",
+  "matchCount": 29,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ottis-gibson",
+  "name": "Ottis Gibson",
+  "fullName": "Ottis Delroy Gibson",
+  "nationality": "Barbadian (West Indian)",
+  "specialty": [
+    "pace-bowling",
+    "all-round"
+  ],
+  "playingCareerSummary": "Former West Indies all-rounder: 2 Tests, 15 ODIs. Long coaching career including as head coach of West Indies (2007-2010, 2017-2019) and England's bowling coach (2007-2015).",
+  "bio": "KKR's assistant coach for IPL 2025 under Chandrakant Pandit, joining in March 2025 alongside Carl Crowe. Replaced by Shane Watson for IPL 2026.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "assistant-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 7,
+            "noResults": 2,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th with 12 points. Eliminated when the RCB match was abandoned. Mentor: Dwayne Bravo. Pandit's three-year contract ended after this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 5,
+          "losses": 7,
+          "noResults": 2,
+          "winPct": 35.71
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2025_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 5,
+      "losses": 7,
+      "noResults": 2,
+      "winPct": 35.71
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1969-03-16"
+}

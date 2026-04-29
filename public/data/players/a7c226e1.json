@@ -1,0 +1,25 @@
+{
+  "id": "a7c226e1",
+  "name": "FH Edwards",
+  "shortName": "FH Edwards",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2009"
+  ],
+  "firstMatch": "2009-04-19",
+  "lastMatch": "2009-05-02",
+  "matchCount": 6,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    }
+  ]
+}

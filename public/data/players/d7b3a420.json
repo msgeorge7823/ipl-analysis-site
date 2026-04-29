@@ -1,0 +1,30 @@
+{
+  "id": "d7b3a420",
+  "name": "Jaskaran Singh",
+  "shortName": "Jaskaran Singh",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2009-05-17",
+  "lastMatch": "2010-04-03",
+  "matchCount": 8,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

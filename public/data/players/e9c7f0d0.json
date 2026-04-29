@@ -1,0 +1,36 @@
+{
+  "id": "e9c7f0d0",
+  "name": "Fazalhaq Farooqi",
+  "shortName": "Fazalhaq Farooqi",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2022",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2022-05-08",
+  "lastMatch": "2025-05-18",
+  "matchCount": 12,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2025"
+    }
+  ]
+}

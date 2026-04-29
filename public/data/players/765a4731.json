@@ -1,0 +1,42 @@
+{
+  "id": "765a4731",
+  "name": "Mukesh Choudhary",
+  "shortName": "Mukesh Choudhary",
+  "nicknames": [
+    "Mukesh"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2022-03-31",
+  "lastMatch": "2026-04-23",
+  "matchCount": 18,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "0404d43c",
+  "name": "Liton Das",
+  "shortName": "Liton Das",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-20",
+  "lastMatch": "2023-04-20",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2023"
+    }
+  ]
+}

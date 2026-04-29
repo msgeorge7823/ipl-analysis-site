@@ -1,0 +1,25 @@
+{
+  "id": "50c09020",
+  "name": "Ashok Sharma",
+  "shortName": "Ashok Sharma",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2026"
+  ],
+  "firstMatch": "2026-03-31",
+  "lastMatch": "2026-04-20",
+  "matchCount": 6,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

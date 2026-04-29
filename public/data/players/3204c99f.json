@@ -1,0 +1,31 @@
+{
+  "id": "3204c99f",
+  "name": "G Coetzee",
+  "shortName": "G Coetzee",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Mumbai Indians",
+    "Gujarat Titans"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "firstMatch": "2024-03-24",
+  "lastMatch": "2025-05-30",
+  "matchCount": 14,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    }
+  ]
+}

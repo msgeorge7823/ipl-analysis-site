@@ -1,0 +1,131 @@
+{
+  "id": "rahul-dravid",
+  "name": "Rahul Dravid",
+  "fullName": "Rahul Sharad Dravid",
+  "dob": "1973-01-11",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "player-development",
+    "strategy",
+    "leadership"
+  ],
+  "playingCareerPlayerId": "0184dc35",
+  "playingCareerSummary": "'The Wall' — one of India's greatest Test batters and former India captain: 164 Tests (13,288 runs at 52.31), 344 ODIs (10,889 runs). Played for Royal Challengers Bangalore (2008-2010) and Rajasthan Royals (2011-2013) in the IPL, captaining RR in 2012 and 2013.",
+  "bio": "Rajasthan Royals head coach for IPL 2025, reuniting with the franchise where he had captained in 2012-2013 and mentored in 2014-2015. Took charge after Kumar Sangakkara's four-year tenure but RR had a poor 2025 campaign, finishing 9th. Left after a single season and Sangakkara returned for 2026. Best known for his transformative tenure as India national team head coach (2021-2024), winning the 2024 T20 World Cup.",
+  "tenures": [
+    {
+      "team": "Rajasthan Royals",
+      "role": "head-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 8 points (NRR -0.549). Second team eliminated from IPL 2025. Single-season tenure; Dravid left after this and Sangakkara returned for 2026."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 4,
+          "losses": 10,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Rajasthan_Royals_season",
+        "https://en.wikipedia.org/wiki/Rajasthan_Royals",
+        "https://www.espncricinfo.com/story/rahul-dravid-unveiled-as-rajasthan-royals-head-coach-1450060",
+        "https://www.espncricinfo.com/story/rahul-dravid-to-return-to-rajasthan-royals-as-head-coach-1449789"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 14,
+      "wins": 4,
+      "losses": 10,
+      "noResults": 0,
+      "winPct": 28.57
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Rajasthan Royals (IPL)",
+      "role": "Captain / Mentor",
+      "period": "2012-2015",
+      "notes": "Player-captain 2012-2013, mentor 2014-2015."
+    },
+    {
+      "team": "India A / India Under-19 (National)",
+      "role": "Head Coach",
+      "period": "2015-2019",
+      "notes": "Oversaw the 2018 U19 World Cup title."
+    },
+    {
+      "team": "National Cricket Academy (India)",
+      "role": "Director",
+      "period": "2019-2021"
+    },
+    {
+      "team": "Delhi Daredevils (IPL)",
+      "role": "Mentor",
+      "period": "2016-2017"
+    },
+    {
+      "team": "India (National)",
+      "role": "Head Coach",
+      "period": "2021-2024",
+      "notes": "Led India to the 2024 T20 World Cup title at the end of his tenure."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rahul_Dravid",
+    "https://en.wikipedia.org/wiki/2025_Rajasthan_Royals_season",
+    "https://www.espncricinfo.com/story/rahul-dravid-unveiled-as-rajasthan-royals-head-coach-1450060"
+  ],
+  "verified": true
+}

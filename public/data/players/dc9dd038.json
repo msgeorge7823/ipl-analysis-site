@@ -1,0 +1,47 @@
+{
+  "id": "dc9dd038",
+  "name": "Sachin Baby",
+  "shortName": "Sachin Baby",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2013",
+    "2016",
+    "2017",
+    "2021",
+    "2025"
+  ],
+  "firstMatch": "2013-04-27",
+  "lastMatch": "2025-05-05",
+  "matchCount": 20,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2013"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2016"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    }
+  ]
+}

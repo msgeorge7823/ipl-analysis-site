@@ -1,0 +1,25 @@
+{
+  "id": "39f82db3",
+  "name": "DJ Harris",
+  "shortName": "DJ Harris",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2012"
+  ],
+  "firstMatch": "2012-04-07",
+  "lastMatch": "2012-05-10",
+  "matchCount": 4,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2012"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "f19ccfad",
+  "name": "Washington Sundar",
+  "shortName": "Washington Sundar",
+  "nicknames": [
+    "Washi"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad",
+    "Gujarat Titans",
+    "Rising Pune Supergiant"
+  ],
+  "lastTeam": "Gujarat Titans",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2017-04-22",
+  "lastMatch": "2026-04-26",
+  "matchCount": 74,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2017",
+      "team": "Rising Pune Supergiant",
+      "replacing": "R Ashwin",
+      "reason": "Sports hernia"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Rising Pune Supergiant",
+      "season": "2017"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2018"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2019"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2020"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2021"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2023"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2025"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2026"
+    }
+  ]
+}

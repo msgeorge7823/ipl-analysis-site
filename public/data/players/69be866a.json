@@ -1,0 +1,47 @@
+{
+  "id": "69be866a",
+  "name": "Anureet Singh",
+  "shortName": "Anureet Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Punjab Kings",
+    "Kolkata Knight Riders",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2009",
+    "2015",
+    "2016",
+    "2017",
+    "2018"
+  ],
+  "firstMatch": "2009-04-23",
+  "lastMatch": "2018-05-15",
+  "matchCount": 23,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2016"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2017"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    }
+  ]
+}

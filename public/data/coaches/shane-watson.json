@@ -1,0 +1,151 @@
+{
+  "id": "shane-watson",
+  "name": "Shane Watson",
+  "fullName": "Shane Robert Watson",
+  "nationality": "Australian",
+  "specialty": [
+    "all-round",
+    "batting",
+    "opening"
+  ],
+  "playingCareerSummary": "Former Australia all-rounder and 2015 ODI World Cup winner: 59 Tests, 190 ODIs, 58 T20Is. Played for Rajasthan Royals (2008-2015, including MVP of the inaugural 2008 IPL), Royal Challengers Bangalore (2016-2017) and Chennai Super Kings (2018-2020) in the IPL, winning the 2018 title with CSK as MVP of the final.",
+  "bio": "KKR's assistant coach for IPL 2026 under new head coach Abhishek Nayar, replacing Ottis Gibson. First IPL coaching role.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "assistant-coach",
+      "fromSeason": "2022",
+      "toSeason": "2022",
+      "seasons": [
+        "2022"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "noResults": 0,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ],
+      "notes": "First IPL coaching role — assistant coach alongside Ajit Agarkar under Ricky Ponting."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "assistant-coach",
+      "fromSeason": "2026",
+      "toSeason": "2026",
+      "seasons": [
+        "2026"
+      ],
+      "perSeason": [
+        {
+          "season": "2026",
+          "league": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Unknown",
+          "notes": "First season as head coach. Stats will update as matches complete. Taking over after Chandrakant Pandit's three-year contract ended."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2026_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 1,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 14,
+      "wins": 7,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1981-06-17",
+  "playingCareerPlayerId": "4329fbb5"
+}

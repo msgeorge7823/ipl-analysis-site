@@ -1,0 +1,25 @@
+{
+  "id": "c9d33ef5",
+  "name": "RV Pawar",
+  "shortName": "RV Pawar",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-16",
+  "lastMatch": "2008-05-16",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    }
+  ]
+}

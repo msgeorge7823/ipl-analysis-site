@@ -1,0 +1,51 @@
+{
+  "id": "95a2ea61",
+  "name": "S Anirudha",
+  "shortName": "S Anirudha",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2008",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "firstMatch": "2008-05-06",
+  "lastMatch": "2014-05-24",
+  "matchCount": 20,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2013"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2014"
+    }
+  ]
+}

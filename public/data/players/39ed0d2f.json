@@ -1,0 +1,30 @@
+{
+  "id": "39ed0d2f",
+  "name": "KS Sharma",
+  "shortName": "KS Sharma",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2022",
+    "2023"
+  ],
+  "firstMatch": "2022-05-10",
+  "lastMatch": "2023-05-20",
+  "matchCount": 3,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    }
+  ]
+}

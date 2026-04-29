@@ -1,0 +1,30 @@
+{
+  "id": "469ea22b",
+  "name": "KMDN Kulasekara",
+  "shortName": "KMDN Kulasekara",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2011-04-27",
+  "lastMatch": "2012-04-28",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2012"
+    }
+  ]
+}

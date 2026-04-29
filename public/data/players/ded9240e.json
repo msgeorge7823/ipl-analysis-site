@@ -1,0 +1,67 @@
+{
+  "id": "ded9240e",
+  "name": "PJ Cummins",
+  "shortName": "PJ Cummins",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Kolkata Knight Riders",
+    "Sunrisers Hyderabad",
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2014",
+    "2015",
+    "2017",
+    "2020",
+    "2021",
+    "2022",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2014-05-20",
+  "lastMatch": "2026-04-25",
+  "matchCount": 73,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2014"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2017"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2021"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2022"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2024"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2025"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2026"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Sponsors & Partnerships | IPL Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0a0a0f', card: '#131320', border: '#1e1e3a', surface: '#0f0f1a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+                    },
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0a0a0f; color: #e2e8f0; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0f; }
+        ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+        .sponsor-logo { display: flex; align-items: center; justify-content: center; font-weight: 700; letter-spacing: 0.05em; border-radius: 12px; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-xl border-b border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="#" class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-xs">IPL</span>
+                    </div>
+                    <span class="text-white font-semibold text-sm tracking-tight">Analytics</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Home</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Seasons</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Teams</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Players</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Matches</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Ratings</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Analytics Lab</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Auctions</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Venues</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Records</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-accent font-medium bg-accent/10 rounded-lg">More</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-emerald-900/5"></div>
+        <div class="relative max-w-7xl mx-auto px-4 pt-16 pb-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">IPL Sponsors & Partnerships</h1>
+            <p class="text-gray-400 text-lg">Commercial partners powering the world's biggest T20 league</p>
+            <!-- Season Selector -->
+            <div class="mt-6 inline-flex items-center gap-2 bg-dark-card border border-dark-border rounded-xl px-4 py-2.5">
+                <span class="text-sm text-gray-500">Season:</span>
+                <select class="bg-transparent text-white font-semibold text-sm focus:outline-none cursor-pointer">
+                    <option value="2025" class="bg-dark-card">IPL 2025</option>
+                    <option value="2024" class="bg-dark-card">IPL 2024</option>
+                    <option value="2023" class="bg-dark-card">IPL 2023</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- IPL-Level Sponsors -->
+    <section class="max-w-7xl mx-auto px-4 mb-16">
+        <h2 class="text-2xl font-bold text-white mb-2">IPL-Level Sponsors</h2>
+        <p class="text-gray-500 text-sm mb-8">Official league-wide commercial partners for IPL 2025</p>
+
+        <!-- Title Sponsor -->
+        <div class="mb-8">
+            <p class="text-xs text-accent uppercase tracking-wider font-semibold mb-3">Title Sponsor</p>
+            <div class="bg-dark-card border border-accent/20 rounded-2xl p-10 glow text-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent"></div>
+                <div class="relative">
+                    <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-blue-600/20 to-blue-700/10 border border-blue-500/20 mx-auto flex items-center justify-center mb-4">
+                        <span class="text-3xl font-black text-blue-400 tracking-wider">TATA</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Tata Group</h3>
+                    <p class="text-gray-400 text-sm mt-2">Title Sponsor &middot; "Tata IPL"</p>
+                    <div class="inline-flex items-center gap-1.5 mt-4 px-3 py-1 bg-accent/10 text-accent text-xs font-semibold rounded-full">
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Active Partner
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Official Partners -->
+        <div class="mb-8">
+            <p class="text-xs text-gray-400 uppercase tracking-wider font-semibold mb-3">Official Partners</p>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center hover:border-accent/20 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 border border-emerald-500/20 mx-auto flex items-center justify-center mb-3">
+                        <span class="text-lg font-black text-emerald-400">D11</span>
+                    </div>
+                    <h3 class="font-bold text-white">Dream11</h3>
+                    <p class="text-xs text-gray-500 mt-1">Official Fantasy Partner</p>
+                </div>
+                <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center hover:border-accent/20 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-red-500/20 to-red-600/10 border border-red-500/20 mx-auto flex items-center justify-center mb-3">
+                        <span class="text-lg font-black text-red-400">CEAT</span>
+                    </div>
+                    <h3 class="font-bold text-white">CEAT</h3>
+                    <p class="text-xs text-gray-500 mt-1">Strategic Time-Out Partner</p>
+                </div>
+                <div class="bg-dark-card border border-dark-border rounded-2xl p-6 text-center hover:border-accent/20 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500/20 to-green-600/10 border border-green-500/20 mx-auto flex items-center justify-center mb-3">
+                        <span class="text-sm font-black text-green-400">ARMCO</span>
+                    </div>
+                    <h3 class="font-bold text-white">Aramco</h3>
+                    <p class="text-xs text-gray-500 mt-1">Official Partner</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Broadcast Partners -->
+        <div>
+            <p class="text-xs text-gray-400 uppercase tracking-wider font-semibold mb-3">Broadcast Partners</p>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-dark-card border border-dark-border rounded-2xl p-6 flex items-center gap-5 hover:border-accent/20 transition">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500/20 to-pink-600/10 border border-pink-500/20 flex items-center justify-center flex-shrink-0">
+                        <span class="text-xs font-black text-pink-400">JIO</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white">JioCinema</h3>
+                        <p class="text-xs text-gray-500 mt-0.5">Digital Streaming Partner</p>
+                    </div>
+                </div>
+                <div class="bg-dark-card border border-dark-border rounded-2xl p-6 flex items-center gap-5 hover:border-accent/20 transition">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-yellow-500/20 to-yellow-600/10 border border-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                        <span class="text-[10px] font-black text-yellow-400 leading-tight text-center">STAR<br>SPORTS</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white">Star Sports</h3>
+                        <p class="text-xs text-gray-500 mt-0.5">Television Broadcast Partner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team-Level Sponsors -->
+    <section class="max-w-7xl mx-auto px-4 mb-20">
+        <h2 class="text-2xl font-bold text-white mb-2">Team-Level Sponsors</h2>
+        <p class="text-gray-500 text-sm mb-8">Key commercial partners for each franchise</p>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- CSK -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-yellow-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-yellow-500/10 border border-yellow-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-yellow-400">CSK</span>
+                    </div>
+                    <h3 class="font-bold text-white">Chennai Super Kings</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">India Cements</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Myntra</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">TVS Eurogrip</span>
+                </div>
+            </div>
+            <!-- MI -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-blue-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-blue-400">MI</span>
+                    </div>
+                    <h3 class="font-bold text-white">Mumbai Indians</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Jio</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Marriott Bonvoy</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Astral</span>
+                </div>
+            </div>
+            <!-- RCB -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-red-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-red-500/10 border border-red-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-red-400">RCB</span>
+                    </div>
+                    <h3 class="font-bold text-white">Royal Challengers Bengaluru</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Muthoot Fincorp</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Campa Cola</span>
+                </div>
+            </div>
+            <!-- KKR -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-purple-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-purple-400">KKR</span>
+                    </div>
+                    <h3 class="font-bold text-white">Kolkata Knight Riders</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">My11Circle</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Lux Cozi</span>
+                </div>
+            </div>
+            <!-- SRH -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-orange-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-orange-400">SRH</span>
+                    </div>
+                    <h3 class="font-bold text-white">Sunrisers Hyderabad</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Dafabet</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">JK Lakshmi Cement</span>
+                </div>
+            </div>
+            <!-- DC -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-blue-400/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-400/10 border border-blue-400/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-blue-300">DC</span>
+                    </div>
+                    <h3 class="font-bold text-white">Delhi Capitals</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">JSW Group</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">GMR Group</span>
+                </div>
+            </div>
+            <!-- RR -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-pink-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-pink-400">RR</span>
+                    </div>
+                    <h3 class="font-bold text-white">Rajasthan Royals</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Red Bull</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Jio</span>
+                </div>
+            </div>
+            <!-- PBKS -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-red-400/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-red-400/10 border border-red-400/20 flex items-center justify-center">
+                        <span class="text-[10px] font-black text-red-300">PBKS</span>
+                    </div>
+                    <h3 class="font-bold text-white">Punjab Kings</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Toyo Tires</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Ebixcash</span>
+                </div>
+            </div>
+            <!-- GT -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-cyan-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-cyan-400">GT</span>
+                    </div>
+                    <h3 class="font-bold text-white">Gujarat Titans</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Adani Group</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">Nuvoco</span>
+                </div>
+            </div>
+            <!-- LSG -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-teal-500/20 transition">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg bg-teal-500/10 border border-teal-500/20 flex items-center justify-center">
+                        <span class="text-xs font-black text-teal-400">LSG</span>
+                    </div>
+                    <h3 class="font-bold text-white">Lucknow Super Giants</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">RPSG Group</span>
+                    <span class="px-3 py-1.5 bg-dark-surface rounded-lg text-xs text-gray-300 border border-dark-border">My11Circle</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-border bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-[10px]">IPL</span>
+                    </div>
+                    <span class="text-gray-400 text-sm font-medium">Analytics Platform</span>
+                </div>
+                <p class="text-gray-600 text-xs">&copy; 2026 IPL Analytics. For educational and analytical purposes only. Not affiliated with BCCI or IPL.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

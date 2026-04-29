@@ -1,0 +1,14 @@
+{
+  "id": "gujarat-lions",
+  "name": "Gujarat Lions",
+  "shortName": "GL",
+  "primaryColor": "#F06830",
+  "secondaryColor": "#1A1A2E",
+  "homeVenue": "Punjab Cricket Association IS Bindra Stadium",
+  "seasons": [
+    "2016",
+    "2017"
+  ],
+  "isDefunct": true,
+  "aliases": []
+}

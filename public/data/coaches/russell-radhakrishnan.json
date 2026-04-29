@@ -1,0 +1,211 @@
+{
+  "id": "russell-radhakrishnan",
+  "name": "Russell Radhakrishnan",
+  "fullName": "Russell Radhakrishnan",
+  "nationality": "Indian",
+  "specialty": [
+    "team-management"
+  ],
+  "playingCareerSummary": "Cricket operations specialist.",
+  "bio": "Chennai Super Kings' team manager across multiple seasons, documented from 2018 to 2024.",
+  "tenures": [
+    {
+      "team": "Chennai Super Kings",
+      "role": "team-manager",
+      "fromSeason": "2018",
+      "toSeason": "2024",
+      "seasons": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2018",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": ""
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 4,
+            "losses": 10,
+            "noResults": 0,
+            "winPct": 28.57
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": ""
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 98,
+          "wins": 52,
+          "losses": 45,
+          "noResults": 1,
+          "winPct": 53.06
+        },
+        "playoffs": {
+          "matches": 9,
+          "wins": 7,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 77.78
+        },
+        "titles": 3,
+        "finalsReached": 4,
+        "playoffAppearances": 4
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 98,
+      "wins": 52,
+      "losses": 45,
+      "noResults": 1,
+      "winPct": 53.06
+    },
+    "playoffs": {
+      "matches": 9,
+      "wins": 7,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 77.78
+    },
+    "titles": 3,
+    "finalsReached": 4,
+    "playoffAppearances": 4
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chennai_Super_Kings"
+  ],
+  "verified": true
+}

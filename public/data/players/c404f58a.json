@@ -1,0 +1,42 @@
+{
+  "id": "c404f58a",
+  "name": "DP Nannes",
+  "shortName": "DP Nannes",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2009",
+    "2010",
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2009-04-19",
+  "lastMatch": "2013-04-28",
+  "matchCount": 29,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2009"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2013"
+    }
+  ]
+}

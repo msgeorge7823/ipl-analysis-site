@@ -1,0 +1,25 @@
+{
+  "id": "cfad138c",
+  "name": "CK Kapugedera",
+  "shortName": "CK Kapugedera",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2008"
+  ],
+  "firstMatch": "2008-05-08",
+  "lastMatch": "2008-06-01",
+  "matchCount": 5,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    }
+  ]
+}

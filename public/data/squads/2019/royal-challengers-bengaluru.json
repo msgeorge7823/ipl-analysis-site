@@ -1,0 +1,154 @@
+{
+  "season": "2019",
+  "teamId": "royal-challengers-bengaluru",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "94d7f855",
+      "name": "C de Grandhomme",
+      "shortName": "C de Grandhomme",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "bb351c23",
+      "name": "MM Ali",
+      "shortName": "MM Ali",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "d9273ee7",
+      "name": "Marcus Peter Stoinis",
+      "shortName": "MP Stoinis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "a4e37e47",
+      "name": "S Dube",
+      "shortName": "S Dube",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f10e94c4",
+      "name": "AD Nath",
+      "shortName": "AD Nath",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c4487b84",
+      "name": "Abraham Benjamin de Villiers",
+      "shortName": "AB de Villiers",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "6eb146d2",
+      "name": "Gurkeerat Singh",
+      "shortName": "Gurkeerat Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "441c72ae",
+      "name": "P Ray Barman",
+      "shortName": "P Ray Barman",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48a1d7b7",
+      "name": "Shimron Odilon Hetmyer",
+      "shortName": "SO Hetmyer",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ba607b88",
+      "name": "Virat Kohli",
+      "shortName": "V Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "8fd1a8f5",
+      "name": "Dale Willem Steyn",
+      "shortName": "DW Steyn",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "fa2f1dde",
+      "name": "K Khejroliya",
+      "shortName": "K Khejroliya",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "2f49c897",
+      "name": "Mohammed Siraj",
+      "shortName": "Mohammed Siraj",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "21d4e29b",
+      "name": "Navdeep Saini",
+      "shortName": "Navdeep Saini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "13c35c9e",
+      "name": "TG Southee",
+      "shortName": "TG Southee",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "57ee1fde",
+      "name": "Yuzvendra Singh Chahal",
+      "shortName": "YS Chahal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "235c2bb6",
+      "name": "H Klaasen",
+      "shortName": "H Klaasen",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "b5da6c24",
+      "name": "Parthiv Ajay Patel",
+      "shortName": "PA Patel",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

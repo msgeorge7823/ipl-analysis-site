@@ -1,0 +1,33 @@
+{
+  "id": "245c97cb",
+  "name": "Tymal Solomon Mills",
+  "shortName": "TS Mills",
+  "nicknames": [
+    "Tymal Mills"
+  ],
+  "role": "Bowler",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2017",
+    "2022"
+  ],
+  "firstMatch": "2017-04-05",
+  "lastMatch": "2022-04-16",
+  "matchCount": 10,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2017"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2022"
+    }
+  ]
+}

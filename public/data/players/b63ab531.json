@@ -1,0 +1,41 @@
+{
+  "id": "b63ab531",
+  "name": "LA Pomersbach",
+  "shortName": "LA Pomersbach",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2008",
+    "2009",
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2008-05-12",
+  "lastMatch": "2013-05-11",
+  "matchCount": 17,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2013"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "35205dfc",
+  "name": "Dwayne Romel Smith",
+  "shortName": "DR Smith",
+  "nicknames": [
+    "Dwayne Smith"
+  ],
+  "role": "All-rounder",
+  "teams": [
+    "Mumbai Indians",
+    "Deccan Chargers",
+    "Chennai Super Kings",
+    "Gujarat Lions"
+  ],
+  "lastTeam": "Gujarat Lions",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "firstMatch": "2008-05-21",
+  "lastMatch": "2017-05-13",
+  "matchCount": 91,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2008"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2012"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2013"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2014"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2015"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2016"
+    },
+    {
+      "team": "Gujarat Lions",
+      "season": "2017"
+    }
+  ]
+}

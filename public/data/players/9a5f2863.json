@@ -1,0 +1,25 @@
+{
+  "id": "9a5f2863",
+  "name": "Mohit Rathee",
+  "shortName": "Mohit Rathee",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2023"
+  ],
+  "firstMatch": "2023-04-09",
+  "lastMatch": "2023-04-09",
+  "matchCount": 1,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    }
+  ]
+}

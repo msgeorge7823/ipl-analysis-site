@@ -1,0 +1,36 @@
+{
+  "id": "7ca5e05d",
+  "name": "RS Bopara",
+  "shortName": "RS Bopara",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Punjab Kings",
+    "Sunrisers Hyderabad"
+  ],
+  "lastTeam": "Sunrisers Hyderabad",
+  "seasons": [
+    "2009",
+    "2010",
+    "2015"
+  ],
+  "firstMatch": "2009-04-19",
+  "lastMatch": "2015-05-09",
+  "matchCount": 24,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Punjab Kings",
+      "season": "2009"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2015"
+    }
+  ]
+}

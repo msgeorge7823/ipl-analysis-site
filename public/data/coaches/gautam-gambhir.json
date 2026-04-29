@@ -1,0 +1,180 @@
+{
+  "id": "gautam-gambhir",
+  "name": "Gautam Gambhir",
+  "fullName": "Gautam Gambhir",
+  "nationality": "Indian",
+  "specialty": [
+    "batting",
+    "leadership",
+    "strategy"
+  ],
+  "playingCareerSummary": "Former India opener and 2007 T20 World Cup + 2011 ODI World Cup winner: 58 Tests, 147 ODIs, 37 T20Is. Played for Delhi Daredevils, Kolkata Knight Riders (captained them to their 2012 and 2014 IPL titles) and Lucknow Super Giants in the IPL.",
+  "bio": "KKR's mentor for the 2024 IPL title run — his first coaching-staff role at KKR after captaining the franchise to their 2012 and 2014 titles as a player. Credited alongside head coach Chandrakant Pandit as the architect of KKR's dominant 2024 campaign. After the title win he was appointed India senior men's team head coach for 2024 onwards.",
+  "tenures": [
+    {
+      "team": "Lucknow Super Giants",
+      "role": "mentor",
+      "fromSeason": "2022",
+      "toSeason": "2023",
+      "seasons": [
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Inaugural LSG season. Finished 4th in league (18 pts). Lost Eliminator to Royal Challengers Bangalore by 14 runs at Eden Gardens — Rajat Patidar 112* off 54. KL Rahul top-scored with 616 runs. Gautam Gambhir: mentor."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 5,
+            "noResults": 1,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": "Finished 3rd in league (17 pts, NRR 0.284). Lost Eliminator to Mumbai Indians. Flower left after this season to join Royal Challengers Bengaluru for 2024."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 17,
+          "losses": 10,
+          "noResults": 1,
+          "winPct": 60.71
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/2023_Lucknow_Super_Giants_season",
+        "https://en.wikipedia.org/wiki/Lucknow_Super_Giants"
+      ],
+      "notes": "LSG's inaugural mentor for their first two IPL seasons — both ended in Eliminator playoff exits. Moved to KKR for 2024 where he won the title as mentor."
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "mentor",
+      "fromSeason": "2024",
+      "toSeason": "2024",
+      "seasons": [
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 3,
+            "noResults": 2,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 2,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 100.0
+          },
+          "finish": "Champion",
+          "notes": "Finished 1st with 20 points. Lost just 3 matches all season (a joint record for fewest losses in a full IPL). Beat SRH in Qualifier 1 by 8 wickets; beat SRH in final by 8 wickets — the fastest IPL final chase (57 balls remaining). KKR's third IPL title. Mentor: Gautam Gambhir."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 3,
+          "noResults": 2,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 2,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 100.0
+        },
+        "titles": 1,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2024_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 42,
+      "wins": 26,
+      "losses": 13,
+      "noResults": 3,
+      "winPct": 61.9
+    },
+    "playoffs": {
+      "matches": 4,
+      "wins": 2,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 50.0
+    },
+    "titles": 1,
+    "finalsReached": 1,
+    "playoffAppearances": 3
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1981-10-14",
+  "playingCareerPlayerId": "bb345e0b",
+  "otherCoachingRoles": [
+    {
+      "team": "India (National)",
+      "role": "Head Coach",
+      "period": "2024-present",
+      "notes": "Appointed India senior men's team head coach after his KKR 2024 title win, replacing Rahul Dravid."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "season": "2014",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "fd835ab3",
+      "name": "DJ Hussey",
+      "shortName": "DJ Hussey",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "87e562a9",
+      "name": "Dwayne James Bravo",
+      "shortName": "DJ Bravo",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "35205dfc",
+      "name": "Dwayne Romel Smith",
+      "shortName": "DR Smith",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f62772e5",
+      "name": "P Negi",
+      "shortName": "P Negi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0994d0ae",
+      "name": "V Shankar",
+      "shortName": "V Shankar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "b8a55852",
+      "name": "Brendon Barrie McCullum",
+      "shortName": "BB McCullum",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3355b542",
+      "name": "Francois du Plessis",
+      "shortName": "F du Plessis",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "012829ff",
+      "name": "JW Hastings",
+      "shortName": "JW Hastings",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "c42aaf71",
+      "name": "M Manhas",
+      "shortName": "M Manhas",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "96fd40ae",
+      "name": "Ashish Nehra",
+      "shortName": "A Nehra",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f3171936",
+      "name": "BW Hilfenhaus",
+      "shortName": "BW Hilfenhaus",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e0407c01",
+      "name": "IC Pandey",
+      "shortName": "IC Pandey",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "759ac88f",
+      "name": "Mohit Mohan Sharma",
+      "shortName": "MM Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "495d42a5",
+      "name": "Ravichandran Ashwin",
+      "shortName": "R Ashwin",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "76388dc8",
+      "name": "S Badree",
+      "shortName": "S Badree",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cad00a4d",
+  "name": "RR Rossouw",
+  "shortName": "RR Rossouw",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2014",
+    "2015",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2014-05-04",
+  "lastMatch": "2024-05-19",
+  "matchCount": 22,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2014"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2015"
+    },
+    {
+      "team": "Delhi Capitals",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    }
+  ]
+}

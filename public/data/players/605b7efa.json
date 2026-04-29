@@ -1,0 +1,25 @@
+{
+  "id": "605b7efa",
+  "name": "MC Juneja",
+  "shortName": "MC Juneja",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Delhi Capitals"
+  ],
+  "lastTeam": "Delhi Capitals",
+  "seasons": [
+    "2013"
+  ],
+  "firstMatch": "2013-04-03",
+  "lastMatch": "2013-04-23",
+  "matchCount": 7,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Delhi Capitals",
+      "season": "2013"
+    }
+  ]
+}

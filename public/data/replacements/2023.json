@@ -1,0 +1,95 @@
+{
+  "season": "2023",
+  "players": [
+    {
+      "player": "Sandeep Warrier",
+      "team": "Mumbai Indians",
+      "replacing": "Jasprit Bumrah",
+      "reason": "Back injury"
+    },
+    {
+      "player": "Riley Meredith",
+      "team": "Mumbai Indians",
+      "replacing": "Jhye Richardson",
+      "reason": "Hamstring surgery"
+    },
+    {
+      "player": "Wayne Parnell",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Reece Topley",
+      "reason": "Shoulder dislocation"
+    },
+    {
+      "player": "Michael Bracewell",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Will Jacks",
+      "reason": "Muscle injury"
+    },
+    {
+      "player": "Vijaykumar Vyshak",
+      "team": "Royal Challengers Bangalore",
+      "replacing": "Rajat Patidar",
+      "reason": "Heel injury"
+    },
+    {
+      "player": "Matthew Short",
+      "team": "Punjab Kings",
+      "replacing": "Jonny Bairstow",
+      "reason": "Golf accident injury"
+    },
+    {
+      "player": "Gurnoor Brar",
+      "team": "Punjab Kings",
+      "replacing": "Raj Bawa",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Akash Singh",
+      "team": "Chennai Super Kings",
+      "replacing": "Mukesh Choudhary",
+      "reason": "Back stress fracture"
+    },
+    {
+      "player": "Sisanda Magala",
+      "team": "Chennai Super Kings",
+      "replacing": "Kyle Jamieson",
+      "reason": "Back stress fracture"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "team": "Rajasthan Royals",
+      "replacing": "Prasidh Krishna",
+      "reason": "Lumbar stress fracture"
+    },
+    {
+      "player": "Dasun Shanaka",
+      "team": "Gujarat Titans",
+      "replacing": "Kane Williamson",
+      "reason": "Knee injury"
+    },
+    {
+      "player": "Abhishek Porel",
+      "team": "Delhi Capitals",
+      "replacing": "Rishabh Pant",
+      "reason": "Car accident recovery"
+    },
+    {
+      "player": "Suryansh Shedge",
+      "team": "Kolkata Knight Riders",
+      "replacing": "Jaydev Unadkat",
+      "reason": "Shoulder injury"
+    },
+    {
+      "player": "Kedar Jadhav",
+      "team": "Chennai Super Kings",
+      "replacing": "David Willey",
+      "reason": "Toe injury"
+    },
+    {
+      "player": "Priyam Garg",
+      "team": "Sunrisers Hyderabad",
+      "replacing": "Kamlesh Nagarkoti",
+      "reason": "Lower back stress fracture"
+    }
+  ]
+}

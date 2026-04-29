@@ -1,0 +1,28 @@
+{
+  "year": "2010",
+  "winner": "Chennai Super Kings",
+  "runnerUp": "Mumbai Indians",
+  "isOngoing": false,
+  "matchCount": 60,
+  "matchesWithData": 60,
+  "teams": [
+    "Chennai Super Kings",
+    "Deccan Chargers",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "orangeCap": {
+    "player": "Sachin Ramesh Tendulkar",
+    "shortName": "SR Tendulkar",
+    "runs": 618
+  },
+  "purpleCap": {
+    "player": "Pragyan Pramod Ojha",
+    "shortName": "PP Ojha",
+    "wickets": 21
+  }
+}

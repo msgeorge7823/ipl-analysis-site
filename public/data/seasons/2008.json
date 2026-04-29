@@ -1,0 +1,28 @@
+{
+  "year": "2008",
+  "winner": "Rajasthan Royals",
+  "runnerUp": "Chennai Super Kings",
+  "isOngoing": false,
+  "matchCount": 59,
+  "matchesWithData": 58,
+  "teams": [
+    "Chennai Super Kings",
+    "Deccan Chargers",
+    "Delhi Capitals",
+    "Kolkata Knight Riders",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+  ],
+  "orangeCap": {
+    "player": "Shaun Edward Marsh",
+    "shortName": "SE Marsh",
+    "runs": 616
+  },
+  "purpleCap": {
+    "player": "Sohail Tanvir",
+    "shortName": "Sohail Tanvir",
+    "wickets": 22
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "b2570b38",
+  "name": "RV Gomez",
+  "shortName": "RV Gomez",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kochi Tuskers Kerala",
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011",
+    "2013"
+  ],
+  "firstMatch": "2011-04-09",
+  "lastMatch": "2013-05-19",
+  "matchCount": 13,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kochi Tuskers Kerala",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2013"
+    }
+  ]
+}

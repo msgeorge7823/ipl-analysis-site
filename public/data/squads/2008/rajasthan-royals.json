@@ -1,0 +1,140 @@
+{
+  "season": "2008",
+  "teamId": "rajasthan-royals",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "fe93fd9d",
+      "name": "Ravindrasinh Anirudhsinh Jadeja",
+      "shortName": "RA Jadeja",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "4329fbb5",
+      "name": "Shane Robert Watson",
+      "shortName": "SR Watson",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3c6ffae8",
+      "name": "Yusuf Khan Pathan",
+      "shortName": "YK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "0264c10e",
+      "name": "D Salunkhe",
+      "shortName": "D Salunkhe",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "53fe6ee4",
+      "name": "DS Lehmann",
+      "shortName": "DS Lehmann",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "72861603",
+      "name": "GC Smith",
+      "shortName": "GC Smith",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d84378a4",
+      "name": "M Kaif",
+      "shortName": "M Kaif",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "de8d3876",
+      "name": "M Rawat",
+      "shortName": "M Rawat",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "a2870fb7",
+      "name": "NK Patel",
+      "shortName": "NK Patel",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "ae091d39",
+      "name": "SA Asnodkar",
+      "shortName": "SA Asnodkar",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "40caa465",
+      "name": "T Kohli",
+      "shortName": "T Kohli",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "33cb3411",
+      "name": "Younis Khan",
+      "shortName": "Younis Khan",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3edb58fc",
+      "name": "AD Mascarenhas",
+      "shortName": "AD Mascarenhas",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "f0f628c7",
+      "name": "MM Patel",
+      "shortName": "MM Patel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "e32d22f6",
+      "name": "Pankaj Singh",
+      "shortName": "Pankaj Singh",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3d7e087f",
+      "name": "SK Trivedi",
+      "shortName": "SK Trivedi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "bb18be76",
+      "name": "SK Warne",
+      "shortName": "SK Warne",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "64d43928",
+      "name": "Sohail Tanvir",
+      "shortName": "Sohail Tanvir",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ff077124",
+      "name": "Kamran Akmal",
+      "shortName": "Kamran Akmal",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

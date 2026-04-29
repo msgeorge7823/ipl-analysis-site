@@ -1,0 +1,130 @@
+{
+  "id": "john-buchanan",
+  "name": "John Buchanan",
+  "fullName": "John Marshall Buchanan",
+  "dob": "1953-04-05",
+  "nationality": "Australian",
+  "specialty": [
+    "strategy",
+    "sports-science"
+  ],
+  "playingCareerSummary": "Former Queensland first-class cricketer. Head coach of the all-conquering Australia men's team (1999-2007) that won two ODI World Cups (2003, 2007) and dominated world cricket. Did not play in the IPL.",
+  "bio": "The first head coach of Kolkata Knight Riders, appointed ahead of the inaugural 2008 IPL. Came in with an elite pedigree from coaching Australia to World Cup glory but his tenure at KKR became famous for the 'multiple-captains' theory — a rotating captaincy system that clashed with Sourav Ganguly. The fallout hurt team morale and KKR finished 6th in 2008 and bottom of the table in 2009, after which Buchanan was replaced.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "head-coach",
+      "fromSeason": "2008",
+      "toSeason": "2009",
+      "seasons": [
+        "2008",
+        "2009"
+      ],
+      "perSeason": [
+        {
+          "season": "2008",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 7,
+            "noResults": 1,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th of 8 with 13 points. Controversial 'multiple-captains' theory conflicted with Sourav Ganguly's captaincy."
+        },
+        {
+          "season": "2009",
+          "league": {
+            "matches": 14,
+            "wins": 3,
+            "losses": 10,
+            "noResults": 1,
+            "winPct": 21.43
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 8th (last) with 7 points. Nine consecutive defeats at one stretch. Turbulent season with 'Fake IPL Player' blog controversy. Buchanan was replaced at the end of this season."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 28,
+          "wins": 9,
+          "losses": 17,
+          "noResults": 2,
+          "winPct": 32.14
+        },
+        "playoffs": {
+          "matches": 0,
+          "wins": 0,
+          "losses": 0,
+          "noResults": 0,
+          "winPct": 0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 0
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2008_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2009_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 2,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 28,
+      "wins": 9,
+      "losses": 17,
+      "noResults": 2,
+      "winPct": 32.14
+    },
+    "playoffs": {
+      "matches": 0,
+      "wins": 0,
+      "losses": 0,
+      "noResults": 0,
+      "winPct": 0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 0
+  },
+  "otherCoachingRoles": [
+    {
+      "team": "Australia (National)",
+      "role": "Head Coach",
+      "period": "1999-2007",
+      "notes": "Won 2003 and 2007 ODI World Cups. Oversaw Australia's longest Test winning streak."
+    },
+    {
+      "team": "New Zealand (National)",
+      "role": "Director of Cricket",
+      "period": "2009-2011"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/John_Buchanan_(cricketer)",
+    "https://en.wikipedia.org/wiki/2008_Kolkata_Knight_Riders_season",
+    "https://en.wikipedia.org/wiki/2009_Kolkata_Knight_Riders_season"
+  ],
+  "verified": true
+}

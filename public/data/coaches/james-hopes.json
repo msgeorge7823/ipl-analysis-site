@@ -1,0 +1,257 @@
+{
+  "id": "james-hopes",
+  "name": "James Hopes",
+  "fullName": "James Redfern Hopes",
+  "nationality": "Australian",
+  "specialty": [
+    "pace-bowling",
+    "all-round"
+  ],
+  "playingCareerSummary": "Former Australia all-rounder: 84 ODIs, 12 T20Is. Played briefly for Kolkata Knight Riders in the IPL.",
+  "bio": "Delhi Capitals' bowling coach from 2019 to 2024 — six seasons under Ricky Ponting. Listed as 'Fast Bowling Coach' in 2019 (alongside Badree as spin coach) and general bowling coach from 2021 onwards. Replaced by Munaf Patel for IPL 2025.",
+  "tenures": [
+    {
+      "team": "Delhi Capitals",
+      "role": "bowling-coach",
+      "fromSeason": "2019",
+      "toSeason": "2024",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 1,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Franchise reborn as Delhi Capitals. Finished 3rd (18 pts). Beat SRH in Eliminator by 2 wickets (first-ever franchise playoff win); lost Qualifier 2 to CSK by 6 wickets."
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 8,
+            "losses": 6,
+            "noResults": 0,
+            "winPct": 57.14
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 2nd (16 pts). Lost Qualifier 1 to MI by 57 runs; beat SRH in Qualifier 2 by 17 runs; lost final to MI by 5 wickets. Franchise's first-ever IPL final, 12 years after their 2008 debut. Played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 10,
+            "losses": 4,
+            "noResults": 0,
+            "winPct": 71.43
+          },
+          "playoffs": {
+            "matches": 2,
+            "wins": 0,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Qualifier 2",
+          "notes": "Finished 1st in league (20 pts, NRR 0.481) — franchise-best. Lost Qualifier 1 to CSK by 4 wickets; lost Qualifier 2 to KKR by 3 wickets. Season split between India and UAE due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th in Group A with 14 points (NRR 0.204). Missed playoffs on NRR tie-breaker."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 9,
+            "noResults": 0,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 9th with 10 points (NRR -0.808). Lost first five matches of the season. Captain: David Warner."
+        },
+        {
+          "season": "2024",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 6th with 14 points. Ponting's final season at DC; he and the franchise parted ways ahead of the 2025 mega auction."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 84,
+          "wins": 46,
+          "losses": 38,
+          "noResults": 0,
+          "winPct": 54.76
+        },
+        "playoffs": {
+          "matches": 7,
+          "wins": 2,
+          "losses": 5,
+          "noResults": 0,
+          "winPct": 28.57
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 3
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2019_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2020_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2021_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2022_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2023_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/2024_Delhi_Capitals_season",
+        "https://en.wikipedia.org/wiki/Delhi_Capitals"
+      ],
+      "notes": "2020 season had Ryan Harris as dedicated fast-bowling coach alongside Hopes, though Hopes's role as Delhi's bowling coach spans 2019-2024 overall."
+    },
+    {
+      "team": "Punjab Kings",
+      "role": "bowling-coach",
+      "fromSeason": "2025",
+      "toSeason": "2025",
+      "seasons": [
+        "2025"
+      ],
+      "perSeason": [
+        {
+          "season": "2025",
+          "team": "Punjab Kings",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 4,
+            "noResults": 1,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 1,
+            "losses": 2,
+            "noResults": 0,
+            "winPct": 33.33
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 1st in league (19 points, NRR 0.376) — franchise-best league finish since 2008. Lost Qualifier 1 to RCB; beat Mumbai Indians in Qualifier 2; lost final to RCB by 6 runs at Ahmedabad. Ponting's first season in charge; captain Shreyas Iyer. PBKS's second IPL final (first was 2014)."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 14,
+          "wins": 9,
+          "losses": 4,
+          "noResults": 1,
+          "winPct": 64.29
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 1,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 33.33
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Punjab_Kings_season",
+        "https://en.wikipedia.org/wiki/Punjab_Kings"
+      ],
+      "notes": "Moved to PBKS for 2025 after 6 seasons at Delhi Capitals. Part of PBKS runner-up 2025 campaign."
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 7,
+    "franchisesCoached": 2,
+    "league": {
+      "matches": 98,
+      "wins": 55,
+      "losses": 42,
+      "noResults": 1,
+      "winPct": 56.12
+    },
+    "playoffs": {
+      "matches": 10,
+      "wins": 3,
+      "losses": 7,
+      "noResults": 0,
+      "winPct": 30.0
+    },
+    "titles": 0,
+    "finalsReached": 2,
+    "playoffAppearances": 4
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Delhi_Capitals"
+  ],
+  "verified": true,
+  "dob": "1978-10-24",
+  "playingCareerPlayerId": "2498e163"
+}

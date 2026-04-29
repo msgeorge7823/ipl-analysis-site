@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Cricket Statistics | IPL Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0a0a0f', card: '#131320', border: '#1e1e3a', surface: '#0f0f1a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+                    },
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0a0a0f; color: #e2e8f0; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0f; }
+        ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+        .formula-box {
+            background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(99,102,241,0.02) 100%);
+            border: 1px solid rgba(99,102,241,0.15);
+            border-radius: 12px;
+            padding: 16px 20px;
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+            color: #818cf8;
+            font-size: 1.1rem;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-xl border-b border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="#" class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-xs">IPL</span>
+                    </div>
+                    <span class="text-white font-semibold text-sm tracking-tight">Analytics</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Home</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Seasons</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Teams</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Players</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Matches</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Ratings</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Analytics Lab</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Auctions</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Venues</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Records</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-accent font-medium bg-accent/10 rounded-lg">More</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-emerald-900/5"></div>
+        <div class="absolute top-0 left-1/4 w-[400px] h-[300px] bg-accent/5 rounded-full blur-3xl"></div>
+        <div class="relative max-w-7xl mx-auto px-4 pt-16 pb-10">
+            <div class="max-w-2xl">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">Learn Cricket Statistics</h1>
+                <p class="text-lg text-gray-400">Understand the numbers behind the game</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion Sections -->
+    <section class="max-w-4xl mx-auto px-4 mb-16">
+        <div class="space-y-3">
+
+            <!-- Batting Average - EXPANDED -->
+            <div class="bg-dark-card border border-accent/20 rounded-2xl overflow-hidden glow">
+                <button class="w-full flex items-center justify-between p-6 text-left" onclick="this.parentElement.classList.toggle('collapsed')">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-accent/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Batting Average</span>
+                    </div>
+                    <svg class="w-5 h-5 text-accent transform rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+                <div class="px-6 pb-6">
+                    <div class="formula-box mb-5">
+                        Batting Average = Runs Scored &divide; (Innings &minus; Not Outs)
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-5">
+                        Batting average is one of the most fundamental statistics in cricket. It measures the average number of runs a batter scores per completed innings. A higher batting average indicates a more consistent and reliable batter. The "Not Outs" are subtracted from total innings because in those innings the batter did not have the opportunity to be dismissed, so including them would unfairly lower the average.
+                    </p>
+                    <div class="bg-dark-surface border border-dark-border rounded-xl p-5">
+                        <p class="text-xs text-accent uppercase tracking-wider font-semibold mb-3">Example</p>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500/20 to-red-600/10 border border-red-500/20 flex items-center justify-center flex-shrink-0">
+                                <span class="text-xs font-bold text-red-400">VK</span>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-white">Virat Kohli</p>
+                                <p class="text-sm text-gray-400 mt-1">
+                                    8,004 runs in 232 innings with 17 not outs
+                                </p>
+                                <div class="formula-box mt-3 text-base">
+                                    8004 &divide; (232 &minus; 17) = <span class="text-white">37.25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strike Rate - COLLAPSED -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-dark-border/80 transition">
+                <button class="w-full flex items-center justify-between p-6 text-left">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-emerald-500/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Strike Rate</span>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <!-- Bowling Average - COLLAPSED -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-dark-border/80 transition">
+                <button class="w-full flex items-center justify-between p-6 text-left">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-purple-500/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Bowling Average</span>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <!-- Economy Rate - COLLAPSED -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-dark-border/80 transition">
+                <button class="w-full flex items-center justify-between p-6 text-left">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-orange-500/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Economy Rate</span>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <!-- Bowling Strike Rate - COLLAPSED -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-dark-border/80 transition">
+                <button class="w-full flex items-center justify-between p-6 text-left">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Bowling Strike Rate</span>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <!-- Net Run Rate - COLLAPSED -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-dark-border/80 transition">
+                <button class="w-full flex items-center justify-between p-6 text-left">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-lg bg-cyan-500/10 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+                        </div>
+                        <span class="text-lg font-bold text-white">Net Run Rate (NRR)</span>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DLS Calculator -->
+    <section class="max-w-4xl mx-auto px-4 mb-20">
+        <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden">
+            <div class="p-6 md:p-8 border-b border-dark-border">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold text-white">Duckworth-Lewis-Stern Calculator</h2>
+                        <p class="text-sm text-gray-400 mt-0.5">Calculate revised targets for rain-affected matches</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-6 md:p-8">
+                <div class="grid md:grid-cols-3 gap-5 mb-6">
+                    <div>
+                        <label class="block text-sm text-gray-400 font-medium mb-2">Overs Remaining</label>
+                        <input type="number" value="15" class="w-full bg-dark-surface border border-dark-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600" placeholder="0">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-gray-400 font-medium mb-2">Wickets Lost</label>
+                        <input type="number" value="3" class="w-full bg-dark-surface border border-dark-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600" placeholder="0">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-gray-400 font-medium mb-2">Target Score</label>
+                        <input type="number" value="185" class="w-full bg-dark-surface border border-dark-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600" placeholder="0">
+                    </div>
+                </div>
+                <button class="w-full md:w-auto px-8 py-3 bg-accent hover:bg-accent-dark text-white font-semibold rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-accent/20">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                    Calculate
+                </button>
+
+                <!-- Result -->
+                <div class="mt-6 bg-dark-surface border border-accent/20 rounded-xl p-6 glow">
+                    <div class="flex items-center gap-3 mb-1">
+                        <div class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold">DLS Result</p>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <p class="text-4xl font-extrabold text-white">147</p>
+                        <p class="text-lg text-gray-400">Revised Target</p>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-2">Based on 15 overs remaining with 3 wickets lost, chasing 185. The batting team needs 147 runs from the remaining overs to win.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-border bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-[10px]">IPL</span>
+                    </div>
+                    <span class="text-gray-400 text-sm font-medium">Analytics Platform</span>
+                </div>
+                <p class="text-gray-600 text-xs">&copy; 2026 IPL Analytics. For educational and analytical purposes only. Not affiliated with BCCI or IPL.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

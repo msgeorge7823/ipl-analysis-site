@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wankhede Stadium | IPL Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0a0a0f', card: '#131320', border: '#1e1e3a', surface: '#0f0f1a' },
+                        accent: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+                    },
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0a0a0f; color: #e2e8f0; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0f; }
+        ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+        .bar-fill { transition: width 1s ease-out; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-xl border-b border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="#" class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-xs">IPL</span>
+                    </div>
+                    <span class="text-white font-semibold text-sm tracking-tight">Analytics</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Home</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Seasons</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Teams</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Players</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Matches</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Ratings</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Analytics Lab</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Auctions</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-accent font-medium bg-accent/10 rounded-lg">Venues</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">Records</a>
+                    <a href="#" class="px-3 py-1.5 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">More</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </button>
+                <button class="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Image Area -->
+    <section class="relative h-72 md:h-80 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-accent/8 via-dark-bg/60 to-dark-bg"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-dark-bg via-transparent to-dark-bg"></div>
+        <!-- Stadium silhouette pattern -->
+        <div class="absolute inset-0 opacity-10" style="background-image: repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(99,102,241,0.1) 40px, rgba(99,102,241,0.1) 41px); background-size: 100% 100%;"></div>
+        <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-dark-bg to-transparent"></div>
+        <div class="relative max-w-7xl mx-auto px-4 h-full flex items-end pb-10">
+            <div>
+                <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                    <a href="#" class="hover:text-accent transition">Venues</a>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                    <span class="text-gray-400">Wankhede</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-2">Wankhede Stadium</h1>
+                <p class="text-lg text-gray-400 flex items-center gap-2">
+                    <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    Mumbai, Maharashtra
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Cards -->
+    <section class="max-w-7xl mx-auto px-4 mb-12 -mt-2">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 text-center">
+                <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Capacity</p>
+                <p class="text-2xl font-bold text-white">33,108</p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 text-center">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                </div>
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Pitch</p>
+                <p class="text-lg font-bold text-emerald-400">Batting-friendly</p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 text-center">
+                <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </div>
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Pace</p>
+                <p class="text-2xl font-bold text-blue-400">High</p>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 text-center">
+                <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                </div>
+                <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Spin</p>
+                <p class="text-2xl font-bold text-amber-400">Low</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="max-w-7xl mx-auto px-4 mb-12">
+        <h2 class="text-2xl font-bold text-white mb-6">Venue Statistics</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6">
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Avg 1st Innings</p>
+                        <p class="text-3xl font-extrabold text-white">174</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Avg 2nd Innings</p>
+                        <p class="text-3xl font-extrabold text-white">158</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Win % Batting First</p>
+                        <p class="text-3xl font-extrabold text-accent">54%</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2">Toss Decision Trend</p>
+                        <p class="text-lg font-bold text-white">Field First</p>
+                        <p class="text-sm text-gray-400">(62%)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pace/Spin Ratings -->
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-6">
+                <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-6">Pitch Friendliness</h3>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-white font-medium">Pace Friendliness</span>
+                            <span class="text-sm text-blue-400 font-bold">82%</span>
+                        </div>
+                        <div class="w-full h-3 bg-dark-border rounded-full overflow-hidden">
+                            <div class="bar-fill h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-400" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-white font-medium">Spin Friendliness</span>
+                            <span class="text-sm text-amber-400 font-bold">28%</span>
+                        </div>
+                        <div class="w-full h-3 bg-dark-border rounded-full overflow-hidden">
+                            <div class="bar-fill h-full rounded-full bg-gradient-to-r from-amber-500 to-amber-400" style="width: 28%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-white font-medium">Batting Friendliness</span>
+                            <span class="text-sm text-emerald-400 font-bold">76%</span>
+                        </div>
+                        <div class="w-full h-3 bg-dark-border rounded-full overflow-hidden">
+                            <div class="bar-fill h-full rounded-full bg-gradient-to-r from-emerald-500 to-emerald-400" style="width: 76%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-white font-medium">Dew Factor</span>
+                            <span class="text-sm text-cyan-400 font-bold">70%</span>
+                        </div>
+                        <div class="w-full h-3 bg-dark-border rounded-full overflow-hidden">
+                            <div class="bar-fill h-full rounded-full bg-gradient-to-r from-cyan-500 to-cyan-400" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Matches -->
+    <section class="max-w-7xl mx-auto px-4 mb-20">
+        <h2 class="text-2xl font-bold text-white mb-6">Recent Matches at this Venue</h2>
+        <div class="space-y-4">
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-accent/20 transition">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center gap-6 flex-1 min-w-0">
+                        <div class="text-right min-w-[120px]">
+                            <p class="font-bold text-white">CSK</p>
+                            <p class="text-lg font-extrabold text-white">182/6 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                        <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider px-3 py-1 bg-dark-border/50 rounded-full">vs</div>
+                        <div class="min-w-[120px]">
+                            <p class="font-bold text-white">MI</p>
+                            <p class="text-lg font-extrabold text-white">176/8 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-emerald-400 font-semibold">CSK won by 6 runs</p>
+                        <p class="text-xs text-gray-500 mt-1">Apr 12, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-accent/20 transition">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center gap-6 flex-1 min-w-0">
+                        <div class="text-right min-w-[120px]">
+                            <p class="font-bold text-white">RR</p>
+                            <p class="text-lg font-extrabold text-white">189/4 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                        <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider px-3 py-1 bg-dark-border/50 rounded-full">vs</div>
+                        <div class="min-w-[120px]">
+                            <p class="font-bold text-white">MI</p>
+                            <p class="text-lg font-extrabold text-white">165/9 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-emerald-400 font-semibold">RR won by 24 runs</p>
+                        <p class="text-xs text-gray-500 mt-1">Apr 1, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-accent/20 transition">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center gap-6 flex-1 min-w-0">
+                        <div class="text-right min-w-[120px]">
+                            <p class="font-bold text-white">MI</p>
+                            <p class="text-lg font-extrabold text-white">214/6 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                        <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider px-3 py-1 bg-dark-border/50 rounded-full">vs</div>
+                        <div class="min-w-[120px]">
+                            <p class="font-bold text-white">SRH</p>
+                            <p class="text-lg font-extrabold text-white">198/7 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-emerald-400 font-semibold">MI won by 16 runs</p>
+                        <p class="text-xs text-gray-500 mt-1">Mar 27, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-accent/20 transition">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center gap-6 flex-1 min-w-0">
+                        <div class="text-right min-w-[120px]">
+                            <p class="font-bold text-white">MI</p>
+                            <p class="text-lg font-extrabold text-white">155/9 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                        <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider px-3 py-1 bg-dark-border/50 rounded-full">vs</div>
+                        <div class="min-w-[120px]">
+                            <p class="font-bold text-white">GT</p>
+                            <p class="text-lg font-extrabold text-white">156/3 <span class="text-xs text-gray-500 font-normal">(18.4)</span></p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-emerald-400 font-semibold">GT won by 7 wickets</p>
+                        <p class="text-xs text-gray-500 mt-1">Mar 18, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark-card border border-dark-border rounded-2xl p-5 hover:border-accent/20 transition">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center gap-6 flex-1 min-w-0">
+                        <div class="text-right min-w-[120px]">
+                            <p class="font-bold text-white">DC</p>
+                            <p class="text-lg font-extrabold text-white">172/5 <span class="text-xs text-gray-500 font-normal">(20)</span></p>
+                        </div>
+                        <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider px-3 py-1 bg-dark-border/50 rounded-full">vs</div>
+                        <div class="min-w-[120px]">
+                            <p class="font-bold text-white">MI</p>
+                            <p class="text-lg font-extrabold text-white">173/4 <span class="text-xs text-gray-500 font-normal">(19.2)</span></p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-emerald-400 font-semibold">MI won by 6 wickets</p>
+                        <p class="text-xs text-gray-500 mt-1">Mar 10, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-border bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-md bg-accent flex items-center justify-center">
+                        <span class="text-white font-extrabold text-[10px]">IPL</span>
+                    </div>
+                    <span class="text-gray-400 text-sm font-medium">Analytics Platform</span>
+                </div>
+                <p class="text-gray-600 text-xs">&copy; 2026 IPL Analytics. For educational and analytical purposes only. Not affiliated with BCCI or IPL.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

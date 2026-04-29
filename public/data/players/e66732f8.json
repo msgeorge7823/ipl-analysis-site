@@ -1,0 +1,30 @@
+{
+  "id": "e66732f8",
+  "name": "RD Rickelton",
+  "shortName": "RD Rickelton",
+  "nicknames": [],
+  "role": "WK-Batter",
+  "teams": [
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2025-03-23",
+  "lastMatch": "2026-04-16",
+  "matchCount": 19,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2025"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2026"
+    }
+  ]
+}

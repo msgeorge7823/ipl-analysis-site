@@ -1,0 +1,131 @@
+{
+  "id": "evan-speechly",
+  "name": "Evan Speechly",
+  "fullName": "Evan Speechly",
+  "nationality": "South African",
+  "specialty": [
+    "physiotherapy"
+  ],
+  "playingCareerSummary": "Sports physiotherapist with international and franchise cricket experience including the South Africa national team.",
+  "bio": "Royal Challengers Bangalore's head physiotherapist across multiple seasons (2019-2021), documented in the 2020 and 2021 season staff lists.",
+  "tenures": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "role": "physio",
+      "fromSeason": "2019",
+      "toSeason": "2021",
+      "seasons": [
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "perSeason": [
+        {
+          "season": "2019",
+          "league": {
+            "matches": 14,
+            "wins": 5,
+            "losses": 8,
+            "noResults": 1,
+            "winPct": 35.71
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": ""
+        },
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 9,
+            "losses": 5,
+            "noResults": 0,
+            "winPct": 64.29
+          },
+          "playoffs": {
+            "matches": 1,
+            "wins": 0,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 0.0
+          },
+          "finish": "Eliminator",
+          "notes": ""
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 42,
+          "wins": 21,
+          "losses": 20,
+          "noResults": 1,
+          "winPct": 50.0
+        },
+        "playoffs": {
+          "matches": 2,
+          "wins": 0,
+          "losses": 2,
+          "noResults": 0,
+          "winPct": 0.0
+        },
+        "titles": 0,
+        "finalsReached": 0,
+        "playoffAppearances": 2
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 3,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 42,
+      "wins": 21,
+      "losses": 20,
+      "noResults": 1,
+      "winPct": 50.0
+    },
+    "playoffs": {
+      "matches": 2,
+      "wins": 0,
+      "losses": 2,
+      "noResults": 0,
+      "winPct": 0.0
+    },
+    "titles": 0,
+    "finalsReached": 0,
+    "playoffAppearances": 2
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+  ],
+  "verified": true
+}

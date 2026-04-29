@@ -1,0 +1,48 @@
+{
+  "id": "d8b2f218",
+  "name": "BB Sran",
+  "shortName": "BB Sran",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals",
+    "Punjab Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "firstMatch": "2015-05-16",
+  "lastMatch": "2019-05-02",
+  "matchCount": 24,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2015"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2016"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    }
+  ]
+}

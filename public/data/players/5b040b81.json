@@ -1,0 +1,35 @@
+{
+  "id": "5b040b81",
+  "name": "A Singh",
+  "shortName": "A Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2009",
+    "2011",
+    "2012"
+  ],
+  "firstMatch": "2009-05-05",
+  "lastMatch": "2012-05-01",
+  "matchCount": 23,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2009"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2011"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2012"
+    }
+  ]
+}

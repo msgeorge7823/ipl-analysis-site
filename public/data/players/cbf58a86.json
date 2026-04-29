@@ -1,0 +1,25 @@
+{
+  "id": "cbf58a86",
+  "name": "SK Rasheed",
+  "shortName": "SK Rasheed",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2025"
+  ],
+  "firstMatch": "2025-04-14",
+  "lastMatch": "2025-05-03",
+  "matchCount": 5,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    }
+  ]
+}

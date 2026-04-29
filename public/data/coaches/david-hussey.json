@@ -1,0 +1,158 @@
+{
+  "id": "david-hussey",
+  "name": "David Hussey",
+  "fullName": "David John Hussey",
+  "nationality": "Australian",
+  "specialty": [
+    "batting",
+    "finishing"
+  ],
+  "playingCareerSummary": "Former Australia middle-order batter: 26 ODIs, 39 T20Is. Played for KKR, Kings XI Punjab and CSK in the IPL. Brother of Mike Hussey.",
+  "bio": "KKR's mentor from 2020 to 2023 — four-year tenure across the end of the McCullum era and the start of Chandrakant Pandit's reign. Replaced by Gautam Gambhir for the 2024 title-winning season.",
+  "tenures": [
+    {
+      "team": "Kolkata Knight Riders",
+      "role": "mentor",
+      "fromSeason": "2020",
+      "toSeason": "2023",
+      "seasons": [
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "perSeason": [
+        {
+          "season": "2020",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 5th with 14 points (NRR -0.214). Missed playoffs on net run rate. Season played in UAE due to COVID-19."
+        },
+        {
+          "season": "2021",
+          "league": {
+            "matches": 14,
+            "wins": 7,
+            "losses": 7,
+            "noResults": 0,
+            "winPct": 50.0
+          },
+          "playoffs": {
+            "matches": 3,
+            "wins": 2,
+            "losses": 1,
+            "noResults": 0,
+            "winPct": 66.67
+          },
+          "finish": "Runner-up",
+          "notes": "Finished 4th with 14 points. Beat RCB in Eliminator by 4 wickets; beat DC in Qualifier 2 by 3 wickets; lost final to CSK by 27 runs. Season split across India and UAE legs due to COVID-19."
+        },
+        {
+          "season": "2022",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. McCullum left after this season to become England's Test head coach."
+        },
+        {
+          "season": "2023",
+          "league": {
+            "matches": 14,
+            "wins": 6,
+            "losses": 8,
+            "noResults": 0,
+            "winPct": 42.86
+          },
+          "playoffs": {
+            "matches": 0,
+            "wins": 0,
+            "losses": 0,
+            "noResults": 0,
+            "winPct": 0
+          },
+          "finish": "Group Stage",
+          "notes": "Finished 7th with 12 points. Did not qualify for playoffs. First season replacing Brendon McCullum."
+        }
+      ],
+      "aggregate": {
+        "league": {
+          "matches": 56,
+          "wins": 26,
+          "losses": 30,
+          "noResults": 0,
+          "winPct": 46.43
+        },
+        "playoffs": {
+          "matches": 3,
+          "wins": 2,
+          "losses": 1,
+          "noResults": 0,
+          "winPct": 66.67
+        },
+        "titles": 0,
+        "finalsReached": 1,
+        "playoffAppearances": 1
+      },
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders",
+        "https://en.wikipedia.org/wiki/2020_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2021_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2022_Kolkata_Knight_Riders_season",
+        "https://en.wikipedia.org/wiki/2023_Kolkata_Knight_Riders_season"
+      ]
+    }
+  ],
+  "careerTotals": {
+    "seasonsCoached": 4,
+    "franchisesCoached": 1,
+    "league": {
+      "matches": 56,
+      "wins": 26,
+      "losses": 30,
+      "noResults": 0,
+      "winPct": 46.43
+    },
+    "playoffs": {
+      "matches": 3,
+      "wins": 2,
+      "losses": 1,
+      "noResults": 0,
+      "winPct": 66.67
+    },
+    "titles": 0,
+    "finalsReached": 1,
+    "playoffAppearances": 1
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kolkata_Knight_Riders"
+  ],
+  "verified": true,
+  "dob": "1977-07-15",
+  "playingCareerPlayerId": "fd835ab3"
+}

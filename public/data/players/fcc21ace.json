@@ -1,0 +1,36 @@
+{
+  "id": "fcc21ace",
+  "name": "A Kamboj",
+  "shortName": "A Kamboj",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Chennai Super Kings",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2024-05-06",
+  "lastMatch": "2026-04-26",
+  "matchCount": 19,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

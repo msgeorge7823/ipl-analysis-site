@@ -1,0 +1,25 @@
+{
+  "id": "5673a3fc",
+  "name": "NL McCullum",
+  "shortName": "NL McCullum",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors"
+  ],
+  "lastTeam": "Pune Warriors",
+  "seasons": [
+    "2011"
+  ],
+  "firstMatch": "2011-04-25",
+  "lastMatch": "2011-05-01",
+  "matchCount": 2,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    }
+  ]
+}

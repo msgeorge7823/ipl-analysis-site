@@ -1,0 +1,140 @@
+{
+  "season": "2022",
+  "teamId": "sunrisers-hyderabad",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "8e514b4c",
+      "name": "Abdul Samad",
+      "shortName": "Abdul Samad",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f29185a1",
+      "name": "Abhishek Sharma",
+      "shortName": "Abhishek Sharma",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "e9c7f0d0",
+      "name": "Fazalhaq Farooqi",
+      "shortName": "Fazalhaq Farooqi",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "81c36ee9",
+      "name": "M Jansen",
+      "shortName": "M Jansen",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c5aef772",
+      "name": "R Shepherd",
+      "shortName": "R Shepherd",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "f19ccfad",
+      "name": "Washington Sundar",
+      "shortName": "Washington Sundar",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "6a26221c",
+      "name": "AK Markram",
+      "shortName": "AK Markram",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d027ba9f",
+      "name": "Kane Stuart Williamson",
+      "shortName": "KS Williamson",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb965e9a",
+      "name": "PK Garg",
+      "shortName": "PK Garg",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "77255a9e",
+      "name": "Rahul Amarnath Tripathi",
+      "shortName": "RA Tripathi",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1a2676c5",
+      "name": "SA Abbott",
+      "shortName": "SA Abbott",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "26989d80",
+      "name": "Shashank Singh",
+      "shortName": "Shashank Singh",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "2e81a32d",
+      "name": "Bhuvneshwar Kumar",
+      "shortName": "B Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4125d931",
+      "name": "J Suchith",
+      "shortName": "J Suchith",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5d2eea49",
+      "name": "Kartik Tyagi",
+      "shortName": "Kartik Tyagi",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "7a8bd078",
+      "name": "S Gopal",
+      "shortName": "S Gopal",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ce794613",
+      "name": "Thangarasu Natarajan",
+      "shortName": "T Natarajan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "81c08fa3",
+      "name": "Umran Malik",
+      "shortName": "Umran Malik",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "3241e3fd",
+      "name": "Nicholas Pooran",
+      "shortName": "N Pooran",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "b483905d",
+  "name": "Akash Singh",
+  "shortName": "Akash Singh",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Rajasthan Royals",
+    "Chennai Super Kings",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2021",
+    "2023",
+    "2025"
+  ],
+  "firstMatch": "2021-10-02",
+  "lastMatch": "2025-05-27",
+  "matchCount": 10,
+  "status": "active",
+  "isReplacement": true,
+  "replacementHistory": [
+    {
+      "season": "2023",
+      "team": "Chennai Super Kings",
+      "replacing": "Mukesh Choudhary",
+      "reason": "Back stress fracture"
+    }
+  ],
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2025"
+    }
+  ]
+}

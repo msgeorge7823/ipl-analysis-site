@@ -1,0 +1,31 @@
+{
+  "id": "6165bca6",
+  "name": "A Mukund",
+  "shortName": "A Mukund",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2008",
+    "2013"
+  ],
+  "firstMatch": "2008-05-24",
+  "lastMatch": "2013-04-29",
+  "matchCount": 3,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2008"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    }
+  ]
+}

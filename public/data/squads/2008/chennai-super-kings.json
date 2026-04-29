@@ -1,0 +1,140 @@
+{
+  "season": "2008",
+  "teamId": "chennai-super-kings",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "3eac9d95",
+      "name": "JDP Oram",
+      "shortName": "JDP Oram",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "c3d35165",
+      "name": "Johannes Albertus Morkel",
+      "shortName": "JA Morkel",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "6165bca6",
+      "name": "A Mukund",
+      "shortName": "A Mukund",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "cfad138c",
+      "name": "CK Kapugedera",
+      "shortName": "CK Kapugedera",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "d8699ab7",
+      "name": "Matthew Lawrence Hayden",
+      "shortName": "ML Hayden",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "48fd7349",
+      "name": "Michael Edward Killeen Hussey",
+      "shortName": "MEK Hussey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "95a2ea61",
+      "name": "S Anirudha",
+      "shortName": "S Anirudha",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "756389bd",
+      "name": "S Vidyut",
+      "shortName": "S Vidyut",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "eea6b7f1",
+      "name": "SP Fleming",
+      "shortName": "SP Fleming",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "3576e47e",
+      "name": "Subramaniam Badrinath",
+      "shortName": "S Badrinath",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1dc12ab9",
+      "name": "Suresh Kumar Raina",
+      "shortName": "SK Raina",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "9f961c14",
+      "name": "Joginder Sharma",
+      "shortName": "Joginder Sharma",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "b2b50355",
+      "name": "L Balaji",
+      "shortName": "L Balaji",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4ba44e19",
+      "name": "M Muralitharan",
+      "shortName": "M Muralitharan",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "20a941bb",
+      "name": "M Ntini",
+      "shortName": "M Ntini",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ae78bc32",
+      "name": "MS Gony",
+      "shortName": "MS Gony",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "6ad3a659",
+      "name": "P Amarnath",
+      "shortName": "P Amarnath",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "4a8a2e3b",
+      "name": "Mahendra Singh Dhoni",
+      "shortName": "MS Dhoni",
+      "role": "WK-Batter",
+      "country": null
+    },
+    {
+      "id": "b5da6c24",
+      "name": "Parthiv Ajay Patel",
+      "shortName": "PA Patel",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

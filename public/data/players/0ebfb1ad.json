@@ -1,0 +1,42 @@
+{
+  "id": "0ebfb1ad",
+  "name": "E Lewis",
+  "shortName": "E Lewis",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Mumbai Indians",
+    "Rajasthan Royals",
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2018",
+    "2019",
+    "2021",
+    "2022"
+  ],
+  "firstMatch": "2018-04-07",
+  "lastMatch": "2022-05-25",
+  "matchCount": 27,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Mumbai Indians",
+      "season": "2018"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2019"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2021"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    }
+  ]
+}

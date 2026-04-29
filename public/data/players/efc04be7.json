@@ -1,0 +1,41 @@
+{
+  "id": "efc04be7",
+  "name": "Noor Ahmad",
+  "shortName": "Noor Ahmad",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Gujarat Titans",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "firstMatch": "2023-04-16",
+  "lastMatch": "2026-04-26",
+  "matchCount": 45,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Gujarat Titans",
+      "season": "2023"
+    },
+    {
+      "team": "Gujarat Titans",
+      "season": "2024"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2025"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2026"
+    }
+  ]
+}

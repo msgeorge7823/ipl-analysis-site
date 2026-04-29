@@ -1,0 +1,51 @@
+{
+  "id": "62af8546",
+  "name": "Mohammad Nabi",
+  "shortName": "Mohammad Nabi",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Sunrisers Hyderabad",
+    "Mumbai Indians"
+  ],
+  "lastTeam": "Mumbai Indians",
+  "seasons": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2024"
+  ],
+  "firstMatch": "2017-04-17",
+  "lastMatch": "2024-04-30",
+  "matchCount": 24,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2017"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2018"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2019"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2020"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "season": "2021"
+    },
+    {
+      "team": "Mumbai Indians",
+      "season": "2024"
+    }
+  ]
+}

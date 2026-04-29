@@ -1,0 +1,126 @@
+{
+  "season": "2014",
+  "teamId": "kolkata-knight-riders",
+  "_derivation": "Derived from player-teams.json; rosters reflect players who appeared in at least one match.",
+  "players": [
+    {
+      "id": "bbd41817",
+      "name": "Andre Dwayne Russell",
+      "shortName": "AD Russell",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "86dc8f2e",
+      "name": "Jacques Henry Kallis",
+      "shortName": "JH Kallis",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "7dc35884",
+      "name": "Shakib Al Hasan",
+      "shortName": "Shakib Al Hasan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "9d430b40",
+      "name": "Sunil Philip Narine",
+      "shortName": "SP Narine",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "3c6ffae8",
+      "name": "Yusuf Khan Pathan",
+      "shortName": "YK Pathan",
+      "role": "All-rounder",
+      "country": null
+    },
+    {
+      "id": "45eda7c8",
+      "name": "CA Lynn",
+      "shortName": "CA Lynn",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "bb345e0b",
+      "name": "Gautam Gambhir",
+      "shortName": "G Gambhir",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "93b4fc78",
+      "name": "Manish Krishnanand Pandey",
+      "shortName": "MK Pandey",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "4ec07775",
+      "name": "RN ten Doeschate",
+      "shortName": "RN ten Doeschate",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "1c17e270",
+      "name": "Robin Venu Uthappa",
+      "shortName": "RV Uthappa",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "271f83cd",
+      "name": "Suryakumar Ashok Yadav",
+      "shortName": "SA Yadav",
+      "role": "Batter",
+      "country": null
+    },
+    {
+      "id": "5bb5a915",
+      "name": "Morne Morkel",
+      "shortName": "M Morkel",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "ded9240e",
+      "name": "PJ Cummins",
+      "shortName": "PJ Cummins",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "98ae73b1",
+      "name": "Piyush Pramod Chawla",
+      "shortName": "PP Chawla",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "41eb4a4f",
+      "name": "Raghavendra Vinay Kumar",
+      "shortName": "R Vinay Kumar",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "cc1e8c68",
+      "name": "Umesh Tilak Yadav",
+      "shortName": "UT Yadav",
+      "role": "Bowler",
+      "country": null
+    },
+    {
+      "id": "5afd4539",
+      "name": "MS Bisla",
+      "shortName": "MS Bisla",
+      "role": "WK-Batter",
+      "country": null
+    }
+  ]
+}

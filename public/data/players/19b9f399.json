@@ -1,0 +1,25 @@
+{
+  "id": "19b9f399",
+  "name": "CJ Green",
+  "shortName": "CJ Green",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Kolkata Knight Riders",
+  "seasons": [
+    "2020"
+  ],
+  "firstMatch": "2020-10-16",
+  "lastMatch": "2020-10-16",
+  "matchCount": 1,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2020"
+    }
+  ]
+}

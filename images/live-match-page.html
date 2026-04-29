@@ -1,0 +1,2717 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Analytics — LIVE: CSK vs MI | Match 32</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      fontFamily: { inter: ['Inter', 'sans-serif'] },
+      colors: {
+        bg: '#0a0a0f',
+        card: '#131320',
+        cardLight: '#1a1a30',
+        border: '#1e1e3a',
+        accent: '#6366f1',
+        accentLight: '#818cf8',
+        textPrimary: '#e2e8f0',
+        textSecondary: '#94a3b8',
+        cskYellow: '#FFC107',
+        miBlue: '#004BA0',
+        miBlueLight: '#1a6dd4',
+        dotGrey: '#4b5563',
+        runGreen: '#22c55e',
+        sixGold: '#eab308',
+        wicketRed: '#ef4444',
+        extraOrange: '#f97316',
+      }
+    }
+  }
+}
+</script>
+<style>
+  * { font-family: 'Inter', sans-serif; }
+  body { background: #0a0a0f; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #0a0a0f; }
+  ::-webkit-scrollbar-thumb { background: #1e1e3a; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #6366f1; }
+
+  @keyframes pulse-live {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  .live-pulse { animation: pulse-live 1.5s ease-in-out infinite; }
+
+  @keyframes glow-score {
+    0%, 100% { text-shadow: 0 0 8px rgba(26, 109, 212, 0.4); }
+    50% { text-shadow: 0 0 20px rgba(26, 109, 212, 0.8), 0 0 40px rgba(26, 109, 212, 0.3); }
+  }
+  .score-glow { animation: glow-score 2s ease-in-out infinite; }
+
+  @keyframes pulse-dot {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+    50% { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+  }
+  .batting-pulse { animation: pulse-dot 2s ease-in-out infinite; }
+
+  .tab-active { border-bottom: 2px solid #6366f1; color: #e2e8f0; }
+  .tab-inactive { border-bottom: 2px solid transparent; color: #94a3b8; }
+  .tab-inactive:hover { color: #c4c9d4; border-bottom-color: #1e1e3a; }
+
+  .innings-toggle-active { background: #6366f1; color: #fff; }
+  .innings-toggle-inactive { background: #1e1e3a; color: #94a3b8; }
+  .innings-toggle-inactive:hover { background: #252545; color: #c4c9d4; }
+
+  .accordion-header { cursor: pointer; user-select: none; transition: background 0.2s; }
+  .accordion-header:hover { background: #1a1a30; }
+  .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+  .accordion-content.open { max-height: 5000px; }
+  .accordion-arrow { transition: transform 0.3s ease; }
+  .accordion-arrow.rotated { transform: rotate(180deg); }
+
+  .match-card { transition: transform 0.2s, box-shadow 0.2s; }
+  .match-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15); }
+</style>
+</head>
+<body class="bg-bg text-textPrimary font-inter min-h-screen">
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TOP SCORE HEADER (Always Visible)                  -->
+<!-- ═══════════════════════════════════════════════════ -->
+<header class="bg-card border-b border-border">
+  <div class="max-w-6xl mx-auto px-4 py-5">
+    <!-- Score Row -->
+    <div class="flex items-center justify-center gap-4 sm:gap-8 md:gap-12">
+      <!-- CSK Side -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-cskYellow/20 border-2 border-cskYellow flex items-center justify-center flex-shrink-0">
+          <span class="text-cskYellow font-extrabold text-sm sm:text-base">CSK</span>
+        </div>
+        <div class="text-right sm:text-left">
+          <div class="text-xs sm:text-sm text-textSecondary font-medium">Chennai Super Kings</div>
+          <div class="text-xl sm:text-2xl md:text-3xl font-bold text-white">189/6 <span class="text-sm sm:text-base font-normal text-textSecondary">(20 ov)</span></div>
+        </div>
+      </div>
+
+      <!-- VS + LIVE Badge -->
+      <div class="flex flex-col items-center gap-1 flex-shrink-0">
+        <span class="text-textSecondary font-semibold text-sm">vs</span>
+        <span class="inline-flex items-center gap-1 bg-wicketRed/20 border border-wicketRed/40 rounded-full px-2.5 py-0.5">
+          <span class="w-2 h-2 rounded-full bg-wicketRed live-pulse"></span>
+          <span class="text-wicketRed text-xs font-bold tracking-wide">LIVE</span>
+        </span>
+      </div>
+
+      <!-- MI Side -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <div class="sm:order-2">
+          <div class="text-xs sm:text-sm text-textSecondary font-medium">Mumbai Indians</div>
+          <div class="text-xl sm:text-2xl md:text-3xl font-bold text-white score-glow">142/5 <span class="text-sm sm:text-base font-normal text-textSecondary">(16.3 ov)</span></div>
+        </div>
+        <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-miBlue/30 border-2 border-miBlueLight flex items-center justify-center flex-shrink-0 sm:order-3">
+          <span class="text-miBlueLight font-extrabold text-sm sm:text-base">MI</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Required Runs -->
+    <div class="text-center mt-3">
+      <div class="text-sm sm:text-base font-semibold text-accent">MI need 48 runs from 21 balls &middot; RRR: 13.71</div>
+    </div>
+
+    <!-- Match Info -->
+    <div class="text-center mt-1.5">
+      <div class="text-xs sm:text-sm text-textSecondary">Match 32 &middot; IPL 2026 &middot; MA Chidambaram Stadium, Chennai</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TAB BAR                                        -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="max-w-6xl mx-auto px-4">
+    <nav class="flex gap-0" id="main-tabs">
+      <button onclick="switchTab('info')" id="tab-info" class="tab-inactive px-5 py-3 text-sm font-semibold transition-all">Info</button>
+      <button onclick="switchTab('live')" id="tab-live" class="tab-active px-5 py-3 text-sm font-semibold transition-all">Live</button>
+      <button onclick="switchTab('scorecard')" id="tab-scorecard" class="tab-inactive px-5 py-3 text-sm font-semibold transition-all">Scorecard</button>
+      <button onclick="switchTab('squads')" id="tab-squads" class="tab-inactive px-5 py-3 text-sm font-semibold transition-all">Squads</button>
+      <button onclick="switchTab('mvp')" id="tab-mvp" class="tab-inactive px-5 py-3 text-sm font-semibold transition-all flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Match MVP
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 py-6">
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TAB CONTENT: INFO                                  -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="content-info" class="hidden space-y-6">
+
+  <!-- Match Info Card -->
+  <div class="bg-card border border-border rounded-xl p-5 sm:p-6">
+    <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+      <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Match Info
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="space-y-3">
+        <div>
+          <span class="text-xs text-textSecondary uppercase tracking-wider">Match</span>
+          <p class="text-sm text-white font-medium">Match 32, Indian Premier League 2026</p>
+        </div>
+        <div>
+          <span class="text-xs text-textSecondary uppercase tracking-wider">Date</span>
+          <p class="text-sm text-white font-medium">Tuesday, April 15, 2026</p>
+        </div>
+        <div>
+          <span class="text-xs text-textSecondary uppercase tracking-wider">Time</span>
+          <p class="text-sm text-white font-medium">19:30 IST</p>
+          <p class="text-xs text-textSecondary mt-0.5">(Local time displayed based on your timezone)</p>
+        </div>
+      </div>
+      <div class="space-y-3">
+        <div>
+          <span class="text-xs text-textSecondary uppercase tracking-wider">Toss</span>
+          <p class="text-sm text-white font-medium">CSK won the toss and elected to bat</p>
+        </div>
+        <div>
+          <span class="text-xs text-textSecondary uppercase tracking-wider">Status</span>
+          <p class="text-sm font-medium flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-wicketRed live-pulse inline-block"></span>
+            <span class="text-wicketRed font-semibold">Live</span>
+            <span class="text-textSecondary">&mdash; 2nd Innings in progress</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Match Officials Card -->
+  <div class="bg-card border border-border rounded-xl p-5 sm:p-6">
+    <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+      <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      Match Officials
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="flex items-center gap-3 bg-bg/50 rounded-lg p-3">
+        <div class="w-9 h-9 rounded-full bg-accent/10 flex items-center justify-center"><span class="text-accent text-xs font-bold">U1</span></div>
+        <div><p class="text-xs text-textSecondary">Umpire 1</p><p class="text-sm text-white font-medium">Nitin Menon</p></div>
+      </div>
+      <div class="flex items-center gap-3 bg-bg/50 rounded-lg p-3">
+        <div class="w-9 h-9 rounded-full bg-accent/10 flex items-center justify-center"><span class="text-accent text-xs font-bold">U2</span></div>
+        <div><p class="text-xs text-textSecondary">Umpire 2</p><p class="text-sm text-white font-medium">Chris Gaffaney</p></div>
+      </div>
+      <div class="flex items-center gap-3 bg-bg/50 rounded-lg p-3">
+        <div class="w-9 h-9 rounded-full bg-accent/10 flex items-center justify-center"><span class="text-accent text-xs font-bold">3U</span></div>
+        <div><p class="text-xs text-textSecondary">3rd Umpire</p><p class="text-sm text-white font-medium">Anil Chaudhary</p></div>
+      </div>
+      <div class="flex items-center gap-3 bg-bg/50 rounded-lg p-3">
+        <div class="w-9 h-9 rounded-full bg-accent/10 flex items-center justify-center"><span class="text-accent text-xs font-bold">MR</span></div>
+        <div><p class="text-xs text-textSecondary">Match Referee</p><p class="text-sm text-white font-medium">Javagal Srinath</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Venue Card -->
+  <div class="bg-card border border-border rounded-xl p-5 sm:p-6">
+    <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+      <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      Venue
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+      <div>
+        <span class="text-xs text-textSecondary uppercase tracking-wider">Stadium</span>
+        <p class="text-sm text-white font-medium">MA Chidambaram Stadium</p>
+      </div>
+      <div>
+        <span class="text-xs text-textSecondary uppercase tracking-wider">Place</span>
+        <p class="text-sm text-white font-medium">Chepauk, Chennai, Tamil Nadu</p>
+      </div>
+      <div>
+        <span class="text-xs text-textSecondary uppercase tracking-wider">Capacity</span>
+        <p class="text-sm text-white font-medium">50,000 <span class="text-textSecondary">(Max Attendance)</span></p>
+      </div>
+    </div>
+    <div class="flex flex-wrap gap-3 mt-4 pt-4 border-t border-border">
+      <span class="inline-flex items-center gap-1.5 bg-accent/10 border border-accent/20 rounded-full px-3 py-1.5 text-xs font-medium text-accentLight">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+        Pitch: Spin-friendly
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-extraOrange/10 border border-extraOrange/20 rounded-full px-3 py-1.5 text-xs font-medium text-extraOrange">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        Weather: 32&deg;C, Humid
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-miBlue/20 border border-miBlueLight/20 rounded-full px-3 py-1.5 text-xs font-medium text-miBlueLight">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+        Dew: Expected in 2nd innings
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TAB CONTENT: LIVE (DEFAULT ACTIVE)                 -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="content-live" class="space-y-5">
+
+  <!-- Live Scorecard Summary -->
+  <div class="bg-card border border-border rounded-xl p-5">
+
+    <!-- Row 1: MI Batting heading -->
+    <div class="flex items-center gap-2 mb-3">
+      <div class="w-8 h-8 rounded-full bg-miBlue/30 border border-miBlueLight flex items-center justify-center">
+        <span class="text-miBlueLight font-bold text-xs">MI</span>
+      </div>
+      <h2 class="text-base sm:text-lg font-bold text-white">MI Batting</h2>
+      <span class="w-2 h-2 rounded-full bg-runGreen batting-pulse"></span>
+    </div>
+
+    <!-- Row 2: Score & Overs -->
+    <div class="bg-bg/60 rounded-lg px-4 py-3 mb-3">
+      <div class="text-2xl sm:text-3xl font-bold text-white score-glow">142/5 <span class="text-base font-normal text-textSecondary">(16.3 ov)</span></div>
+    </div>
+
+    <!-- Row 3: Partnership -->
+    <div class="bg-bg/60 rounded-lg px-4 py-2.5 mb-3 flex items-center gap-3">
+      <div class="text-xs text-textSecondary uppercase tracking-wider font-semibold flex-shrink-0">Partnership</div>
+      <div class="w-px h-5 bg-border flex-shrink-0"></div>
+      <div class="text-sm text-white font-medium">52 runs off 30 balls <span class="text-textSecondary">(David &amp; Pandya)</span></div>
+    </div>
+
+    <!-- Row 4: Target & RRR -->
+    <div class="flex items-center gap-4 mb-4 px-1">
+      <div class="flex items-center gap-2">
+        <span class="text-xs text-textSecondary uppercase tracking-wider font-semibold">Target</span>
+        <span class="text-sm font-bold text-accent">190</span>
+      </div>
+      <div class="w-px h-4 bg-border"></div>
+      <div class="flex items-center gap-2">
+        <span class="text-xs text-textSecondary uppercase tracking-wider font-semibold">Need</span>
+        <span class="text-sm font-bold text-cskYellow">48 off 21</span>
+      </div>
+      <div class="w-px h-4 bg-border"></div>
+      <div class="flex items-center gap-2">
+        <span class="text-xs text-textSecondary uppercase tracking-wider font-semibold">RRR</span>
+        <span class="text-sm font-bold text-wicketRed">13.71</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Batters at Crease -->
+      <div class="bg-bg/60 rounded-lg p-3">
+        <div class="text-xs text-textSecondary uppercase tracking-wider mb-2">At the crease</div>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                <span class="text-[9px] font-bold text-white">TD</span>
+              </div>
+              <span class="text-sm font-semibold text-white">Tim David<span class="text-accent">*</span></span>
+              <span class="text-[10px] bg-accent/20 text-accent px-1.5 py-0.5 rounded font-medium">ON STRIKE</span>
+            </div>
+            <div class="text-sm font-bold text-white">34 <span class="text-xs font-normal text-textSecondary">(18)</span></div>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-textSecondary ml-9">
+            <span>2 &times; 4s</span><span>3 &times; 6s</span><span>SR: 188.89</span>
+          </div>
+          <div class="h-px bg-border my-1"></div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                <span class="text-[9px] font-bold text-white">HP</span>
+              </div>
+              <span class="text-sm font-semibold text-white">Hardik Pandya</span>
+            </div>
+            <div class="text-sm font-bold text-white">22 <span class="text-xs font-normal text-textSecondary">(16)</span></div>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-textSecondary ml-9">
+            <span>2 &times; 4s</span><span>1 &times; 6s</span><span>SR: 137.50</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Current Bowler + Last Wicket -->
+      <div class="bg-bg/60 rounded-lg p-3 space-y-3">
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Bowler</div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                <span class="text-[9px] font-bold text-black">RJ</span>
+              </div>
+              <span class="text-sm font-semibold text-white">Ravindra Jadeja</span>
+            </div>
+            <span class="text-sm text-textSecondary font-mono">3.3-0-28-1</span>
+          </div>
+        </div>
+        <div class="h-px bg-border"></div>
+        <div>
+          <div class="text-xs text-textSecondary uppercase tracking-wider mb-1">Last Wicket</div>
+          <div class="text-sm text-white">
+            <div class="flex items-center gap-2">
+              <div class="w-6 h-6 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                <span class="text-[8px] font-bold text-white">SY</span>
+              </div>
+              <span>Suryakumar Yadav c Dhoni b Jadeja <span class="font-semibold">38</span> (24)</span>
+            </div>
+            <div class="ml-8 mt-0.5"><span class="text-wicketRed font-medium">90/5</span> <span class="text-textSecondary">(12.1 ov)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ball-by-Ball Commentary Section -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <!-- Innings Toggle -->
+    <div class="flex border-b border-border">
+      <button onclick="switchInnings('first')" id="innings-first" class="innings-toggle-inactive flex-1 px-4 py-3 text-sm font-semibold transition-all text-center">
+        1st Innings &mdash; CSK 189/6
+      </button>
+      <button onclick="switchInnings('second')" id="innings-second" class="innings-toggle-active flex-1 px-4 py-3 text-sm font-semibold transition-all text-center">
+        2nd Innings &mdash; MI 142/5*
+      </button>
+    </div>
+
+    <!-- 2nd Innings Commentary -->
+    <div id="commentary-second" class="p-4 sm:p-5 space-y-0">
+      <h3 class="text-sm font-bold text-white mb-4 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-wicketRed live-pulse"></span>
+        Ball-by-Ball Commentary &mdash; 2nd Innings
+      </h3>
+
+      <!-- Over 17 (in progress) -->
+      <!-- 16.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-runGreen/5 border-l-2 border-runGreen">
+        <div class="flex-shrink-0 mt-0.5">
+          <span class="font-mono text-xs text-textSecondary w-10 inline-block">16.3</span>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-runGreen text-white font-bold text-xs">4</span>
+        </div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Tim David</span> &mdash; <span class="text-runGreen font-bold">FOUR!</span> Swept hard past short fine leg, races to the boundary!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 142/5</p>
+        </div>
+      </div>
+
+      <!-- 16.2 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5">
+          <span class="font-mono text-xs text-textSecondary w-10 inline-block">16.2</span>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span>
+        </div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Tim David</span> &mdash; Dot. Tossed up outside off, David defends back to the bowler.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 138/5</p>
+        </div>
+      </div>
+
+      <!-- 16.1 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5">
+          <span class="font-mono text-xs text-textSecondary w-10 inline-block">16.1</span>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span>
+        </div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Pandya</span> &mdash; Single. Worked to mid-wicket, quick single.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 138/5</p>
+        </div>
+      </div>
+
+      <!-- ═══ END OF OVER 16 ═══ -->
+      <div class="my-4 bg-cardLight border border-border rounded-lg p-4 border-l-4 border-l-accent">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-accent uppercase tracking-wider">End of Over 16</span>
+          <span class="text-sm font-bold text-white">MI 138/5</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-textSecondary">
+          <span>Tim David <span class="text-white font-medium">30*</span> (16)</span>
+          <span>Hardik Pandya <span class="text-white font-medium">20*</span> (14)</span>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="text-xs text-textSecondary">Deepak Chahar: 4-0-32-1</span>
+          <span class="text-textSecondary">&middot;</span>
+          <span class="text-xs text-textSecondary">This over:</span>
+          <div class="flex items-center gap-1">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-runGreen text-white text-[10px] font-bold">4</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-sky-500/80 text-white text-[10px] font-bold">2</span>
+          </div>
+          <span class="text-xs font-semibold text-white">= 8 runs</span>
+        </div>
+      </div>
+
+      <!-- Over 16 balls -->
+      <!-- 15.6 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-sky-500/80 text-white font-bold text-xs">2</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Two. Driven through covers, they come back for two.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 130/5</p>
+        </div>
+      </div>
+
+      <!-- 15.5 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.5</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Dot. Good yorker, dug out.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 128/5</p>
+        </div>
+      </div>
+
+      <!-- 15.4 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.4</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to Pandya</span> &mdash; Single to deep mid-wicket.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 128/5</p>
+        </div>
+      </div>
+
+      <!-- 15.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-runGreen/5 border-l-2 border-runGreen">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.3</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-runGreen text-white font-bold text-xs">4</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to Pandya</span> &mdash; <span class="text-runGreen font-bold">FOUR!</span> Overpitched, driven through extra cover!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 127/5</p>
+        </div>
+      </div>
+
+      <!-- 15.2 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.2</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to Pandya</span> &mdash; Dot. Back of length, left alone outside off.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 123/5</p>
+        </div>
+      </div>
+
+      <!-- 15.1 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">15.1</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Single. Pushed to mid-on, easy single.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 123/5</p>
+        </div>
+      </div>
+
+      <!-- ═══ END OF OVER 15 ═══ -->
+      <div class="my-4 bg-cardLight border border-border rounded-lg p-4 border-l-4 border-l-accent">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-accent uppercase tracking-wider">End of Over 15</span>
+          <span class="text-sm font-bold text-white">MI 122/5</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-textSecondary">
+          <span>Hardik Pandya <span class="text-white font-medium">16*</span> (11)</span>
+          <span>Tim David <span class="text-white font-medium">26*</span> (13)</span>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="text-xs text-textSecondary">Ravindra Jadeja: 3-0-24-1</span>
+          <span class="text-textSecondary">&middot;</span>
+          <span class="text-xs text-textSecondary">This over:</span>
+          <div class="flex items-center gap-1">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-sixGold text-gray-900 text-[10px] font-bold">6</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+          </div>
+          <span class="text-xs font-semibold text-white">= 8 runs</span>
+        </div>
+      </div>
+
+      <!-- Over 15 balls -->
+      <!-- 14.6 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Pandya</span> &mdash; Dot. Pushed back to the bowler, well fielded.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 114/5</p>
+        </div>
+      </div>
+
+      <!-- 14.5 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-sixGold/5 border-l-2 border-sixGold">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.5</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-sixGold text-gray-900 font-bold text-xs">6</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Pandya</span> &mdash; <span class="text-sixGold font-bold">SIX!</span> Huge! Stepped down the track and launched over long-on!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 114/5</p>
+        </div>
+      </div>
+
+      <!-- 14.4 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.4</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to David</span> &mdash; Single. Nudged to leg side, quick single.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 108/5</p>
+        </div>
+      </div>
+
+      <!-- 14.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.3</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to David</span> &mdash; Dot. Flighted outside off, beaten on the drive.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 107/5</p>
+        </div>
+      </div>
+
+      <!-- 14.2 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.2</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Pandya</span> &mdash; Single. Turned to square leg.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 107/5</p>
+        </div>
+      </div>
+
+      <!-- 14.1 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">14.1</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Pandya</span> &mdash; Dot. Defended solidly on the front foot.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 106/5</p>
+        </div>
+      </div>
+
+      <!-- ═══ END OF OVER 14 ═══ -->
+      <div class="my-4 bg-cardLight border border-border rounded-lg p-4 border-l-4 border-l-accent">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-accent uppercase tracking-wider">End of Over 14</span>
+          <span class="text-sm font-bold text-white">MI 106/5</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-textSecondary">
+          <span>Tim David <span class="text-white font-medium">18*</span> (10)</span>
+          <span>Hardik Pandya <span class="text-white font-medium">8*</span> (7)</span>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="text-xs text-textSecondary">Deepak Chahar: 3-0-24-1</span>
+          <span class="text-textSecondary">&middot;</span>
+          <span class="text-xs text-textSecondary">This over:</span>
+          <div class="flex items-center gap-1">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-runGreen text-white text-[10px] font-bold">4</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+          </div>
+          <span class="text-xs font-semibold text-white">= 6 runs</span>
+        </div>
+      </div>
+
+      <!-- Over 14 balls -->
+      <!-- 13.6 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-runGreen/5 border-l-2 border-runGreen">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-runGreen text-white font-bold text-xs">4</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; <span class="text-runGreen font-bold">FOUR!</span> Short ball pulled to deep backward square!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 100/5</p>
+        </div>
+      </div>
+
+      <!-- 13.5 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.5</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Dot. Full and wide, David reaches but can't connect.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 96/5</p>
+        </div>
+      </div>
+
+      <!-- 13.4 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.4</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to Pandya</span> &mdash; Single. Tapped to short cover, quick single.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 96/5</p>
+        </div>
+      </div>
+
+      <!-- 13.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.3</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to Pandya</span> &mdash; Dot. Good length, defended watchfully.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 95/5</p>
+        </div>
+      </div>
+
+      <!-- 13.2 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.2</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Single. Clipped off the pads to fine leg.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 95/5</p>
+        </div>
+      </div>
+
+      <!-- 13.1 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">13.1</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chahar to David</span> &mdash; Dot. Back of a length, left alone outside off.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 94/5</p>
+        </div>
+      </div>
+
+      <!-- ═══ END OF OVER 13 ═══ -->
+      <div class="my-4 bg-cardLight border border-border rounded-lg p-4 border-l-4 border-l-accent">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-accent uppercase tracking-wider">End of Over 13</span>
+          <span class="text-sm font-bold text-white">MI 94/5</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-textSecondary">
+          <span>Tim David <span class="text-white font-medium">12*</span> (6)</span>
+          <span>Hardik Pandya <span class="text-white font-medium">4*</span> (3)</span>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="text-xs text-textSecondary">Piyush Chawla: 4-0-34-1</span>
+          <span class="text-textSecondary">&middot;</span>
+          <span class="text-xs text-textSecondary">This over:</span>
+          <div class="flex items-center gap-1">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-sky-500/80 text-white text-[10px] font-bold">2</span>
+          </div>
+          <span class="text-xs font-semibold text-white">= 4 runs</span>
+        </div>
+      </div>
+
+      <!-- Wicket ball: 12.1 -->
+      <div class="flex items-start gap-3 py-3 px-3 rounded-lg bg-wicketRed/10 border border-wicketRed/30 border-l-4 border-l-wicketRed">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">12.1</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-wicketRed text-white font-bold text-xs">W</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Jadeja to Suryakumar Yadav</span> &mdash; <span class="text-wicketRed font-bold">WICKET! OUT!</span> Caught behind! Suryakumar tries to cut, gets a thin edge. Dhoni takes a sharp catch diving to his right. SKY departs for <span class="font-semibold">38</span> (24).</p>
+          <p class="text-xs text-wicketRed/80 font-medium mt-1">c Dhoni b Jadeja &mdash; MI 90/5</p>
+        </div>
+      </div>
+
+      <!-- A few more balls before the wicket -->
+      <!-- 11.6 — wide example -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-extraOrange/5 border-l-2 border-extraOrange">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">11.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-extraOrange text-white font-bold text-[10px]">wd</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chawla to Suryakumar</span> &mdash; <span class="text-extraOrange font-bold">Wide!</span> Down the leg side, Dhoni collects. One run added.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 90/4</p>
+        </div>
+      </div>
+
+      <!-- 11.6 (actual) -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-sixGold/5 border-l-2 border-sixGold">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">11.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-sixGold text-gray-900 font-bold text-xs">6</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chawla to Suryakumar</span> &mdash; <span class="text-sixGold font-bold">SIX!</span> Magnificent! Walks down and lifts it cleanly over long-off into the stands!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 89/4</p>
+        </div>
+      </div>
+
+      <!-- 11.5 — no ball example -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-extraOrange/5 border-l-2 border-extraOrange">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">11.5</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-extraOrange text-white font-bold text-[10px]">nb</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chawla to Suryakumar</span> &mdash; <span class="text-extraOrange font-bold">No ball!</span> Overstepping. Free hit coming up. Single taken off the delivery.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 83/4</p>
+        </div>
+      </div>
+
+      <!-- 11.4 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-runGreen/5 border-l-2 border-runGreen">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">11.4</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-runGreen text-white font-bold text-xs">4</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chawla to Suryakumar</span> &mdash; <span class="text-runGreen font-bold">FOUR!</span> Reverse swept with finesse, past the keeper!</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 81/4</p>
+        </div>
+      </div>
+
+      <!-- 11.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">11.3</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Chawla to Suryakumar</span> &mdash; Dot. Googly, beaten outside off.</p>
+          <p class="text-xs text-textSecondary mt-0.5">MI 77/4</p>
+        </div>
+      </div>
+
+      <div class="text-center py-4">
+        <button class="text-sm text-accent hover:text-accentLight font-semibold transition-colors">Load earlier overs...</button>
+      </div>
+    </div>
+
+    <!-- 1st Innings Commentary -->
+    <div id="commentary-first" class="hidden p-4 sm:p-5 space-y-0">
+      <h3 class="text-sm font-bold text-white mb-4">Ball-by-Ball Commentary &mdash; 1st Innings (CSK 189/6)</h3>
+
+      <!-- Over 20 summary -->
+      <div class="my-4 bg-cardLight border border-border rounded-lg p-4 border-l-4 border-l-accent">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-accent uppercase tracking-wider">End of Over 20 (Final)</span>
+          <span class="text-sm font-bold text-white">CSK 189/6</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-textSecondary">
+          <span>MS Dhoni <span class="text-white font-medium">18*</span> (9)</span>
+          <span>Ravindra Jadeja <span class="text-white font-medium">5*</span> (3)</span>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="text-xs text-textSecondary">Hardik Pandya: 4-0-44-1</span>
+          <span class="text-textSecondary">&middot;</span>
+          <span class="text-xs text-textSecondary">This over:</span>
+          <div class="flex items-center gap-1">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-sixGold text-gray-900 text-[10px] font-bold">6</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-runGreen text-white text-[10px] font-bold">4</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white text-[10px] font-bold">1</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-sixGold text-gray-900 text-[10px] font-bold">6</span>
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-dotGrey/60 text-gray-300 text-[10px] font-bold">0</span>
+          </div>
+          <span class="text-xs font-semibold text-white">= 17 runs</span>
+        </div>
+      </div>
+
+      <!-- 19.6 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.6</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Jadeja</span> &mdash; Dot. Full toss, can't connect. Good over for CSK anyway!</p>
+          <p class="text-xs text-textSecondary mt-0.5">CSK 189/6</p>
+        </div>
+      </div>
+
+      <!-- 19.5 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-sixGold/5 border-l-2 border-sixGold">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.5</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-sixGold text-gray-900 font-bold text-xs">6</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Dhoni</span> &mdash; <span class="text-sixGold font-bold">SIX!</span> Helicopter shot! Over long-on! The crowd erupts at Chepauk! Vintage Dhoni!</p>
+          <p class="text-xs text-textSecondary mt-0.5">CSK 189/6</p>
+        </div>
+      </div>
+
+      <!-- 19.4 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.4</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white font-bold text-xs">1</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Jadeja</span> &mdash; Single. Pushed to cover, quick single to rotate strike.</p>
+          <p class="text-xs text-textSecondary mt-0.5">CSK 183/6</p>
+        </div>
+      </div>
+
+      <!-- 19.3 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.3</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-dotGrey/60 text-gray-300 font-bold text-xs">0</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Jadeja</span> &mdash; Dot. Slower ball, can't time it.</p>
+          <p class="text-xs text-textSecondary mt-0.5">CSK 182/6</p>
+        </div>
+      </div>
+
+      <!-- 19.2 -->
+      <div class="flex items-start gap-3 py-2.5 px-3 rounded-lg bg-runGreen/5 border-l-2 border-runGreen">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.2</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-runGreen text-white font-bold text-xs">4</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Dhoni</span> &mdash; <span class="text-runGreen font-bold">FOUR!</span> Full toss on the pads, whipped to fine leg boundary!</p>
+          <p class="text-xs text-textSecondary mt-0.5">CSK 182/6</p>
+        </div>
+      </div>
+
+      <!-- 19.1 — wicket -->
+      <div class="flex items-start gap-3 py-3 px-3 rounded-lg bg-wicketRed/10 border border-wicketRed/30 border-l-4 border-l-wicketRed">
+        <div class="flex-shrink-0 mt-0.5"><span class="font-mono text-xs text-textSecondary w-10 inline-block">19.1</span></div>
+        <div class="flex-shrink-0"><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-wicketRed text-white font-bold text-xs">W</span></div>
+        <div class="flex-1">
+          <p class="text-sm"><span class="font-semibold text-white">Pandya to Rayudu</span> &mdash; <span class="text-wicketRed font-bold">WICKET!</span> Caught at deep mid-wicket! Rayudu tries to heave, finds the fielder. CSK 176/6.</p>
+          <p class="text-xs text-wicketRed/80 font-medium mt-1">c Tim David b Pandya &mdash; CSK 176/6</p>
+        </div>
+      </div>
+
+      <div class="text-center py-4">
+        <button class="text-sm text-accent hover:text-accentLight font-semibold transition-colors">Load earlier overs...</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TAB CONTENT: SCORECARD                             -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="content-scorecard" class="hidden space-y-4">
+
+  <!-- CSK Accordion -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="accordion-header flex items-center justify-between px-5 py-4" onclick="toggleAccordion('csk')">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-full bg-cskYellow/20 border-2 border-cskYellow flex items-center justify-center">
+          <span class="text-cskYellow font-extrabold text-xs">CSK</span>
+        </div>
+        <div>
+          <span class="font-bold text-white text-sm sm:text-base">CSK &mdash; 189/6 <span class="text-textSecondary font-normal">(20 overs)</span></span>
+        </div>
+      </div>
+      <svg id="arrow-csk" class="accordion-arrow rotated w-5 h-5 text-textSecondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    </div>
+    <div id="accordion-csk" class="accordion-content open border-t border-border">
+      <div class="p-4 sm:p-5 space-y-6">
+
+        <!-- CSK BATTING -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Batting</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Batter</th>
+                  <th class="text-left py-2 pr-2 font-medium">Dismissal</th>
+                  <th class="text-right py-2 px-2 font-medium">R</th>
+                  <th class="text-right py-2 px-2 font-medium">B</th>
+                  <th class="text-right py-2 px-2 font-medium">4s</th>
+                  <th class="text-right py-2 px-2 font-medium">6s</th>
+                  <th class="text-right py-2 pl-2 font-medium">SR</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Ruturaj Gaikwad</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Kishan b Bumrah</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">72</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">48</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">8</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">150.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Devon Conway</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">b Archer</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">34</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">28</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">121.43</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Moeen Ali</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Rohit b Bumrah</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">42</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">24</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">175.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Shivam Dube</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Tim David b Chahar</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">8</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">10</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-wicketRed">80.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">MS Dhoni<span class="text-accent">*</span></td>
+                  <td class="py-2.5 pr-2 text-runGreen text-xs font-medium">not out</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">18</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">9</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">200.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Ravindra Jadeja<span class="text-accent">*</span></td>
+                  <td class="py-2.5 pr-2 text-runGreen text-xs font-medium">not out</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">5</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">166.67</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Yet to Bat -->
+          <div class="mt-3 bg-bg/50 rounded-lg px-4 py-3">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-xs font-bold text-textSecondary uppercase tracking-wider">Yet to Bat</span>
+              <span class="text-[10px] px-2 py-0.5 bg-amber-500/10 text-amber-400 rounded-full border border-amber-500/20">Next In</span>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center text-[10px] font-bold">7</span>
+                <span class="text-white font-medium">Ambati Rayudu</span>
+                <span class="text-textSecondary text-[10px]">BAT</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">8</span>
+                <span class="text-textSecondary">Deepak Chahar</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">9</span>
+                <span class="text-textSecondary">Tushar Deshpande</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">10</span>
+                <span class="text-textSecondary">Piyush Chawla</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">11</span>
+                <span class="text-textSecondary">Matheesha Pathirana</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Extras -->
+          <div class="mt-3 flex items-center justify-between bg-bg/50 rounded-lg px-4 py-2.5">
+            <span class="text-xs text-textSecondary font-medium uppercase tracking-wider">Extras</span>
+            <span class="text-sm text-white font-semibold">10 <span class="text-xs text-textSecondary font-normal">(b 1, lb 2, w 5, nb 2)</span></span>
+          </div>
+
+          <!-- Total -->
+          <div class="mt-2 flex items-center justify-between bg-accent/10 border border-accent/20 rounded-lg px-4 py-2.5">
+            <span class="text-xs text-accent font-bold uppercase tracking-wider">Total</span>
+            <span class="text-sm text-white font-bold">189/6 <span class="text-xs text-textSecondary font-normal">(20 overs)</span> &middot; RR: 9.45</span>
+          </div>
+        </div>
+
+        <!-- CSK BOWLING -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Bowling</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Bowler</th>
+                  <th class="text-right py-2 px-2 font-medium">O</th>
+                  <th class="text-right py-2 px-2 font-medium">M</th>
+                  <th class="text-right py-2 px-2 font-medium">R</th>
+                  <th class="text-right py-2 px-2 font-medium">W</th>
+                  <th class="text-right py-2 px-2 font-medium">NB</th>
+                  <th class="text-right py-2 px-2 font-medium">WD</th>
+                  <th class="text-right py-2 pl-2 font-medium">Econ</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Jasprit Bumrah</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">28</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">7.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Jofra Archer</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">42</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-sixGold">10.50</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Piyush Chawla</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">36</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">9.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Deepak Chahar</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">38</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">9.50</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Hardik Pandya</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">44</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-wicketRed">11.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- CSK FALL OF WICKETS -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Fall of Wickets</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Wkt</th>
+                  <th class="text-left py-2 px-2 font-medium">Score</th>
+                  <th class="text-left py-2 px-2 font-medium">Batter Dismissed</th>
+                  <th class="text-right py-2 pl-2 font-medium">Over</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">1</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">52/1</td>
+                  <td class="py-2 px-2 text-textSecondary">Devon Conway</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">6.2</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">2</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">98/2</td>
+                  <td class="py-2 px-2 text-textSecondary">Ruturaj Gaikwad</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">11.4</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">3</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">112/3</td>
+                  <td class="py-2 px-2 text-textSecondary">Shivam Dube</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">13.6</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">4</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">129/4</td>
+                  <td class="py-2 px-2 text-textSecondary">Moeen Ali</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">15.6</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">5</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">164/5</td>
+                  <td class="py-2 px-2 text-textSecondary">&mdash;</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">18.2</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">6</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">176/6</td>
+                  <td class="py-2 px-2 text-textSecondary">&mdash;</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">19.1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- CSK PARTNERSHIPS -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Partnerships</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Wkt</th>
+                  <th class="text-left py-2 px-2 font-medium">Batters</th>
+                  <th class="text-right py-2 px-2 font-medium">Runs</th>
+                  <th class="text-right py-2 pl-2 font-medium">Balls</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">1st</td>
+                  <td class="py-2 px-2 text-white">Gaikwad &amp; Conway</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">52</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">38</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">2nd</td>
+                  <td class="py-2 px-2 text-white">Gaikwad &amp; Moeen</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">46</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">32</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">3rd</td>
+                  <td class="py-2 px-2 text-white">Moeen &amp; Dube</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">14</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">12</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">4th</td>
+                  <td class="py-2 px-2 text-white">Moeen &amp; Dhoni</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">17</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">11</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">5th</td>
+                  <td class="py-2 px-2 text-white">Dhoni &amp; Jadeja</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">35</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">18</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">6th</td>
+                  <td class="py-2 px-2 text-white">Jadeja &amp; Rayudu</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">12</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">7</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors bg-accent/5">
+                  <td class="py-2 pr-2 text-accent font-medium">7th*</td>
+                  <td class="py-2 px-2 text-white">Dhoni &amp; Jadeja</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">13</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">5 <span class="text-accent text-xs">(not out)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- MI Accordion -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="accordion-header flex items-center justify-between px-5 py-4" onclick="toggleAccordion('mi')">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-full bg-miBlue/30 border-2 border-miBlueLight flex items-center justify-center">
+          <span class="text-miBlueLight font-extrabold text-xs">MI</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="font-bold text-white text-sm sm:text-base">MI &mdash; 142/5 <span class="text-textSecondary font-normal">(16.3 ov)*</span></span>
+          <span class="inline-flex items-center gap-1 bg-runGreen/20 border border-runGreen/30 rounded-full px-2 py-0.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-runGreen batting-pulse"></span>
+            <span class="text-runGreen text-[10px] font-bold uppercase tracking-wider">Batting</span>
+          </span>
+        </div>
+      </div>
+      <svg id="arrow-mi" class="accordion-arrow w-5 h-5 text-textSecondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    </div>
+    <div id="accordion-mi" class="accordion-content border-t border-border">
+      <div class="p-4 sm:p-5 space-y-6">
+
+        <!-- MI BATTING -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Batting</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Batter</th>
+                  <th class="text-left py-2 pr-2 font-medium">Dismissal</th>
+                  <th class="text-right py-2 px-2 font-medium">R</th>
+                  <th class="text-right py-2 px-2 font-medium">B</th>
+                  <th class="text-right py-2 px-2 font-medium">4s</th>
+                  <th class="text-right py-2 px-2 font-medium">6s</th>
+                  <th class="text-right py-2 pl-2 font-medium">SR</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Rohit Sharma</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Dhoni b Jadeja</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">24</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">18</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">133.33</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Ishan Kishan</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">lbw b Chahar</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">12</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">10</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">120.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Tilak Varma</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">b Moeen</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">6</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">8</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-wicketRed">75.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Suryakumar Yadav</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Dhoni b Jadeja</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">38</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">24</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">158.33</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Naman Dhir</td>
+                  <td class="py-2.5 pr-2 text-textSecondary text-xs">c Conway b Jadeja</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">15</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">14</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">107.14</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors bg-accent/5">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Tim David<span class="text-accent">*</span></td>
+                  <td class="py-2.5 pr-2 text-runGreen text-xs font-medium">batting</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">34</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">18</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">188.89</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors bg-accent/5">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Hardik Pandya</td>
+                  <td class="py-2.5 pr-2 text-runGreen text-xs font-medium">batting</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">22</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">16</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-runGreen">137.50</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Yet to Bat -->
+          <div class="mt-3 bg-bg/50 rounded-lg px-4 py-3">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-xs font-bold text-textSecondary uppercase tracking-wider">Yet to Bat</span>
+              <span class="text-[10px] px-2 py-0.5 bg-amber-500/10 text-amber-400 rounded-full border border-amber-500/20 animate-pulse">Next In</span>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-amber-500/30 rounded-lg text-sm shadow-sm shadow-amber-500/5">
+                <span class="w-5 h-5 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center text-[10px] font-bold">8</span>
+                <span class="text-amber-300 font-medium">Piyush Chawla</span>
+                <span class="text-amber-400/60 text-[10px]">AR</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">9</span>
+                <span class="text-textSecondary">Jofra Archer</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">10</span>
+                <span class="text-textSecondary">Deepak Chahar</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-card border border-border rounded-lg text-sm">
+                <span class="w-5 h-5 bg-white/10 text-textSecondary rounded-full flex items-center justify-center text-[10px] font-bold">11</span>
+                <span class="text-textSecondary">Jasprit Bumrah</span>
+                <span class="text-textSecondary text-[10px]">BOWL</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Extras -->
+          <div class="mt-3 flex items-center justify-between bg-bg/50 rounded-lg px-4 py-2.5">
+            <span class="text-xs text-textSecondary font-medium uppercase tracking-wider">Extras</span>
+            <span class="text-sm text-white font-semibold">7 <span class="text-xs text-textSecondary font-normal">(b 0, lb 1, w 4, nb 2)</span></span>
+          </div>
+
+          <!-- Total -->
+          <div class="mt-2 flex items-center justify-between bg-accent/10 border border-accent/20 rounded-lg px-4 py-2.5">
+            <span class="text-xs text-accent font-bold uppercase tracking-wider">Total</span>
+            <span class="text-sm text-white font-bold">142/5 <span class="text-xs text-textSecondary font-normal">(16.3 overs)*</span> &middot; RR: 8.61</span>
+          </div>
+        </div>
+
+        <!-- MI BOWLING (CSK bowlers vs MI) -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Bowling</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Bowler</th>
+                  <th class="text-right py-2 px-2 font-medium">O</th>
+                  <th class="text-right py-2 px-2 font-medium">M</th>
+                  <th class="text-right py-2 px-2 font-medium">R</th>
+                  <th class="text-right py-2 px-2 font-medium">W</th>
+                  <th class="text-right py-2 px-2 font-medium">NB</th>
+                  <th class="text-right py-2 px-2 font-medium">WD</th>
+                  <th class="text-right py-2 pl-2 font-medium">Econ</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Deepak Chahar</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">32</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">8.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors bg-accent/5">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Ravindra Jadeja <span class="text-[10px] bg-accent/20 text-accent px-1 py-0.5 rounded">BOWLING</span></td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3.3</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">28</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">8.00</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Moeen Ali</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">3</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">26</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">8.67</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Piyush Chawla</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">4</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">34</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">1</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-textSecondary">8.50</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2.5 pr-2 font-semibold text-white whitespace-nowrap">Tushar Deshpande</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">2</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">22</td>
+                  <td class="py-2.5 px-2 text-right font-bold text-white">1</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 px-2 text-right text-textSecondary">0</td>
+                  <td class="py-2.5 pl-2 text-right font-medium text-wicketRed">11.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- MI FALL OF WICKETS -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Fall of Wickets</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Wkt</th>
+                  <th class="text-left py-2 px-2 font-medium">Score</th>
+                  <th class="text-left py-2 px-2 font-medium">Batter Dismissed</th>
+                  <th class="text-right py-2 pl-2 font-medium">Over</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">1</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">28/1</td>
+                  <td class="py-2 px-2 text-textSecondary">Ishan Kishan</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">3.4</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">2</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">42/2</td>
+                  <td class="py-2 px-2 text-textSecondary">Rohit Sharma</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">5.2</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">3</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">56/3</td>
+                  <td class="py-2 px-2 text-textSecondary">Tilak Varma</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">7.4</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">4</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">78/4</td>
+                  <td class="py-2 px-2 text-textSecondary">Naman Dhir</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">10.3</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2"><span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-wicketRed/20 text-wicketRed text-xs font-bold">5</span></td>
+                  <td class="py-2 px-2 font-semibold text-white">90/5</td>
+                  <td class="py-2 px-2 text-textSecondary">Suryakumar Yadav</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">12.1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- MI PARTNERSHIPS -->
+        <div>
+          <h3 class="text-sm font-bold text-accent uppercase tracking-wider mb-3">Partnerships</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-xs text-textSecondary uppercase tracking-wider border-b border-border">
+                  <th class="text-left py-2 pr-2 font-medium">Wkt</th>
+                  <th class="text-left py-2 px-2 font-medium">Batters</th>
+                  <th class="text-right py-2 px-2 font-medium">Runs</th>
+                  <th class="text-right py-2 pl-2 font-medium">Balls</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border/50">
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">1st</td>
+                  <td class="py-2 px-2 text-white">Rohit &amp; Kishan</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">28</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">22</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">2nd</td>
+                  <td class="py-2 px-2 text-white">Rohit &amp; Tilak</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">14</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">10</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">3rd</td>
+                  <td class="py-2 px-2 text-white">SKY &amp; Tilak</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">14</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">14</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">4th</td>
+                  <td class="py-2 px-2 text-white">SKY &amp; Naman Dhir</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">22</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">17</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors">
+                  <td class="py-2 pr-2 text-textSecondary font-medium">5th</td>
+                  <td class="py-2 px-2 text-white">SKY &amp; Tim David</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">12</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">10</td>
+                </tr>
+                <tr class="hover:bg-bg/40 transition-colors bg-accent/5">
+                  <td class="py-2 pr-2 text-accent font-medium">6th*</td>
+                  <td class="py-2 px-2 text-white">Tim David &amp; Pandya</td>
+                  <td class="py-2 px-2 text-right font-bold text-white">52</td>
+                  <td class="py-2 pl-2 text-right text-textSecondary">30 <span class="text-accent text-xs">(in progress)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TAB CONTENT: SQUADS                                -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="content-squads" class="hidden space-y-6">
+
+  <!-- Note: This view shows the POST-TOSS state (Playing XI, Substitutes, Bench, Coaching Staff).
+       PRE-TOSS state would show only "Players" and "Coaching Staff" sections — toggled automatically
+       based on whether the toss has happened. -->
+
+  <div class="bg-accent/5 border border-accent/20 rounded-xl px-4 py-3 flex items-center gap-2 text-sm">
+    <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+    <span class="text-textSecondary">Toss completed — squads finalised. Showing <span class="text-accent font-semibold">Playing XI</span>, <span class="text-accent font-semibold">Substitutes</span>, <span class="text-accent font-semibold">Bench</span>, and <span class="text-accent font-semibold">Coaching Staff</span>.</span>
+  </div>
+
+  <!-- TWO-COLUMN SIDE-BY-SIDE LAYOUT: Home team (CSK) on LEFT, Away team (MI) on RIGHT -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+  <!-- ═══ CSK SQUAD (HOME TEAM — LEFT COLUMN) ═══ -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="px-5 py-4 border-b border-border flex items-center gap-3" style="background: linear-gradient(135deg, rgba(255,203,5,0.08), transparent);">
+      <div class="w-9 h-9 rounded-full bg-cskYellow/20 border-2 border-cskYellow flex items-center justify-center">
+        <span class="text-cskYellow font-extrabold text-xs">CSK</span>
+      </div>
+      <div>
+        <span class="font-bold text-white text-base">Chennai Super Kings</span>
+        <span class="text-[10px] ml-2 px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full border border-green-500/20 font-bold">🏠 HOME</span>
+      </div>
+    </div>
+    <div class="p-4 sm:p-5 space-y-6">
+
+      <!-- Playing XI -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Playing XI</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full border border-green-500/20 font-semibold">11 PLAYERS</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Ruturaj Gaikwad <span class="text-cskYellow text-[10px]">(C)</span></div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Devon Conway</div>
+              <div class="text-[10px] text-textSecondary">Batter · Left-hand · New Zealand 🌏</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Moeen Ali</div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Left-hand · England 🌏</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Shivam Dube</div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Left-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Ambati Rayudu</div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">MS Dhoni <span class="text-purple-400 text-[10px]">(WK)</span></div>
+              <div class="text-[10px] text-textSecondary">WK-Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">7</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Ravindra Jadeja</div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Left-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">8</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Deepak Chahar</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm medium · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">9</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Tushar Deshpande</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm fast · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">10</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Piyush Chawla</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Leg-spin · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/20 text-cskYellow rounded-full flex items-center justify-center text-xs font-bold">11</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Matheesha Pathirana</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm fast · Sri Lanka 🌏</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Substitutes -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Substitutes</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-blue-500/10 text-blue-400 rounded-full border border-blue-500/20 font-semibold">IMPACT SUB</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-blue-500/5 rounded-lg border border-blue-500/20">
+            <span class="w-7 h-7 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center text-xs font-bold">S</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Shaik Rasheed</div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · India</div>
+            </div>
+            <span class="text-[10px] px-1.5 py-0.5 bg-blue-500/10 text-blue-400 rounded">Impact</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bench -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-textSecondary uppercase tracking-wider">Bench</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-white/5 text-textSecondary rounded-full border border-border font-semibold">NOT IN XI</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Ajinkya Rahane</div>
+              <div class="text-[10px] text-textSecondary/60">Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Rajvardhan Hangargekar</div>
+              <div class="text-[10px] text-textSecondary/60">All-rounder · Right-arm fast · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Prashant Solanki</div>
+              <div class="text-[10px] text-textSecondary/60">Bowler · Leg-spin · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Simarjeet Singh</div>
+              <div class="text-[10px] text-textSecondary/60">Bowler · Right-arm medium · India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coaching Staff -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Coaching Staff</h3>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/10 text-cskYellow rounded-full flex items-center justify-center text-[10px] font-bold">HC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Stephen Fleming</div>
+              <div class="text-[10px] text-cskYellow">Head Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/10 text-cskYellow rounded-full flex items-center justify-center text-[10px] font-bold">BC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Eric Simons</div>
+              <div class="text-[10px] text-textSecondary">Bowling Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/10 text-cskYellow rounded-full flex items-center justify-center text-[10px] font-bold">BC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Mike Hussey</div>
+              <div class="text-[10px] text-textSecondary">Batting Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-cskYellow/10 text-cskYellow rounded-full flex items-center justify-center text-[10px] font-bold">FC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Rajat Bhatia</div>
+              <div class="text-[10px] text-textSecondary">Fielding Coach</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ MI SQUAD ═══ -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="px-5 py-4 border-b border-border flex items-center gap-3" style="background: linear-gradient(135deg, rgba(0,75,160,0.08), transparent);">
+      <div class="w-9 h-9 rounded-full bg-miBlue/20 border-2 border-miBlue flex items-center justify-center">
+        <span class="text-miBlue font-extrabold text-xs">MI</span>
+      </div>
+      <div>
+        <span class="font-bold text-white text-base">Mumbai Indians</span>
+        <span class="text-[10px] ml-2 px-2 py-0.5 bg-white/5 text-textSecondary rounded-full border border-border font-bold">AWAY</span>
+      </div>
+    </div>
+    <div class="p-4 sm:p-5 space-y-6">
+
+      <!-- Playing XI -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Playing XI</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full border border-green-500/20 font-semibold">11 PLAYERS</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Rohit Sharma</div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Ishan Kishan <span class="text-purple-400 text-[10px]">(WK)</span></div>
+              <div class="text-[10px] text-textSecondary">WK-Batter · Left-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Suryakumar Yadav</div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Tilak Varma</div>
+              <div class="text-[10px] text-textSecondary">Batter · Left-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Naman Dhir</div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Hardik Pandya <span class="text-miBlue text-[10px]">(C)</span></div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Right-hand · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">7</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Tim David</div>
+              <div class="text-[10px] text-textSecondary">Batter · Right-hand · Australia 🌏</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">8</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Piyush Chawla</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Leg-spin · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">9</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Jofra Archer</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm fast · England 🌏</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">10</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Deepak Chahar</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm medium · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/20 text-miBlue rounded-full flex items-center justify-center text-xs font-bold">11</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Jasprit Bumrah</div>
+              <div class="text-[10px] text-textSecondary">Bowler · Right-arm fast · India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Substitutes -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Substitutes</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-blue-500/10 text-blue-400 rounded-full border border-blue-500/20 font-semibold">IMPACT SUB</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-blue-500/5 rounded-lg border border-blue-500/20">
+            <span class="w-7 h-7 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center text-xs font-bold">S</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Nehal Wadhera</div>
+              <div class="text-[10px] text-textSecondary">All-rounder · Right-hand · India</div>
+            </div>
+            <span class="text-[10px] px-1.5 py-0.5 bg-blue-500/10 text-blue-400 rounded">Impact</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bench -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-textSecondary uppercase tracking-wider">Bench</h3>
+          <span class="text-[10px] px-2 py-0.5 bg-white/5 text-textSecondary rounded-full border border-border font-semibold">NOT IN XI</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Dewald Brevis</div>
+              <div class="text-[10px] text-textSecondary/60">Batter · Right-hand · South Africa 🌏</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Kumar Kartikeya</div>
+              <div class="text-[10px] text-textSecondary/60">Bowler · Left-arm spin · India</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/30 rounded-lg border border-border/50 opacity-70">
+            <span class="w-7 h-7 bg-white/5 text-textSecondary rounded-full flex items-center justify-center text-xs font-bold">—</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-textSecondary truncate">Arjun Tendulkar</div>
+              <div class="text-[10px] text-textSecondary/60">All-rounder · Left-arm medium · India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coaching Staff -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">Coaching Staff</h3>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/10 text-miBlue rounded-full flex items-center justify-center text-[10px] font-bold">HC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Mark Boucher</div>
+              <div class="text-[10px] text-miBlue">Head Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/10 text-miBlue rounded-full flex items-center justify-center text-[10px] font-bold">BC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Shane Bond</div>
+              <div class="text-[10px] text-textSecondary">Bowling Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/10 text-miBlue rounded-full flex items-center justify-center text-[10px] font-bold">BC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">Kieron Pollard</div>
+              <div class="text-[10px] text-textSecondary">Batting Coach</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2.5 bg-bg/50 rounded-lg border border-border">
+            <span class="w-7 h-7 bg-miBlue/10 text-miBlue rounded-full flex items-center justify-center text-[10px] font-bold">FC</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-medium text-white truncate">James Pamment</div>
+              <div class="text-[10px] text-textSecondary">Fielding Coach</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div><!-- end two-column grid -->
+
+</div><!-- end content-squads -->
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TAB CONTENT: MATCH MVP                             -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="content-mvp" class="hidden space-y-6">
+
+  <!-- MVP Header -->
+  <div class="bg-card border border-border rounded-xl p-5 sm:p-6">
+    <div class="flex items-center justify-between mb-1">
+      <h2 class="text-lg font-bold text-white flex items-center gap-2">
+        <svg class="w-5 h-5 text-cskYellow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Match MVP Tracker
+      </h2>
+      <span class="text-[10px] bg-accent/20 text-accent px-2 py-1 rounded-full font-semibold uppercase tracking-wider">Live Rating</span>
+    </div>
+    <p class="text-xs text-textSecondary">Real-time performance ratings across batting, bowling &amp; fielding. Updated ball-by-ball.</p>
+
+    <!-- Current MVP Leader -->
+    <div class="mt-4 bg-gradient-to-r from-cskYellow/10 via-cskYellow/5 to-transparent border border-cskYellow/20 rounded-xl p-4 flex items-center gap-4">
+      <div class="w-14 h-14 rounded-full bg-gradient-to-br from-cskYellow/80 to-cskYellow flex items-center justify-center border-2 border-cskYellow/60 flex-shrink-0">
+        <span class="text-sm font-extrabold text-black">TD</span>
+      </div>
+      <div class="flex-1">
+        <div class="flex items-center gap-2">
+          <span class="text-base font-bold text-white">Tim David</span>
+          <span class="text-[10px] bg-miBlue/30 text-miBlueLight px-1.5 py-0.5 rounded font-medium">MI</span>
+          <span class="text-[10px] bg-accent/20 text-accent px-1.5 py-0.5 rounded font-medium">All-rounder</span>
+        </div>
+        <div class="text-xs text-textSecondary mt-0.5">34(18) &middot; 2&times;4s, 3&times;6s &middot; 1 catch</div>
+      </div>
+      <div class="text-right flex-shrink-0">
+        <div class="text-2xl font-extrabold text-cskYellow">9.2</div>
+        <div class="text-[10px] text-cskYellow/70 font-semibold uppercase">MVP Leader</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rating Scale Legend -->
+  <div class="bg-card border border-border rounded-xl p-4">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="text-xs text-textSecondary font-semibold uppercase tracking-wider">Rating Scale</span>
+      <div class="flex-1 h-px bg-border"></div>
+    </div>
+    <div class="flex flex-wrap gap-2 text-[11px] font-semibold">
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-cskYellow"></span><span class="text-cskYellow">9.0–10.0</span> Exceptional</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-runGreen"></span><span class="text-runGreen">7.0–8.9</span> Excellent</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-accent"></span><span class="text-accent">5.0–6.9</span> Good</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-extraOrange"></span><span class="text-extraOrange">3.0–4.9</span> Average</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-wicketRed"></span><span class="text-wicketRed">0.0–2.9</span> Poor</span>
+    </div>
+  </div>
+
+  <!-- CSK Players MVP -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="px-5 py-4 border-b border-border flex items-center gap-3">
+      <div class="w-8 h-8 rounded-full bg-cskYellow/20 border border-cskYellow flex items-center justify-center">
+        <span class="text-cskYellow font-bold text-xs">CSK</span>
+      </div>
+      <h3 class="text-base font-bold text-white">Chennai Super Kings</h3>
+      <span class="text-xs text-textSecondary ml-auto">189/6 (20 ov)</span>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-bg/80">
+            <th class="text-left px-4 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Player</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Role</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Performance</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-runGreen">BAT</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-accent">BOWL</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-extraOrange">FIELD</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-20">
+              <span class="text-cskYellow">OVERALL</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border/50">
+          <!-- Ruturaj Gaikwad - Batter (top scorer) -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">RG</span>
+                </div>
+                <span class="font-semibold text-white">Ruturaj Gaikwad</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">62(41) &middot; 7&times;4, 2&times;6</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">8.8</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-runGreen">8.2</span>
+            </td>
+          </tr>
+          <!-- MS Dhoni - WK-Batter -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">MD</span>
+                </div>
+                <span class="font-semibold text-white">MS Dhoni</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">WK-Bat</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">28(14) &middot; 1 catch, 1 stumping</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.5</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">8.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-runGreen">7.6</span>
+            </td>
+          </tr>
+          <!-- Ravindra Jadeja - All-rounder -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">RJ</span>
+                </div>
+                <span class="font-semibold text-white">Ravindra Jadeja</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-purple-500/15 text-purple-400 px-1.5 py-0.5 rounded font-medium">All-rounder</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">18(12) &middot; 3.3-0-28-1 &middot; 1 catch</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.5</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">6.2</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">6.4</span>
+            </td>
+          </tr>
+          <!-- Shivam Dube - All-rounder -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">SD</span>
+                </div>
+                <span class="font-semibold text-white">Shivam Dube</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-purple-500/15 text-purple-400 px-1.5 py-0.5 rounded font-medium">All-rounder</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">35(22) &middot; 2-0-18-0</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.0</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.5</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">5.8</span>
+            </td>
+          </tr>
+          <!-- Devon Conway - Batter -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">DC</span>
+                </div>
+                <span class="font-semibold text-white">Devon Conway</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">22(18) &middot; 3&times;4</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.8</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">5.6</span>
+            </td>
+          </tr>
+          <!-- Matheesha Pathirana - Bowler -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">MP</span>
+                </div>
+                <span class="font-semibold text-white">Matheesha Pathirana</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-32-2</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.2</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">6.8</span>
+            </td>
+          </tr>
+          <!-- Tushar Deshpande - Bowler -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">TU</span>
+                </div>
+                <span class="font-semibold text-white">Tushar Deshpande</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-42-1</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.8</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-extraOrange">4.6</span>
+            </td>
+          </tr>
+          <!-- Deepak Chahar - Bowler -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">DK</span>
+                </div>
+                <span class="font-semibold text-white">Deepak Chahar</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-35-2 &middot; 1 catch</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.0</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-runGreen">7.0</span>
+            </td>
+          </tr>
+          <!-- Moeen Ali - All-rounder -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">MA</span>
+                </div>
+                <span class="font-semibold text-white">Moeen Ali</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-purple-500/15 text-purple-400 px-1.5 py-0.5 rounded font-medium">All-rounder</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">12(10) &middot; 2-0-16-0</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.8</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.0</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-extraOrange">4.4</span>
+            </td>
+          </tr>
+          <!-- Rachin Ravindra - Batter -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">RR</span>
+                </div>
+                <span class="font-semibold text-white">Rachin Ravindra</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">8(9) &middot; 1&times;4</td>
+            <td class="px-3 py-3 text-center font-medium text-wicketRed">2.5</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-wicketRed">2.8</span>
+            </td>
+          </tr>
+          <!-- Maheesh Theekshana - Bowler -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center flex-shrink-0 border border-cskYellow/40">
+                  <span class="text-[9px] font-bold text-black">MT</span>
+                </div>
+                <span class="font-semibold text-white">Maheesh Theekshana</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">2.3-0-18-0</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.8</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-extraOrange">3.9</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- MI Players MVP -->
+  <div class="bg-card border border-border rounded-xl overflow-hidden">
+    <div class="px-5 py-4 border-b border-border flex items-center gap-3">
+      <div class="w-8 h-8 rounded-full bg-miBlue/30 border border-miBlueLight flex items-center justify-center">
+        <span class="text-miBlueLight font-bold text-xs">MI</span>
+      </div>
+      <h3 class="text-base font-bold text-white">Mumbai Indians</h3>
+      <span class="text-xs text-textSecondary ml-auto">142/5 (16.3 ov) &middot; Batting</span>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-bg/80">
+            <th class="text-left px-4 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Player</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Role</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider">Performance</th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-runGreen">BAT</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-accent">BOWL</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-16">
+              <span class="text-extraOrange">FIELD</span>
+            </th>
+            <th class="text-center px-3 py-3 text-[11px] text-textSecondary font-semibold uppercase tracking-wider w-20">
+              <span class="text-cskYellow">OVERALL</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border/50">
+          <!-- Tim David - All-rounder (MVP Leader) -->
+          <tr class="hover:bg-white/[0.02] bg-cskYellow/[0.03] border-l-2 border-cskYellow">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">TD</span>
+                </div>
+                <span class="font-semibold text-white">Tim David</span>
+                <svg class="w-3.5 h-3.5 text-cskYellow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-purple-500/15 text-purple-400 px-1.5 py-0.5 rounded font-medium">All-rounder</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">34*(18) &middot; 2&times;4, 3&times;6 &middot; 1 catch</td>
+            <td class="px-3 py-3 text-center font-bold text-cskYellow">9.4</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">8.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-cskYellow">9.2</span>
+            </td>
+          </tr>
+          <!-- Suryakumar Yadav - Batter -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">SY</span>
+                </div>
+                <span class="font-semibold text-white">Suryakumar Yadav</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">38(24) &middot; 4&times;4, 2&times;6</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">8.0</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-runGreen">7.5</span>
+            </td>
+          </tr>
+          <!-- Hardik Pandya - All-rounder -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">HP</span>
+                </div>
+                <span class="font-semibold text-white">Hardik Pandya</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-purple-500/15 text-purple-400 px-1.5 py-0.5 rounded font-medium">All-rounder</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">22*(16) &middot; 2&times;4, 1&times;6 &middot; Yet to bowl</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.2</td>
+            <td class="px-3 py-3 text-center text-dotGrey/50 text-xs italic">TBD</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">6.8</span>
+            </td>
+          </tr>
+          <!-- Rohit Sharma - Batter -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">RS</span>
+                </div>
+                <span class="font-semibold text-white">Rohit Sharma</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">15(12) &middot; 2&times;4, 1&times;6</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.5</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">4.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-extraOrange">4.4</span>
+            </td>
+          </tr>
+          <!-- Ishan Kishan - WK-Batter -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">IK</span>
+                </div>
+                <span class="font-semibold text-white">Ishan Kishan</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">WK-Bat</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">24(20) &middot; 3&times;4</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.8</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">5.7</span>
+            </td>
+          </tr>
+          <!-- Tilak Varma - Batter -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">TV</span>
+                </div>
+                <span class="font-semibold text-white">Tilak Varma</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-runGreen/15 text-runGreen px-1.5 py-0.5 rounded font-medium">Batter</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">2(5)</td>
+            <td class="px-3 py-3 text-center font-medium text-wicketRed">1.5</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-wicketRed">2.0</span>
+            </td>
+          </tr>
+          <!-- Jasprit Bumrah - Bowler -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">JB</span>
+                </div>
+                <span class="font-semibold text-white">Jasprit Bumrah</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-1-22-3 &middot; 2 maidens dot-outs</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-bold text-cskYellow">9.2</td>
+            <td class="px-3 py-3 text-center font-bold text-runGreen">7.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-runGreen">8.8</span>
+            </td>
+          </tr>
+          <!-- Trent Boult - Bowler -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">TB</span>
+                </div>
+                <span class="font-semibold text-white">Trent Boult</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-38-1</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.5</td>
+            <td class="px-3 py-3 text-center font-medium text-accent">5.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-accent">5.4</span>
+            </td>
+          </tr>
+          <!-- Piyush Chawla - Bowler -->
+          <tr class="hover:bg-white/[0.02]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">PC</span>
+                </div>
+                <span class="font-semibold text-white">Piyush Chawla</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-40-0</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.5</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.5</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-extraOrange">3.5</span>
+            </td>
+          </tr>
+          <!-- Gerald Coetzee - Bowler -->
+          <tr class="hover:bg-white/[0.02] bg-white/[0.01]">
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center flex-shrink-0 border border-miBlueLight/40">
+                  <span class="text-[9px] font-bold text-white">GC</span>
+                </div>
+                <span class="font-semibold text-white">Gerald Coetzee</span>
+              </div>
+            </td>
+            <td class="px-3 py-3 text-center"><span class="text-[10px] bg-accent/15 text-accentLight px-1.5 py-0.5 rounded font-medium">Bowler</span></td>
+            <td class="px-3 py-3 text-center text-xs text-textSecondary">4-0-44-0 &middot; 1 dropped catch</td>
+            <td class="px-3 py-3 text-center text-dotGrey">&mdash;</td>
+            <td class="px-3 py-3 text-center font-medium text-extraOrange">3.2</td>
+            <td class="px-3 py-3 text-center font-medium text-wicketRed">2.0</td>
+            <td class="px-3 py-3 text-center">
+              <span class="text-sm font-extrabold text-wicketRed">2.9</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- MVP Leaderboard Summary -->
+  <div class="bg-card border border-border rounded-xl p-5">
+    <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+      <svg class="w-5 h-5 text-cskYellow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+      Top 5 MVP Contenders
+    </h3>
+    <div class="space-y-2.5">
+      <!-- 1st -->
+      <div class="flex items-center gap-3 bg-cskYellow/[0.06] border border-cskYellow/20 rounded-lg px-4 py-3">
+        <span class="text-lg font-extrabold text-cskYellow w-6 text-center">1</span>
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center border border-miBlueLight/40 flex-shrink-0">
+          <span class="text-[10px] font-bold text-white">TD</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-sm font-bold text-white">Tim David</span>
+          <span class="text-[10px] text-miBlueLight ml-1.5">MI</span>
+        </div>
+        <div class="text-right">
+          <span class="text-lg font-extrabold text-cskYellow">9.2</span>
+        </div>
+      </div>
+      <!-- 2nd -->
+      <div class="flex items-center gap-3 bg-white/[0.02] border border-border rounded-lg px-4 py-3">
+        <span class="text-lg font-extrabold text-textSecondary w-6 text-center">2</span>
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center border border-miBlueLight/40 flex-shrink-0">
+          <span class="text-[10px] font-bold text-white">JB</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-sm font-bold text-white">Jasprit Bumrah</span>
+          <span class="text-[10px] text-miBlueLight ml-1.5">MI</span>
+        </div>
+        <div class="text-right">
+          <span class="text-lg font-extrabold text-runGreen">8.8</span>
+        </div>
+      </div>
+      <!-- 3rd -->
+      <div class="flex items-center gap-3 bg-white/[0.02] border border-border rounded-lg px-4 py-3">
+        <span class="text-lg font-extrabold text-textSecondary w-6 text-center">3</span>
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center border border-cskYellow/40 flex-shrink-0">
+          <span class="text-[10px] font-bold text-black">RG</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-sm font-bold text-white">Ruturaj Gaikwad</span>
+          <span class="text-[10px] text-cskYellow ml-1.5">CSK</span>
+        </div>
+        <div class="text-right">
+          <span class="text-lg font-extrabold text-runGreen">8.2</span>
+        </div>
+      </div>
+      <!-- 4th -->
+      <div class="flex items-center gap-3 bg-white/[0.02] border border-border rounded-lg px-4 py-3">
+        <span class="text-lg font-extrabold text-textSecondary w-6 text-center">4</span>
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-cskYellow/70 to-cskYellow flex items-center justify-center border border-cskYellow/40 flex-shrink-0">
+          <span class="text-[10px] font-bold text-black">MD</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-sm font-bold text-white">MS Dhoni</span>
+          <span class="text-[10px] text-cskYellow ml-1.5">CSK</span>
+        </div>
+        <div class="text-right">
+          <span class="text-lg font-extrabold text-runGreen">7.6</span>
+        </div>
+      </div>
+      <!-- 5th -->
+      <div class="flex items-center gap-3 bg-white/[0.02] border border-border rounded-lg px-4 py-3">
+        <span class="text-lg font-extrabold text-textSecondary w-6 text-center">5</span>
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-miBlue to-miBlueLight flex items-center justify-center border border-miBlueLight/40 flex-shrink-0">
+          <span class="text-[10px] font-bold text-white">SY</span>
+        </div>
+        <div class="flex-1">
+          <span class="text-sm font-bold text-white">Suryakumar Yadav</span>
+          <span class="text-[10px] text-miBlueLight ml-1.5">MI</span>
+        </div>
+        <div class="text-right">
+          <span class="text-lg font-extrabold text-runGreen">7.5</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end content-mvp -->
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- COMPLETED MATCHES                                  -->
+<!-- ═══════════════════════════════════════════════════ -->
+<section class="mt-10 mb-8">
+  <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+    Completed Matches
+  </h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+    <!-- Match 1 -->
+    <a href="#" class="match-card bg-card border border-border rounded-xl p-4 block">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs text-textSecondary">Apr 14</span>
+        <span class="text-[10px] bg-runGreen/20 text-runGreen px-2 py-0.5 rounded-full font-medium">Completed</span>
+      </div>
+      <div class="space-y-1.5 mb-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-white">RCB</span>
+          <span class="text-sm font-bold text-runGreen">185/4</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-textSecondary">DC</span>
+          <span class="text-sm font-bold text-textSecondary">179/8</span>
+        </div>
+      </div>
+      <p class="text-xs text-accent font-medium">RCB won by 6 wickets</p>
+      <div class="mt-2 pt-2 border-t border-border">
+        <span class="text-xs text-textSecondary hover:text-accent transition-colors">View Full Scorecard &rarr;</span>
+      </div>
+    </a>
+
+    <!-- Match 2 -->
+    <a href="#" class="match-card bg-card border border-border rounded-xl p-4 block">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs text-textSecondary">Apr 13</span>
+        <span class="text-[10px] bg-runGreen/20 text-runGreen px-2 py-0.5 rounded-full font-medium">Completed</span>
+      </div>
+      <div class="space-y-1.5 mb-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-white">GT</span>
+          <span class="text-sm font-bold text-runGreen">203/5</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-textSecondary">PBKS</span>
+          <span class="text-sm font-bold text-textSecondary">198/7</span>
+        </div>
+      </div>
+      <p class="text-xs text-accent font-medium">GT won by 5 runs</p>
+      <div class="mt-2 pt-2 border-t border-border">
+        <span class="text-xs text-textSecondary hover:text-accent transition-colors">View Full Scorecard &rarr;</span>
+      </div>
+    </a>
+
+    <!-- Match 3 -->
+    <a href="#" class="match-card bg-card border border-border rounded-xl p-4 block">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs text-textSecondary">Apr 12</span>
+        <span class="text-[10px] bg-runGreen/20 text-runGreen px-2 py-0.5 rounded-full font-medium">Completed</span>
+      </div>
+      <div class="space-y-1.5 mb-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-white">KKR</span>
+          <span class="text-sm font-bold text-runGreen">176/6</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-textSecondary">SRH</span>
+          <span class="text-sm font-bold text-textSecondary">172/9</span>
+        </div>
+      </div>
+      <p class="text-xs text-accent font-medium">KKR won by 4 runs</p>
+      <div class="mt-2 pt-2 border-t border-border">
+        <span class="text-xs text-textSecondary hover:text-accent transition-colors">View Full Scorecard &rarr;</span>
+      </div>
+    </a>
+
+    <!-- Match 4 -->
+    <a href="#" class="match-card bg-card border border-border rounded-xl p-4 block">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs text-textSecondary">Apr 11</span>
+        <span class="text-[10px] bg-runGreen/20 text-runGreen px-2 py-0.5 rounded-full font-medium">Completed</span>
+      </div>
+      <div class="space-y-1.5 mb-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-white">RR</span>
+          <span class="text-sm font-bold text-runGreen">165/3</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-semibold text-textSecondary">LSG</span>
+          <span class="text-sm font-bold text-textSecondary">161/8</span>
+        </div>
+      </div>
+      <p class="text-xs text-accent font-medium">RR won by 7 wickets</p>
+      <div class="mt-2 pt-2 border-t border-border">
+        <span class="text-xs text-textSecondary hover:text-accent transition-colors">View Full Scorecard &rarr;</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- JAVASCRIPT                                         -->
+<!-- ═══════════════════════════════════════════════════ -->
+<script>
+  // Tab switching
+  function switchTab(tab) {
+    const tabs = ['info', 'live', 'scorecard', 'squads', 'mvp'];
+    tabs.forEach(t => {
+      document.getElementById('tab-' + t).className = t === tab
+        ? 'tab-active px-5 py-3 text-sm font-semibold transition-all'
+        : 'tab-inactive px-5 py-3 text-sm font-semibold transition-all';
+      document.getElementById('content-' + t).classList.toggle('hidden', t !== tab);
+    });
+  }
+
+  // Innings toggle
+  function switchInnings(innings) {
+    const isFirst = innings === 'first';
+    document.getElementById('innings-first').className = (isFirst ? 'innings-toggle-active' : 'innings-toggle-inactive') + ' flex-1 px-4 py-3 text-sm font-semibold transition-all text-center';
+    document.getElementById('innings-second').className = (!isFirst ? 'innings-toggle-active' : 'innings-toggle-inactive') + ' flex-1 px-4 py-3 text-sm font-semibold transition-all text-center';
+    document.getElementById('commentary-first').classList.toggle('hidden', !isFirst);
+    document.getElementById('commentary-second').classList.toggle('hidden', isFirst);
+  }
+
+  // Accordion toggle
+  function toggleAccordion(team) {
+    const teams = ['csk', 'mi'];
+    teams.forEach(t => {
+      const content = document.getElementById('accordion-' + t);
+      const arrow = document.getElementById('arrow-' + t);
+      if (t === team) {
+        const isOpen = content.classList.contains('open');
+        if (isOpen) {
+          content.classList.remove('open');
+          arrow.classList.remove('rotated');
+        } else {
+          content.classList.add('open');
+          arrow.classList.add('rotated');
+        }
+      } else {
+        content.classList.remove('open');
+        arrow.classList.remove('rotated');
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

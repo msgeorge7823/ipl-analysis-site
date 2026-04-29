@@ -1,0 +1,31 @@
+{
+  "id": "eade4650",
+  "name": "DJ Mitchell",
+  "shortName": "DJ Mitchell",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Rajasthan Royals",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Chennai Super Kings",
+  "seasons": [
+    "2022",
+    "2024"
+  ],
+  "firstMatch": "2022-04-26",
+  "lastMatch": "2024-05-18",
+  "matchCount": 15,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2022"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2024"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "c33d8116",
+  "name": "Mohsin Khan",
+  "shortName": "Mohsin Khan",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2022",
+    "2023",
+    "2024",
+    "2026"
+  ],
+  "firstMatch": "2022-03-28",
+  "lastMatch": "2026-04-26",
+  "matchCount": 28,
+  "status": "active",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2026"
+    }
+  ]
+}

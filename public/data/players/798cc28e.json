@@ -1,0 +1,36 @@
+{
+  "id": "798cc28e",
+  "name": "KM Asif",
+  "shortName": "KM Asif",
+  "nicknames": [],
+  "role": "All-rounder",
+  "teams": [
+    "Chennai Super Kings",
+    "Rajasthan Royals"
+  ],
+  "lastTeam": "Rajasthan Royals",
+  "seasons": [
+    "2018",
+    "2021",
+    "2023"
+  ],
+  "firstMatch": "2018-04-30",
+  "lastMatch": "2023-05-14",
+  "matchCount": 7,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2018"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "season": "2021"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2023"
+    }
+  ]
+}

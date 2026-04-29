@@ -1,0 +1,41 @@
+{
+  "id": "7daedf2f",
+  "name": "KB Arun Karthik",
+  "shortName": "KB Arun Karthik",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Royal Challengers Bengaluru",
+    "Chennai Super Kings"
+  ],
+  "lastTeam": "Royal Challengers Bengaluru",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "firstMatch": "2010-03-28",
+  "lastMatch": "2013-05-14",
+  "matchCount": 17,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Chennai Super Kings",
+      "season": "2010"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2011"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2012"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "season": "2013"
+    }
+  ]
+}

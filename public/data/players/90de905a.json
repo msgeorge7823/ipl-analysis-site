@@ -1,0 +1,52 @@
+{
+  "id": "90de905a",
+  "name": "K Gowtham",
+  "shortName": "K Gowtham",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Lucknow Super Giants",
+    "Rajasthan Royals",
+    "Punjab Kings"
+  ],
+  "lastTeam": "Lucknow Super Giants",
+  "seasons": [
+    "2018",
+    "2019",
+    "2020",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2018-04-09",
+  "lastMatch": "2024-05-08",
+  "matchCount": 36,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Rajasthan Royals",
+      "season": "2018"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "season": "2019"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2020"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2022"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2023"
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "season": "2024"
+    }
+  ]
+}

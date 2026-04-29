@@ -1,0 +1,35 @@
+{
+  "id": "bcce309e",
+  "name": "WPUJC Vaas",
+  "shortName": "WPUJC Vaas",
+  "nicknames": [],
+  "role": "Bowler",
+  "teams": [
+    "Deccan Chargers"
+  ],
+  "lastTeam": "Deccan Chargers",
+  "seasons": [
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "firstMatch": "2008-04-20",
+  "lastMatch": "2010-04-18",
+  "matchCount": 13,
+  "status": "retired",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Deccan Chargers",
+      "season": "2008"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2009"
+    },
+    {
+      "team": "Deccan Chargers",
+      "season": "2010"
+    }
+  ]
+}

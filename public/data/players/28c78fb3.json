@@ -1,0 +1,47 @@
+{
+  "id": "28c78fb3",
+  "name": "Harpreet Singh",
+  "shortName": "Harpreet Singh",
+  "nicknames": [],
+  "role": "Batter",
+  "teams": [
+    "Pune Warriors",
+    "Punjab Kings",
+    "Kolkata Knight Riders"
+  ],
+  "lastTeam": "Punjab Kings",
+  "seasons": [
+    "2010",
+    "2011",
+    "2012",
+    "2023",
+    "2024"
+  ],
+  "firstMatch": "2010-03-22",
+  "lastMatch": "2024-04-21",
+  "matchCount": 9,
+  "status": "inactive",
+  "isReplacement": false,
+  "teamHistory": [
+    {
+      "team": "Kolkata Knight Riders",
+      "season": "2010"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2011"
+    },
+    {
+      "team": "Pune Warriors",
+      "season": "2012"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2023"
+    },
+    {
+      "team": "Punjab Kings",
+      "season": "2024"
+    }
+  ]
+}
