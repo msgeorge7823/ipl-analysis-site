@@ -58,7 +58,7 @@ The data is real (CricSheet ball-by-ball going back to 2008, hand-curated coach 
 
 The whole app deploys as a static bundle. There is no backend.
 
-## How the data layer works (one paragraph)
+## How the data layer works
 
 Raw CricSheet match files live in `raw-data/` (input only). Two pipeline scripts (`scripts/data-pipeline/process-cricsheet.ts` and `process-scouting.ts`) transform them into a tree of pre-computed JSON files under `public/data/`, which is what the browser actually fetches at runtime via `src/services/dataService.ts`. A Python sharder (`scripts/shard-data.py`) also splits the monoliths into per-entity files so individual records are easy to review on GitHub. Hand-curated metadata (coaches, sponsors, news, official squads, replacement signings, photos) lives alongside the derived data. The rating leaderboard, SWOT analysis, phase splits, and head-to-head views are computed client-side from the same JSON shards.
 
