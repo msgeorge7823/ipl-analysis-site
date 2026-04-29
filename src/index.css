@@ -1,9 +1,50 @@
+@import "tailwindcss";
+
+/* Custom theme — mirrors the color tokens that used to live inline in
+   index.html's tailwind CDN config, so every bg-bg / bg-card / text-textPrimary
+   / border-border utility keeps working. */
+@theme {
+  --color-bg: #0a0a0f;
+  --color-card: #131320;
+  --color-cardHover: #1a1a2e;
+  --color-border: #1e1e3a;
+  --color-accent: #6366f1;
+  --color-accentLight: #818cf8;
+  --color-textPrimary: #e2e8f0;
+  --color-textSecondary: #94a3b8;
+  --color-gold: #FFD700;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background: #0a0a0f;
   color: #e2e8f0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* A11y: keyboard focus indicator on every interactive element. */
+:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skip-to-content link — visually hidden until keyboard-focused. */
+.skip-link {
+  position: fixed;
+  top: -40px;
+  left: 8px;
+  z-index: 100;
+  background: #6366f1;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 8px;
 }
 
 .glow {

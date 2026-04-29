@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border">
+      <nav className="sticky top-0 z-50 bg-bg/80 backdrop-blur-xl border-b border-border" aria-label="Primary">
         <div
           className={cn(
             'mx-auto px-4 h-16 flex items-center justify-between',
@@ -55,8 +55,8 @@ export default function Navbar() {
           )}
         >
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm">
+          <Link to="/" className="flex items-center gap-2" aria-label="IPL Analytics — go to home">
+            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold text-white text-sm" aria-hidden="true">
               IPL
             </div>
             <span className="hidden sm:inline font-bold text-lg text-textPrimary">Analytics</span>
@@ -98,6 +98,8 @@ export default function Navbar() {
             <div className="relative" ref={moreRef}>
               <button
                 onClick={() => setMoreOpen(!moreOpen)}
+                aria-haspopup="true"
+                aria-expanded={moreOpen}
                 className={cn(
                   'px-3 py-2 rounded-lg transition-colors flex items-center gap-1',
                   moreActive
@@ -106,7 +108,7 @@ export default function Navbar() {
                 )}
               >
                 More
-                <ChevronDown size={14} className={cn('transition-transform', moreOpen && 'rotate-180')} />
+                <ChevronDown size={14} className={cn('transition-transform', moreOpen && 'rotate-180')} aria-hidden="true" />
               </button>
 
               {moreOpen && (
@@ -156,16 +158,18 @@ export default function Navbar() {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="lg:hidden w-8 h-8 rounded-lg bg-card border border-border flex items-center justify-center text-textSecondary"
-              aria-label="Toggle menu"
+              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-nav"
             >
-              {mobileOpen ? <X size={16} /> : <Menu size={16} />}
+              {mobileOpen ? <X size={16} aria-hidden="true" /> : <Menu size={16} aria-hidden="true" />}
             </button>
           </div>
         </div>
 
         {/* Mobile Nav — shows all items */}
         {mobileOpen && (
-          <div className="lg:hidden border-t border-border bg-bg px-4 py-3 space-y-0.5">
+          <div id="mobile-nav" className="lg:hidden border-t border-border bg-bg px-4 py-3 space-y-0.5">
             {NAV_ITEMS.map(item => {
               const isActive =
                 item.path === '/'
