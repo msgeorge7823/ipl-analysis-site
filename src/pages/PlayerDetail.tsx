@@ -191,18 +191,18 @@ export default function PlayerDetail() {
     : 1
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4">
+    <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
       {/* Breadcrumb */}
-      <div className="pt-5 pb-2">
+      <div className="pt-4 sm:pt-5 pb-2">
         <Breadcrumb items={[{ label: 'Players', path: '/players' }, { label: player.name }]} />
       </div>
 
       {/* Player Header */}
-      <div className="py-6">
-        <div className="bg-card border border-border rounded-2xl p-6 md:p-8">
+      <div className="py-4 sm:py-6">
+        <div className="bg-card border border-border rounded-2xl p-4 sm:p-6 md:p-8">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-6">
             {/* Left: Avatar + Info */}
-            <div className="flex items-center gap-4 md:gap-6">
+            <div className="flex items-center gap-3 sm:gap-4 md:gap-6 min-w-0 w-full">
               <div className="relative shrink-0">
                 {(() => {
                   const latestSeason = player.seasons?.[player.seasons.length - 1]
@@ -212,19 +212,19 @@ export default function PlayerDetail() {
                       id={player.id}
                       name={player.name}
                       kind="player"
-                      sizePx={96}
+                      sizePx={72}
                       color={teamColor}
-                      initialsFontSizePx={36}
-                      className="md:!w-24 md:!h-24"
+                      initialsFontSizePx={28}
+                      className="sm:!w-20 sm:!h-20 md:!w-24 md:!h-24"
                       season={latestSeason}
                       photo={photoUrl}
                     />
                   )
                 })()}
               </div>
-              <div>
+              <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-2 md:gap-3 mb-1 flex-wrap">
-                  <h1 className="text-2xl md:text-4xl font-bold">{player.name}</h1>
+                  <h1 className="text-xl sm:text-2xl md:text-4xl font-bold leading-tight break-words">{player.name}</h1>
                   {isOverseasPlayer(player.name, overseasLookup) === true && <OverseasBadge sizePx={16} />}
                   <button
                     onClick={() => toggleWatchlist.mutate({ playerId: id!, playerName: player.name, isWatched: !!isWatched })}
@@ -300,13 +300,13 @@ export default function PlayerDetail() {
       </div>
 
       {/* Tab Bar */}
-      <div className="mb-8">
-        <div className="border-b border-border flex items-center gap-0 overflow-x-auto">
+      <div className="mb-6 sm:mb-8 -mx-3 sm:mx-0">
+        <div className="border-b border-border flex items-center gap-0 overflow-x-auto px-3 sm:px-0">
           {TABS.map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-4 py-3 text-sm font-semibold whitespace-nowrap border-b-2 transition-colors ${activeTab === tab ? 'text-accent border-accent' : 'text-textSecondary hover:text-textPrimary border-transparent'}`}
+              className={`px-3 sm:px-4 py-3 text-xs sm:text-sm font-semibold whitespace-nowrap border-b-2 transition-colors ${activeTab === tab ? 'text-accent border-accent' : 'text-textSecondary hover:text-textPrimary border-transparent'}`}
             >
               {tab}
             </button>

@@ -78,13 +78,13 @@ export default function News() {
   }, [news, selectedCategory, search])
 
   return (
-    <div className="max-w-[1200px] mx-auto px-4 py-8">
+    <div className="max-w-[1200px] mx-auto px-3 sm:px-4 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'News' }]} />
 
       {/* Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-black">
-          IPL News <span className="text-textSecondary text-2xl font-normal">· Latest from the ongoing season</span>
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-black leading-tight">
+          IPL News <span className="block sm:inline text-textSecondary text-base sm:text-2xl font-normal mt-1 sm:mt-0">· Latest from the ongoing season</span>
         </h1>
         <p className="text-textSecondary mt-2 text-sm">
           Curated headlines, match reports, auctions and transfer moves from the IPL 2026 season and beyond.
@@ -92,8 +92,8 @@ export default function News() {
       </div>
 
       {/* Search + filters */}
-      <div className="flex flex-wrap gap-3 items-center mb-8">
-        <div className="relative flex-1 min-w-[240px]">
+      <div className="flex flex-wrap gap-3 items-center mb-6 sm:mb-8">
+        <div className="relative w-full sm:flex-1 sm:min-w-[240px]">
           <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textSecondary" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
           <input
             type="text"

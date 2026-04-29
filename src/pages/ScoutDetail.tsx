@@ -88,7 +88,7 @@ export default function ScoutDetail() {
   const perLeagueEntries = Object.entries(perLeague).sort((a, b) => b[1].matches - a[1].matches)
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className="max-w-7xl mx-auto px-3 sm:px-4 py-5 sm:py-6">
       <Breadcrumb items={[
         { label: 'Auction War Room', path: '/auctions' },
         { label: 'Scouting Hub', path: '/auctions' },
@@ -96,9 +96,9 @@ export default function ScoutDetail() {
       ]} />
 
       {/* ── Header ── */}
-      <div className="bg-gradient-to-br from-[#131320] to-[#0a0a0f] border border-[#1e1e3a] rounded-3xl p-6 md:p-8 mb-6">
-        <div className="flex flex-col md:flex-row md:items-center gap-5">
-          <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#6366f1]/20 to-[#6366f1]/5 border border-[#6366f1]/20 flex items-center justify-center text-2xl font-black text-[#6366f1]">
+      <div className="bg-gradient-to-br from-[#131320] to-[#0a0a0f] border border-[#1e1e3a] rounded-3xl p-4 sm:p-6 md:p-8 mb-5 sm:mb-6">
+        <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-5">
+          <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-[#6366f1]/20 to-[#6366f1]/5 border border-[#6366f1]/20 flex items-center justify-center text-xl sm:text-2xl font-black text-[#6366f1]">
             {getInitials(p.name)}
           </div>
           <div className="flex-1 min-w-0">
@@ -137,14 +137,14 @@ export default function ScoutDetail() {
               ))}
             </div>
           </div>
-          <div className="flex gap-3 md:gap-4">
-            <div className="text-center px-4">
+          <div className="flex gap-3 md:gap-4 shrink-0">
+            <div className="text-center px-3 sm:px-4">
               <p className="text-[10px] text-gray-500 uppercase">Bat Impact</p>
-              <p className="text-2xl font-black text-orange-400">{p.batImpact.toLocaleString()}</p>
+              <p className="text-xl sm:text-2xl font-black text-orange-400">{p.batImpact.toLocaleString()}</p>
             </div>
-            <div className="text-center px-4 border-l border-[#1e1e3a]">
+            <div className="text-center px-3 sm:px-4 border-l border-[#1e1e3a]">
               <p className="text-[10px] text-gray-500 uppercase">Bowl Impact</p>
-              <p className="text-2xl font-black text-purple-400">{p.bowlImpact.toLocaleString()}</p>
+              <p className="text-xl sm:text-2xl font-black text-purple-400">{p.bowlImpact.toLocaleString()}</p>
             </div>
           </div>
         </div>

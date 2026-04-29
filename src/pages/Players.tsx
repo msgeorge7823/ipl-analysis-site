@@ -355,7 +355,7 @@ export default function Players() {
   }
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 py-8">
+    <div className="max-w-[1440px] mx-auto px-3 sm:px-4 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Players' }]} />
       {/* Page Header */}
       <div className="flex items-center justify-between mb-6">
@@ -706,7 +706,7 @@ export default function Players() {
         </div>
       )}
 
-      <div className="flex gap-6">
+      <div className="flex gap-4 lg:gap-6">
         {/* LEFT SIDEBAR: Filter Panel (desktop only) */}
         <aside className="w-72 shrink-0 hidden lg:block">
           <div className="bg-card border border-border rounded-2xl p-5 sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto">
@@ -1033,7 +1033,7 @@ export default function Players() {
 
           {/* Player Cards Grid */}
           {viewMode === 'grid' ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
               {paginated.map(player => {
                 const s = statsMap[player.id]
                 const role = inferRole(s, player.role)

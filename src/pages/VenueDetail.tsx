@@ -133,16 +133,16 @@ export default function VenueDetail() {
   return (
     <div className="min-h-screen">
       {/* Hero Image Area */}
-      <section className="relative h-72 md:h-80 overflow-hidden">
+      <section className="relative h-56 sm:h-72 md:h-80 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.08] via-[#0a0a0f]/60 to-[#0a0a0f]" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0f] via-transparent to-[#0a0a0f]" />
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(99,102,241,0.1) 40px, rgba(99,102,241,0.1) 41px)' }} />
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0a0f] to-transparent" />
-        <div className="relative max-w-7xl mx-auto px-4 h-full flex items-end pb-6 sm:pb-10">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 h-full flex items-end pb-5 sm:pb-10">
           <div>
             <Breadcrumb items={[{ label: 'Venues', path: '/venues' }, { label: venue.name }]} />
-            <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-2 break-words">{venue.name}</h1>
-            <p className="text-lg text-gray-400 flex items-center gap-2">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-2 break-words">{venue.name}</h1>
+            <p className="text-sm sm:text-base md:text-lg text-gray-400 flex items-center gap-2">
               <svg className="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
               {venue.city}
             </p>
@@ -151,30 +151,30 @@ export default function VenueDetail() {
       </section>
 
       {/* Info Cards */}
-      <section className="max-w-7xl mx-auto px-4 mb-12 -mt-2">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 mb-8 sm:mb-12 -mt-2">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-card border border-border rounded-2xl p-5 text-center">
+          <div className="bg-card border border-border rounded-2xl p-3 sm:p-5 text-center">
             <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-3">
               <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
             </div>
             <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Total Matches</p>
             <p className="text-2xl font-bold text-white">{venue.matchCount}</p>
           </div>
-          <div className="bg-card border border-border rounded-2xl p-5 text-center">
+          <div className="bg-card border border-border rounded-2xl p-3 sm:p-5 text-center">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center mx-auto mb-3">
               <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
             </div>
             <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Avg 1st Innings</p>
             <p className="text-2xl font-bold text-emerald-400">{venue.avgFirstInningsScore}</p>
           </div>
-          <div className="bg-card border border-border rounded-2xl p-5 text-center">
+          <div className="bg-card border border-border rounded-2xl p-3 sm:p-5 text-center">
             <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center mx-auto mb-3">
               <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
             </div>
             <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">Avg 2nd Innings</p>
             <p className="text-2xl font-bold text-blue-400">{venue.avgSecondInningsScore}</p>
           </div>
-          <div className="bg-card border border-border rounded-2xl p-5 text-center">
+          <div className="bg-card border border-border rounded-2xl p-3 sm:p-5 text-center">
             <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center mx-auto mb-3">
               <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
             </div>

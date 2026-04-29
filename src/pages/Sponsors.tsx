@@ -74,7 +74,7 @@ export default function Sponsors() {
 
   if (!sponsorData) {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-20 text-center">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-12 sm:py-20 text-center">
         <p className="text-gray-400">Failed to load sponsor data.</p>
       </div>
     )
@@ -92,15 +92,15 @@ export default function Sponsors() {
       {/* Header */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-emerald-900/5" />
-        <div className="relative max-w-7xl mx-auto px-4 pt-16 pb-8">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 pt-8 sm:pt-12 md:pt-16 pb-6 sm:pb-8">
           <Breadcrumb items={[{ label: 'Sponsors' }]} />
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">IPL Sponsors & Partnerships</h1>
-          <p className="text-gray-400 text-lg">Commercial partners powering the world's biggest T20 league</p>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-2 sm:mb-3">IPL Sponsors & Partnerships</h1>
+          <p className="text-gray-400 text-sm sm:text-base md:text-lg">Commercial partners powering the world's biggest T20 league</p>
         </div>
       </section>
 
       {/* ==================== 1. Title Sponsor Timeline ==================== */}
-      <section className="max-w-7xl mx-auto px-4 mb-16">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 mb-10 sm:mb-16">
         <h2 className="text-2xl font-bold text-white mb-2">Title Sponsor Timeline</h2>
         <p className="text-gray-500 text-sm mb-8">The evolution of IPL's title sponsorship from 2008 to present</p>
 
@@ -146,7 +146,7 @@ export default function Sponsors() {
       </section>
 
       {/* ==================== 2. Season-by-Season Table ==================== */}
-      <section className="max-w-7xl mx-auto px-4 mb-16">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 mb-10 sm:mb-16">
         <h2 className="text-2xl font-bold text-white mb-2">Season-by-Season Sponsors</h2>
         <p className="text-gray-500 text-sm mb-8">Complete title sponsor and broadcast history from 2008 to 2026</p>
 
@@ -195,7 +195,7 @@ export default function Sponsors() {
 
       {/* ==================== 3. Current Season Partners (2026) ==================== */}
       {partners2026 && (
-        <section className="max-w-7xl mx-auto px-4 mb-16">
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 mb-10 sm:mb-16">
           <h2 className="text-2xl font-bold text-white mb-2">2026 Season Partners</h2>
           <p className="text-gray-500 text-sm mb-8">Official commercial partners for the current IPL season</p>
 
@@ -347,7 +347,7 @@ export default function Sponsors() {
       )}
 
       {/* ==================== 4. Broadcast History ==================== */}
-      <section className="max-w-7xl mx-auto px-4 mb-16">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 mb-10 sm:mb-16">
         <h2 className="text-2xl font-bold text-white mb-2">Broadcast History</h2>
         <p className="text-gray-500 text-sm mb-8">TV and digital broadcast partners across IPL eras</p>
 

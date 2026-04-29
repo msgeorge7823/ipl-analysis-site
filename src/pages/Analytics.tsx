@@ -977,20 +977,20 @@ export default function Analytics() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-transparent" />
         <div className="absolute top-0 right-0 w-[400px] h-[300px] bg-accent/5 rounded-full blur-3xl" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-10">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-6 sm:py-8 md:py-10">
           <Breadcrumb items={[{ label: 'Analytics Lab' }]} />
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-1.5 h-8 rounded-full bg-accent" />
-            <h1 className="text-3xl font-extrabold text-white tracking-tight">Analytics Lab</h1>
+            <div className="w-1.5 h-7 sm:h-8 rounded-full bg-accent" />
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Analytics Lab</h1>
           </div>
-          <p className="text-gray-400 text-sm ml-5">Build custom analyses, compare unlimited players</p>
+          <p className="text-gray-400 text-xs sm:text-sm ml-4 sm:ml-5">Build custom analyses, compare unlimited players</p>
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-6">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 mt-5 sm:mt-6">
 
         {/* Search Bar + Player Chips */}
-        <div className="bg-card border border-border rounded-xl p-5 mb-5">
+        <div className="bg-card border border-border rounded-xl p-4 sm:p-5 mb-5">
           <div className="relative mb-4" ref={searchRef}>
             <svg className="w-5 h-5 text-gray-500 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
             <input

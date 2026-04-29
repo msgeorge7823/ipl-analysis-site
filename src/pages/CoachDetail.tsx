@@ -70,7 +70,7 @@ export default function CoachDetail() {
   const themeColor = (mostRecent && TEAM_COLORS[mostRecent.team]?.primary) || '#6366f1'
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 py-8">
+    <div className="max-w-[1440px] mx-auto px-3 sm:px-4 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Coaches', path: '/coaches' }, { label: coach.name }]} />
 
       {!coach.verified && (
@@ -84,19 +84,20 @@ export default function CoachDetail() {
       )}
 
       {/* Header card */}
-      <div className="bg-card border border-border rounded-2xl p-6 mb-6">
-        <div className="flex flex-col sm:flex-row items-start gap-6">
+      <div className="bg-card border border-border rounded-2xl p-4 sm:p-6 mb-5 sm:mb-6">
+        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
           <Avatar
             id={coach.id}
             name={coach.name}
             kind="coach"
-            sizePx={112}
+            sizePx={88}
             color={themeColor}
-            initialsFontSizePx={44}
+            initialsFontSizePx={36}
+            className="sm:!w-[112px] sm:!h-[112px]"
             photo={coachPhotos?.[coach.id]}
           />
           <div className="flex-1 min-w-0">
-            <h1 className="text-3xl font-bold">{coach.name}</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold">{coach.name}</h1>
             {coach.fullName && coach.fullName !== coach.name && (
               <p className="text-textSecondary text-sm mt-0.5">{coach.fullName}</p>
             )}

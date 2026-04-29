@@ -60,18 +60,18 @@ export default function Teams() {
           <div className="absolute top-10 left-20 w-72 h-72 bg-accent rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 py-16 text-center">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12 md:py-16 text-center">
           <Breadcrumb items={[{ label: 'Teams' }]} />
-          <h1 className="text-3xl sm:text-5xl font-extrabold mb-3 gradient-text">IPL Franchises</h1>
-          <p className="text-textSecondary text-lg max-w-xl mx-auto">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-2 sm:mb-3 gradient-text">IPL Franchises</h1>
+          <p className="text-textSecondary text-sm sm:text-base md:text-lg max-w-xl mx-auto">
             {activeCount} teams competing in the world's premier T20 league
           </p>
         </div>
       </section>
 
       {/* Active Teams Grid */}
-      <section className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 sm:gap-5">
           {active.map(team => {
             const titles = titleMap[team.name] || []
             const colors = TEAM_COLORS[team.name] || { primary: '#666', secondary: '#999' }
@@ -129,45 +129,45 @@ export default function Teams() {
       </section>
 
       {/* Stats Bar */}
-      <section className="max-w-7xl mx-auto px-4 pb-12">
-        <div className="rounded-2xl border border-border bg-card p-6 grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 pb-8 sm:pb-12">
+        <div className="rounded-2xl border border-border bg-card p-4 sm:p-6 grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6 text-center">
           <div>
-            <div className="text-3xl font-extrabold gradient-text">{activeCount}</div>
-            <div className="text-textSecondary text-sm mt-1">Active Franchises</div>
+            <div className="text-2xl sm:text-3xl font-extrabold gradient-text">{activeCount}</div>
+            <div className="text-textSecondary text-xs sm:text-sm mt-1">Active Franchises</div>
           </div>
           <div>
-            <div className="text-3xl font-extrabold gradient-text">{defunctCount}</div>
-            <div className="text-textSecondary text-sm mt-1">Defunct Franchises</div>
+            <div className="text-2xl sm:text-3xl font-extrabold gradient-text">{defunctCount}</div>
+            <div className="text-textSecondary text-xs sm:text-sm mt-1">Defunct Franchises</div>
           </div>
           <div>
-            <div className="text-3xl font-extrabold gradient-text">{totalSeasons}</div>
-            <div className="text-textSecondary text-sm mt-1">Seasons Played</div>
+            <div className="text-2xl sm:text-3xl font-extrabold gradient-text">{totalSeasons}</div>
+            <div className="text-textSecondary text-xs sm:text-sm mt-1">Seasons Played</div>
           </div>
           <div>
-            <div className="text-3xl font-extrabold gradient-text">{uniqueChampions}</div>
-            <div className="text-textSecondary text-sm mt-1">Different Champions</div>
+            <div className="text-2xl sm:text-3xl font-extrabold gradient-text">{uniqueChampions}</div>
+            <div className="text-textSecondary text-xs sm:text-sm mt-1">Different Champions</div>
           </div>
-          <div>
-            <div className="text-3xl font-extrabold gradient-text">{activeCount + defunctCount}</div>
-            <div className="text-textSecondary text-sm mt-1">Total Franchises (All Time)</div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="text-2xl sm:text-3xl font-extrabold gradient-text">{activeCount + defunctCount}</div>
+            <div className="text-textSecondary text-xs sm:text-sm mt-1">Total Franchises (All Time)</div>
           </div>
         </div>
       </section>
 
       {/* Defunct / Former Franchises */}
       {defunct.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 mt-16 pb-16">
-          <div className="flex items-center gap-3 mb-2">
-            <h2 className="text-2xl font-bold">Former & Defunct Franchises</h2>
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 mt-10 sm:mt-16 pb-10 sm:pb-16">
+          <div className="flex items-center gap-3 mb-2 flex-wrap">
+            <h2 className="text-xl sm:text-2xl font-bold">Former & Defunct Franchises</h2>
             <span className="px-3 py-1 bg-amber-500/10 text-amber-400 text-xs font-semibold rounded-full border border-amber-500/20">
               DEFUNCT
             </span>
           </div>
-          <p className="text-textSecondary text-sm mb-8">
+          <p className="text-textSecondary text-sm mb-6 sm:mb-8">
             Teams that played in the IPL but are no longer active.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 sm:gap-4">
             {defunct.map(team => {
               const titles = titleMap[team.name] || []
               const colors = TEAM_COLORS[team.name] || { primary: '#666', secondary: '#999' }

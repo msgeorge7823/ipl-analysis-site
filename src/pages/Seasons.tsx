@@ -58,12 +58,12 @@ export default function Seasons() {
                 />
               )}
 
-              <div className="flex items-center justify-between mb-4">
-                <div>
-                  <h3 className="text-2xl font-black text-white group-hover:text-accent transition-colors">
+              <div className="flex items-start sm:items-center justify-between mb-4 gap-3">
+                <div className="min-w-0">
+                  <h3 className="text-xl sm:text-2xl font-black text-white group-hover:text-accent transition-colors">
                     IPL {season.year}
                   </h3>
-                  <p className="text-sm text-textSecondary">
+                  <p className="text-xs sm:text-sm text-textSecondary truncate">
                     {season.runnerUp ? (
                       <>
                         Runner-up: <span className="text-white font-medium">{runnerUpShort}</span>
@@ -75,17 +75,17 @@ export default function Seasons() {
                   </p>
                 </div>
                 {season.winner && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-lg">{'\uD83C\uDFC6'}</span>
-                    <TeamBadge team={season.winner} season={season.year} className="w-10 h-10" />
+                  <div className="flex items-center gap-2 shrink-0">
+                    <span className="hidden sm:inline text-lg">{'\uD83C\uDFC6'}</span>
+                    <TeamBadge team={season.winner} season={season.year} className="w-9 h-9 sm:w-10 sm:h-10" />
                     <div className="text-right">
                       <span
-                        className="font-bold text-lg"
+                        className="font-bold text-base sm:text-lg"
                         style={{ color: winnerColor?.primary || '#FFD700' }}
                       >
                         {winnerShort}
                       </span>
-                      <div className="text-xs text-textSecondary">{season.winner}</div>
+                      <div className="text-[10px] sm:text-xs text-textSecondary truncate max-w-[140px]">{season.winner}</div>
                     </div>
                   </div>
                 )}

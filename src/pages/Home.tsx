@@ -179,8 +179,8 @@ export default function Home() {
 
       {/* Latest Season Champion */}
       {latestSeason?.winner && (
-        <section className="max-w-7xl mx-auto px-4 mt-16">
-          <h2 className="text-2xl font-bold mb-6">IPL {latestSeason.year} Champion</h2>
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 mt-10 sm:mt-16">
+          <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">IPL {latestSeason.year} Champion</h2>
           <Link
             to={`/seasons/${latestSeason.year}`}
             className="block bg-card rounded-2xl p-4 md:p-8 glow hover:bg-cardHover transition-colors"
@@ -193,9 +193,9 @@ export default function Home() {
               borderColor: winnerColors ? `${winnerColors.primary}70` : '#1e1e3a',
             }}
           >
-            <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
               <div
-                className="w-28 h-28 rounded-2xl flex items-center justify-center p-3 flex-shrink-0"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center p-3 flex-shrink-0"
                 style={{
                   backgroundColor: winnerColors?.primary || '#6366f1',
                 }}
@@ -209,7 +209,7 @@ export default function Home() {
               <div className="flex-1 text-center md:text-left">
                 <Link
                   to={`/teams/${latestSeason.winner.replace(/\s+/g, '-').toLowerCase()}`}
-                  className="text-3xl font-black hover:opacity-80 transition"
+                  className="text-xl sm:text-2xl md:text-3xl font-black hover:opacity-80 transition"
                   style={{ color: winnerColors?.primary || '#fff' }}
                 >
                   {latestSeason.winner}
@@ -228,9 +228,9 @@ export default function Home() {
 
       {/* Featured Highlights */}
       {latestSeason && (
-        <section className="max-w-7xl mx-auto px-4 mt-16">
-          <h2 className="text-2xl font-bold mb-6">IPL {latestSeason.year} Highlights</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 mt-10 sm:mt-16">
+          <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">IPL {latestSeason.year} Highlights</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {/* Orange Cap */}
             {latestSeason.orangeCap && (
               <div className="bg-card border border-border rounded-2xl p-6 relative overflow-hidden">
@@ -298,9 +298,9 @@ export default function Home() {
       )}
 
       {/* Season Grid */}
-      <section className="max-w-7xl mx-auto px-4 mt-16 pb-20">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold">All Seasons</h2>
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 mt-10 sm:mt-16 pb-12 sm:pb-20">
+        <div className="flex items-center justify-between mb-4 sm:mb-6">
+          <h2 className="text-xl sm:text-2xl font-bold">All Seasons</h2>
           <Link to="/seasons" className="text-accent text-sm hover:underline">View All &rarr;</Link>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4">
@@ -360,11 +360,11 @@ export default function Home() {
         const hero = featured[0]
         const sidebar = featured.slice(1, 4)
         return (
-          <section className="max-w-7xl mx-auto px-4 py-12">
-            <div className="flex items-end justify-between mb-6 flex-wrap gap-3">
+          <section className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
+            <div className="flex items-end justify-between mb-4 sm:mb-6 flex-wrap gap-3">
               <div>
-                <h2 className="text-2xl md:text-3xl font-black flex items-center gap-3">
-                  <span className="inline-block w-1.5 h-7 rounded-full bg-gradient-to-b from-red-400 to-red-600" />
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black flex items-center gap-3">
+                  <span className="inline-block w-1.5 h-6 sm:h-7 rounded-full bg-gradient-to-b from-red-400 to-red-600" />
                   Top Highlights
                 </h2>
                 <p className="text-textSecondary text-sm mt-1">
@@ -401,7 +401,7 @@ export default function Home() {
                   {/* Bottom gradient for text legibility */}
                   <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none" />
 
-                  <div className="relative h-full flex flex-col justify-between p-7 md:p-10">
+                  <div className="relative h-full flex flex-col justify-between p-5 sm:p-7 md:p-10">
                     {/* Kicker */}
                     <div className="flex items-center justify-between gap-3 flex-wrap">
                       <span
@@ -420,9 +420,9 @@ export default function Home() {
                     </div>
 
                     {/* CTA headline */}
-                    <div className="mt-auto pt-8">
+                    <div className="mt-auto pt-6 sm:pt-8">
                       <h3
-                        className="text-2xl md:text-4xl font-black leading-[1.1] text-white mb-3 tracking-tight"
+                        className="text-xl sm:text-2xl md:text-4xl font-black leading-[1.1] text-white mb-3 tracking-tight"
                         style={{
                           textShadow: '0 2px 18px rgba(0,0,0,0.4)',
                         }}
@@ -564,12 +564,12 @@ export default function Home() {
           Static reference content; hand-curated in /data/ipl-facts.json.
           ══════════════════════════════════════════════════════════════ */}
       {iplFacts && (
-        <section className="max-w-7xl mx-auto px-4 py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 lg:gap-8">
             {/* Origin story — 3/5 column */}
             <div className="lg:col-span-3">
-              <h2 className="text-2xl md:text-3xl font-black flex items-center gap-3 mb-4">
-                <span className="inline-block w-1.5 h-7 rounded-full bg-gradient-to-b from-amber-400 to-amber-600" />
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black flex items-center gap-3 mb-4">
+                <span className="inline-block w-1.5 h-6 sm:h-7 rounded-full bg-gradient-to-b from-amber-400 to-amber-600" />
                 {iplFacts.origin?.title || 'Why the IPL began'}
               </h2>
               <div className="space-y-4">
@@ -607,21 +607,21 @@ export default function Home() {
           Did You Know? — rotating grid of trivia from ipl-facts.json.
           ══════════════════════════════════════════════════════════════ */}
       {iplFacts?.didYouKnow && iplFacts.didYouKnow.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 py-12">
-          <div className="mb-6">
-            <h2 className="text-2xl md:text-3xl font-black flex items-center gap-3">
-              <span className="inline-block w-1.5 h-7 rounded-full bg-gradient-to-b from-purple-400 to-purple-600" />
+        <section className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
+          <div className="mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-black flex items-center gap-3">
+              <span className="inline-block w-1.5 h-6 sm:h-7 rounded-full bg-gradient-to-b from-purple-400 to-purple-600" />
               Did You Know?
             </h2>
             <p className="text-textSecondary text-sm mt-1">
               Fun facts and records from 18+ years of IPL cricket
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {iplFacts.didYouKnow.map((fact: any, i: number) => (
               <div
                 key={i}
-                className="bg-card border border-border rounded-2xl p-5 hover:border-purple-500/30 transition-colors"
+                className="bg-card border border-border rounded-2xl p-4 sm:p-5 hover:border-purple-500/30 transition-colors"
               >
                 <div className="text-3xl mb-3">{fact.icon}</div>
                 <p className="text-sm text-textSecondary leading-relaxed">

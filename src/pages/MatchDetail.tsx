@@ -803,23 +803,24 @@ export default function MatchDetail() {
     <>
       {/* ══════ STICKY SCORE HEADER ══════ */}
       <header className="bg-[#131320] border-b border-[#1e1e3a] sticky top-0 z-40">
-        <div className="max-w-6xl mx-auto px-4 py-5">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 sm:py-5">
           {/* Score Row */}
-          <div className="flex items-center justify-center gap-4 sm:gap-8 md:gap-12">
+          <div className="flex items-center justify-center gap-2 sm:gap-8 md:gap-12">
             {/* Team 1 */}
-            <div className="flex items-center gap-3 sm:gap-4">
-              <TeamBadge team={team1} className="w-12 h-12 sm:w-14 sm:h-14" season={match.season} />
-              <div className="text-right sm:text-left">
+            <div className="flex items-center gap-2 sm:gap-4 min-w-0">
+              <TeamBadge team={team1} className="w-10 h-10 sm:w-14 sm:h-14 shrink-0" season={match.season} />
+              <div className="text-right sm:text-left min-w-0">
                 <Link
                   to={`/teams/${team1.replace(/\s+/g, '-').toLowerCase()}`}
-                  className="text-xs sm:text-sm text-gray-400 font-medium hover:text-accent transition"
+                  className="text-xs sm:text-sm text-gray-400 font-medium hover:text-accent transition truncate block max-w-[110px] sm:max-w-none"
                 >
-                  {team1}
+                  <span className="hidden sm:inline">{team1}</span>
+                  <span className="sm:hidden">{short1}</span>
                 </Link>
                 {inn1 && (
-                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
+                  <div className="text-base sm:text-2xl md:text-3xl font-bold text-white">
                     {score1}{' '}
-                    <span className="text-sm sm:text-base font-normal text-gray-400">
+                    <span className="text-xs sm:text-base font-normal text-gray-400">
                       {overs1}
                     </span>
                   </div>
@@ -853,18 +854,19 @@ export default function MatchDetail() {
             </div>
 
             {/* Team 2 */}
-            <div className="flex items-center gap-3 sm:gap-4">
-              <div className="sm:order-2">
+            <div className="flex items-center gap-2 sm:gap-4 min-w-0">
+              <div className="sm:order-2 min-w-0">
                 <Link
                   to={`/teams/${team2.replace(/\s+/g, '-').toLowerCase()}`}
-                  className="text-xs sm:text-sm text-gray-400 font-medium hover:text-accent transition"
+                  className="text-xs sm:text-sm text-gray-400 font-medium hover:text-accent transition truncate block max-w-[110px] sm:max-w-none"
                 >
-                  {team2}
+                  <span className="hidden sm:inline">{team2}</span>
+                  <span className="sm:hidden">{short2}</span>
                 </Link>
                 {inn2 && (
-                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
+                  <div className="text-base sm:text-2xl md:text-3xl font-bold text-white">
                     {score2}{' '}
-                    <span className="text-sm sm:text-base font-normal text-gray-400">
+                    <span className="text-xs sm:text-base font-normal text-gray-400">
                       {overs2}
                     </span>
                   </div>
@@ -872,7 +874,7 @@ export default function MatchDetail() {
               </div>
               <TeamBadge
                 team={team2}
-                className="w-12 h-12 sm:w-14 sm:h-14 sm:order-3"
+                className="w-10 h-10 sm:w-14 sm:h-14 sm:order-3 shrink-0"
                 season={match.season}
               />
             </div>
@@ -907,13 +909,13 @@ export default function MatchDetail() {
         </div>
 
         {/* TAB BAR */}
-        <div className="max-w-6xl mx-auto px-4 overflow-x-auto">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 overflow-x-auto">
           <nav className="flex gap-0 min-w-max">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-5 py-3 text-sm font-semibold transition-all flex items-center gap-1.5 whitespace-nowrap ${
+                className={`px-3 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 whitespace-nowrap ${
                   activeTab === tab.id
                     ? 'border-b-2 border-indigo-500 text-white'
                     : 'border-b-2 border-transparent text-gray-400 hover:text-gray-200 hover:border-[#1e1e3a]'
@@ -936,7 +938,7 @@ export default function MatchDetail() {
       </header>
 
       {/* ══════ MAIN CONTENT ══════ */}
-      <main className="max-w-6xl mx-auto px-4 py-6">
+      <main className="max-w-6xl mx-auto px-3 sm:px-4 py-5 sm:py-6">
         <Breadcrumb
           items={[
             { label: 'Matches', path: '/matches' },

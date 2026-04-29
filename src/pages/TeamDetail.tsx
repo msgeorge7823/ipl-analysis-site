@@ -559,16 +559,16 @@ export default function TeamDetail() {
           className="absolute inset-0"
           style={{ background: 'linear-gradient(to bottom, transparent 60%, #0a0a0f 100%)' }}
         />
-        <div className="relative max-w-7xl mx-auto px-4 py-16 flex flex-col gap-4">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12 md:py-16 flex flex-col gap-4">
           <Breadcrumb items={[{ label: 'Teams', path: '/teams' }, { label: team.name }]} />
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-5 md:gap-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 sm:gap-5 md:gap-8">
           <TeamBadge
             team={team.name}
-            className="w-20 h-20 md:w-28 md:h-28"
+            className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28"
           />
-          <div>
+          <div className="min-w-0">
             <h1
-              className="text-2xl md:text-4xl font-extrabold"
+              className="text-2xl sm:text-3xl md:text-4xl font-extrabold break-words"
               style={{
                 background: `linear-gradient(135deg, ${colors.primary}, ${colors.secondary})`,
                 WebkitBackgroundClip: 'text',
@@ -577,7 +577,7 @@ export default function TeamDetail() {
             >
               {team.name}
             </h1>
-            <p className="text-textSecondary mt-2 text-lg">
+            <p className="text-textSecondary mt-2 text-sm sm:text-base md:text-lg">
               Founded {team.seasons?.[0]} &middot; {team.seasons?.length || 0} seasons
               {team.isDefunct && <span className="text-red-400 ml-2">(Defunct)</span>}
             </p>
@@ -615,12 +615,12 @@ export default function TeamDetail() {
 
       {/* Tabs */}
       <div className="border-b border-border sticky top-16 z-40 bg-bg/90 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-4 flex gap-0 overflow-x-auto">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 flex gap-0 overflow-x-auto">
           {TABS.map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-5 py-3.5 text-sm whitespace-nowrap transition-colors ${activeTab === tab ? 'font-semibold border-b-2' : 'text-textSecondary hover:text-textPrimary'}`}
+              className={`px-4 sm:px-5 py-3 sm:py-3.5 text-xs sm:text-sm whitespace-nowrap transition-colors ${activeTab === tab ? 'font-semibold border-b-2' : 'text-textSecondary hover:text-textPrimary'}`}
               style={activeTab === tab ? { borderBottomColor: colors.primary, color: colors.primary } : undefined}
             >
               {tab}
@@ -630,7 +630,7 @@ export default function TeamDetail() {
       </div>
 
       {/* Content */}
-      <section className="max-w-7xl mx-auto px-4 py-6 space-y-8">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 py-5 sm:py-6 space-y-6 sm:space-y-8">
         {activeTab === 'Overview' && (
           <>
             {/* Key Info Grid */}

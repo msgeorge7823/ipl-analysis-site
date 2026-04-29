@@ -194,10 +194,10 @@ export default function Coaches() {
   }
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 py-8">
+    <div className="max-w-[1440px] mx-auto px-3 sm:px-4 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Coaches & Support Staff' }]} />
 
-      <div className="mb-6">
+      <div className="mb-5 sm:mb-6">
         <h1 className="text-2xl sm:text-3xl font-bold">Coaches &amp; Support Staff</h1>
         <p className="text-textSecondary mt-1 text-sm">
           {filtered.length} {filtered.length === 1 ? 'person' : 'people'} across all IPL franchises since 2008
@@ -213,7 +213,7 @@ export default function Coaches() {
         </div>
       )}
 
-      <div className="flex gap-6">
+      <div className="flex gap-4 lg:gap-6">
         <aside className="w-72 shrink-0 hidden lg:block">
           {/* Filter rail. The inner div is the scroll container — capping
               max-height at viewport-minus-header and using `overscroll-contain`
@@ -396,7 +396,7 @@ export default function Coaches() {
             />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {filtered.map(coach => {
               const cur = currentTenure(coach)
               const role = primaryRole(coach)

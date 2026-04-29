@@ -107,13 +107,13 @@ export default function Records() {
   const accentColor = tab === 'batting' ? '#f97316' : tab === 'bowling' ? '#a855f7' : '#22c55e'
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <main className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Records' }]} />
       {/* Page Title */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between mb-6 sm:mb-8">
         <div>
-          <h1 className="text-3xl font-extrabold text-white tracking-tight">Records & Milestones</h1>
-          <p className="text-[#94a3b8] text-sm mt-1">All-time IPL records, cap races, and historic performances</p>
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Records & Milestones</h1>
+          <p className="text-[#94a3b8] text-xs sm:text-sm mt-1">All-time IPL records, cap races, and historic performances</p>
         </div>
       </div>
 
@@ -143,10 +143,10 @@ export default function Records() {
           </div>
 
           {/* Mode Toggle */}
-          <div className="flex rounded-xl overflow-hidden border border-[#1e1e3a]">
+          <div className="flex rounded-xl overflow-hidden border border-[#1e1e3a] w-full sm:w-auto">
             <button
               onClick={() => setCapMode('batting')}
-              className={`px-5 py-2.5 text-sm font-semibold transition-colors ${
+              className={`flex-1 sm:flex-none px-3 sm:px-5 py-2.5 text-xs sm:text-sm font-semibold transition-colors ${
                 capMode === 'batting'
                   ? 'bg-orange-500/20 text-orange-400'
                   : 'bg-[#131320] text-[#94a3b8] hover:text-white'
@@ -156,7 +156,7 @@ export default function Records() {
             </button>
             <button
               onClick={() => setCapMode('bowling')}
-              className={`px-5 py-2.5 text-sm font-semibold transition-colors border-l border-[#1e1e3a] ${
+              className={`flex-1 sm:flex-none px-3 sm:px-5 py-2.5 text-xs sm:text-sm font-semibold transition-colors border-l border-[#1e1e3a] ${
                 capMode === 'bowling'
                   ? 'bg-purple-500/20 text-purple-400'
                   : 'bg-[#131320] text-[#94a3b8] hover:text-white'

@@ -209,17 +209,17 @@ export default function Education() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-emerald-900/5" />
         <div className="absolute top-0 left-1/4 w-[400px] h-[300px] bg-accent/5 rounded-full blur-3xl" />
-        <div className="relative max-w-7xl mx-auto px-4 pt-16 pb-10">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 pt-8 sm:pt-12 md:pt-16 pb-6 sm:pb-10">
           <Breadcrumb items={[{ label: 'Education' }]} />
           <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">Learn Cricket Statistics</h1>
-            <p className="text-lg text-gray-400">Understand the numbers behind the game</p>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-2 sm:mb-3">Learn Cricket Statistics</h1>
+            <p className="text-sm sm:text-base md:text-lg text-gray-400">Understand the numbers behind the game</p>
           </div>
         </div>
       </section>
 
       {/* Accordion Sections */}
-      <section className="max-w-4xl mx-auto px-4 mb-16">
+      <section className="max-w-4xl mx-auto px-3 sm:px-4 mb-10 sm:mb-16">
         <div className="space-y-3">
           {accordionItems.map(item => {
             const isOpen = openId === item.id
@@ -230,13 +230,13 @@ export default function Education() {
               >
                 <button
                   onClick={() => toggle(item.id)}
-                  className="w-full flex items-center justify-between p-6 text-left"
+                  className="w-full flex items-center justify-between p-4 sm:p-6 text-left gap-3"
                 >
-                  <div className="flex items-center gap-3">
-                    <div className={`w-9 h-9 rounded-lg ${item.iconBg} flex items-center justify-center ${item.iconColor}`}>
+                  <div className="flex items-center gap-3 min-w-0">
+                    <div className={`shrink-0 w-9 h-9 rounded-lg ${item.iconBg} flex items-center justify-center ${item.iconColor}`}>
                       {item.icon}
                     </div>
-                    <span className="text-lg font-bold text-white">{item.title}</span>
+                    <span className="text-base sm:text-lg font-bold text-white truncate">{item.title}</span>
                   </div>
                   <svg
                     className={`w-5 h-5 transition-transform ${isOpen ? 'text-accent rotate-180' : 'text-gray-500'}`}

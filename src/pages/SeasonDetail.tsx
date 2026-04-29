@@ -120,13 +120,13 @@ export default function SeasonDetail() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-purple-900/10" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/5 rounded-full blur-3xl" />
-        <div className="relative max-w-7xl mx-auto px-3 md:px-4 pt-10 md:pt-16 pb-8 md:pb-12">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 pt-6 sm:pt-10 md:pt-16 pb-6 sm:pb-8 md:pb-12">
           <Breadcrumb items={[{ label: 'Seasons', path: '/seasons' }, { label: 'IPL ' + year }]} />
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-3">IPL {year}</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-2 sm:mb-3">IPL {year}</h1>
           {season && (
             <>
-              <p className="text-base md:text-xl text-accent font-medium mb-1">Tata IPL {year}</p>
-              <p className="text-textSecondary text-sm md:text-lg">
+              <p className="text-sm sm:text-base md:text-xl text-accent font-medium mb-1">Tata IPL {year}</p>
+              <p className="text-textSecondary text-xs sm:text-sm md:text-lg">
                 {firstDate && lastDate
                   ? `${formatDateShort(firstDate)} \u2013 ${formatDateShort(lastDate)}, ${year}`
                   : `${season.matchCount} matches`}
@@ -145,36 +145,36 @@ export default function SeasonDetail() {
         <section className="max-w-7xl mx-auto px-3 md:px-4 mt-6 md:mt-10 mb-10 md:mb-14">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {season.winner && (
-              <div className="bg-card border border-border rounded-2xl p-4 md:p-8 glow flex items-center gap-4 md:gap-6 relative overflow-hidden">
+              <div className="bg-card border border-border rounded-2xl p-4 md:p-8 glow flex items-center gap-3 sm:gap-4 md:gap-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-500/5 rounded-full blur-2xl" />
-                <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-500/20 to-yellow-600/10 border border-yellow-500/20 flex items-center justify-center p-2 flex-shrink-0">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-yellow-500/20 to-yellow-600/10 border border-yellow-500/20 flex items-center justify-center p-2 flex-shrink-0">
                   <TeamBadge team={season.winner} season={year} className="w-full h-full bg-transparent" />
                 </div>
-                <div>
-                  <p className="text-sm text-yellow-400 font-semibold uppercase tracking-wider mb-1">Champions</p>
-                  <h3 className="text-2xl font-bold text-white">
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-yellow-400 font-semibold uppercase tracking-wider mb-1">Champions</p>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white truncate">
                     <Link to={`/teams/${season.winner.replace(/\s+/g, '-').toLowerCase()}`} className="hover:text-yellow-300 transition">
                       {season.winner}
                     </Link>
                   </h3>
-                  <p className="text-textSecondary text-sm mt-1">IPL {year} Title</p>
+                  <p className="text-textSecondary text-xs sm:text-sm mt-1">IPL {year} Title</p>
                 </div>
               </div>
             )}
             {season.runnerUp && (
-              <div className="bg-card border border-border rounded-2xl p-4 md:p-8 flex items-center gap-4 md:gap-6 relative overflow-hidden">
+              <div className="bg-card border border-border rounded-2xl p-4 md:p-8 flex items-center gap-3 sm:gap-4 md:gap-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gray-400/5 rounded-full blur-2xl" />
-                <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-gray-400/20 to-gray-500/10 border border-gray-400/20 flex items-center justify-center p-2 flex-shrink-0">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-gray-400/20 to-gray-500/10 border border-gray-400/20 flex items-center justify-center p-2 flex-shrink-0">
                   <TeamBadge team={season.runnerUp} season={year} className="w-full h-full bg-transparent" />
                 </div>
-                <div>
-                  <p className="text-sm text-gray-300 font-semibold uppercase tracking-wider mb-1">Runner-Up</p>
-                  <h3 className="text-2xl font-bold text-white">
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-gray-300 font-semibold uppercase tracking-wider mb-1">Runner-Up</p>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white truncate">
                     <Link to={`/teams/${season.runnerUp.replace(/\s+/g, '-').toLowerCase()}`} className="hover:text-gray-200 transition">
                       {season.runnerUp}
                     </Link>
                   </h3>
-                  <p className="text-textSecondary text-sm mt-1">IPL {year} Finalist</p>
+                  <p className="text-textSecondary text-xs sm:text-sm mt-1">IPL {year} Finalist</p>
                 </div>
               </div>
             )}

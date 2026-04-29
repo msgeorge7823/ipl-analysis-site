@@ -1209,19 +1209,19 @@ export default function Auctions() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#6366f1]/10 via-transparent to-emerald-900/10" />
         <div className="absolute top-0 right-0 w-[400px] h-[300px] bg-[#6366f1]/5 rounded-full blur-3xl" />
-        <div className="relative max-w-7xl mx-auto px-4 pt-16 pb-6">
+        <div className="relative max-w-7xl mx-auto px-3 sm:px-4 pt-8 sm:pt-12 md:pt-16 pb-5 sm:pb-6">
           <Breadcrumb items={[{ label: 'Auction War Room' }]} />
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-2">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-2">
             Auction War Room
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl">
+          <p className="text-gray-400 text-sm sm:text-base md:text-lg max-w-2xl">
             Complete scouting analytics across global T20 leagues. Auction history, player databases, top targets, and league intelligence.
           </p>
         </div>
       </section>
 
       {/* ── Tab Navigation ── */}
-      <div className="max-w-7xl mx-auto px-4 mb-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 mb-6 sm:mb-8">
         <div className="flex gap-1 bg-[#131320] border border-[#1e1e3a] rounded-2xl p-1.5 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
           {MAIN_TABS.map(tab => (
             <button key={tab.key} onClick={() => setActiveTab(tab.key)}
@@ -1240,7 +1240,7 @@ export default function Auctions() {
       </div>
 
       {/* ── Tab Content ── */}
-      <div className="max-w-7xl mx-auto px-4 pb-20">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 pb-12 sm:pb-20">
         {activeTab === 'history' && <AuctionHistoryTab />}
         {activeTab === 'scouting' && <ScoutingHubTab />}
         {activeTab === 'targets' && <TopTargetsTab />}

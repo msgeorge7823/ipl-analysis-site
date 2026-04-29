@@ -75,40 +75,40 @@ export default function Venues() {
   const selectClass = "bg-[#131320] border border-[#1e1e3a] rounded-lg px-3 py-2.5 text-sm font-semibold text-white appearance-none pr-8 focus:outline-none focus:border-accent cursor-pointer"
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <main className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Venues' }]} />
       {/* Page Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl font-extrabold text-white tracking-tight">Venues</h1>
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Venues</h1>
         <p className="text-[#94a3b8] text-sm mt-1">
           {allVenues.length} venues across {allCities.size} cities
         </p>
       </div>
 
       {/* Stat Summary */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-5 text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
+        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-3 sm:p-5 text-center">
           <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-3">
             <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
           <p className="text-xs text-[#94a3b8] uppercase tracking-wider font-semibold mb-1">Total Venues</p>
           <p className="text-2xl font-bold text-white">{allVenues.length}</p>
         </div>
-        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-5 text-center">
+        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-3 sm:p-5 text-center">
           <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center mx-auto mb-3">
             <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 21h18M3 10h18M3 7l9-4 9 4"/></svg>
           </div>
           <p className="text-xs text-[#94a3b8] uppercase tracking-wider font-semibold mb-1">Cities</p>
           <p className="text-2xl font-bold text-emerald-400">{allCities.size}</p>
         </div>
-        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-5 text-center">
+        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-3 sm:p-5 text-center">
           <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center mx-auto mb-3">
             <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
           </div>
           <p className="text-xs text-[#94a3b8] uppercase tracking-wider font-semibold mb-1">Most Matches</p>
           <p className="text-2xl font-bold text-amber-400">{allSorted[0]?.matchCount || 0}</p>
         </div>
-        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-5 text-center">
+        <div className="bg-[#131320] border border-[#1e1e3a] rounded-2xl p-3 sm:p-5 text-center">
           <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center mx-auto mb-3">
             <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>

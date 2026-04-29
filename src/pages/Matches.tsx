@@ -81,13 +81,13 @@ export default function Matches() {
   }
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <main className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Matches' }]} />
 
       {/* Page Header */}
-      <div className="mb-6">
-        <h1 className="text-3xl font-extrabold text-white tracking-tight">Matches</h1>
-        <p className="text-[#94a3b8] text-sm mt-1">
+      <div className="mb-5 sm:mb-6">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Matches</h1>
+        <p className="text-[#94a3b8] text-xs sm:text-sm mt-1">
           Fixtures, results, standings, and playoffs across all IPL seasons
         </p>
       </div>
@@ -101,7 +101,7 @@ export default function Matches() {
               <button
                 key={t.key}
                 onClick={() => updateParams({ tab: t.key })}
-                className={`px-5 py-3 text-sm font-semibold whitespace-nowrap border-b-2 transition-colors ${
+                className={`px-4 sm:px-5 py-3 text-xs sm:text-sm font-semibold whitespace-nowrap border-b-2 transition-colors ${
                   isActive
                     ? 'border-accent text-white'
                     : 'border-transparent text-[#94a3b8] hover:text-white'

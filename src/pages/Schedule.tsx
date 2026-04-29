@@ -97,19 +97,19 @@ export default function Schedule() {
   }
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8">
+    <main className="mx-auto max-w-7xl px-3 sm:px-4 py-6 sm:py-8">
       <Breadcrumb items={[{ label: 'Schedule' }]} />
       {/* Page Header */}
-      <section className="mb-8">
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-6">
+      <section className="mb-6 sm:mb-8">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 lg:gap-6 mb-5 sm:mb-6">
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-sm font-medium text-accent">
+              <span className="text-xs sm:text-sm font-medium text-accent">
                 <Link to="/seasons" className="hover:underline">Seasons</Link> &rsaquo; IPL {selectedYear}
               </span>
             </div>
-            <h1 className="text-4xl font-extrabold text-white mb-2">IPL {selectedYear} Schedule</h1>
-            <p className="text-textSecondary text-lg">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-2">IPL {selectedYear} Schedule</h1>
+            <p className="text-textSecondary text-sm sm:text-base md:text-lg">
               {matchesSorted.length} Matches &middot; {allTeams.length} Teams &middot; {allVenues.length} Venues
               {firstDate && lastDate && ` \u00B7 ${formatDateRange(firstDate)} \u2013 ${formatDateRange(lastDate)}, ${selectedYear}`}
             </p>
@@ -133,7 +133,7 @@ export default function Schedule() {
         </div>
 
         {/* Season Archive Scroll */}
-        <div className="mb-8">
+        <div className="mb-6 sm:mb-8">
           <h3 className="text-sm font-semibold text-textSecondary uppercase tracking-wider mb-3">All Seasons Schedule Archive</h3>
           <div className="flex gap-2 overflow-x-auto pb-2" style={{ scrollbarWidth: 'none' }}>
             {sorted.map((s: any) => (
