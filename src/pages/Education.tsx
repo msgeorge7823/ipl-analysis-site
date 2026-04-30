@@ -103,90 +103,209 @@ const accordionItems: AccordionItem[] = [
   },
 ]
 
+// ── DLS Standard Edition resource percentages (20-over format) ──
+// TABLE[oversRemaining][wicketsLost] → percentage of innings resources
+// remaining at that state. 100% at (20 overs, 0 wickets); 0% at any
+// state with no overs remaining. Values approximate the published ICC
+// DLS Standard Edition table for T20 cricket.
+const DLS_RESOURCE_TABLE: number[][] = [
+  /* 0 overs  */ [  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0],
+  /* 1 over   */ [  4.9,   4.9,   4.9,   4.9,   4.9,   4.8,   4.7,   4.6,   4.3,   3.4],
+  /* 2 overs  */ [  9.7,   9.7,   9.7,   9.6,   9.6,   9.5,   9.3,   8.9,   8.0,   5.9],
+  /* 3 overs  */ [ 14.3,  14.3,  14.3,  14.2,  14.1,  13.9,  13.5,  12.7,  11.2,   7.8],
+  /* 4 overs  */ [ 18.7,  18.7,  18.7,  18.6,  18.4,  18.0,  17.2,  16.0,  13.7,   9.0],
+  /* 5 overs  */ [ 22.0,  22.0,  21.9,  21.7,  21.4,  20.7,  19.6,  17.9,  15.0,   9.7],
+  /* 6 overs  */ [ 27.0,  26.9,  26.8,  26.5,  26.0,  25.0,  23.4,  21.0,  17.0,  10.6],
+  /* 7 overs  */ [ 34.4,  34.2,  33.9,  33.5,  32.7,  31.0,  28.6,  25.0,  19.3,  11.3],
+  /* 8 overs  */ [ 41.4,  41.1,  40.6,  39.9,  38.6,  35.9,  32.4,  27.4,  20.2,  11.3],
+  /* 9 overs  */ [ 48.1,  47.5,  46.7,  45.6,  43.6,  40.0,  35.3,  28.9,  20.8,  11.4],
+  /* 10 overs */ [ 54.5,  53.5,  52.4,  50.7,  48.0,  43.2,  37.4,  29.9,  21.3,  11.4],
+  /* 11 overs */ [ 60.5,  59.1,  57.4,  55.1,  51.4,  45.4,  38.8,  30.7,  21.6,  11.4],
+  /* 12 overs */ [ 66.2,  64.3,  61.9,  58.9,  54.0,  47.3,  40.0,  31.4,  21.9,  11.4],
+  /* 13 overs */ [ 71.5,  69.1,  66.0,  62.3,  56.4,  48.9,  41.0,  31.9,  22.1,  11.4],
+  /* 14 overs */ [ 76.5,  73.5,  69.7,  65.0,  58.4,  50.4,  41.9,  32.4,  22.3,  11.4],
+  /* 15 overs */ [ 81.1,  77.6,  73.1,  67.4,  60.2,  51.8,  42.7,  32.8,  22.4,  11.5],
+  /* 16 overs */ [ 85.5,  81.3,  76.1,  69.6,  61.8,  53.0,  43.4,  33.2,  22.6,  11.5],
+  /* 17 overs */ [ 89.6,  84.7,  78.7,  71.5,  63.2,  54.0,  44.1,  33.5,  22.7,  11.5],
+  /* 18 overs */ [ 93.4,  87.7,  81.0,  73.2,  64.4,  54.9,  44.7,  33.8,  22.8,  11.5],
+  /* 19 overs */ [ 96.8,  90.4,  83.0,  74.7,  65.5,  55.7,  45.2,  34.1,  22.9,  11.5],
+  /* 20 overs */ [100.0,  92.7,  84.7,  76.0,  66.5,  56.4,  45.6,  34.3,  23.0,  11.5],
+]
+
+// Linear interpolation across the overs axis so fractional overs (e.g.
+// 14.5 = 14 overs 3 balls) return a sensible value. 10 wickets lost is
+// effectively all-out → 0% resources.
+function getDLSResourcePercentage(oversRemaining: number, wicketsLost: number): number {
+  if (wicketsLost >= 10) return 0
+  const w = Math.max(0, Math.min(9, Math.floor(wicketsLost)))
+  const o = Math.max(0, Math.min(20, oversRemaining))
+  const lo = Math.floor(o)
+  const hi = Math.ceil(o)
+  if (lo === hi) return DLS_RESOURCE_TABLE[lo][w]
+  const t = o - lo
+  return DLS_RESOURCE_TABLE[lo][w] * (1 - t) + DLS_RESOURCE_TABLE[hi][w] * t
+}
+
 function DLSCalculator() {
-  const [oversRemaining, setOversRemaining] = useState(15)
-  const [wicketsLost, setWicketsLost] = useState(3)
-  const [targetScore, setTargetScore] = useState(185)
-  const [result, setResult] = useState<number | null>(null)
+  // Inputs are stored as strings (not numbers) so clearing the field
+  // leaves it empty instead of snapping to "0" — that was the annoying
+  // behaviour of the previous version.
+  const [team1ScoreStr, setTeam1ScoreStr] = useState('185')
+  const [oversRemainingStr, setOversRemainingStr] = useState('15')
+  const [wicketsLostStr, setWicketsLostStr] = useState('3')
+  const [result, setResult] = useState<{ target: number; resourcePct: number; team1: number; overs: number; wickets: number } | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   const calculate = () => {
-    // Simplified DLS approximation for educational purposes
-    const resourcePercentage = (oversRemaining / 20) * ((10 - wicketsLost) / 10)
-    const revised = Math.round(targetScore * resourcePercentage) + 1
-    setResult(revised)
+    setError(null)
+
+    const team1 = parseInt(team1ScoreStr, 10)
+    const overs = parseFloat(oversRemainingStr)
+    const wickets = parseInt(wicketsLostStr, 10)
+
+    if (isNaN(team1) || team1 < 0) {
+      setResult(null)
+      setError('Enter Team 1’s innings total (a non-negative whole number).')
+      return
+    }
+    if (isNaN(overs) || overs < 0 || overs > 20) {
+      setResult(null)
+      setError('Overs available for Team 2 must be between 0 and 20.')
+      return
+    }
+    if (isNaN(wickets) || wickets < 0 || wickets > 9) {
+      setResult(null)
+      setError('Wickets lost must be between 0 and 9.')
+      return
+    }
+
+    // Standard scenario: Team 1 batted full 20 overs (100% resources).
+    // Team 2's resources available = R(oversRemaining, wicketsLost).
+    // Revised target = ceil(Team1 × R2 / R1) + 1, with R1 = 100.
+    const resourcePct = getDLSResourcePercentage(overs, wickets)
+    const target = Math.ceil((team1 * resourcePct) / 100) + 1
+    setResult({ target, resourcePct, team1, overs, wickets })
+  }
+
+  const reset = () => {
+    setTeam1ScoreStr('')
+    setOversRemainingStr('')
+    setWicketsLostStr('')
+    setResult(null)
+    setError(null)
   }
 
   return (
-    <section className="max-w-4xl mx-auto px-4 mb-20">
+    <section className="max-w-4xl mx-auto px-3 sm:px-4 mb-12 sm:mb-20">
       <div className="bg-card border border-border rounded-2xl overflow-hidden">
-        <div className="p-6 md:p-8 border-b border-border">
+        <div className="p-5 sm:p-6 md:p-8 border-b border-border">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
-              <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+            <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center shrink-0">
+              <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-white">Duckworth-Lewis-Stern Calculator</h2>
-              <p className="text-sm text-gray-400 mt-0.5">Calculate revised targets for rain-affected matches</p>
+              <h2 className="text-xl sm:text-2xl font-bold text-white">Duckworth-Lewis-Stern Calculator</h2>
+              <p className="text-xs sm:text-sm text-gray-400 mt-0.5">Revised T20 target when Team 2's innings is reduced</p>
             </div>
           </div>
         </div>
-        <div className="p-6 md:p-8">
-          <div className="grid md:grid-cols-3 gap-5 mb-6">
+
+        <div className="p-5 sm:p-6 md:p-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 mb-5">
             <div>
-              <label className="block text-sm text-gray-400 font-medium mb-2">Overs Remaining</label>
+              <label htmlFor="dls-team1" className="block text-xs sm:text-sm text-gray-400 font-medium mb-2">
+                Team 1 Score
+                <span className="block text-[11px] text-gray-500 font-normal">(innings 1 total, full 20 overs)</span>
+              </label>
               <input
+                id="dls-team1"
                 type="number"
-                value={oversRemaining}
-                onChange={e => setOversRemaining(Number(e.target.value))}
+                inputMode="numeric"
+                value={team1ScoreStr}
+                onChange={e => setTeam1ScoreStr(e.target.value)}
                 className="w-full bg-[#0f0f1a] border border-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600"
-                placeholder="0"
+                placeholder="e.g. 185"
+                min={0}
+              />
+            </div>
+            <div>
+              <label htmlFor="dls-overs" className="block text-xs sm:text-sm text-gray-400 font-medium mb-2">
+                Overs Remaining
+                <span className="block text-[11px] text-gray-500 font-normal">(for Team 2 after rain)</span>
+              </label>
+              <input
+                id="dls-overs"
+                type="number"
+                inputMode="decimal"
+                step="0.1"
+                value={oversRemainingStr}
+                onChange={e => setOversRemainingStr(e.target.value)}
+                className="w-full bg-[#0f0f1a] border border-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600"
+                placeholder="e.g. 15"
                 min={0}
                 max={20}
               />
             </div>
             <div>
-              <label className="block text-sm text-gray-400 font-medium mb-2">Wickets Lost</label>
+              <label htmlFor="dls-wickets" className="block text-xs sm:text-sm text-gray-400 font-medium mb-2">
+                Wickets Lost
+                <span className="block text-[11px] text-gray-500 font-normal">(by Team 2 so far)</span>
+              </label>
               <input
+                id="dls-wickets"
                 type="number"
-                value={wicketsLost}
-                onChange={e => setWicketsLost(Number(e.target.value))}
+                inputMode="numeric"
+                value={wicketsLostStr}
+                onChange={e => setWicketsLostStr(e.target.value)}
                 className="w-full bg-[#0f0f1a] border border-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600"
-                placeholder="0"
+                placeholder="0–9"
                 min={0}
-                max={10}
-              />
-            </div>
-            <div>
-              <label className="block text-sm text-gray-400 font-medium mb-2">Target Score</label>
-              <input
-                type="number"
-                value={targetScore}
-                onChange={e => setTargetScore(Number(e.target.value))}
-                className="w-full bg-[#0f0f1a] border border-border rounded-xl px-4 py-3 text-white text-lg font-semibold focus:outline-none focus:border-accent transition placeholder-gray-600"
-                placeholder="0"
+                max={9}
               />
             </div>
           </div>
-          <button
-            onClick={calculate}
-            className="w-full md:w-auto px-8 py-3 bg-accent hover:bg-[#4f46e5] text-white font-semibold rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-accent/20"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
-            Calculate
-          </button>
+
+          <div className="flex flex-col sm:flex-row gap-3">
+            <button
+              onClick={calculate}
+              className="w-full sm:w-auto px-8 py-3 bg-accent hover:bg-[#4f46e5] text-white font-semibold rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-accent/20"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+              Calculate
+            </button>
+            <button
+              onClick={reset}
+              className="w-full sm:w-auto px-6 py-3 bg-transparent hover:bg-white/[0.04] border border-border text-gray-400 hover:text-white font-medium rounded-xl transition"
+            >
+              Reset
+            </button>
+          </div>
+
+          {error && (
+            <div className="mt-5 bg-red-500/10 border border-red-500/30 rounded-xl p-4 text-sm text-red-300" role="alert">
+              {error}
+            </div>
+          )}
 
           {result !== null && (
-            <div className="mt-6 bg-[#0f0f1a] border border-accent/20 rounded-xl p-6 glow">
+            <div className="mt-6 bg-[#0f0f1a] border border-accent/20 rounded-xl p-5 sm:p-6 glow">
               <div className="flex items-center gap-3 mb-1">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" aria-hidden="true" />
                 <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold">DLS Result</p>
               </div>
-              <div className="flex items-baseline gap-3">
-                <p className="text-4xl font-extrabold text-white">{result}</p>
-                <p className="text-lg text-gray-400">Revised Target</p>
+              <div className="flex items-baseline gap-3 flex-wrap">
+                <p className="text-3xl sm:text-4xl font-extrabold text-white">{result.target}</p>
+                <p className="text-base sm:text-lg text-gray-400">Revised Target</p>
               </div>
-              <p className="text-sm text-gray-500 mt-2">
-                Based on {oversRemaining} overs remaining with {wicketsLost} wickets lost, chasing {targetScore}. The batting team needs {result} runs from the remaining overs to win.
+              <p className="text-sm text-gray-400 mt-3 leading-relaxed">
+                Team 2 has <span className="text-accentLight font-semibold">{result.resourcePct.toFixed(1)}%</span> of the innings resources available
+                ({result.overs} {result.overs === 1 ? 'over' : 'overs'} remaining, {result.wickets} {result.wickets === 1 ? 'wicket' : 'wickets'} lost).
+                To win, they need to score <span className="text-white font-semibold">{result.target}</span> runs &mdash; computed as
+                <span className="font-mono text-accentLight"> ceil({result.team1} × {result.resourcePct.toFixed(1)}% / 100%) + 1</span>.
+              </p>
+              <p className="text-xs text-gray-500 mt-3 italic">
+                Note: this is the simplified Standard Edition for educational purposes. Official ICC DLS calculations also account for
+                Team 1's resource usage if their innings was also interrupted.
               </p>
             </div>
           )}
