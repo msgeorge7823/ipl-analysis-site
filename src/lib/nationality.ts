@@ -216,22 +216,62 @@ export function getPlayerCountry(name: string | undefined | null): Country | nul
   return null
 }
 
-/** Public: returns true if a player is in our hand-curated international
- *  player set (capped). Anyone not in the set is treated as uncapped. This
- *  is the only honest signal we have without per-player international cap
- *  data — it correctly classifies all hand-listed stars (overseas + Indian
- *  internationals registered below) as capped, and treats the long tail of
- *  domestic-only IPL players as uncapped. Returns null when name is empty. */
-export function isCappedPlayer(name: string | undefined | null): boolean | null {
-  if (!name) return null
+/**
+ * Cricket cap-status classifier.
+ *
+ *   capped   = the player has played at least one international match for
+ *              a senior national team (received a national cap).
+ *   uncapped = the player has never played senior international cricket.
+ *   unknown  = we don't have positive evidence either way.
+ *
+ * IPL note: under IPL rules, an Indian capped player can be RE-classified
+ * as uncapped if they haven't played the international XI in the last 5
+ * years AND have not held a BCCI central contract for 5 consecutive
+ * years. This 5-year reclassification rule does NOT apply to overseas
+ * cricketers — once a non-Indian player has earned a single international
+ * cap, they remain capped for IPL purposes.
+ *
+ * This implementation is best-effort, name-based, and conservative:
+ *   - Returns 'capped' when the player's normalised name is in our
+ *     curated set of overseas internationals or India internationals.
+ *   - Returns 'unknown' for anyone we can't positively identify. We
+ *     explicitly DO NOT default unknown players to 'uncapped' — that
+ *     would conflate a missing curation entry with a real classification,
+ *     which is exactly what the user complained about.
+ *
+ * The function never inspects IPL form / runs / wickets. Cap status is
+ * about international caps only; a capped player who hasn't scored a
+ * single run this season is still capped.
+ *
+ * Long-term: this should read from a per-player `capped: boolean` field
+ * persisted in players.json (which a separate registry would populate).
+ */
+export type CapStatus = 'capped' | 'uncapped' | 'unknown'
+
+export function getCapStatus(name: string | undefined | null): CapStatus {
+  if (!name) return 'unknown'
   const key = normalise(name)
-  if (CAPPED_INDIANS.has(key)) return true
-  if (KNOWN_OVERSEAS_SET.has(key)) return true
-  if (COUNTRY_BY_NAME.has(key)) return true
-  // Substring fallback
-  for (const k of CAPPED_INDIANS) if (k.length >= 5 && key.includes(k)) return true
-  for (const k of COUNTRY_BY_NAME.keys()) if (k.length >= 5 && key.includes(k)) return true
-  return false
+  if (CAPPED_INDIANS.has(key)) return 'capped'
+  if (KNOWN_OVERSEAS_SET.has(key)) return 'capped'
+  if (COUNTRY_BY_NAME.has(key)) return 'capped'
+  // Substring fallback for "SP Fleming" vs "Stephen Fleming" cases.
+  for (const k of CAPPED_INDIANS) if (k.length >= 5 && key.includes(k)) return 'capped'
+  for (const k of COUNTRY_BY_NAME.keys()) if (k.length >= 5 && key.includes(k)) return 'capped'
+  return 'unknown'
+}
+
+/**
+ * Back-compat wrapper that returns the cap-status as a tri-state boolean.
+ * - true  → confirmed capped (international cricketer)
+ * - null  → unknown (can't classify with current curated data — usually
+ *           a domestic-only IPL player, but we don't claim certainty)
+ * - false → never returned, because we have no positive uncapped evidence
+ *
+ * Prefer `getCapStatus()` directly in new code.
+ */
+export function isCappedPlayer(name: string | undefined | null): boolean | null {
+  const status = getCapStatus(name)
+  return status === 'capped' ? true : null
 }
 
 // Hand-curated set of capped Indian internationals (have played senior

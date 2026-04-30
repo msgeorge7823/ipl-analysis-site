@@ -11,7 +11,7 @@ import { useLocalStorage } from '@/hooks/useLocalStorage'
 import { TEAM_COLORS, TEAM_SHORT } from '@/lib/constants'
 import Avatar from '@/components/ui/Avatar'
 import OverseasBadge from '@/components/ui/OverseasBadge'
-import { buildOverseasLookup, isOverseasPlayer, getPlayerCountry, isCappedPlayer, COUNTRY_LIST } from '@/lib/nationality'
+import { buildOverseasLookup, isOverseasPlayer, getPlayerCountry, getCapStatus, COUNTRY_LIST } from '@/lib/nationality'
 
 const PLAYERS_PER_PAGE = 20
 
@@ -218,13 +218,16 @@ export default function Players() {
       })
     }
 
-    // Capped / Uncapped filter (multi-select).
+    // Cap-status filter (multi-select).
+    // Capped = has played senior international cricket. Uncapped = never
+    // played international cricket. Unknown = we can't tell from curated
+    // data (the long tail of domestic-only IPL players sits here — we no
+    // longer claim they're "uncapped" without positive evidence).
     if (selectedCapStatus.size > 0) {
       list = list.filter(p => {
-        const capped = isCappedPlayer(p.name) ?? isCappedPlayer(p.shortName)
-        if (selectedCapStatus.has('capped') && capped === true) return true
-        if (selectedCapStatus.has('uncapped') && capped !== true) return true
-        return false
+        const status = getCapStatus(p.name)
+        const fallback = status === 'unknown' ? getCapStatus(p.shortName) : status
+        return selectedCapStatus.has(fallback)
       })
     }
 
@@ -687,20 +690,29 @@ export default function Players() {
                 onClick={() => toggleSection('cap')}
                 className="flex items-center justify-between w-full cursor-pointer py-2 border-b border-border mb-3"
               >
-                <span className="font-medium text-sm">Cap Status</span>
+                <span className="font-medium text-sm flex items-center gap-1.5">
+                  Cap Status
+                  <span
+                    className="text-[10px] text-textSecondary cursor-help"
+                    title="Capped = has played senior international cricket. Uncapped = never played for a national team. Unknown = we don't have a confirmed classification (mostly the long tail of domestic-only IPL players). Cap status reflects international caps only — it is not affected by IPL form, runs, or wickets in any season."
+                  >
+                    ⓘ
+                  </span>
+                </span>
                 <svg className={`w-4 h-4 text-textSecondary transition-transform ${openSections.cap ? '' : '-rotate-90'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
               </button>
               {openSections.cap && (
                 <div className="flex flex-wrap gap-2">
-                  {(['capped','uncapped'] as const).map(s => {
+                  {(['capped','uncapped','unknown'] as const).map(s => {
                     const active = selectedCapStatus.has(s)
+                    const label = s === 'capped' ? 'Capped' : s === 'uncapped' ? 'Uncapped' : 'Unknown'
                     return (
                       <button
                         key={s}
                         onClick={() => toggleCapStatus(s)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border capitalize transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
                       >
-                        {s}
+                        {label}
                       </button>
                     )
                   })}
@@ -1003,20 +1015,29 @@ export default function Players() {
                 onClick={() => toggleSection('cap')}
                 className="flex items-center justify-between w-full cursor-pointer py-2 border-b border-border mb-3"
               >
-                <span className="font-medium text-sm">Cap Status</span>
+                <span className="font-medium text-sm flex items-center gap-1.5">
+                  Cap Status
+                  <span
+                    className="text-[10px] text-textSecondary cursor-help"
+                    title="Capped = has played senior international cricket. Uncapped = never played for a national team. Unknown = we don't have a confirmed classification. Cap status is not affected by IPL form."
+                  >
+                    ⓘ
+                  </span>
+                </span>
                 <svg className={`w-4 h-4 text-textSecondary transition-transform ${openSections.cap ? '' : '-rotate-90'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
               </button>
               {openSections.cap && (
                 <div className="flex flex-wrap gap-2">
-                  {(['capped','uncapped'] as const).map(s => {
+                  {(['capped','uncapped','unknown'] as const).map(s => {
                     const active = selectedCapStatus.has(s)
+                    const label = s === 'capped' ? 'Capped' : s === 'uncapped' ? 'Uncapped' : 'Unknown'
                     return (
                       <button
                         key={s}
                         onClick={() => toggleCapStatus(s)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border capitalize transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
                       >
-                        {s}
+                        {label}
                       </button>
                     )
                   })}

@@ -5,7 +5,7 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import Fuse from 'fuse.js'
-import { COUNTRY_LIST, getPlayerCountry, isCappedPlayer } from '@/lib/nationality'
+import { COUNTRY_LIST, getPlayerCountry, getCapStatus } from '@/lib/nationality'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import { usePlayers, usePlayerStats, useTeams, useVenues, useSeasons, useWorkspaces, useSaveWorkspace, useDeleteWorkspace, usePlayerPhaseStats, usePlayerDismissals, usePlayerSeasonBreakdown } from '@/hooks/useData'
 import { playerStatsService } from '@/services/playerStatsService'
@@ -768,10 +768,16 @@ export default function Analytics() {
         return c === countryFilter
       })
     }
+    // Capped = has played senior international cricket. Uncapped = never
+    // played international. Unknown = no positive evidence either way
+    // (the long tail of domestic-only IPL players). We deliberately do
+    // NOT default unknown players to 'uncapped' — cap status is about
+    // international caps, not IPL form.
     if (cappedFilter !== 'all') {
       list = list.filter((p: any) => {
-        const capped = isCappedPlayer(p.name) ?? isCappedPlayer(p.shortName)
-        return cappedFilter === 'capped' ? capped === true : capped === false
+        const status = getCapStatus(p.name)
+        const fallback = status === 'unknown' ? getCapStatus(p.shortName) : status
+        return fallback === cappedFilter
       })
     }
     return list.filter((p: any) => !selectedPlayerIds.includes(p.id)).slice(0, 8)
@@ -1123,7 +1129,13 @@ export default function Analytics() {
             </select>
           </div>
           <div className="flex flex-col gap-1">
-            <label className="text-[11px] font-medium text-gray-500 uppercase tracking-wider">Cap Status</label>
+            <label
+              className="text-[11px] font-medium text-gray-500 uppercase tracking-wider flex items-center gap-1"
+              title="Capped = has played senior international cricket. Uncapped = never played for a national team. Unknown = no confirmed classification (mostly domestic-only IPL players). Cap status is about international caps, not IPL form."
+            >
+              Cap Status
+              <span className="text-[10px] text-gray-600">ⓘ</span>
+            </label>
             <select
               value={cappedFilter}
               onChange={e => setCappedFilter(e.target.value)}
@@ -1132,6 +1144,7 @@ export default function Analytics() {
               <option value="all">All Players</option>
               <option value="capped">Capped Only</option>
               <option value="uncapped">Uncapped Only</option>
+              <option value="unknown">Unknown</option>
             </select>
           </div>
           {(seasonRange !== 'all' || teamFilter !== 'all' || venueFilter !== 'all' || phaseFilter !== 'all' || countryFilter !== 'all' || cappedFilter !== 'all') && (
