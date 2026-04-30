@@ -321,8 +321,17 @@ export default function Players() {
   }
 
   // Stat display for card
-  const getStatDisplay = (s: any, role: string) => {
-    if (!s) return { value: '-', label: 'No stats' }
+  const getStatDisplay = (s: any, role: string, player?: any) => {
+    // No stats record AT ALL = either rookie who hasn't played, or someone
+    // we have no BBB data for. Players signed for the current/next season
+    // but yet to make their debut get a friendlier "Yet to debut" pill so
+    // they don't read as "no data" when really we're just waiting.
+    if (!s) {
+      const yetToDebut = player && player.status === 'active' && !player.firstMatch
+      return yetToDebut
+        ? { value: '\u2014', label: 'Yet to debut' }
+        : { value: '\u2014', label: 'No stats' }
+    }
     if (role === 'Bowler') return { value: s.wickets.toLocaleString(), label: 'Wickets' }
     if (role === 'All-rounder') return { value: s.runs.toLocaleString(), label: `Runs \u00b7 ${s.wickets} Wkts` }
     if (role === 'WK') return { value: s.runs.toLocaleString(), label: `Runs \u00b7 ${s.catches} Ct` }
@@ -1040,7 +1049,7 @@ export default function Players() {
                 const roleStyle = ROLE_STYLE[role] || ROLE_STYLE['Unknown']
                 const teamColor = getTeamColor(player)
                 const lastTeam = player.lastTeam || player.teams?.[player.teams.length - 1]
-                const { value, label } = getStatDisplay(s, role)
+                const { value, label } = getStatDisplay(s, role, player)
                 const coachProfile = playerToCoach.get(player.id)
 
                 return (

@@ -935,8 +935,28 @@ export default function PlayerDetail() {
         )}
 
         {!stats && activeTab !== 'Team History' && (
-          <div className="bg-card border border-border rounded-2xl p-12 text-center text-textSecondary">
-            No statistics available for this player.
+          <div className="bg-card border border-border rounded-2xl p-10 sm:p-12 text-center">
+            {/* Differentiate "rookie waiting to debut" from "we just don't
+                have stats data". Active players who've been signed but
+                haven't played a match yet get a friendlier message — they're
+                in the database on purpose, we're just waiting for them. */}
+            {player.status === 'active' && !player.firstMatch ? (
+              <>
+                <div className="w-12 h-12 mx-auto mb-4 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3M3 12a9 9 0 1018 0 9 9 0 00-18 0z" />
+                  </svg>
+                </div>
+                <p className="text-textPrimary font-semibold mb-1">Yet to make IPL debut</p>
+                <p className="text-textSecondary text-sm max-w-md mx-auto">
+                  {player.name} has been signed but hasn't played a match in IPL
+                  {player.seasons?.length ? ` ${player.seasons[player.seasons.length - 1]}` : ''} yet.
+                  Stats will appear here once they take the field.
+                </p>
+              </>
+            ) : (
+              <p className="text-textSecondary">No statistics available for this player.</p>
+            )}
           </div>
         )}
       </div>

@@ -1,8 +1,20 @@
 // Education page (/education).
 // Reference content for newcomers: IPL rules, format, terminology,
-// scoring conventions. Renders a series of accordion sections.
-import React, { useState } from 'react'
+// scoring conventions. Renders a series of accordion sections. The
+// worked-example numbers in each section are computed live from the
+// app's own player-stats.json so they're always current and authentic.
+import React, { useMemo, useState } from 'react'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import { usePlayerStats } from '@/hooks/useData'
+
+interface AccordionExample {
+  initials: string
+  name: string
+  colorClass: string
+  detail: string
+  formulaCalc: string
+  result: string
+}
 
 interface AccordionItem {
   id: string
@@ -12,17 +24,80 @@ interface AccordionItem {
   icon: React.ReactNode
   formula: string
   description: string
-  example?: {
-    initials: string
-    name: string
-    colorClass: string
-    detail: string
-    formulaCalc: string
-    result: string
+  example?: AccordionExample
+}
+
+// Initials helper for the example cards (e.g. "Virat Kohli" \u2192 "VK").
+function getInitials(name: string): string {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(w => w[0])
+    .join('')
+    .toUpperCase()
+}
+
+// Format a number with thousands separators ("8,661").
+const fmt = (n: number) => Math.round(n).toLocaleString('en-IN')
+
+// Pick the all-time IPL batting-average leader with at least `minInnings`
+// completed innings. Volume threshold guards against flash-in-the-pan
+// careers (e.g. a batter dismissed once for a hundred). Returns null until
+// player-stats data has loaded.
+function pickBattingAverageExample(stats: any[] | undefined): AccordionExample | undefined {
+  if (!stats) return undefined
+  const candidates = stats.filter(s => (s.inningsBat - s.notOuts) >= 80 && s.battingAvg > 0)
+  if (candidates.length === 0) return undefined
+  const top = [...candidates].sort((a, b) => b.battingAvg - a.battingAvg)[0]
+  const completed = top.inningsBat - top.notOuts
+  return {
+    initials: getInitials(top.playerName),
+    name: top.playerName,
+    colorClass: 'from-red-500/20 to-red-600/10 border-red-500/20 text-red-400',
+    detail: `${fmt(top.runs)} runs across ${top.inningsBat} innings (${top.notOuts} not out)`,
+    formulaCalc: `${fmt(top.runs)} \u00F7 (${top.inningsBat} \u2212 ${top.notOuts}) \u2248 `,
+    result: (top.runs / completed).toFixed(2),
   }
 }
 
-const accordionItems: AccordionItem[] = [
+// Highest career strike rate among batters with substantial volume
+// (\u22651000 balls faced). Stops 30-ball "tail-end cameo" SRs from winning.
+function pickStrikeRateExample(stats: any[] | undefined): AccordionExample | undefined {
+  if (!stats) return undefined
+  const candidates = stats.filter(s => s.ballsFaced >= 1000 && s.strikeRate > 0)
+  if (candidates.length === 0) return undefined
+  const top = [...candidates].sort((a, b) => b.strikeRate - a.strikeRate)[0]
+  return {
+    initials: getInitials(top.playerName),
+    name: top.playerName,
+    colorClass: 'from-green-500/20 to-green-600/10 border-green-500/20 text-green-400',
+    detail: `${fmt(top.runs)} runs off ${fmt(top.ballsFaced)} balls`,
+    formulaCalc: `(${fmt(top.runs)} \u00F7 ${fmt(top.ballsFaced)}) \u00D7 100 \u2248 `,
+    result: ((top.runs / top.ballsFaced) * 100).toFixed(2),
+  }
+}
+
+// Best (lowest) bowling average among bowlers with \u226575 IPL wickets.
+function pickBowlingAverageExample(stats: any[] | undefined): AccordionExample | undefined {
+  if (!stats) return undefined
+  const candidates = stats.filter(s => s.wickets >= 75 && s.bowlingAvg > 0)
+  if (candidates.length === 0) return undefined
+  const top = [...candidates].sort((a, b) => a.bowlingAvg - b.bowlingAvg)[0]
+  return {
+    initials: getInitials(top.playerName),
+    name: top.playerName,
+    colorClass: 'from-blue-500/20 to-blue-600/10 border-blue-500/20 text-blue-400',
+    detail: `${fmt(top.runsConceded)} runs conceded for ${top.wickets} wickets`,
+    formulaCalc: `${fmt(top.runsConceded)} \u00F7 ${top.wickets} \u2248 `,
+    result: (top.runsConceded / top.wickets).toFixed(2),
+  }
+}
+
+// Build the full accordion list. Examples come from real player-stats.json;
+// the structural metadata (formula text, prose, icons) is static.
+function buildAccordionItems(stats: any[] | undefined): AccordionItem[] {
+  return [
   {
     id: 'batting-average',
     title: 'Batting Average',
@@ -31,14 +106,7 @@ const accordionItems: AccordionItem[] = [
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>,
     formula: 'Batting Average = Runs Scored \u00F7 (Innings \u2212 Not Outs)',
     description: 'Batting average is one of the most fundamental statistics in cricket. It measures the average number of runs a batter scores per completed innings. A higher batting average indicates a more consistent and reliable batter. The "Not Outs" are subtracted from total innings because in those innings the batter did not have the opportunity to be dismissed, so including them would unfairly lower the average.',
-    example: {
-      initials: 'VK',
-      name: 'Virat Kohli',
-      colorClass: 'from-red-500/20 to-red-600/10 border-red-500/20 text-red-400',
-      detail: '8,004 runs in 232 innings with 17 not outs',
-      formulaCalc: '8004 \u00F7 (232 \u2212 17) = ',
-      result: '37.25',
-    },
+    example: pickBattingAverageExample(stats),
   },
   {
     id: 'strike-rate',
@@ -48,14 +116,7 @@ const accordionItems: AccordionItem[] = [
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
     formula: 'Strike Rate = (Runs Scored \u00F7 Balls Faced) \u00D7 100',
     description: 'Strike rate measures how quickly a batter scores runs. In T20 cricket like the IPL, a high strike rate is crucial as teams need to score as many runs as possible within the limited 20 overs. A strike rate of 150 means the batter scores 150 runs per 100 balls faced on average.',
-    example: {
-      initials: 'AB',
-      name: 'AB de Villiers',
-      colorClass: 'from-green-500/20 to-green-600/10 border-green-500/20 text-green-400',
-      detail: '3,403 runs off 2,218 balls',
-      formulaCalc: '(3403 \u00F7 2218) \u00D7 100 = ',
-      result: '151.69',
-    },
+    example: pickStrikeRateExample(stats),
   },
   {
     id: 'bowling-average',
@@ -65,14 +126,7 @@ const accordionItems: AccordionItem[] = [
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>,
     formula: 'Bowling Average = Runs Conceded \u00F7 Wickets Taken',
     description: 'Bowling average indicates how many runs a bowler concedes per wicket taken. A lower bowling average is better, as it means the bowler takes wickets at a lower cost. In T20 cricket, a bowling average under 25 is generally considered excellent.',
-    example: {
-      initials: 'JB',
-      name: 'Jasprit Bumrah',
-      colorClass: 'from-blue-500/20 to-blue-600/10 border-blue-500/20 text-blue-400',
-      detail: '3,200 runs conceded for 165 wickets',
-      formulaCalc: '3200 \u00F7 165 = ',
-      result: '19.39',
-    },
+    example: pickBowlingAverageExample(stats),
   },
   {
     id: 'economy-rate',
@@ -101,7 +155,8 @@ const accordionItems: AccordionItem[] = [
     formula: 'NRR = (Runs scored / Overs faced) \u2212 (Runs conceded / Overs bowled)',
     description: 'Net Run Rate is used to separate teams that finish on the same number of points in the league stage. It is the difference between the rate at which a team scores and the rate at which it concedes runs. A positive NRR means the team is scoring faster than they are being scored against. NRR is crucial in IPL as it often decides playoff qualification.',
   },
-]
+  ]
+}
 
 // ── DLS Standard Edition resource percentages (20-over format) ──
 // TABLE[oversRemaining][wicketsLost] → percentage of innings resources
@@ -317,6 +372,11 @@ function DLSCalculator() {
 
 export default function Education() {
   const [openId, setOpenId] = useState<string | null>('batting-average')
+  const { data: playerStats } = usePlayerStats()
+
+  // Recompute the leader-based examples whenever player-stats changes.
+  // Memoised so we don't re-pick on every keystroke.
+  const accordionItems = useMemo(() => buildAccordionItems(playerStats), [playerStats])
 
   const toggle = (id: string) => {
     setOpenId(prev => prev === id ? null : id)
