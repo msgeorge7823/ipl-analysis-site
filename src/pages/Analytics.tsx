@@ -769,15 +769,13 @@ export default function Analytics() {
       })
     }
     // Capped = has played senior international cricket. Uncapped = never
-    // played international. Unknown = no positive evidence either way
-    // (the long tail of domestic-only IPL players). We deliberately do
-    // NOT default unknown players to 'uncapped' — cap status is about
-    // international caps, not IPL form.
+    // played international. Classification is name-based — try both name
+    // and shortName, prefer 'capped' if either matches.
     if (cappedFilter !== 'all') {
       list = list.filter((p: any) => {
-        const status = getCapStatus(p.name)
-        const fallback = status === 'unknown' ? getCapStatus(p.shortName) : status
-        return fallback === cappedFilter
+        const byName = getCapStatus(p.name)
+        const status = byName === 'capped' ? 'capped' : getCapStatus(p.shortName)
+        return status === cappedFilter
       })
     }
     return list.filter((p: any) => !selectedPlayerIds.includes(p.id)).slice(0, 8)
@@ -1144,7 +1142,6 @@ export default function Analytics() {
               <option value="all">All Players</option>
               <option value="capped">Capped Only</option>
               <option value="uncapped">Uncapped Only</option>
-              <option value="unknown">Unknown</option>
             </select>
           </div>
           {(seasonRange !== 'all' || teamFilter !== 'all' || venueFilter !== 'all' || phaseFilter !== 'all' || countryFilter !== 'all' || cappedFilter !== 'all') && (

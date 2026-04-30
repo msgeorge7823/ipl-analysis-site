@@ -220,14 +220,15 @@ export default function Players() {
 
     // Cap-status filter (multi-select).
     // Capped = has played senior international cricket. Uncapped = never
-    // played international cricket. Unknown = we can't tell from curated
-    // data (the long tail of domestic-only IPL players sits here — we no
-    // longer claim they're "uncapped" without positive evidence).
+    // played international cricket. Classified by name lookup against a
+    // curated set of internationals — see lib/nationality.ts for caveats.
+    // We try both display name and scorecard-style shortName because some
+    // sources only carry one or the other.
     if (selectedCapStatus.size > 0) {
       list = list.filter(p => {
-        const status = getCapStatus(p.name)
-        const fallback = status === 'unknown' ? getCapStatus(p.shortName) : status
-        return selectedCapStatus.has(fallback)
+        const byName = getCapStatus(p.name)
+        const status = byName === 'capped' ? 'capped' : getCapStatus(p.shortName)
+        return selectedCapStatus.has(status)
       })
     }
 
@@ -703,16 +704,15 @@ export default function Players() {
               </button>
               {openSections.cap && (
                 <div className="flex flex-wrap gap-2">
-                  {(['capped','uncapped','unknown'] as const).map(s => {
+                  {(['capped','uncapped'] as const).map(s => {
                     const active = selectedCapStatus.has(s)
-                    const label = s === 'capped' ? 'Capped' : s === 'uncapped' ? 'Uncapped' : 'Unknown'
                     return (
                       <button
                         key={s}
                         onClick={() => toggleCapStatus(s)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border capitalize transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
                       >
-                        {label}
+                        {s}
                       </button>
                     )
                   })}
@@ -1028,16 +1028,15 @@ export default function Players() {
               </button>
               {openSections.cap && (
                 <div className="flex flex-wrap gap-2">
-                  {(['capped','uncapped','unknown'] as const).map(s => {
+                  {(['capped','uncapped'] as const).map(s => {
                     const active = selectedCapStatus.has(s)
-                    const label = s === 'capped' ? 'Capped' : s === 'uncapped' ? 'Uncapped' : 'Unknown'
                     return (
                       <button
                         key={s}
                         onClick={() => toggleCapStatus(s)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold border capitalize transition-colors ${active ? 'bg-fuchsia-500/15 text-fuchsia-300 border-fuchsia-500/30' : 'bg-card text-textSecondary border-border hover:border-fuchsia-500/30'}`}
                       >
-                        {label}
+                        {s}
                       </button>
                     )
                   })}
